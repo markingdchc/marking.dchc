@@ -10933,3 +10933,59 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }, 100);
 });
+
+// ============================================================
+// 🔑 إظهار/إخفاء زر التوكن حسب حالته
+// ============================================================
+function updateTokenButtonVisibility() {
+    const btn = document.getElementById("setTokenBtn");
+    if (!btn) return;
+    
+    const token = localStorage.getItem("github_token");
+    
+    if (token && token.trim() !== "") {
+        btn.style.display = "none";       // التوكن موجود → إخفاء
+    } else {
+        btn.style.display = "inline-block"; // لا يوجد → إظهار
+    }
+}
+
+// ============================================================
+// 🔑 إعداد التوكن
+// ============================================================
+function setupGitHubToken() {
+    let currentToken = localStorage.getItem("github_token") || "";
+    
+    if (currentToken) {
+        if (!confirm("يوجد رمز محفوظ حالياً.\nهل تريد استبداله؟")) return;
+    }
+    
+    let token = prompt("الصق GitHub Personal Access Token هنا:\n\n(يبدأ بـ github_pat_ أو ghp_)");
+    if (!token) return;
+    
+    token = token.trim();
+    if (!token.startsWith("github_pat_") && !token.startsWith("ghp_")) {
+        alert("⚠️ الرمز غير صالح");
+        return;
+    }
+    
+    localStorage.setItem("github_token", token);
+    alert("✅ تم حفظ الرمز بنجاح!");
+    
+    // 🆕 إخفاء الزر فوراً بعد الحفظ
+    updateTokenButtonVisibility();
+}
+
+// ============================================================
+// 🎯 تفعيل الزر عند تحميل الصفحة
+// ============================================================
+document.addEventListener("DOMContentLoaded", function() {
+    // تحديث حالة الزر عند فتح الصفحة
+    updateTokenButtonVisibility();
+    
+    // ربط الزر
+    const btn = document.getElementById("setTokenBtn");
+    if (btn) {
+        btn.addEventListener("click", setupGitHubToken);
+    }
+});
