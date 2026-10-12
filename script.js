@@ -10448,11 +10448,11 @@ async function saveFileToGitHub() {
         const uploadPath = `repos/${GH_OWNER}/${GH_REPO}/contents/${filePath}`;
         const uploadUrl = `${APPS_SCRIPT_URL}?path=${encodeURIComponent(uploadPath)}&method=PUT`;
         
-        const uploadResponse = await fetch(uploadUrl, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(body)
-        });
+const uploadResponse = await fetch(uploadUrl, {
+    method: "POST",
+    headers: { "Content-Type": "text/plain;charset=utf-8" },
+    body: JSON.stringify(body)
+});
         
         const result = await uploadResponse.json();
         
