@@ -44,11 +44,6 @@ let nextIdExprt6 = exprtPeriods6.length > 0 ? Math.max(...exprtPeriods6.map(p =>
 
 let selectedColumnsTab6 = JSON.parse(localStorage.getItem("selectedColumns_tab6")) || [];
 
-// ============================================================
-// 🌐 إعدادات Cloudflare Worker
-// ============================================================
-const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwl2zU8HG89d1ChFjAAMvydU-5mL3-YCrimmhnKsYkUQrvMPHSyrdKvTmgHKBk34QRz/exec";
-
 // قائمة رئيسية موحدة للخطوط (مخزنة في LocalStorage)
 // قائمة رئيسية موحدة للخطوط (تحديث تلقائي للقائمة الافتراضية)
 let defaultLinesList = ["MSC", "ZIM", "ALP", "YML", "MSK", "CMA", "HLC", "COS", "COE", "ONE", "HMM", "KLN", "UAS", "ARK", "SJK", "HSD", "BMC", "LITC", "PLS", "MSL", "CSL", "OVP", "SID", "SLG", "WEC", "TCS", "TSM", "OOCL", "EMES", "MDK", "MKL", "VUX", "OWV", "NNS", "ARRC", "ADM", "HAI", "BWL", "LOT", "MED", "SLS", "VOL", "REL", "WSHI", "GFS", "UFS", "MGL", "MLN", "MOH", "GCS", "TAR", "HKL", "CSD", "HDS", "HSP", "TRK", "TRL", "CLH", "ESG", "ESL", "SIV", "SFT", "ROD"];
@@ -10342,6 +10337,36 @@ function compareWithBillingFile(containers, billingData) {
     };
 }
 
+// ============================================================
+// 🔑 إعداد GitHub Token
+// ============================================================
+function setupGitHubToken() {
+    let currentToken = localStorage.getItem("github_token") || "";
+    
+    let message = "🔑 إعداد GitHub Token\n\n";
+    if (currentToken) {
+        message += "يوجد رمز محفوظ حالياً.\n";
+        message += "هل تريد استبداله؟\n\n";
+        message += "اضغط OK لإدخال رمز جديد، أو Cancel للاحتفاظ بالحالي.";
+        if (!confirm(message)) {
+            return;
+        }
+    }
+    
+    let token = prompt("الصق GitHub Personal Access Token هنا:\n\n(يبدأ بـ github_pat_ أو ghp_)");
+    
+    if (!token) return;
+    
+    token = token.trim();
+    if (!token.startsWith("github_pat_") && !token.startsWith("ghp_")) {
+        alert("⚠️ الرمز غير صالح. يجب أن يبدأ بـ github_pat_ أو ghp_");
+        return;
+    }
+    
+    localStorage.setItem("github_token", token);
+    alert("✅ تم حفظ الرمز بنجاح!");
+    console.log("✅ GitHub Token محفوظ");
+}
 
 // ربط الزر
 document.addEventListener("DOMContentLoaded", function() {
@@ -10354,27 +10379,44 @@ document.addEventListener("DOMContentLoaded", function() {
 // ============================================================
 // 📤 رفع الملف إلى GitHub
 // ============================================================
-// ============================================================
-// 📤 رفع الملف إلى GitHub (عبر Google Apps Script)
-// ============================================================
 async function saveFileToGitHub() {
+    // ===== 1. الإعدادات =====
+    const GITHUB_OWNER = "markingdchc";
+    const GITHUB_REPO = "marking.dchc";
+    const GITHUB_BRANCH = "main";
+    const UPLOAD_FOLDER = "uploads"; // مجلد فرعي (اتركه فارغاً للجذر)
+    
+    // ===== 2. التحقق من الرمز =====
+    const token = localStorage.getItem("github_token");
+    if (!token) {
+        console.warn("⚠️ لا يوجد GitHub Token. اضغط 'إعداد GitHub Token' أولاً.");
+        return;
+    }
+    
+    // ===== 3. التحقق من وجود ملف محفوظ =====
     const fileData = localStorage.getItem("savedExcelFile");
     const originalFileName = localStorage.getItem("savedExcelFileName");
     
     if (!fileData || !originalFileName) {
         console.warn("⚠️ لا يوجد ملف محفوظ.");
-        return { success: false, error: "لا يوجد ملف" };
+        return;
     }
     
-    // استخراج بيانات الرحلة
-    let carrierName = document.getElementById("headerCarrierName")?.innerText?.trim() || "";
-    let shippingDate = document.getElementById("headerShippingDate")?.innerText?.trim() || "";
-    let lineId = document.getElementById("headerLineId")?.innerText?.trim() || "";
-    let orderNumber = document.getElementById("headerOrderNumber")?.innerText?.trim() || "";
-    let lineOp = document.getElementById("headerLineOp")?.innerText?.trim() || "";
+    // ===== 4. استخراج بيانات الرحلة من رأس الصفحة =====
+// ===== 4. استخراج بيانات الرحلة من رأس الصفحة =====
+let carrierName = document.getElementById("headerCarrierName")?.innerText?.trim() || "";
+let shippingDate = document.getElementById("headerShippingDate")?.innerText?.trim() || "";
+let lineId = document.getElementById("headerLineId")?.innerText?.trim() || "";
+
+// 🆕 Order Number و Line Op (من FINALOUT)
+let orderNumber = document.getElementById("headerOrderNumber")?.innerText?.trim() || "";
+let lineOp = document.getElementById("headerLineOp")?.innerText?.trim() || "";
+
+// إذا لم تكن موجودة (ملف عادي)، استخدام فارغة
+if (orderNumber === "—") orderNumber = "";
+if (lineOp === "—") lineOp = "";
     
-    if (orderNumber === "—") orderNumber = "";
-    if (lineOp === "—") lineOp = "";
+    // إذا كانت فارغة، استخدم قيم افتراضية
     if (!carrierName || carrierName === "—") carrierName = "UnknownShip";
     if (!lineId || lineId === "—") lineId = "UnknownLine";
     if (!shippingDate || shippingDate === "—") {
@@ -10384,6 +10426,8 @@ async function saveFileToGitHub() {
                        String(today.getDate()).padStart(2, '0');
     }
     
+    // ===== 5. تنظيف الأسماء =====
+    // إزالة المسافات والرموز غير الآمنة
     const cleanName = (str) => str
         .replace(/\s+/g, "_")
         .replace(/[^\w\u0600-\u06FF\-\.]/g, "")
@@ -10393,23 +10437,32 @@ async function saveFileToGitHub() {
     const safeLine = cleanName(lineId);
     const safeDate = shippingDate.replace(/\//g, "-").replace(/[^\d\-]/g, "");
     
+    // ===== 6. بناء اسم الملف =====
     const extension = originalFileName.split('.').pop() || "xlsx";
-    let parts = [];
-    
-    if (orderNumber && orderNumber !== "") {
-        parts.push(cleanName(orderNumber));
-        if (lineOp && lineOp !== "") parts.push(cleanName(lineOp));
-    } else {
-        parts.push(safeCarrier);
-        parts.push(safeLine);
-        parts.push(safeDate);
+// 🆕 بناء اسم الملف
+// القاعدة: إذا كان هناك Order Number → لا نضيف التاريخ
+// إذا لم يكن هناك Order Number → نضيف التاريخ
+let parts = [];
+
+if (orderNumber && orderNumber !== "") {
+    // حالة FINALOUT: Order Number + Line Op (بدون تاريخ)
+    parts.push(cleanName(orderNumber));
+    if (lineOp && lineOp !== "") {
+        parts.push(cleanName(lineOp));
     }
-    
-    const newFileName = `${parts.join("_")}.${extension}`;
-    const filePath = GH_UPLOAD_FOLDER ? `${GH_UPLOAD_FOLDER}/${newFileName}` : newFileName;
+} else {
+    // حالة الملف العادي: السفينة + الخط + التاريخ
+    parts.push(safeCarrier);
+    parts.push(safeLine);
+    parts.push(safeDate);
+}
+
+const newFileName = `${parts.join("_")}.${extension}`;
+    const filePath = UPLOAD_FOLDER ? `${UPLOAD_FOLDER}/${newFileName}` : newFileName;
     
     console.log("📤 جاري رفع الملف:", filePath);
     
+    // ===== 7. عرض حالة الرفع =====
     const footer = document.getElementById("footerMsg");
     if (footer) {
         footer.innerHTML = `⏳ جاري رفع الملف إلى GitHub: <strong>${newFileName}</strong>...`;
@@ -10418,63 +10471,87 @@ async function saveFileToGitHub() {
     }
     
     try {
-        // ===== 1. التحقق من وجود الملف =====
-        const checkPath = `repos/${GH_OWNER}/${GH_REPO}/contents/${filePath}?ref=${GH_BRANCH}`;
-        const checkUrl = `${APPS_SCRIPT_URL}?path=${encodeURIComponent(checkPath)}&method=GET`;
+        // ===== 8. التحقق من وجود الملف (للحصول على SHA) =====
+        const apiUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${filePath}`;
         
         let existingSha = null;
-        const checkResponse = await fetch(checkUrl);
-        const checkData = await checkResponse.json();
+        const checkResponse = await fetch(`${apiUrl}?ref=${GITHUB_BRANCH}`, {
+            method: "GET",
+            headers: {
+                "Authorization": `Bearer ${token}`,
+                "Accept": "application/vnd.github+json"
+            }
+        });
         
-        if (checkData && checkData.sha) {
-            existingSha = checkData.sha;
-            console.log("🔄 الملف موجود مسبقاً، سيتم التحديث");
-        } else {
+        if (checkResponse.ok) {
+            const existingFile = await checkResponse.json();
+            existingSha = existingFile.sha;
+            console.log("🔄 الملف موجود مسبقاً، سيتم التحديث. SHA:", existingSha);
+        } else if (checkResponse.status === 404) {
             console.log("🆕 ملف جديد، سيتم الإنشاء");
+        } else {
+            const err = await checkResponse.json();
+            throw new Error(`فشل التحقق: ${err.message}`);
         }
         
-        // ===== 2. تجهيز جسم الطلب =====
+        // ===== 9. تجهيز جسم الطلب =====
         const body = {
             message: existingSha 
                 ? `Update ${newFileName} - ${new Date().toLocaleString()}` 
                 : `Upload ${newFileName} - ${new Date().toLocaleString()}`,
-            content: fileData,
-            branch: GH_BRANCH
+            content: fileData, // base64 مُخزّن مسبقاً
+            branch: GITHUB_BRANCH
         };
         
-        if (existingSha) body.sha = existingSha;
+        if (existingSha) {
+            body.sha = existingSha;
+        }
         
-        // ===== 3. رفع الملف =====
-        const uploadPath = `repos/${GH_OWNER}/${GH_REPO}/contents/${filePath}`;
-        const uploadUrl = `${APPS_SCRIPT_URL}?path=${encodeURIComponent(uploadPath)}&method=PUT`;
+        // ===== 10. رفع الملف =====
+        const uploadResponse = await fetch(apiUrl, {
+            method: "PUT",
+            headers: {
+                "Authorization": `Bearer ${token}`,
+                "Accept": "application/vnd.github+json",
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(body)
+        });
         
-const uploadResponse = await fetch(uploadUrl, {
-    method: "POST",
-    headers: { "Content-Type": "text/plain;charset=utf-8" },
-    body: JSON.stringify(body)
-});
+        if (!uploadResponse.ok) {
+            const err = await uploadResponse.json();
+            throw new Error(err.message || "فشل الرفع");
+        }
         
         const result = await uploadResponse.json();
+        const fileUrl = result.content.html_url;
         
-        // ===== 4. التحقق من النتيجة =====
-        if (result.content && result.content.html_url) {
-            console.log("✅ تم الرفع بنجاح:", result.content.html_url);
-            if (footer) {
-                footer.innerHTML = `✅ تم رفع الملف إلى GitHub: <a href="${result.content.html_url}" target="_blank" style="color:#28a745;font-weight:bold;">${newFileName}</a>`;
-                footer.style.color = "#28a745";
-            }
-            return { success: true, url: result.content.html_url, fileName: newFileName };
-        } else {
-            throw new Error(result.message || result.error || "فشل الرفع");
+        console.log("✅ تم الرفع بنجاح:", fileUrl);
+        
+        // ===== 11. عرض النتيجة =====
+        if (footer) {
+            footer.innerHTML = `✅ تم رفع الملف إلى GitHub: <a href="${fileUrl}" target="_blank" style="color:#28a745;font-weight:bold;">${newFileName}</a>`;
+            footer.style.color = "#28a745";
+            footer.style.fontWeight = "bold";
         }
+        
+        return { success: true, url: fileUrl, fileName: newFileName };
         
     } catch (error) {
         console.error("❌ خطأ في الرفع:", error);
+        
         if (footer) {
             footer.innerHTML = `❌ فشل رفع الملف: ${error.message}`;
             footer.style.color = "#dc3545";
             footer.style.fontWeight = "bold";
         }
+        
+        // إذا كان الخطأ بسبب الرمز
+        if (error.message.includes("Bad credentials") || error.message.includes("401")) {
+            alert("❌ رمز GitHub غير صالح أو منتهي الصلاحية.\nيرجى إعادة إعداد الرمز من الزر '🔑 إعداد GitHub Token'.");
+            localStorage.removeItem("github_token");
+        }
+        
         return { success: false, error: error.message };
     }
 }
@@ -10487,37 +10564,44 @@ const GH_REPO = "marking.dchc";
 const GH_BRANCH = "main";
 const GH_UPLOAD_FOLDER = "uploads"; // مجلد الملفات
 
-
-
 // ============================================================
-// 📂 جلب قائمة الملفات من GitHub (عبر Google Apps Script)
+// 📂 جلب قائمة الملفات من GitHub
 // ============================================================
 let ghFilesList = [];
 
 async function loadGitHubFileList() {
+    const token = localStorage.getItem("github_token");
     const statusEl = document.getElementById("ghStatus");
+    
     if (statusEl) statusEl.textContent = "⏳ جاري جلب الملفات...";
     
-    const path = `repos/${GH_OWNER}/${GH_REPO}/contents/${GH_UPLOAD_FOLDER}?ref=${GH_BRANCH}`;
-    const apiUrl = `${APPS_SCRIPT_URL}?path=${encodeURIComponent(path)}&method=GET`;
+    const apiUrl = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_UPLOAD_FOLDER}?ref=${GH_BRANCH}`;
     
     try {
-        const response = await fetch(apiUrl);
-        const data = await response.json();
+        const headers = { "Accept": "application/vnd.github+json" };
+        if (token) headers["Authorization"] = `Bearer ${token}`;
         
-        if (!Array.isArray(data)) {
-            console.warn("⚠️ الرد ليس مصفوفة:", data);
-            if (statusEl) {
-                statusEl.textContent = "⚠️ مجلد uploads غير موجود أو فارغ";
-                statusEl.style.color = "#ffc107";
-            }
+        const response = await fetch(apiUrl, { headers });
+        
+        if (response.status === 404) {
+            console.warn("⚠️ مجلد uploads غير موجود في المستودع");
+            if (statusEl) statusEl.textContent = "⚠️ مجلد uploads غير موجود";
             return [];
         }
         
-        const excelFiles = data.filter(f => 
+        if (!response.ok) {
+            throw new Error(`فشل الجلب: ${response.status}`);
+        }
+        
+        const files = await response.json();
+        if (!Array.isArray(files)) return [];
+        
+        // فلترة ملفات Excel
+        const excelFiles = files.filter(f => 
             f.type === "file" && /\.(xlsx|xls)$/i.test(f.name)
         );
         
+        // استخراج البيانات من أسماء الملفات
         const parsedFiles = [];
         for (const file of excelFiles) {
             const parsed = parseGitHubFileName(file.name);
@@ -10730,9 +10814,9 @@ function updateDateDropdown() {
 }
 
 // ============================================================
-// 📥 تحميل الملف المختار من GitHub (عبر Worker)
+// 📥 تحميل الملف المختار من GitHub
 // ============================================================
-let _downloadingFromGitHub = false;
+let _downloadingFromGitHub = false; // ← لمنع رفع تلقائي مرة أخرى
 
 async function downloadSelectedGitHubFile() {
     const ship = document.getElementById("ghShipSelect").value;
@@ -10748,6 +10832,7 @@ async function downloadSelectedGitHubFile() {
     
     // استخراج القيم من dataset
     const fullFileName = selectedOption.dataset.fullFileName || "";
+    const isFinalout = selectedOption.dataset.isFinalout === "true";
     
     // البحث عن الملف المطابق
     const match = ghFilesList.find(f => f.fullFileName === fullFileName);
@@ -10756,19 +10841,20 @@ async function downloadSelectedGitHubFile() {
         alert("⚠️ لم يتم العثور على الملف المطابق");
         return;
     }
-    
+       
     if (footer) {
         footer.innerHTML = `⏳ جاري تحميل: <strong>${match.name}</strong>...`;
         footer.style.color = "#17a2b8";
     }
     
     try {
-        // ← استخدام Worker
-const path = `repos/${GH_OWNER}/${GH_REPO}/contents/${match.path}?ref=${GH_BRANCH}`;
-const apiUrl = `${APPS_SCRIPT_URL}?path=${encodeURIComponent(path)}&method=GET`;
-        const response = await fetch(apiUrl, {
-            headers: { "Accept": "application/vnd.github+json" }
-        });
+        const token = localStorage.getItem("github_token");
+        const headers = { "Accept": "application/vnd.github+json" };
+        if (token) headers["Authorization"] = `Bearer ${token}`;
+        
+        // استخدام API للحصول على المحتوى كـ base64
+        const apiUrl = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${match.path}?ref=${GH_BRANCH}`;
+        const response = await fetch(apiUrl, { headers });
         
         if (!response.ok) {
             throw new Error(`فشل التحميل: ${response.status}`);
@@ -10777,11 +10863,13 @@ const apiUrl = `${APPS_SCRIPT_URL}?path=${encodeURIComponent(path)}&method=GET`;
         const fileInfo = await response.json();
         const base64Content = fileInfo.content.replace(/\n/g, "");
         
-        // منع الرفع التلقائي
+        // ===== منع الرفع التلقائي =====
         _downloadingFromGitHub = true;
         
         // حفظ الملف في localStorage
         saveFileToLocalStorage(base64Content, match.name);
+        
+        // تحديث عرض اسم الملف
         updateFileNameDisplay(match.name);
         
         // تحويل base64 إلى File object
