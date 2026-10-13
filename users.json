@@ -29,9 +29,7 @@
       "lineIds": ["YML"],
       "status": "active",
       "createdAt": "2026-10-13"
-    }
-  "loginAttempts": {}
-},
+    },
     {
       "id": 4,
       "username": "zim",
@@ -42,7 +40,6 @@
       "status": "active",
       "createdAt": "2026-10-13"
     }
-
+  ],
   "loginAttempts": {}
 }
-  ],
