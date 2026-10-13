@@ -308,9 +308,12 @@ function saveFileToLocalStorage(fileData, fileName) {
 // دالة معالجة الملف عند التحميل
 function processExcelFile(file) {
     let reader = new FileReader();
-    reader.onload = function(evt) {
-        try {
-            let arrayBuffer = evt.target.result;
+reader.onload = function(evt) {
+    try {
+        // 🧹 تنظيف شامل قبل المعالجة
+        resetAllData();
+        
+        let arrayBuffer = evt.target.result;
 
             // محاولة حفظ الملف
             try {
@@ -11175,3 +11178,63 @@ function showUploadNotification(type, title, message, linkUrl) {
     `;
     document.head.appendChild(style);
 })();
+
+// ============================================================
+// 🧹 دالة تنظيف شاملة قبل تحميل ملف جديد
+// ============================================================
+function resetAllData() {
+    console.log("🧹 بدء تنظيف جميع البيانات...");
+    
+    // ===== 1. مسح المصفوفات =====
+    currentData1 = [];
+    currentData2 = [];
+    currentData3 = [];
+    currentData4 = [];
+    currentData5 = [];
+    currentData6 = [];
+    currentData7 = [];
+    currentData8 = [];
+    
+    // ===== 2. مسح containersMap =====
+    containersMap.clear();
+    
+    // ===== 3. مسح بطاقات الإجمالي والجداول =====
+    for (let i = 1; i <= 8; i++) {
+        let statsDiv = document.getElementById("statsTab" + i);
+        if (statsDiv) {
+            statsDiv.innerHTML = "";
+            statsDiv.style.display = "none";
+        }
+        
+        let tbody = document.getElementById("bodyTab" + i);
+        if (tbody) {
+            tbody.innerHTML = '<tr><td colspan="30" style="text-align:center; padding:40px;">⏳ جاري تحميل البيانات...</td></tr>';
+        }
+        
+        let filtersDiv = document.getElementById("filtersTab" + i);
+        if (filtersDiv) filtersDiv.style.display = "none";
+        
+        let wrapperDiv = document.getElementById("wrapperTab" + i);
+        if (wrapperDiv) wrapperDiv.style.display = "none";
+    }
+    
+    // ===== 4. مسح الرؤوس =====
+    let carrierNameSpan = document.getElementById("headerCarrierName");
+    let shippingDateSpan = document.getElementById("headerShippingDate");
+    let lineIdSpan = document.getElementById("headerLineId");
+    let orderNumberSpan = document.getElementById("headerOrderNumber");
+    let lineOpSpan = document.getElementById("headerLineOp");
+    
+    if (carrierNameSpan) carrierNameSpan.textContent = "—";
+    if (shippingDateSpan) shippingDateSpan.textContent = "—";
+    if (lineIdSpan) lineIdSpan.textContent = "—";
+    if (orderNumberSpan) orderNumberSpan.textContent = "—";
+    if (lineOpSpan) lineOpSpan.textContent = "—";
+    
+    // ===== 5. إعادة تعيين اسم السفينة =====
+    if (typeof currentVesselName !== 'undefined') {
+        currentVesselName = "";
+    }
+    
+    console.log("✅ تم تنظيف جميع البيانات");
+}
