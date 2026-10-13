@@ -13,8 +13,8 @@
     {
       "id": 2,
       "username": "msc",
-      "password": "msc123",
-      "fullName": "سارة علي",
+      "password": "msc#123",
+      "fullName": "Ahmed Abdelrahman",
       "role": "viewer",
       "lineIds": ["MSC", "WEC"],
       "status": "active",
@@ -22,11 +22,24 @@
     },
     {
       "id": 3,
-      "username": "viewer_msc",
-      "password": "viewer123",
-      "fullName": "عمر خالد",
+      "username": "yml",
+      "password": "yml#123",
+      "fullName": "Yang Ming Shipping",
       "role": "viewer",
-      "lineIds": ["MSC"],
+      "lineIds": ["YML"],
+      "status": "active",
+      "createdAt": "2026-10-13"
+    }
+  ],
+  "loginAttempts": {}
+},
+    {
+      "id": 4,
+      "username": "zim",
+      "password": "zim#123",
+      "fullName": "Egy Mar",
+      "role": "viewer",
+      "lineIds": ["ZIM"],
       "status": "active",
       "createdAt": "2026-10-13"
     }
