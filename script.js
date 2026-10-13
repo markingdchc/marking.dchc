@@ -11043,3 +11043,135 @@ document.addEventListener("DOMContentLoaded", function() {
         btn.addEventListener("click", setupGitHubToken);
     }
 });
+
+// ============================================================
+// 🔔 دالة إظهار الإشعارات (نجاح / فشل / تحذير)
+// ============================================================
+function showUploadNotification(type, title, message, linkUrl) {
+    // إزالة أي إشعار موجود
+    let existing = document.getElementById("uploadNotification");
+    if (existing) existing.remove();
+    
+    // الألوان حسب النوع
+    let colors = {
+        success: { bg: "#28a745", icon: "✅" },
+        error:   { bg: "#dc3545", icon: "❌" },
+        warning: { bg: "#ffc107", icon: "⚠️" },
+        info:    { bg: "#17a2b8", icon: "ℹ️" }
+    };
+    
+    let c = colors[type] || colors.info;
+    
+    // بناء الإشعار
+    let notif = document.createElement("div");
+    notif.id = "uploadNotification";
+    notif.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        min-width: 320px;
+        max-width: 500px;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+        z-index: 999999;
+        overflow: hidden;
+        animation: slideIn 0.3s ease-out;
+        direction: rtl;
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+    `;
+    
+    // الرأس
+    let header = document.createElement("div");
+    header.style.cssText = `
+        background: ${c.bg};
+        color: white;
+        padding: 12px 18px;
+        font-weight: bold;
+        font-size: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    `;
+    header.innerHTML = `
+        <span>${c.icon} ${title}</span>
+        <span style="cursor:pointer;font-size:22px;line-height:1;" onclick="this.closest('#uploadNotification').remove()">×</span>
+    `;
+    
+    // المحتوى
+    let body = document.createElement("div");
+    body.style.cssText = `
+        padding: 15px 18px;
+        font-size: 13px;
+        color: #333;
+        line-height: 1.6;
+        white-space: pre-line;
+    `;
+    body.textContent = message;
+    
+    // رابط GitHub (اختياري)
+    if (linkUrl) {
+        let linkDiv = document.createElement("div");
+        linkDiv.style.cssText = "margin-top: 10px; padding-top: 10px; border-top: 1px solid #eee;";
+        linkDiv.innerHTML = `
+            <a href="${linkUrl}" target="_blank" style="
+                display: inline-block;
+                background: ${c.bg};
+                color: white;
+                padding: 8px 16px;
+                border-radius: 6px;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 12px;
+            ">🔗 فتح الملف على GitHub</a>
+        `;
+        body.appendChild(linkDiv);
+    }
+    
+    // شريط التقدم
+    let progress = document.createElement("div");
+    progress.style.cssText = `
+        height: 4px;
+        background: ${c.bg};
+        width: 100%;
+        animation: progressBar 5s linear forwards;
+    `;
+    
+    notif.appendChild(header);
+    notif.appendChild(body);
+    notif.appendChild(progress);
+    
+    document.body.appendChild(notif);
+    
+    // إزالة تلقائية بعد 5 ثوان
+    setTimeout(() => {
+        if (notif && notif.parentNode) {
+            notif.style.animation = "slideOut 0.3s ease-in";
+            setTimeout(() => notif.remove(), 300);
+        }
+    }, 5000);
+}
+
+// ============================================================
+// 🎨 إضافة أنماط CSS للحركة
+// ============================================================
+(function addNotificationStyles() {
+    if (document.getElementById("notifStyles")) return;
+    let style = document.createElement("style");
+    style.id = "notifStyles";
+    style.textContent = `
+        @keyframes slideIn {
+            from { transform: translateX(120%); opacity: 0; }
+            to   { transform: translateX(0); opacity: 1; }
+        }
+        @keyframes slideOut {
+            from { transform: translateX(0); opacity: 1; }
+            to   { transform: translateX(120%); opacity: 0; }
+        }
+        @keyframes progressBar {
+            from { width: 100%; }
+            to   { width: 0%; }
+        }
+    `;
+    document.head.appendChild(style);
+})();
