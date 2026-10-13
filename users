@@ -1,1 +1,26 @@
-
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "hashed_password_here",
+      "fullName": "أحمد محمد",
+      "role": "admin",
+      "lineId": "*",
+      "status": "active",
+      "createdAt": "2026-10-13",
+      "lastLogin": null
+    },
+    {
+      "id": 2,
+      "username": "viewer_ym",
+      "password": "hashed_password_here",
+      "fullName": "سارة علي",
+      "role": "viewer",
+      "lineId": "YM",
+      "status": "active",
+      "createdAt": "2026-10-13",
+      "lastLogin": null
+    }
+  ]
+}
