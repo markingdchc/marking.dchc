@@ -3,24 +3,33 @@
     {
       "id": 1,
       "username": "admin",
-      "password": "hashed_password_here",
-      "fullName": "أحمد محمد",
+      "password": "admin123",
+      "fullName": "المدير العام",
       "role": "admin",
-      "lineId": "*",
+      "lineIds": ["*"],
       "status": "active",
-      "createdAt": "2026-10-13",
-      "lastLogin": null
+      "createdAt": "2026-10-13"
     },
     {
       "id": 2,
       "username": "viewer_ym",
-      "password": "hashed_password_here",
+      "password": "viewer123",
       "fullName": "سارة علي",
       "role": "viewer",
-      "lineId": "YM",
+      "lineIds": ["YM", "MSC"],
       "status": "active",
-      "createdAt": "2026-10-13",
-      "lastLogin": null
+      "createdAt": "2026-10-13"
+    },
+    {
+      "id": 3,
+      "username": "viewer_msc",
+      "password": "viewer123",
+      "fullName": "عمر خالد",
+      "role": "viewer",
+      "lineIds": ["MSC"],
+      "status": "active",
+      "createdAt": "2026-10-13"
     }
-  ]
+  ],
+  "loginAttempts": {}
 }
