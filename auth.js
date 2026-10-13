@@ -247,16 +247,22 @@ function applyPermissions() {
     updateUserBar(user);
     
     if (user.role === 'admin') {
-        // Admin يرى كل شيء (لا نخفي)
+        // 👑 Admin يرى كل شيء
+        // ✅ إظهار زر التوكن إذا لم يكن محفوظاً
+        const tokenBtn = document.getElementById('setTokenBtn');
+        if (tokenBtn) {
+            const token = localStorage.getItem('github_token');
+            tokenBtn.style.display = (token && token.trim() !== '') ? 'none' : 'inline-block';
+        }
         return;
     }
     
     // Viewer: إخفاء كل عناصر الإدارة
     const elementsToHide = [
         '#fileInput', '.file-label',           // رفع الملفات
-        '#exportAllBtn',                        // تصدير الكل
         '#addGlobalLineBtn', '#newGlobalLineName', // إدارة الخطوط
         '#manageUsersBtn',                      // إدارة المستخدمين
+		'#setTokenBtn',                         // زر التوكن
         '.settings-btn'                         // أزرار الإعدادات
     ];
     
