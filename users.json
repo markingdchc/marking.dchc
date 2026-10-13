@@ -12,11 +12,11 @@
     },
     {
       "id": 2,
-      "username": "viewer_ym",
-      "password": "viewer123",
+      "username": "msc",
+      "password": "msc123",
       "fullName": "سارة علي",
       "role": "viewer",
-      "lineIds": ["YM", "MSC"],
+      "lineIds": ["MSC", "WEC"],
       "status": "active",
       "createdAt": "2026-10-13"
     },
