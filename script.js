@@ -622,6 +622,19 @@ function processExcelFromBytes(bytes, fileName) {
         
         updateHeaderInfo('1');
         
+        // 🆕 تصحيح الرأس بعد التحميل من GitHub
+        setTimeout(() => {
+            if (currentData2 && currentData2.length > 0) {
+                updateHeaderFromDisplayData('2', currentData2);
+            } else if (currentData1 && currentData1.length > 0) {
+                updateHeaderFromDisplayData('1', currentData1);
+            } else if (currentData6 && currentData6.length > 0) {
+                updateHeaderFromDisplayData('6', currentData6);
+            } else if (currentData3 && currentData3.length > 0) {
+                updateHeaderFromDisplayData('3', currentData3);
+            }
+        }, 200);
+        
         setTimeout(function() {
             applySavedColumnPreferences();
         }, 200);
