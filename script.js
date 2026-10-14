@@ -460,6 +460,23 @@ console.log("🧹 تم مسح بطاقات الإجمالي والجداول ا�
 applyUserLineFilter();
 
             updateHeaderInfo('1');
+			
+			            // 🆕 تصحيح الرأس بعد التحميل (بدون ضغط أزرار)
+            setTimeout(() => {
+                if (currentData2 && currentData2.length > 0) {
+                    updateHeaderFromDisplayData('2', currentData2);
+                } else if (currentData1 && currentData1.length > 0) {
+                    updateHeaderFromDisplayData('1', currentData1);
+                } else if (currentData6 && currentData6.length > 0) {
+                    updateHeaderFromDisplayData('6', currentData6);
+                } else if (currentData3 && currentData3.length > 0) {
+                    updateHeaderFromDisplayData('3', currentData3);
+                } else if (currentData5 && currentData5.length > 0) {
+                    updateHeaderFromDisplayData('5', currentData5);
+                } else if (currentData4 && currentData4.length > 0) {
+                    updateHeaderFromDisplayData('4', currentData4);
+                }
+            }, 200);
 
 // 🔐 فلترة البيانات حسب صلاحيات المستخدم
 setTimeout(() => {
@@ -7498,10 +7515,16 @@ else if (tabId === '4') {
             
             // ========== التعديل: استخدام exprtList (المصفوفة) أولاً ==========
             let sourceData = null;
+            // 🆕 استبعاد سجلات EXPRT التي لها Dray Status = RETURN
             if (container.exprtList && container.exprtList.length > 0) {
-                sourceData = container.exprtList[0];  // نأخذ أول سجل EXPRT
+                sourceData = container.exprtList.find(ex => 
+                    (ex["Dray Status"] || "").trim() !== "RETURN"
+                ) || null;
             } else if (container.exprt) {
-                sourceData = container.exprt;         // للتوافق مع الإصدارات القديمة
+                let ex = container.exprt;
+                if ((ex["Dray Status"] || "").trim() !== "RETURN") {
+                    sourceData = ex;
+                }
             }
             
             if (sourceData) {
