@@ -1,0 +1,42 @@
+name: مراقبة بيانات DCHC
+
+on:
+  push:
+    paths:
+      - 'data/datatxt_Q*.txt'
+      - 'data/creditdata.txt'
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write  # ✅ هذا السطر سيحل مشكلة 403
+
+jobs:
+  check-and-notify:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 سحب الكود
+        uses: actions/checkout@v4
+        
+      - name: 🔧 إعداد Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          
+      - name: 📦 تثبيت الاعتماديات
+        run: npm install
+        
+      - name: 🔍 تشغيل سكريبت الفحص
+        run: node scripts/check-invoices.js
+        env:
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_ACTOR: ${{ github.actor }}
