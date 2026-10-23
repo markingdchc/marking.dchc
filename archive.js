@@ -10,21 +10,28 @@ const ALLOWED_EXTENSIONS = ['.pdf', '.xls', '.xlsx', '.doc', '.docx', '.jpg', '.
 // 🆕 بناء اسم مجلد الأرشيف
 // ============================================================
 // ============================================================
-// 🆕 بناء اسم مجلد الأرشيف (ShipName_Date فقط)
+// 🆕 بناء اسم مجلد الأرشيف
 // ============================================================
 function buildArchiveFolderName() {
     let carrierName = "UnknownShip";
     let lineId = "UnknownLine";
     let shippingDate = "";
+    let orderNumber = "";
+    let lineOp = "";
 
+    // قراءة البيانات من المتغير العام أو من عناصر HTML
     if (typeof headerDataForUpload !== 'undefined' && headerDataForUpload) {
         carrierName = headerDataForUpload.carrierName || "UnknownShip";
         lineId = headerDataForUpload.lineId || "UnknownLine";
         shippingDate = headerDataForUpload.shippingDate || "";
+        orderNumber = headerDataForUpload.orderNumber || "";
+        lineOp = headerDataForUpload.lineOp || "";
     } else {
         carrierName = document.getElementById("headerCarrierName")?.innerText?.trim() || "UnknownShip";
         lineId = document.getElementById("headerLineId")?.innerText?.trim() || "UnknownLine";
         shippingDate = document.getElementById("headerShippingDate")?.innerText?.trim() || "";
+        orderNumber = document.getElementById("headerOrderNumber")?.innerText?.trim() || "";
+        lineOp = document.getElementById("headerLineOp")?.innerText?.trim() || "";
     }
 
     const clean = (str) => (str || "")
@@ -33,6 +40,33 @@ function buildArchiveFolderName() {
         .replace(/[^\w\u0600-\u06FF\-]/g, "")
         .substring(0, 50);
 
+    let safeOrder = clean(orderNumber);
+    let safeLineOp = clean(lineOp);
+
+    // 🆕 إذا وجد Order Number: مجلد بدون تاريخ وبدون أرقام، وملف بدون تاريخ
+    if (safeOrder && safeOrder !== "—" && safeOrder !== "") {
+        
+        // إزالة جميع الأرقام من اسم المجلد (مثال: FINALOUT202602 يصبح FINALOUT)
+        let folderBaseName = safeOrder.replace(/\d+/g, "").trim();
+        
+        // إذا أصبح الاسم فارغاً (لأنه كان أرقاماً فقط)، نستخدم الاسم الأصلي كإجراء احتياطي
+        if (folderBaseName === "") {
+            folderBaseName = safeOrder;
+        }
+
+        return {
+            folderName: folderBaseName,                     // اسم المجلد = Order Number بدون أرقام
+            reportBaseName: safeLineOp && safeLineOp !== "—" && safeLineOp !== ""
+                ? `${safeOrder}_${safeLineOp}`              // اسم الملف = Order Number_Line (مع الأرقام)
+                : safeOrder,
+            shipName: safeOrder,
+            lineId: safeLineOp || "UnknownLine",
+            date: "",                                       // بدون تاريخ
+            isFinalout: true                                // نستخدم هذا المتغير ليعني "بدون تاريخ"
+        };
+    }
+
+    // ===== الملفات العادية (التي لا تحتوي على Order Number) =====
     let safeCarrier = clean(carrierName) || "UnknownShip";
     let safeLine = clean(lineId) || "UnknownLine";
     let safeDate = (shippingDate || "").replace(/\//g, "-").replace(/[^\d\-]/g, "");
@@ -44,31 +78,21 @@ function buildArchiveFolderName() {
                    String(today.getDate()).padStart(2, '0');
     }
 
-    // 🆕 المجلد = ShipName_Date (بدون خط)
-    // 🆕 الملف = ShipName_Line_Date (مع خط)
     return {
         folderName: `${safeCarrier}_${safeDate}`,
         reportBaseName: `${safeCarrier}_${safeLine}_${safeDate}`,
         shipName: safeCarrier,
         lineId: safeLine,
-        date: safeDate
+        date: safeDate,
+        isFinalout: false
     };
 }
 
 // ============================================================
 // 🆕 نسخ ملف الحاويات إلى الأرشيف تلقائياً
 // ============================================================
-// ============================================================
-// 🆕 نسخ ملف الحاويات إلى الأرشيف تلقائياً
-// ============================================================
 async function autoArchiveContainerFile() {
     console.log("📂 [الأرشيف] بدء النسخ التلقائي...");
-
-    const token = localStorage.getItem("github_token");
-    if (!token) {
-        console.warn("⚠️ [الأرشيف] لا يوجد Token");
-        return { success: false, error: "no token" };
-    }
 
     const fileData = localStorage.getItem("savedExcelFile");
     const originalFileName = localStorage.getItem("savedExcelFileName");
@@ -78,73 +102,130 @@ async function autoArchiveContainerFile() {
         return { success: false, error: "no file" };
     }
 
-    let names = buildArchiveFolderName();
-    if (names.shipName.includes("UnknownShip") || names.lineId.includes("UnknownLine")) {
-        console.warn("⚠️ [الأرشيف] اسم السفينة أو الخط غير معروف");
-        return { success: false, error: "unknown ship" };
-    }
+let names = buildArchiveFolderName();
 
-    const folderName = names.folderName;          // ShipName_Date
+// 🆕 السماح بـ FINALOUT حتى لو لم يُحدد الخط
+if (!names.isFinalout &&
+    (names.shipName.includes("UnknownShip") || names.lineId.includes("UnknownLine"))) {
+    console.warn("⚠️ [الأرشيف] اسم السفينة أو الخط غير معروف");
+    return { success: false, error: "unknown ship" };
+}
+
+    const folderName = names.folderName;
     const extension = originalFileName.split('.').pop() || 'xls';
-    const reportFileName = `${names.reportBaseName}.${extension}`;  // ShipName_Line_Date.xls
+    const reportFileName = `${names.reportBaseName}.${extension}`;
     const archivePath = `${ARCHIVE_FOLDER}/${folderName}/${reportFileName}`;
 
     console.log(`📁 المجلد: ${folderName}`);
     console.log(`📄 الملف: ${reportFileName}`);
 
-    try {
-        const apiUrl = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${archivePath}`;
-        let existingSha = null;
+    let result = {
+        success: false,
+        local: { success: false, path: null },
+        github: { success: false, path: null },
+        folderName: folderName,
+        fileName: reportFileName
+    };
 
-        const checkResp = await fetch(`${apiUrl}?ref=${GH_BRANCH}`, {
-            headers: {
-                "Authorization": `Bearer ${token}`,
-                "Accept": "application/vnd.github+json"
+    // ============================================================
+    // 1️⃣ رفع إلى الخادم المحلي (NAS) — دائماً
+    // ============================================================
+    if (typeof _localServerAvailable !== 'undefined' && _localServerAvailable) {
+        console.log("🖥️ [1/2] رفع إلى الخادم المحلي...");
+        try {
+            let localResult = await uploadToLocalServer(folderName, reportFileName, fileData);
+            if (localResult.success) {
+                result.local.success = true;
+                result.local.path = localResult.path;
+                console.log(`✅ [المحلي] تم النسخ إلى: ${localResult.path}`);
+            } else {
+                console.warn(`⚠️ [المحلي] فشل: ${localResult.error}`);
             }
-        });
-
-        if (checkResp.ok) {
-            const data = await checkResp.json();
-            existingSha = data.sha;
-            console.log("🔄 [الأرشيف] الملف موجود، سيتم التحديث");
+        } catch (e) {
+            console.warn(`⚠️ [المحلي] استثناء: ${e.message}`);
         }
-
-        const body = {
-            message: existingSha ? `Update ${reportFileName}` : `Archive ${reportFileName}`,
-            content: fileData,
-            branch: GH_BRANCH
-        };
-        if (existingSha) body.sha = existingSha;
-
-        const uploadResp = await fetch(apiUrl, {
-            method: "PUT",
-            headers: {
-                "Authorization": `Bearer ${token}`,
-                "Accept": "application/vnd.github+json",
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(body)
-        });
-
-        if (!uploadResp.ok) {
-            const err = await uploadResp.json();
-            throw new Error(err.message || "فشل الرفع");
-        }
-
-        // 🆕 تحديث _info.json (يسجّل كل الخطوط في الملف)
-        await updateArchiveInfo(folderName, {
-            shipName: names.shipName,
-            date: names.date,
-            lastUpdate: new Date().toISOString()
-        }, names.lineId);
-
-        console.log(`✅ [الأرشيف] تم النسخ إلى ${archivePath}`);
-        return { success: true, path: archivePath, folderName: folderName };
-
-    } catch (error) {
-        console.error("❌ [الأرشيف] فشل النسخ:", error.message);
-        return { success: false, error: error.message };
+    } else {
+        console.log("⏭️ [المحلي] الخادم المحلي غير متاح");
     }
+
+    // ============================================================
+    // 2️⃣ رفع إلى GitHub — دائماً (نسخة احتياطية)
+    // ============================================================
+    const token = localStorage.getItem("github_token");
+    if (token) {
+        console.log("☁️ [2/2] رفع إلى GitHub (نسخة احتياطية)...");
+        try {
+            const apiUrl = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${archivePath}`;
+            let existingSha = null;
+
+            const checkResp = await fetch(`${apiUrl}?ref=${GH_BRANCH}`, {
+                headers: {
+                    "Authorization": `Bearer ${token}`,
+                    "Accept": "application/vnd.github+json"
+                }
+            });
+
+            if (checkResp.ok) {
+                const data = await checkResp.json();
+                existingSha = data.sha;
+                console.log("🔄 [GitHub] الملف موجود، سيتم التحديث");
+            }
+
+            const body = {
+                message: existingSha ? `Update ${reportFileName}` : `Archive ${reportFileName}`,
+                content: fileData,
+                branch: GH_BRANCH
+            };
+            if (existingSha) body.sha = existingSha;
+
+            const uploadResp = await fetch(apiUrl, {
+                method: "PUT",
+                headers: {
+                    "Authorization": `Bearer ${token}`,
+                    "Accept": "application/vnd.github+json",
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(body)
+            });
+
+            if (uploadResp.ok) {
+                result.github.success = true;
+                result.github.path = archivePath;
+                console.log(`✅ [GitHub] تم النسخ إلى: ${archivePath}`);
+
+                // تحديث _info.json على GitHub
+                await updateArchiveInfo(folderName, {
+                    shipName: names.shipName,
+                    date: names.date,
+                    lastUpdate: new Date().toISOString()
+                }, names.lineId);
+            } else {
+                const err = await uploadResp.json();
+                console.warn(`⚠️ [GitHub] فشل: ${err.message}`);
+            }
+        } catch (e) {
+            console.warn(`⚠️ [GitHub] استثناء: ${e.message}`);
+        }
+    } else {
+        console.log("⏭️ [GitHub] لا يوجد Token");
+    }
+
+    // ============================================================
+    // 3️⃣ تحديد النتيجة النهائية
+    // ============================================================
+    result.success = result.local.success || result.github.success;
+
+    if (result.local.success && result.github.success) {
+        console.log("🎉 [الأرشيف] تم النسخ إلى المحلي + GitHub معاً ✅✅");
+    } else if (result.local.success) {
+        console.log("✅ [الأرشيف] تم النسخ إلى المحلي فقط (GitHub فشل)");
+    } else if (result.github.success) {
+        console.log("✅ [الأرشيف] تم النسخ إلى GitHub فقط (المحلي غير متاح)");
+    } else {
+        console.log("❌ [الأرشيف] فشل النسخ في كلا المكانين");
+    }
+
+    return result;
 }
 
 // ============================================================
@@ -224,6 +305,7 @@ async function openArchiveWindow() {
     
     let filterShip = "";
     let filterDate = "";
+    let isFinaloutFile = false;
     
     // 🔍 اقرأ السفينة المحددة
     let shipSelect = document.getElementById('ghShipSelect');
@@ -232,18 +314,23 @@ async function openArchiveWindow() {
         console.log("🔍 السفينة:", filterShip);
     }
     
-    // 🔍 اقرأ التاريخ المحدد
+    // 🔍 اقرأ التاريخ المحدد + نوع الملف
     let dateSelect = document.getElementById('ghDateSelect');
     if (dateSelect && dateSelect.value) {
         let selectedOption = dateSelect.options[dateSelect.selectedIndex];
-        if (selectedOption && selectedOption.dataset && selectedOption.dataset.date) {
-            filterDate = selectedOption.dataset.date;
+        if (selectedOption && selectedOption.dataset) {
+            if (selectedOption.dataset.date) {
+                filterDate = selectedOption.dataset.date;
+            }
+            if (selectedOption.dataset.isFinalout === "true") {
+                isFinaloutFile = true;
+            }
         }
-        console.log("🔍 التاريخ:", filterDate);
+        console.log("🔍 التاريخ:", filterDate, "| FINALOUT:", isFinaloutFile);
     }
     
-    // 🆕 التحقق: إذا كانت السفينة محددة، يجب تحديد التاريخ أيضاً
-    if (filterShip && !filterDate) {
+    // 🆕 إذا كانت السفينة محددة، يجب تحديد التاريخ — إلا إذا كان الملف FINALOUT
+    if (filterShip && !filterDate && !isFinaloutFile) {
         alert('⚠️ يرجى اختيار التاريخ أيضاً\n\nلكي يعرض الأرشيف رحلة محددة، اختر التاريخ من القائمة.');
         return;
     }
@@ -252,7 +339,7 @@ async function openArchiveWindow() {
     // إذا أردت اشتراط تحديد السفينة أيضاً، فعّل السطر التالي:
     // if (!filterShip) { alert('⚠️ يرجى اختيار السفينة أولاً'); return; }
     
-    // افتح الأرشيف مع الفلتر (اسم السفينة + التاريخ)
+    // افتح الأرشيف مع الفلتر (اسم السفينة + التاريخ أو بدونهما لـ FINALOUT)
     await openArchiveInternal(filterShip, filterDate);
 }
 
@@ -363,8 +450,11 @@ async function openArchiveInternal(filterShip, filterDate) {
                 <div class="header">
                     <h1>${headerTitle}</h1>
                     <div class="header-actions">
-                        <button class="btn-header btn-refresh" onclick="window.refreshArchiveContent()">🔄 تحديث</button>
-                        <button class="btn-header btn-close" onclick="window.close()">✖ إغلاق</button>
+						<div class="header-actions">
+							<button class="btn-header" style="background: #e67e22;" onclick="window.archiveOpener.syncArchive(window)">🔄 مزامنة</button>
+							<button class="btn-header btn-refresh" onclick="window.refreshArchiveContent()">🔄 تحديث</button>
+							<button class="btn-header btn-close" onclick="window.close()">✖ إغلاق</button>
+						</div>
                     </div>
                 </div>
                 ${!filterShip ? `
@@ -378,6 +468,13 @@ async function openArchiveInternal(filterShip, filterDate) {
             <script>
                 window.archiveOpener = window.opener;
                 window.isAdminUser = ${isAdminUser};
+				// 🆕 دالة تنسيق حجم الملف (داخل نافذة الأرشيف)
+                window.formatFileSize = function(bytes) {
+                    if (!bytes || bytes < 0) return '0 B';
+                    if (bytes < 1024) return bytes + ' B';
+                    if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
+                    return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
+                };
                 window.currentFilterShip = "${filterShip || ''}";
                 window.currentFilterDate = "${filterDate || ''}";
                 window.currentPreviewUrl = null;
@@ -496,39 +593,117 @@ async function openArchiveInternal(filterShip, filterDate) {
                 });
                 
                 window.deleteFileInArchive = async function(filePath, sha, folderName) {
-                    if (!confirm('هل أنت متأكد من حذف:\\n' + filePath.split('/').pop() + '؟')) return;
+                    let fileName = filePath.split('/').pop();
                     
-                    const token = localStorage.getItem('github_token');
-                    if (!token) {
-                        alert('❌ لا يوجد Token');
-                        return;
+                    if (!confirm('هل أنت متأكد من حذف:\\n' + fileName + '؟')) return;
+                    
+                    let results = {
+                        local: { success: false, error: null },
+                        github: { success: false, error: null }
+                    };
+                    
+                    // ============================================================
+                    // 1️⃣ حذف من الخادم المحلي — دائماً
+                    // ============================================================
+                    console.log('🖥️ [1/2] حذف من المحلي:', fileName);
+                    try {
+                        let localResult = await window.archiveOpener.deleteFromLocalServer(folderName, fileName);
+                        if (localResult.success) {
+                            results.local.success = true;
+                            console.log('✅ [المحلي] تم الحذف');
+                        } else {
+                            results.local.error = localResult.error;
+                            console.warn('⚠️ [المحلي] فشل:', localResult.error);
+                        }
+                    } catch (e) {
+                        results.local.error = e.message;
+                        console.warn('⚠️ [المحلي] استثناء:', e.message);
                     }
                     
-                    try {
-                        const apiUrl = 'https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/' + filePath;
-                        const resp = await fetch(apiUrl, {
-                            method: 'DELETE',
-                            headers: {
-                                'Authorization': 'Bearer ' + token,
-                                'Accept': 'application/vnd.github+json',
-                                'Content-Type': 'application/json'
-                            },
-                            body: JSON.stringify({
-                                message: 'Delete ' + filePath.split('/').pop(),
-                                sha: sha,
-                                branch: '${GH_BRANCH}'
-                            })
-                        });
-                        
-                        if (!resp.ok) {
-                            const err = await resp.json();
-                            throw new Error(err.message);
+                    // ============================================================
+                    // 2️⃣ حذف من GitHub
+                    // ============================================================
+                    const token = localStorage.getItem('github_token');
+                    if (token) {
+                        console.log('☁️ [2/2] حذف من GitHub:', fileName);
+                        try {
+                            let shaToUse = sha;
+                            
+                            // 🆕 إذا لم يوجد sha → اجلبه من GitHub
+                            if (!shaToUse) {
+                                console.log('🔍 لا يوجد SHA، جاري البحث...');
+                                const checkUrl = 'https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/' + filePath + '?ref=${GH_BRANCH}';
+                                const checkResp = await fetch(checkUrl, {
+                                    headers: {
+                                        'Authorization': 'Bearer ' + token,
+                                        'Accept': 'application/vnd.github+json'
+                                    }
+                                });
+                                if (checkResp.ok) {
+                                    const data = await checkResp.json();
+                                    shaToUse = data.sha;
+                                    console.log('✅ تم جلب SHA:', shaToUse);
+                                } else {
+                                    results.github.error = 'الملف غير موجود على GitHub';
+                                    console.log('⏭️ الملف غير موجود على GitHub');
+                                }
+                            }
+                            
+                            if (shaToUse) {
+                                const apiUrl = 'https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/' + filePath;
+                                const resp = await fetch(apiUrl, {
+                                    method: 'DELETE',
+                                    headers: {
+                                        'Authorization': 'Bearer ' + token,
+                                        'Accept': 'application/vnd.github+json',
+                                        'Content-Type': 'application/json'
+                                    },
+                                    body: JSON.stringify({
+                                        message: 'Delete ' + fileName,
+                                        sha: shaToUse,
+                                        branch: '${GH_BRANCH}'
+                                    })
+                                });
+                                
+                                if (resp.ok) {
+                                    results.github.success = true;
+                                    console.log('✅ [GitHub] تم الحذف');
+                                } else {
+                                    const err = await resp.json();
+                                    results.github.error = err.message;
+                                    console.warn('⚠️ [GitHub] فشل:', err.message);
+                                }
+                            }
+                        } catch (e) {
+                            results.github.error = e.message;
+                            console.warn('⚠️ [GitHub] استثناء:', e.message);
                         }
-                        
-                        alert('✅ تم الحذف');
+                    } else {
+                        results.github.error = 'لا يوجد Token';
+                    }
+                    
+                    // ============================================================
+                    // 3️⃣ النتيجة النهائية
+                    // ============================================================
+                    let messages = [];
+                    
+                    if (results.local.success) {
+                        messages.push('✅ المحلي (NAS)');
+                    } else {
+                        messages.push('❌ المحلي: ' + (results.local.error || 'فشل'));
+                    }
+                    
+                    if (results.github.success) {
+                        messages.push('✅ السحابي (GitHub)');
+                    } else {
+                        messages.push('❌ السحابي: ' + (results.github.error || 'فشل'));
+                    }
+                    
+                    if (results.local.success || results.github.success) {
+                        alert('✅ تم الحذف:\\n\\n' + messages.join('\\n'));
                         await window.refreshArchiveContent();
-                    } catch (error) {
-                        alert('❌ فشل الحذف: ' + error.message);
+                    } else {
+                        alert('❌ فشل الحذف:\\n\\n' + messages.join('\\n'));
                     }
                 };
                 
@@ -567,16 +742,236 @@ async function openArchiveInternal(filterShip, filterDate) {
                         
                         if (validFiles.length === 0) return;
                         
-                        let overlay = document.createElement('div');
-                        overlay.className = 'uploading-overlay';
-                        overlay.innerHTML = 
-                            '<div class="uploading-box">' +
-                            '<div class="spinner"></div>' +
-                            '<div id="uploadProgress" style="margin-top:15px;font-weight:bold;color:#0a3d62;">' +
-                            '⏳ جاري قراءة الملفات...' +
-                            '</div>' +
-                            '</div>';
-                        document.body.appendChild(overlay);
+                        let totalSize = 0;
+                        for (let f of validFiles) totalSize += f.size;
+                        
+                        let modal = document.getElementById('uploadProgressModal');
+                        if (modal) modal.remove();
+                        
+                        modal = document.createElement('div');
+                        modal.id = 'uploadProgressModal';
+                        modal.style.cssText = 'position: fixed; inset: 0; background: linear-gradient(135deg, rgba(15,23,42,0.9), rgba(30,41,59,0.9)); z-index: 99999; display: flex; justify-content: center; align-items: center; padding: 20px; direction: rtl; backdrop-filter: blur(4px);';
+                        
+                        let h = '';
+                        // الحاوية الرئيسية - تدرج أبيض إلى رمادي فاتح
+                        h += '<div style="background: linear-gradient(180deg, #ffffff 0%, #f8fafc 50%, #e2e8f0 100%); border-radius: 18px; width: 95%; max-width: 850px; max-height: 92vh; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 25px 70px rgba(15,23,42,0.6), 0 0 0 1px rgba(148,163,184,0.4);">';
+                        
+                        // الرأس - كحلي داكن
+                        h += '<div style="background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #1d4ed8 100%); color: white; padding: 16px 22px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 4px 15px rgba(30,58,138,0.4);">';
+                        h += '<h2 style="margin: 0; font-size: 18px; letter-spacing: 0.5px; text-shadow: 0 2px 4px rgba(0,0,0,0.25);">📤 رفع المستندات</h2>';
+                        h += '<button id="uploadProgressCloseBtn" style="background: linear-gradient(135deg, rgba(255,255,255,0.25), rgba(255,255,255,0.1)); color: white; border: 1px solid rgba(255,255,255,0.4); padding: 8px 18px; border-radius: 20px; cursor: pointer; font-weight: bold; font-size: 13px; transition: 0.2s;">✖ إغلاق</button>';
+                        h += '</div>';
+                        
+                        h += '<div style="padding: 22px; overflow-y: auto; flex: 1;">';
+                        
+                        // الحالة - تدرج أبيض/رمادي
+                        h += '<div id="uStatus" style="padding: 13px 16px; border-radius: 12px; margin-bottom: 16px; font-size: 14px; background: linear-gradient(135deg, #ffffff, #f8fafc, #e2e8f0); color: #1e293b; font-weight: bold; border-right: 4px solid #1e3a8a; box-shadow: 0 2px 8px rgba(148,163,184,0.2);">⏳ جاري التحضير...</div>';
+                        
+                        // شريط التقدم الرئيسي - كحلي
+                        h += '<div style="background: linear-gradient(135deg, #e2e8f0, #f1f5f9, #ffffff); border-radius: 12px; overflow: hidden; height: 34px; margin-bottom: 16px; position: relative; box-shadow: inset 0 2px 4px rgba(100,116,139,0.15), 0 1px 2px rgba(255,255,255,0.8);">';
+                        h += '<div id="uProgressBar" style="height: 100%; background: linear-gradient(90deg, #1e3a8a, #1e40af, #3b82f6); transition: width 0.3s; width: 0%; box-shadow: 0 0 15px rgba(30,64,175,0.6);"></div>';
+                        h += '<div id="uProgressText" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 13px; color: #1e293b; text-shadow: 0 1px 2px rgba(255,255,255,0.8);">0%</div>';
+                        h += '</div>';
+                        
+                        // البطاقات - تدرج أبيض/رمادي
+                        h += '<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; margin-bottom: 16px;">';
+                        
+                        h += '<div style="background: linear-gradient(135deg, #ffffff, #f8fafc, #e2e8f0); padding: 12px 10px; border-radius: 10px; text-align: center; border: 1px solid #cbd5e1; box-shadow: 0 2px 6px rgba(100,116,139,0.1);">';
+                        h += '<div style="font-size: 11px; color: #64748b; font-weight: bold;">📊 الملفات</div>';
+                        h += '<div id="uFileCounter" style="font-size: 17px; font-weight: bold; color: #1e3a8a; margin-top: 3px;">0 / ' + validFiles.length + '</div>';
+                        h += '</div>';
+                        
+                        h += '<div style="background: linear-gradient(135deg, #ffffff, #f8fafc, #e2e8f0); padding: 12px 10px; border-radius: 10px; text-align: center; border: 1px solid #cbd5e1; box-shadow: 0 2px 6px rgba(100,116,139,0.1);">';
+                        h += '<div style="font-size: 11px; color: #64748b; font-weight: bold;">⏱️ الوقت المنقضي</div>';
+                        h += '<div id="uElapsed" style="font-size: 17px; font-weight: bold; color: #334155; margin-top: 3px;">00:00</div>';
+                        h += '</div>';
+                        
+                        h += '<div style="background: linear-gradient(135deg, #ffffff, #f8fafc, #e2e8f0); padding: 12px 10px; border-radius: 10px; text-align: center; border: 1px solid #cbd5e1; box-shadow: 0 2px 6px rgba(100,116,139,0.1);">';
+                        h += '<div style="font-size: 11px; color: #64748b; font-weight: bold;">⏳ الوقت المتبقي</div>';
+                        h += '<div id="uRemaining" style="font-size: 17px; font-weight: bold; color: #1e40af; margin-top: 3px;">--:--</div>';
+                        h += '</div>';
+                        
+                        h += '<div style="background: linear-gradient(135deg, #ffffff, #f8fafc, #e2e8f0); padding: 12px 10px; border-radius: 10px; text-align: center; border: 1px solid #cbd5e1; box-shadow: 0 2px 6px rgba(100,116,139,0.1);">';
+                        h += '<div style="font-size: 11px; color: #64748b; font-weight: bold;">⚡ السرعة</div>';
+                        h += '<div id="uSpeed" style="font-size: 17px; font-weight: bold; color: #1e40af; margin-top: 3px;">0 KB/s</div>';
+                        h += '</div>';
+                        
+                        h += '<div style="background: linear-gradient(135deg, #ffffff, #f8fafc, #e2e8f0); padding: 12px 10px; border-radius: 10px; text-align: center; border: 1px solid #cbd5e1; box-shadow: 0 2px 6px rgba(100,116,139,0.1);">';
+                        h += '<div style="font-size: 11px; color: #64748b; font-weight: bold;">📊 متوسط السرعة</div>';
+                        h += '<div id="uAvgSpeed" style="font-size: 17px; font-weight: bold; color: #334155; margin-top: 3px;">0 KB/s</div>';
+                        h += '</div>';
+                        
+                        h += '<div style="background: linear-gradient(135deg, #ffffff, #f8fafc, #e2e8f0); padding: 12px 10px; border-radius: 10px; text-align: center; border: 1px solid #cbd5e1; box-shadow: 0 2px 6px rgba(100,116,139,0.1);">';
+                        h += '<div style="font-size: 11px; color: #64748b; font-weight: bold;">📦 الحجم</div>';
+                        h += '<div id="uTotalSize" style="font-size: 17px; font-weight: bold; color: #1e3a8a; margin-top: 3px;">' + formatFileSize(totalSize) + '</div>';
+                        h += '</div>';
+                        
+                        h += '</div>';
+                        
+                        // الملف الحالي - تدرج كحلي فاتح
+                        h += '<div style="background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 50%, #bfdbfe 100%); padding: 14px; border-radius: 12px; margin-bottom: 16px; border-right: 4px solid #1e3a8a; box-shadow: 0 3px 10px rgba(30,58,138,0.15);">';
+                        h += '<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">';
+                        h += '<span style="font-weight: bold; color: #1e3a8a;">📄 <span id="uCurrentName">—</span></span>';
+                        h += '<span id="uCurrentSize" style="color: #1e3a8a; font-size: 12px; font-weight: bold; background: rgba(255,255,255,0.8); padding: 3px 10px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.08);">—</span>';
+                        h += '</div>';
+                        h += '<div style="background: rgba(255,255,255,0.9); border-radius: 6px; overflow: hidden; height: 14px; box-shadow: inset 0 2px 4px rgba(30,58,138,0.15);">';
+                        h += '<div id="uCurrentProgress" style="height: 100%; background: linear-gradient(90deg, #1e3a8a, #1e40af, #3b82f6); transition: width 0.2s; width: 0%; box-shadow: 0 0 10px rgba(30,64,175,0.5);"></div>';
+                        h += '</div>';
+                        h += '<div style="display: flex; justify-content: space-between; margin-top: 6px; font-size: 11px; color: #1e3a8a; font-weight: bold;">';
+                        h += '<span id="uCurrentStatus">—</span>';
+                        h += '<span id="uCurrentStage">—</span>';
+                        h += '</div>';
+                        h += '</div>';
+                        
+                        // السجل - تدرج أبيض/رمادي
+                        h += '<div id="uLog" style="background: linear-gradient(135deg, #ffffff 0%, #f8fafc 50%, #f1f5f9 100%); border: 1px solid #cbd5e1; border-radius: 10px; padding: 12px; max-height: 180px; overflow-y: auto; font-family: monospace; font-size: 11px; direction: ltr; text-align: left; box-shadow: inset 0 2px 4px rgba(100,116,139,0.08);"></div>';
+                        
+                        h += '</div></div>';
+                        
+                        modal.innerHTML = h;
+                        document.body.appendChild(modal);
+                        
+                        // دوال مساعدة
+                        let startTime = Date.now();
+                        let currentFileStartTime = 0;
+                        let lastSpeedUpdate = Date.now();
+                        let lastBytesSnapshot = 0;
+                        let speedHistory = [];
+                        let transferredBytes = 0;
+                        let currentFileIndex = 0;
+                        
+                        function fmtTime(seconds) {
+                            if (!isFinite(seconds) || seconds < 0) return '--:--';
+                            let hh = Math.floor(seconds / 3600);
+                            let mm = Math.floor((seconds % 3600) / 60);
+                            let ss = Math.floor(seconds % 60);
+                            if (hh > 0) return hh + ':' + String(mm).padStart(2,'0') + ':' + String(ss).padStart(2,'0');
+                            return String(mm).padStart(2,'0') + ':' + String(ss).padStart(2,'0');
+                        }
+                        
+                        function fmtSpeed(bps) {
+                            if (!isFinite(bps) || bps <= 0) return '0 KB/s';
+                            if (bps < 1024) return bps.toFixed(0) + ' B/s';
+                            if (bps < 1024 * 1024) return (bps / 1024).toFixed(1) + ' KB/s';
+                            return (bps / (1024 * 1024)).toFixed(2) + ' MB/s';
+                        }
+                        
+                        function uLog(msg, type) {
+                            type = type || 'info';
+                            let log = document.getElementById('uLog');
+                            if (!log) return;
+                            let entry = document.createElement('div');
+                            let color = '#334155';
+                            let bg = 'linear-gradient(135deg, #f8fafc, #f1f5f9)';
+                            let border = '1px solid #e2e8f0';
+                            if (type === 'success') {
+                                color = '#166534';
+                                bg = 'linear-gradient(135deg, #f0fdf4, #dcfce7)';
+                                border = '1px solid #bbf7d0';
+                            } else if (type === 'error') {
+                                color = '#991b1b';
+                                bg = 'linear-gradient(135deg, #fef2f2, #fee2e2)';
+                                border = '1px solid #fecaca';
+                            } else if (type === 'warning') {
+                                color = '#854d0e';
+                                bg = 'linear-gradient(135deg, #fefce8, #fef9c3)';
+                                border = '1px solid #fde68a';
+                            } else if (type === 'info') {
+                                color = '#1e3a8a';
+                                bg = 'linear-gradient(135deg, #eff6ff, #dbeafe)';
+                                border = '1px solid #bfdbfe';
+                            }
+                            entry.style.cssText = 'padding: 4px 8px; color: ' + color + '; background: ' + bg + '; border-radius: 6px; margin: 3px 0; border: ' + border + ';';
+                            let t = new Date().toLocaleTimeString('ar-EG');
+                            entry.textContent = '[' + t + '] ' + msg;
+                            log.appendChild(entry);
+                            log.scrollTop = log.scrollHeight;
+                        }
+                        
+                        function uStatus(msg, type) {
+                            type = type || 'info';
+                            let st = document.getElementById('uStatus');
+                            if (!st) return;
+                            let gradients = {
+                                info: 'linear-gradient(135deg, #ffffff, #f8fafc, #e2e8f0); color: #1e293b; border-right: 4px solid #1e3a8a;',
+                                success: 'linear-gradient(135deg, #ffffff, #dcfce7, #bbf7d0); color: #166534; border-right: 4px solid #22c55e;',
+                                warning: 'linear-gradient(135deg, #ffffff, #fef9c3, #fde68a); color: #854d0e; border-right: 4px solid #f59e0b;',
+                                error: 'linear-gradient(135deg, #ffffff, #fee2e2, #fecaca); color: #991b1b; border-right: 4px solid #ef4444;'
+                            };
+                            st.style.cssText = 'padding: 13px 16px; border-radius: 12px; margin-bottom: 16px; font-size: 14px; font-weight: bold; box-shadow: 0 2px 8px rgba(148,163,184,0.2); ' + (gradients[type] || gradients.info);
+                            st.textContent = msg;
+                        }
+                        
+                        function uProgress(pct) {
+                            let bar = document.getElementById('uProgressBar');
+                            let txt = document.getElementById('uProgressText');
+                            if (bar) bar.style.width = pct + '%';
+                            if (txt) txt.textContent = pct + '%';
+                        }
+                        
+                        function uSetCurrentFile(name, size, idx, total) {
+                            document.getElementById('uCurrentName').textContent = name;
+                            document.getElementById('uCurrentSize').textContent = formatFileSize(size);
+                            document.getElementById('uCurrentProgress').style.width = '0%';
+                            document.getElementById('uCurrentStatus').textContent = '📄 ' + idx + ' / ' + total;
+                            document.getElementById('uCurrentStage').textContent = '⏳ جاري القراءة...';
+                            currentFileStartTime = Date.now();
+                        }
+                        
+                        function uSetStage(stage, pct) {
+                            document.getElementById('uCurrentStage').textContent = stage;
+                            if (pct !== null && pct !== undefined) {
+                                document.getElementById('uCurrentProgress').style.width = pct + '%';
+                            }
+                        }
+                        
+                        let timerInterval = setInterval(function() {
+                            let elapsed = (Date.now() - startTime) / 1000;
+                            let el = document.getElementById('uElapsed');
+                            if (el) el.textContent = fmtTime(elapsed);
+                            
+                            if (transferredBytes > 0 && totalSize > 0) {
+                                let rate = transferredBytes / elapsed;
+                                let remaining = (totalSize - transferredBytes) / rate;
+                                let rEl = document.getElementById('uRemaining');
+                                if (rEl) rEl.textContent = fmtTime(remaining);
+                            }
+                            
+                            let now = Date.now();
+                            if (now - lastSpeedUpdate >= 1000) {
+                                let timeDiff = (now - lastSpeedUpdate) / 1000;
+                                let bytesDiff = transferredBytes - lastBytesSnapshot;
+                                let currentSpeed = bytesDiff / timeDiff;
+                                
+                                if (currentSpeed > 0) {
+                                    speedHistory.push(currentSpeed);
+                                    if (speedHistory.length > 10) speedHistory.shift();
+                                }
+                                
+                                let avgSpeed = speedHistory.length > 0 
+                                    ? speedHistory.reduce(function(a,b){return a+b;}, 0) / speedHistory.length 
+                                    : 0;
+                                
+                                let sEl = document.getElementById('uSpeed');
+                                let aEl = document.getElementById('uAvgSpeed');
+                                if (sEl) sEl.textContent = fmtSpeed(currentSpeed);
+                                if (aEl) aEl.textContent = fmtSpeed(avgSpeed);
+                                
+                                lastSpeedUpdate = now;
+                                lastBytesSnapshot = transferredBytes;
+                            }
+                        }, 500);
+                        
+                        document.getElementById('uploadProgressCloseBtn').onclick = function() {
+                            if (confirm('هل تريد إغلاق نافذة الرفع؟ (الرفع سيستمر)')) {
+                                clearInterval(timerInterval);
+                                modal.remove();
+                            }
+                        };
+                        
+                        uStatus('📤 رفع ' + validFiles.length + ' ملف (' + formatFileSize(totalSize) + ')...');
+                        uLog('🚀 بدء رفع ' + validFiles.length + ' ملف', 'info');
+                        uLog('📦 الحجم الكلي: ' + formatFileSize(totalSize), 'info');
                         
                         let successCount = 0;
                         let failCount = 0;
@@ -584,15 +979,18 @@ async function openArchiveInternal(filterShip, filterDate) {
                         
                         for (let i = 0; i < validFiles.length; i++) {
                             let file = validFiles[i];
-                            let progressEl = document.getElementById('uploadProgress');
-                            if (progressEl) {
-                                progressEl.textContent = '📄 رفع ' + (i+1) + '/' + validFiles.length + ': ' + file.name;
-                            }
+                            currentFileIndex = i + 1;
+                            
+                            uSetCurrentFile(file.name, file.size, i + 1, validFiles.length);
+                            document.getElementById('uFileCounter').textContent = i + ' / ' + validFiles.length;
+                            
+                            uLog('📄 [' + (i+1) + '/' + validFiles.length + '] ' + file.name + ' (' + formatFileSize(file.size) + ')', 'warning');
+                            uSetStage('📖 قراءة الملف...', 10);
                             
                             try {
-                                let base64 = await new Promise((resolve, reject) => {
+                                let base64 = await new Promise(function(resolve, reject) {
                                     let reader = new FileReader();
-                                    reader.onload = () => {
+                                    reader.onload = function() {
                                         let binary = '';
                                         let bytes = new Uint8Array(reader.result);
                                         let chunkSize = 8192;
@@ -605,13 +1003,17 @@ async function openArchiveInternal(filterShip, filterDate) {
                                     reader.readAsArrayBuffer(file);
                                 });
                                 
-                                let result = await new Promise((resolve, reject) => {
+                                uSetStage('📖 تم القراءة', 30);
+                                transferredBytes = (currentFileIndex - 1) * (totalSize / validFiles.length) + (file.size * 0.3);
+                                uSetStage('🖥️ رفع إلى المحلي + GitHub...', 40);
+                                
+                                let result = await new Promise(function(resolve, reject) {
                                     const messageId = 'upload_' + Date.now() + '_' + i;
+                                    let fakeInterval = null;
                                     
-                                    const handler = (event) => {
-                                        if (event.data && 
-                                            event.data.type === 'uploadFileResult' && 
-                                            event.data.messageId === messageId) {
+                                    const handler = function(event) {
+                                        if (event.data && event.data.type === 'uploadFileResult' && event.data.messageId === messageId) {
+                                            if (fakeInterval) clearInterval(fakeInterval);
                                             window.removeEventListener('message', handler);
                                             resolve(event.data);
                                         }
@@ -627,39 +1029,78 @@ async function openArchiveInternal(filterShip, filterDate) {
                                         base64Data: base64
                                     }, '*');
                                     
-                                    setTimeout(() => {
+                                    let fakeProgress = 40;
+                                    let fileBase = (currentFileIndex - 1) * (totalSize / validFiles.length);
+                                    fakeInterval = setInterval(function() {
+                                        fakeProgress += 5;
+                                        if (fakeProgress > 90) fakeProgress = 90;
+                                        uSetStage('☁️ رفع إلى GitHub...', fakeProgress);
+                                        transferredBytes = fileBase + (file.size * fakeProgress / 100);
+                                    }, 500);
+                                    
+                                    setTimeout(function() {
+                                        if (fakeInterval) clearInterval(fakeInterval);
                                         window.removeEventListener('message', handler);
-                                        reject(new Error('انتهت المهلة'));
+                                        reject(new Error('انتهت المهلة (60 ثانية)'));
                                     }, 60000);
                                 });
                                 
+                                uSetStage('✅ تم الرفع', 100);
+                                transferredBytes = currentFileIndex * (totalSize / validFiles.length);
+                                
                                 if (result.success) {
                                     successCount++;
+                                    uLog('  ✅ تم بنجاح', 'success');
                                 } else {
                                     failCount++;
                                     errorMessages.push(file.name + ': ' + result.error);
+                                    uLog('  ❌ فشل: ' + result.error, 'error');
                                 }
+                                
                             } catch (err) {
                                 failCount++;
                                 errorMessages.push(file.name + ': ' + err.message);
+                                uLog('  ❌ خطأ: ' + err.message, 'error');
+                                uSetStage('❌ فشل', 100);
                             }
+                            
+                            let progress = Math.round(((i + 1) / validFiles.length) * 100);
+                            uProgress(progress);
+                            document.getElementById('uFileCounter').textContent = (i + 1) + ' / ' + validFiles.length;
                         }
                         
-                        if (overlay.parentNode) overlay.parentNode.removeChild(overlay);
+                        clearInterval(timerInterval);
                         
-                        let msg = '✅ تم الرفع بنجاح: ' + successCount + ' ملف';
-                        if (failCount > 0) {
-                            msg += '\\n❌ فشل: ' + failCount + '\\n\\nالتفاصيل:\\n' + errorMessages.join('\\n');
+                        let totalElapsed = (Date.now() - startTime) / 1000;
+                        let avgSpeed = totalSize / totalElapsed;
+                        
+                        if (failCount === 0) {
+                            uStatus('🎉 تم رفع ' + successCount + ' ملف بنجاح في ' + fmtTime(totalElapsed), 'success');
+                        } else {
+                            uStatus('⚠️ نجح: ' + successCount + '، فشل: ' + failCount, 'warning');
                         }
-                        alert(msg);
                         
-                        await window.refreshArchiveContent();
+                        uLog('═══════════════════════════', 'info');
+                        uLog('⏱️ الوقت: ' + fmtTime(totalElapsed), 'info');
+                        uLog('⚡ متوسط السرعة: ' + fmtSpeed(avgSpeed), 'info');
+                        uLog('✅ نجح: ' + successCount, 'success');
+                        uLog('❌ فشل: ' + failCount, failCount > 0 ? 'error' : 'info');
+                        
+                        document.getElementById('uFileCounter').textContent = validFiles.length + ' / ' + validFiles.length;
+                        
+                        setTimeout(async function() {
+                            if (modal.parentNode) modal.remove();
+                            let msg = '✅ تم الرفع: ' + successCount + ' ملف';
+                            if (failCount > 0) msg += '\\n❌ فشل: ' + failCount;
+                            alert(msg);
+                            await window.refreshArchiveContent();
+                        }, 2500);
                     };
                     
                     document.body.appendChild(input);
                     input.click();
                     
-                    setTimeout(() => {
+                    setTimeout(function() {
                         if (input.parentNode) input.parentNode.removeChild(input);
                     }, 1000);
                 };
@@ -735,63 +1176,170 @@ async function refreshArchiveWindow(archiveWindow, filterShip, filterDate) {
 // 📥 تحميل قائمة مجلدات الأرشيف
 // ============================================================
 // ============================================================
-// 📥 تحميل قائمة مجلدات الأرشيف (فلترة الخط على مستوى الملفات)
-// ============================================================
 async function loadArchiveFolders() {
+    console.log("📂 تحميل الأرشيف من جميع المصادر...");
+    
+    let localFolders = [];
+    let githubFolders = [];
+    
+    // ============================================================
+    // 1️⃣ من الخادم المحلي
+    // ============================================================
+    if (typeof _localServerAvailable !== 'undefined' && _localServerAvailable) {
+        try {
+            let result = await loadLocalArchiveFolders();
+            if (result && result.length > 0) {
+                localFolders = result;
+                console.log(`📂 [المحلي] ${localFolders.length} مجلد`);
+            } else {
+                console.log("📂 [المحلي] فارغ");
+            }
+        } catch (e) {
+            console.warn("⚠️ [المحلي] فشل:", e.message);
+        }
+    } else {
+        console.log("⏭️ [المحلي] غير متاح");
+    }
+    
+    // ============================================================
+    // 2️⃣ من GitHub (دائماً — حتى لو نجح المحلي)
+    // ============================================================
     const token = localStorage.getItem("github_token");
-    const apiUrl = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${ARCHIVE_FOLDER}?ref=${GH_BRANCH}`;
+    if (token) {
+        try {
+            githubFolders = await loadGitHubArchiveFolders(token);
+            console.log(`☁️ [GitHub] ${githubFolders.length} مجلد`);
+        } catch (e) {
+            console.warn("⚠️ [GitHub] فشل:", e.message);
+        }
+    } else {
+        console.log("⏭️ [GitHub] لا يوجد Token");
+    }
+    
+    // ============================================================
+    // 3️⃣ دمج النتائج
+    // ============================================================
+    let merged = mergeArchiveFolders(localFolders, githubFolders);
+    console.log(`🎉 [الأرشيف] ${merged.length} مجلد بعد الدمج`);
+    
+    // فلترة حسب الصلاحيات
+    let user = typeof getCurrentUser === 'function' ? getCurrentUser() : null;
+    if (user && user.role !== 'admin' && !user.lineIds.includes('*')) {
+        merged = merged.filter(f => {
+            let parts = f.name.split('_');
+            if (parts.length >= 2) {
+                let line = parts[parts.length - 2];
+                return user.lineIds.includes(line);
+            }
+            return true;
+        });
+    }
+    
+    return merged;
+}
 
+// ============================================================
+// 📥 تحميل الأرشيف من GitHub
+// ============================================================
+async function loadGitHubArchiveFolders(token) {
+    const apiUrl = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${ARCHIVE_FOLDER}?ref=${GH_BRANCH}`;
+    
     const headers = { "Accept": "application/vnd.github+json" };
     if (token) headers["Authorization"] = `Bearer ${token}`;
-
+    
     const response = await fetch(apiUrl, { headers });
-
+    
     if (response.status === 404) return [];
-    if (!response.ok) throw new Error(`فشل الجلب: ${response.status}`);
-
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    
     const contents = await response.json();
     let folders = contents.filter(item => item.type === "dir");
-
-    // 🆕 هل المستخدم مقيّد بخطوط معينة؟
-    let user = typeof getCurrentUser === 'function' ? getCurrentUser() : null;
-    let isRestricted = user && user.role !== 'admin' && !user.lineIds.includes('*');
-
+    
     let result = [];
     for (let folder of folders) {
         try {
-            let allFiles = await fetchFolderContents(folder.path, token);
-
-            // 🆕 فلترة الملفات حسب الخط للمستخدمين المقيّدين
-            let visibleFiles = allFiles;
-            if (isRestricted) {
-                visibleFiles = allFiles.filter(file => {
-                    let line = extractLineFromFileName(file.name);
-                    return line && user.lineIds.includes(line);
-                });
-                // تجاهل المجلد إذا لم توجد ملفات مرئية
-                if (visibleFiles.length === 0) continue;
-            }
-
+            let folderFiles = await fetchFolderContents(folder.path, token);
             result.push({
                 name: folder.name,
-                path: folder.path,
-                files: visibleFiles,
-                filesCount: visibleFiles.length,
-                sha: folder.sha
+                path: `archive/${folder.name}`,
+                files: folderFiles.map(f => ({
+                    name: f.name,
+                    size: f.size,
+                    path: f.path,
+                    download_url: f.download_url,
+                    sha: f.sha,
+                    modified: f.modified
+                })),
+                filesCount: folderFiles.length,
+                sha: folder.sha,
+                source: 'github'
             });
         } catch (e) {
             result.push({
                 name: folder.name,
-                path: folder.path,
+                path: `archive/${folder.name}`,
                 files: [],
                 filesCount: 0,
-                sha: folder.sha
+                sha: folder.sha,
+                source: 'github'
             });
         }
     }
-
-    result.sort((a, b) => b.name.localeCompare(a.name));
+    
     return result;
+}
+
+// ============================================================
+// 🔄 دمج المجلدات من المصدرين
+// ============================================================
+function mergeArchiveFolders(localFolders, githubFolders) {
+    let mergedMap = new Map();
+    
+    // 1️⃣ GitHub أولاً
+    for (let folder of githubFolders) {
+        mergedMap.set(folder.name, {
+            name: folder.name,
+            path: folder.path,
+            files: [...folder.files].map(f => ({ ...f, source: 'github' })),
+            filesCount: folder.filesCount,
+            sha: folder.sha,
+            source: 'github'
+        });
+    }
+    
+    // 2️⃣ المحلي (يدمج أو يضيف)
+    for (let folder of localFolders) {
+        if (mergedMap.has(folder.name)) {
+            let existing = mergedMap.get(folder.name);
+            let existingFileNames = new Set(existing.files.map(f => f.name));
+            
+            for (let localFile of folder.files) {
+                if (!existingFileNames.has(localFile.name)) {
+                    existing.files.push({ ...localFile, source: 'local' });
+                } else {
+                    // موجود في الاثنين — فضّل المحلي (أسرع)
+                    let idx = existing.files.findIndex(f => f.name === localFile.name);
+                    if (idx !== -1) {
+                        existing.files[idx] = { ...existing.files[idx], source: 'both' };
+                    }
+                }
+            }
+            existing.filesCount = existing.files.length;
+        } else {
+            mergedMap.set(folder.name, {
+                name: folder.name,
+                path: folder.path,
+                files: folder.files.map(f => ({ ...f, source: 'local' })),
+                filesCount: folder.filesCount,
+                sha: folder.sha,
+                source: 'local'
+            });
+        }
+    }
+    
+    let merged = Array.from(mergedMap.values());
+    merged.sort((a, b) => b.name.localeCompare(a.name));
+    return merged;
 }
 
 // ============================================================
@@ -961,77 +1509,173 @@ window.uploadFilesToArchive = async function(folderName, fileDataList) {
 // ============================================================
 // 📤 رفع ملف واحد كـ base64
 // ============================================================
+// ============================================================
+// 📤 رفع ملف واحد كـ base64 (المحلي + GitHub معاً)
+// ============================================================
 async function uploadBase64ToArchive(folderName, fileName, base64Data) {
-    const token = localStorage.getItem("github_token");
-    if (!token) throw new Error("لا يوجد Token");
-    
     let cleanName = fileName.replace(/[^\w\u0600-\u06FF.\-]/g, '_');
     const filePath = `${ARCHIVE_FOLDER}/${folderName}/${cleanName}`;
-    const apiUrl = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${filePath}`;
     
-    let existingSha = null;
-    try {
-        const checkResp = await fetch(`${apiUrl}?ref=${GH_BRANCH}`, {
-            headers: {
-                "Authorization": `Bearer ${token}`,
-                "Accept": "application/vnd.github+json"
-            }
-        });
-        if (checkResp.ok) {
-            const data = await checkResp.json();
-            existingSha = data.sha;
-        }
-    } catch (e) {}
-    
-    const body = {
-        message: `Upload ${cleanName} to ${folderName}`,
-        content: base64Data,
-        branch: GH_BRANCH
+    let result = {
+        success: false,
+        local: { success: false, path: null, error: null },
+        github: { success: false, path: null, error: null }
     };
-    if (existingSha) body.sha = existingSha;
     
-    const resp = await fetch(apiUrl, {
-        method: "PUT",
-        headers: {
-            "Authorization": `Bearer ${token}`,
-            "Accept": "application/vnd.github+json",
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(body)
-    });
-    
-    if (!resp.ok) {
-        const err = await resp.json();
-        return { success: false, error: err.message };
+    // ============================================================
+    // 1️⃣ رفع إلى الخادم المحلي (NAS) — دائماً
+    // ============================================================
+    if (typeof _localServerAvailable !== 'undefined' && _localServerAvailable) {
+        console.log("🖥️ [1/2] رفع إلى الخادم المحلي:", cleanName);
+        try {
+            let localResult = await uploadToLocalServer(folderName, cleanName, base64Data);
+            if (localResult.success) {
+                result.local.success = true;
+                result.local.path = localResult.path;
+                console.log(`✅ [المحلي] تم: ${localResult.path}`);
+            } else {
+                result.local.error = localResult.error;
+                console.warn(`⚠️ [المحلي] فشل: ${localResult.error}`);
+            }
+        } catch (e) {
+            result.local.error = e.message;
+            console.warn(`⚠️ [المحلي] استثناء: ${e.message}`);
+        }
+    } else {
+        console.log("⏭️ [المحلي] الخادم المحلي غير متاح");
+        result.local.error = 'الخادم المحلي غير متاح';
     }
     
-    await updateArchiveInfo(folderName, {});
-    return { success: true };
+    // ============================================================
+    // 2️⃣ رفع إلى GitHub — دائماً (نسخة احتياطية)
+    // ============================================================
+    const token = localStorage.getItem("github_token");
+    if (token) {
+        console.log("☁️ [2/2] رفع إلى GitHub:", cleanName);
+        try {
+            const apiUrl = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${filePath}`;
+            let existingSha = null;
+            
+            const checkResp = await fetch(`${apiUrl}?ref=${GH_BRANCH}`, {
+                headers: {
+                    "Authorization": `Bearer ${token}`,
+                    "Accept": "application/vnd.github+json"
+                }
+            });
+            if (checkResp.ok) {
+                const data = await checkResp.json();
+                existingSha = data.sha;
+                console.log("🔄 [GitHub] الملف موجود، سيتم التحديث");
+            }
+            
+            const body = {
+                message: `Upload ${cleanName} to ${folderName}`,
+                content: base64Data,
+                branch: GH_BRANCH
+            };
+            if (existingSha) body.sha = existingSha;
+            
+            const resp = await fetch(apiUrl, {
+                method: "PUT",
+                headers: {
+                    "Authorization": `Bearer ${token}`,
+                    "Accept": "application/vnd.github+json",
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(body)
+            });
+            
+            if (resp.ok) {
+                result.github.success = true;
+                result.github.path = filePath;
+                console.log(`✅ [GitHub] تم: ${filePath}`);
+                
+                // تحديث _info.json
+                await updateArchiveInfo(folderName, {});
+            } else {
+                const err = await resp.json();
+                result.github.error = err.message;
+                console.warn(`⚠️ [GitHub] فشل: ${err.message}`);
+            }
+        } catch (e) {
+            result.github.error = e.message;
+            console.warn(`⚠️ [GitHub] استثناء: ${e.message}`);
+        }
+    } else {
+        console.log("⏭️ [GitHub] لا يوجد Token");
+        result.github.error = 'لا يوجد Token';
+    }
+    
+    // ============================================================
+    // 3️⃣ النتيجة النهائية
+    // ============================================================
+    result.success = result.local.success || result.github.success;
+    
+    if (result.local.success && result.github.success) {
+        console.log("🎉 [رفع] تم النسخ إلى المحلي + GitHub ✅✅");
+    } else if (result.local.success) {
+        console.log("✅ [رفع] تم النسخ إلى المحلي فقط");
+    } else if (result.github.success) {
+        console.log("✅ [رفع] تم النسخ إلى GitHub فقط");
+    } else {
+        console.log("❌ [رفع] فشل في كلا المكانين");
+    }
+    
+    // للتوافق مع الكود القديم (يرجع path)
+    result.path = result.local.path || result.github.path;
+    
+    return result;
 }
 
 // ============================================================
 // 🔔 فحص وجود أرشيف للسفينة
 // ============================================================
+// ============================================================
+// 🔔 فحص وجود أرشيف للسفينة أو لرقم الأمر (Order Number)
+// ============================================================
 async function checkShipArchive(shipName, shipDate) {
-    // 🆕 لا تنبيه إلا إذا كانت السفينة **و** التاريخ محددين
-    if (!shipName || shipName.trim() === "" || !shipDate || shipDate.trim() === "") {
+    if (!shipName || shipName.trim() === "") {
         hideArchiveNotification();
         return;
     }
-    
+
+    // 🆕 التحقق: هل اسم السفينة/المجلد يحتوي على تاريخ (YYYY-MM-DD)؟
+    let hasDate = /\d{4}-\d{2}-\d{2}/.test(shipName);
+    let isOrderNumberFile = !hasDate; // إذا لم يكن به تاريخ، فهو ملف Order Number
+
+    // إذا كان ملف عادي (سفينة) وليس هناك تاريخ محدد، لا تظهر الإشعار
+    if (!isOrderNumberFile && (!shipDate || shipDate.trim() === "")) {
+        hideArchiveNotification();
+        return;
+    }
+
     try {
+        // تحميل قائمة المجلدات من (المحلي + GitHub)
         let folders = await loadArchiveFolders();
+        
         let cleanShip = shipName.toLowerCase().replace(/\s+/g, '_');
-        let cleanDate = shipDate.replace(/\//g, '-').trim();
-        
-        // فلترة بالسفينة والتاريخ معاً
-        let matches = folders.filter(f => 
-            f.name.toLowerCase().includes(cleanShip) && 
-            f.name.includes(cleanDate)
-        );
-        
-        console.log(`🔍 فلترة ${shipName} + ${cleanDate}: ${matches.length} مجلد`);
-        
+        let cleanDate = (shipDate || "").replace(/\//g, '-').trim();
+
+        // 🆕 إذا كان ملف Order Number، نقوم بإزالة الأرقام من اسم البحث ليتطابق مع اسم المجلد الجديد (مثل FINALOUT)
+        if (isOrderNumberFile) {
+            let tempShip = cleanShip.replace(/\d+/g, "").trim();
+            // إذا أصبح الاسم فارغاً بعد إزالة الأرقام، نستخدم الاسم الأصلي كاحتياط
+            if (tempShip !== "") {
+                cleanShip = tempShip;
+            }
+        }
+
+        // فلترة المجلدات المطابقة
+        let matches = folders.filter(f => {
+            let shipMatch = f.name.toLowerCase().includes(cleanShip);
+            // إذا لم يوجد تاريخ، لا نفلتر بالتاريخ (نقبل أي مجلد يطابق اسم السفينة/الأمر)
+            let dateMatch = !cleanDate || f.name.includes(cleanDate);
+            return shipMatch && dateMatch;
+        });
+
+        console.log(`🔍 فلترة ${shipName}${cleanDate ? ' + ' + cleanDate : ''}: ${matches.length} مجلد`);
+
+        // إظهار أو إخفاء الإشعار
         if (matches.length > 0) {
             showArchiveNotification(shipName, shipDate, matches);
         } else {
@@ -1163,11 +1807,25 @@ window.addEventListener('message', async (event) => {
         
         try {
             const result = await uploadBase64ToArchive(folderName, fileName, base64Data);
+            
+            // 🆕 جمع رسائل الأخطاء من كل من المحلي و GitHub
+            let errorMsg = null;
+            if (!result.success) {
+                let errors = [];
+                if (!result.local.success && result.local.error) {
+                    errors.push('المحلي: ' + result.local.error);
+                }
+                if (!result.github.success && result.github.error) {
+                    errors.push('GitHub: ' + result.github.error);
+                }
+                errorMsg = errors.join(' | ') || 'فشل الرفع';
+            }
+            
             event.source.postMessage({
                 type: 'uploadFileResult',
                 messageId: messageId,
                 success: result.success,
-                error: result.error || null
+                error: errorMsg
             }, '*');
         } catch (err) {
             event.source.postMessage({
@@ -1179,3 +1837,610 @@ window.addEventListener('message', async (event) => {
         }
     }
 });
+
+
+
+// ============================================================
+// 🔄 مزامنة الأرشيف — نسخة احترافية مع سرعة وشريط تقدم
+// ============================================================
+window.syncArchive = async function(targetWindow) {
+    const win = targetWindow || window;
+    const doc = win.document;
+    
+    console.log("🔄 بدء المزامنة الكاملة...");
+    
+    const token = localStorage.getItem("github_token");
+    if (!token) {
+        alert("❌ لا يوجد GitHub Token");
+        return;
+    }
+    
+    // ============================================================
+    // 🆕 إنشاء Modal
+    // ============================================================
+    let modal = doc.getElementById('syncModal');
+    if (modal) modal.remove();
+    
+    modal = doc.createElement('div');
+    modal.id = 'syncModal';
+    modal.style.cssText = `
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.85);
+        z-index: 99999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        direction: rtl;
+    `;
+    modal.innerHTML = `
+        <div style="background: white; border-radius: 16px; width: 95%; max-width: 900px; max-height: 92vh; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.5);">
+            <div style="background: #0a3d62; color: white; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center;">
+                <h2 style="margin: 0; font-size: 18px;">🔄 مزامنة الأرشيف</h2>
+                <button id="syncCloseBtn" style="background: #dc3545; color: white; border: none; padding: 8px 16px; border-radius: 20px; cursor: pointer; font-weight: bold; font-size: 13px;">✖ إغلاق</button>
+            </div>
+            <div style="padding: 20px; overflow-y: auto; flex: 1;">
+                
+                <!-- الحالة -->
+                <div id="syncStatus" style="padding: 12px 15px; border-radius: 10px; margin-bottom: 15px; font-size: 14px; background: #e7f3ff; color: #004085; font-weight: bold;">
+                    ⏳ جاري الفحص...
+                </div>
+                
+                <!-- شريط التقدم الرئيسي -->
+                <div style="background: #e9ecef; border-radius: 10px; overflow: hidden; height: 30px; margin-bottom: 10px; position: relative;">
+                    <div id="syncProgressBar" style="height: 100%; background: linear-gradient(90deg, #0a3d62, #17a2b8); transition: width 0.3s; width: 0%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 12px;"></div>
+                    <div id="syncProgressText" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 12px; color: #0a3d62; mix-blend-mode: difference;">0%</div>
+                </div>
+                
+                <!-- الإحصائيات -->
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-bottom: 15px;">
+                    <div style="background: #f8f9fa; padding: 10px; border-radius: 8px; text-align: center;">
+                        <div style="font-size: 11px; color: #6c757d;">⏱️ الوقت المنقضي</div>
+                        <div id="syncElapsed" style="font-size: 16px; font-weight: bold; color: #0a3d62;">00:00</div>
+                    </div>
+                    <div style="background: #f8f9fa; padding: 10px; border-radius: 8px; text-align: center;">
+                        <div style="font-size: 11px; color: #6c757d;">⏳ الوقت المتبقي</div>
+                        <div id="syncRemaining" style="font-size: 16px; font-weight: bold; color: #e67e22;">--:--</div>
+                    </div>
+                    <div style="background: #f8f9fa; padding: 10px; border-radius: 8px; text-align: center;">
+                        <div style="font-size: 11px; color: #6c757d;">⚡ السرعة الحالية</div>
+                        <div id="syncSpeed" style="font-size: 16px; font-weight: bold; color: #28a745;">0 KB/s</div>
+                    </div>
+                    <div style="background: #f8f9fa; padding: 10px; border-radius: 8px; text-align: center;">
+                        <div style="font-size: 11px; color: #6c757d;">📊 متوسط السرعة</div>
+                        <div id="syncAvgSpeed" style="font-size: 16px; font-weight: bold; color: #17a2b8;">0 KB/s</div>
+                    </div>
+                </div>
+                
+                <!-- الملف الحالي -->
+                <div id="syncCurrentFile" style="background: #fff3cd; padding: 12px; border-radius: 8px; margin-bottom: 15px; font-size: 13px; display: none;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <span style="font-weight: bold; color: #856404;">📄 <span id="currentFileName">—</span></span>
+                        <span id="currentFileSize" style="color: #856404; font-size: 12px;">—</span>
+                    </div>
+                    <div style="background: #fff; border-radius: 5px; overflow: hidden; height: 12px;">
+                        <div id="currentFileProgress" style="height: 100%; background: linear-gradient(90deg, #e67e22, #f39c12); transition: width 0.2s; width: 0%;"></div>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; margin-top: 5px; font-size: 11px; color: #856404;">
+                        <span id="currentFileStatus">—</span>
+                        <span id="currentFileSpeed">0 KB/s</span>
+                    </div>
+                </div>
+                
+                <!-- ملخص -->
+                <div id="syncSummary" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 10px; margin-bottom: 15px;"></div>
+                
+                <!-- السجل -->
+                <div id="syncLog" style="background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; padding: 12px; max-height: 200px; overflow-y: auto; font-family: monospace; font-size: 11px; direction: ltr; text-align: left;"></div>
+            </div>
+        </div>
+    `;
+    doc.body.appendChild(modal);
+    
+    doc.getElementById('syncCloseBtn').onclick = function() {
+        if (window._syncAbortController) {
+            window._syncAbortController.abort();
+        }
+        modal.remove();
+    };
+    
+    // ============================================================
+    // 🆕 دوال مساعدة
+    // ============================================================
+    let startTime = Date.now();
+    let totalBytes = 0;
+    let transferredBytes = 0;
+    let currentFileStartTime = 0;
+    let currentFileLoaded = 0;
+    let currentFileTotal = 0;
+    let lastSpeedUpdate = Date.now();
+    let lastBytesSnapshot = 0;
+    let speedHistory = [];
+    
+    window._syncAbortController = new AbortController();
+    
+    function formatTime(seconds) {
+        if (!isFinite(seconds) || seconds < 0) return '--:--';
+        let h = Math.floor(seconds / 3600);
+        let m = Math.floor((seconds % 3600) / 60);
+        let s = Math.floor(seconds % 60);
+        if (h > 0) return `${h}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+        return `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+    }
+    
+    function formatSpeed(bytesPerSec) {
+        if (!isFinite(bytesPerSec) || bytesPerSec <= 0) return '0 KB/s';
+        if (bytesPerSec < 1024) return bytesPerSec.toFixed(0) + ' B/s';
+        if (bytesPerSec < 1024 * 1024) return (bytesPerSec / 1024).toFixed(1) + ' KB/s';
+        return (bytesPerSec / (1024 * 1024)).toFixed(1) + ' MB/s';
+    }
+    
+    function formatBytes(bytes) {
+        if (bytes < 1024) return bytes + ' B';
+        if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
+        return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
+    }
+    
+    function syncLog(msg, type = 'info') {
+        let log = doc.getElementById('syncLog');
+        if (!log) return;
+        let entry = doc.createElement('div');
+        entry.style.cssText = 'padding: 2px 0; ' + 
+            (type === 'success' ? 'color: #28a745;' : 
+             type === 'error' ? 'color: #dc3545;' : 
+             type === 'warning' ? 'color: #e67e22;' : 
+             'color: #17a2b8;');
+        let time = new Date().toLocaleTimeString('ar-EG');
+        entry.textContent = '[' + time + '] ' + msg;
+        log.appendChild(entry);
+        log.scrollTop = log.scrollHeight;
+    }
+    
+    function syncStatus(msg, type = 'info') {
+        let st = doc.getElementById('syncStatus');
+        if (!st) return;
+        let colors = {
+            info: 'background: #e7f3ff; color: #004085;',
+            success: 'background: #d4edda; color: #155724;',
+            warning: 'background: #fff3cd; color: #856404;',
+            error: 'background: #f8d7da; color: #721c24;'
+        };
+        st.style.cssText = 'padding: 12px 15px; border-radius: 10px; margin-bottom: 15px; font-size: 14px; font-weight: bold; ' + (colors[type] || colors.info);
+        st.textContent = msg;
+    }
+    
+    function syncProgress(pct, text) {
+        let bar = doc.getElementById('syncProgressBar');
+        let txt = doc.getElementById('syncProgressText');
+        if (bar) bar.style.width = pct + '%';
+        if (txt) txt.textContent = text || (pct + '%');
+    }
+    
+    function syncSummary(items) {
+        let html = '';
+        for (let item of items) {
+            html += '<div style="background: #f8f9fa; padding: 10px; border-radius: 8px; text-align: center;">' +
+                '<div style="font-size: 20px; font-weight: bold; color: ' + (item.color || '#0a3d62') + ';">' + item.num + '</div>' +
+                '<div style="font-size: 11px; color: #6c757d;">' + item.lbl + '</div></div>';
+        }
+        doc.getElementById('syncSummary').innerHTML = html;
+    }
+    
+    function updateTimer() {
+        let elapsed = (Date.now() - startTime) / 1000;
+        let elapsedEl = doc.getElementById('syncElapsed');
+        if (elapsedEl) elapsedEl.textContent = formatTime(elapsed);
+        
+        // حساب الوقت المتبقي
+        if (transferredBytes > 0 && totalBytes > 0) {
+            let rate = transferredBytes / elapsed;
+            let remainingBytes = totalBytes - transferredBytes;
+            let remaining = remainingBytes / rate;
+            let remainingEl = doc.getElementById('syncRemaining');
+            if (remainingEl) remainingEl.textContent = formatTime(remaining);
+        }
+        
+        // حساب السرعة
+        let now = Date.now();
+        if (now - lastSpeedUpdate >= 1000) {
+            let timeDiff = (now - lastSpeedUpdate) / 1000;
+            let bytesDiff = transferredBytes - lastBytesSnapshot;
+            let currentSpeed = bytesDiff / timeDiff;
+            
+            if (currentSpeed > 0) {
+                speedHistory.push(currentSpeed);
+                if (speedHistory.length > 10) speedHistory.shift();
+            }
+            
+            let avgSpeed = speedHistory.length > 0 
+                ? speedHistory.reduce((a,b) => a+b, 0) / speedHistory.length 
+                : 0;
+            
+            let speedEl = doc.getElementById('syncSpeed');
+            let avgEl = doc.getElementById('syncAvgSpeed');
+            if (speedEl) speedEl.textContent = formatSpeed(currentSpeed);
+            if (avgEl) avgEl.textContent = formatSpeed(avgSpeed);
+            
+            lastSpeedUpdate = now;
+            lastBytesSnapshot = transferredBytes;
+        }
+    }
+    
+    let timerInterval = setInterval(updateTimer, 500);
+    
+    function showCurrentFile(fileName, fileSize) {
+        let el = doc.getElementById('syncCurrentFile');
+        if (!el) return;
+        el.style.display = 'block';
+        doc.getElementById('currentFileName').textContent = fileName;
+        doc.getElementById('currentFileSize').textContent = formatBytes(fileSize);
+        doc.getElementById('currentFileProgress').style.width = '0%';
+        doc.getElementById('currentFileStatus').textContent = '0%';
+        doc.getElementById('currentFileSpeed').textContent = '0 KB/s';
+        
+        currentFileStartTime = Date.now();
+        currentFileLoaded = 0;
+        currentFileTotal = fileSize;
+    }
+    
+    function updateCurrentFile(loaded, total) {
+        if (total <= 0) return;
+        let pct = Math.round((loaded / total) * 100);
+        let bar = doc.getElementById('currentFileProgress');
+        let status = doc.getElementById('currentFileStatus');
+        let speedEl = doc.getElementById('currentFileSpeed');
+        
+        if (bar) bar.style.width = pct + '%';
+        if (status) status.textContent = pct + '% (' + formatBytes(loaded) + ' / ' + formatBytes(total) + ')';
+        
+        let elapsed = (Date.now() - currentFileStartTime) / 1000;
+        if (elapsed > 0.5 && speedEl) {
+            let speed = loaded / elapsed;
+            speedEl.textContent = formatSpeed(speed);
+        }
+        
+        // تحديث الإجمالي
+        transferredBytes = (totalBytes - currentFileTotal) + loaded;
+    }
+    
+    function hideCurrentFile() {
+        let el = doc.getElementById('syncCurrentFile');
+        if (el) el.style.display = 'none';
+    }
+    
+    // ============================================================
+    // 🆕 رفع ملف مع تتبع التقدم
+    // ============================================================
+    async function uploadWithProgress(url, options, fileName, fileSize) {
+        showCurrentFile(fileName, fileSize);
+        
+        return new Promise((resolve, reject) => {
+            let xhr = new XMLHttpRequest();
+            
+            xhr.upload.addEventListener('progress', (e) => {
+                if (e.lengthComputable) {
+                    updateCurrentFile(e.loaded, e.total);
+                }
+            });
+            
+            xhr.addEventListener('load', () => {
+                if (xhr.status >= 200 && xhr.status < 300) {
+                    resolve({ ok: true, status: xhr.status, json: () => JSON.parse(xhr.responseText) });
+                } else {
+                    resolve({ ok: false, status: xhr.status, json: () => JSON.parse(xhr.responseText || '{}') });
+                }
+            });
+            
+            xhr.addEventListener('error', () => reject(new Error('Network error')));
+            xhr.addEventListener('abort', () => reject(new Error('Aborted')));
+            
+            xhr.open(options.method || 'GET', url);
+            if (options.headers) {
+                for (let key in options.headers) {
+                    xhr.setRequestHeader(key, options.headers[key]);
+                }
+            }
+            
+            xhr.send(options.body || null);
+        });
+    }
+    
+    // ============================================================
+    // 🆕 تنزيل ملف مع تتبع التقدم
+    // ============================================================
+    async function downloadWithProgress(url, fileName, expectedSize) {
+        showCurrentFile(fileName, expectedSize);
+        
+        let response = await fetch(url);
+        let contentLength = parseInt(response.headers.get('content-length')) || expectedSize;
+        let reader = response.body.getReader();
+        let chunks = [];
+        let loaded = 0;
+        
+        currentFileTotal = contentLength;
+        
+        while (true) {
+            let { done, value } = await reader.read();
+            if (done) break;
+            
+            chunks.push(value);
+            loaded += value.length;
+            updateCurrentFile(loaded, contentLength);
+        }
+        
+        // تجميع القطع
+        let allChunks = new Uint8Array(loaded);
+        let position = 0;
+        for (let chunk of chunks) {
+            allChunks.set(chunk, position);
+            position += chunk.length;
+        }
+        
+        return allChunks;
+    }
+    
+    // ============================================================
+    // 🚀 البدء
+    // ============================================================
+    try {
+        syncStatus("⏳ جاري تحميل قائمة المحلي...");
+        syncLog("📂 جلب قائمة المحلي...");
+        
+        let localFolders = await loadLocalArchiveFolders() || [];
+        syncLog(`✅ المحلي: ${localFolders.length} مجلد`, 'success');
+        syncProgress(10);
+        
+        syncStatus("⏳ جاري تحميل قائمة GitHub...");
+        syncLog("☁️ جلب قائمة GitHub...");
+        
+        let githubFolders = await loadGitHubArchiveFolders(token);
+        syncLog(`✅ GitHub: ${githubFolders.length} مجلد`, 'success');
+        syncProgress(20);
+        
+        // بناء Maps
+        let localMap = new Map();
+        for (let folder of localFolders) {
+            let filesMap = new Map();
+            for (let file of folder.files) filesMap.set(file.name, file);
+            localMap.set(folder.name, { folder, filesMap });
+        }
+        
+        let githubMap = new Map();
+        for (let folder of githubFolders) {
+            let filesMap = new Map();
+            for (let file of folder.files) filesMap.set(file.name, file);
+            githubMap.set(folder.name, { folder, filesMap });
+        }
+        
+        // حساب الفروقات
+        let toDownload = [];
+        let toUpload = [];
+        
+        for (let [folderName, githubData] of githubMap) {
+            let localData = localMap.get(folderName);
+            for (let [fileName, file] of githubData.filesMap) {
+                if (!localData || !localData.filesMap.has(fileName)) {
+                    toDownload.push({ folderName, fileName, file });
+                }
+            }
+        }
+        
+        for (let [folderName, localData] of localMap) {
+            let githubData = githubMap.get(folderName);
+            for (let [fileName, file] of localData.filesMap) {
+                if (!githubData || !githubData.filesMap.has(fileName)) {
+                    toUpload.push({ folderName, fileName, file });
+                }
+            }
+        }
+        
+        // حساب الحجم الإجمالي
+        totalBytes = 0;
+        for (let item of toUpload) totalBytes += item.file.size || 0;
+        for (let item of toDownload) totalBytes += item.file.size || 0;
+        
+        syncSummary([
+            { num: localFolders.length, lbl: 'مجلدات محلية', color: '#0a3d62' },
+            { num: githubFolders.length, lbl: 'مجلدات GitHub', color: '#17a2b8' },
+            { num: toUpload.length, lbl: '📤 رفع', color: '#28a745' },
+            { num: toDownload.length, lbl: '📥 تنزيل', color: '#e67e22' }
+        ]);
+        
+        syncLog(`📤 ملفات للرفع: ${toUpload.length} (${formatBytes(toUpload.reduce((s,i) => s + (i.file.size||0), 0))})`, 'warning');
+        syncLog(`📥 ملفات للتنزيل: ${toDownload.length} (${formatBytes(toDownload.reduce((s,i) => s + (i.file.size||0), 0))})`, 'warning');
+        syncProgress(25);
+        
+        if (toUpload.length === 0 && toDownload.length === 0) {
+            syncStatus("✅ الأرشيف متزامن تماماً — لا توجد فروقات", 'success');
+            syncLog("✅ لا توجد فروقات", 'success');
+            clearInterval(timerInterval);
+            return;
+        }
+        
+        // تأكيد
+        let confirmMsg = `🔄 المزامنة:\n\n`;
+        confirmMsg += `📤 رفع: ${toUpload.length} ملف\n`;
+        confirmMsg += `📥 تنزيل: ${toDownload.length} ملف\n`;
+        confirmMsg += `📊 الحجم الكلي: ${formatBytes(totalBytes)}\n\n`;
+        confirmMsg += `هل تريد المتابعة؟`;
+        
+        if (!win.confirm(confirmMsg)) {
+            syncLog("⏹️ تم الإلغاء", 'error');
+            syncStatus("⏹️ تم الإلغاء", 'error');
+            clearInterval(timerInterval);
+            return;
+        }
+        
+        // ============================================================
+        // رفع الملفات
+        // ============================================================
+        let uploadSuccess = 0, uploadFail = 0;
+        
+        if (toUpload.length > 0) {
+            syncStatus(`📤 رفع ${toUpload.length} ملف إلى GitHub...`);
+            
+            for (let i = 0; i < toUpload.length; i++) {
+                let { folderName, fileName, file } = toUpload[i];
+                
+                try {
+                    syncLog(`📤 (${i+1}/${toUpload.length}) ${fileName}`, 'warning');
+                    
+                    // تحميل من المحلي
+                    let arrayBuffer = await downloadWithProgress(file.download_url, fileName, file.size);
+                    
+                    let bytes = new Uint8Array(arrayBuffer);
+                    let binary = '';
+                    let chunkSize = 8192;
+                    for (let j = 0; j < bytes.length; j += chunkSize) {
+                        binary += String.fromCharCode.apply(null, bytes.subarray(j, j + chunkSize));
+                    }
+                    let base64Data = btoa(binary);
+                    
+                    // رفع لـ GitHub
+                    let cleanName = fileName.replace(/[^\w\u0600-\u06FF.\-]/g, '_');
+                    let apiUrl = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/archive/${folderName}/${cleanName}`;
+                    
+                    let checkResp = await fetch(`${apiUrl}?ref=${GH_BRANCH}`, {
+                        headers: { "Authorization": `Bearer ${token}`, "Accept": "application/vnd.github+json" }
+                    });
+                    let existingSha = null;
+                    if (checkResp.ok) {
+                        let d = await checkResp.json();
+                        existingSha = d.sha;
+                    }
+                    
+                    let body = {
+                        message: `Sync: Upload ${cleanName}`,
+                        content: base64Data,
+                        branch: GH_BRANCH
+                    };
+                    if (existingSha) body.sha = existingSha;
+                    
+                    let uploadResp = await uploadWithProgress(apiUrl, {
+                        method: 'PUT',
+                        headers: {
+                            "Authorization": `Bearer ${token}`,
+                            "Accept": "application/vnd.github+json",
+                            "Content-Type": "application/json"
+                        },
+                        body: JSON.stringify(body)
+                    }, fileName, base64Data.length);
+                    
+                    if (uploadResp.ok) {
+                        uploadSuccess++;
+                        syncLog(`  ✅ تم الرفع`, 'success');
+                    } else {
+                        uploadFail++;
+                        let err = await uploadResp.json();
+                        syncLog(`  ❌ فشل: ${err.message}`, 'error');
+                    }
+                    
+                } catch (e) {
+                    if (e.message === 'Aborted') {
+                        syncLog(`  ⏹️ تم الإلغاء`, 'error');
+                        clearInterval(timerInterval);
+                        return;
+                    }
+                    uploadFail++;
+                    syncLog(`  ❌ ${e.message}`, 'error');
+                }
+                
+                hideCurrentFile();
+                let baseProgress = 25 + ((i + 1) / toUpload.length) * 35;
+                syncProgress(Math.round(baseProgress));
+            }
+        }
+        
+        // ============================================================
+        // تنزيل الملفات
+        // ============================================================
+        let downloadSuccess = 0, downloadFail = 0;
+        
+        if (toDownload.length > 0) {
+            syncStatus(`📥 تنزيل ${toDownload.length} ملف من GitHub...`);
+            
+            for (let i = 0; i < toDownload.length; i++) {
+                let { folderName, fileName, file } = toDownload[i];
+                
+                try {
+                    syncLog(`📥 (${i+1}/${toDownload.length}) ${fileName}`, 'warning');
+                    
+                    let arrayBuffer = await downloadWithProgress(file.download_url, fileName, file.size);
+                    
+                    let bytes = new Uint8Array(arrayBuffer);
+                    let binary = '';
+                    let chunkSize = 8192;
+                    for (let j = 0; j < bytes.length; j += chunkSize) {
+                        binary += String.fromCharCode.apply(null, bytes.subarray(j, j + chunkSize));
+                    }
+                    let base64Data = btoa(binary);
+                    
+                    let result = await uploadToLocalServer(folderName, fileName, base64Data);
+                    
+                    if (result.success) {
+                        downloadSuccess++;
+                        syncLog(`  ✅ تم التنزيل`, 'success');
+                    } else {
+                        downloadFail++;
+                        syncLog(`  ❌ ${result.error}`, 'error');
+                    }
+                    
+                } catch (e) {
+                    if (e.message === 'Aborted') {
+                        syncLog(`  ⏹️ تم الإلغاء`, 'error');
+                        clearInterval(timerInterval);
+                        return;
+                    }
+                    downloadFail++;
+                    syncLog(`  ❌ ${e.message}`, 'error');
+                }
+                
+                hideCurrentFile();
+                let baseProgress = 60 + ((i + 1) / toDownload.length) * 35;
+                syncProgress(Math.round(baseProgress));
+            }
+        }
+        
+        // ============================================================
+        // النتيجة
+        // ============================================================
+        clearInterval(timerInterval);
+        syncProgress(100, '100% ✅');
+        
+        let totalSuccess = uploadSuccess + downloadSuccess;
+        let totalFail = uploadFail + downloadFail;
+        let totalElapsed = (Date.now() - startTime) / 1000;
+        let avgSpeed = totalBytes > 0 ? totalBytes / totalElapsed : 0;
+        
+        if (totalFail === 0) {
+            syncStatus(`🎉 اكتملت المزامنة بنجاح (${totalSuccess} ملف في ${formatTime(totalElapsed)})`, 'success');
+        } else {
+            syncStatus(`⚠️ اكتملت مع أخطاء: نجح ${totalSuccess}، فشل ${totalFail}`, 'warning');
+        }
+        
+        syncSummary([
+            { num: uploadSuccess, lbl: '✅ رُفع', color: '#28a745' },
+            { num: downloadSuccess, lbl: '✅ نُزّل', color: '#17a2b8' },
+            { num: uploadFail + downloadFail, lbl: '❌ فشل', color: '#dc3545' }
+        ]);
+        
+        syncLog("═══════════════════════════", 'info');
+        syncLog(`⏱️ الوقت: ${formatTime(totalElapsed)}`, 'info');
+        syncLog(`📊 الحجم الكلي: ${formatBytes(totalBytes)}`, 'info');
+        syncLog(`⚡ متوسط السرعة: ${formatSpeed(avgSpeed)}`, 'info');
+        syncLog(`📤 رُفع: ${uploadSuccess} / ${toUpload.length}`, 'info');
+        syncLog(`📥 نُزّل: ${downloadSuccess} / ${toDownload.length}`, 'info');
+        syncLog(`❌ فشل: ${totalFail}`, 'info');
+        
+        // تحديث الوقت النهائي
+        let remainingEl = doc.getElementById('syncRemaining');
+        if (remainingEl) remainingEl.textContent = '00:00';
+        
+    } catch (error) {
+        clearInterval(timerInterval);
+        console.error("❌ خطأ في المزامنة:", error);
+        syncStatus("❌ فشلت المزامنة: " + error.message, 'error');
+        syncLog("❌ " + error.message, 'error');
+    }
+}; 
