@@ -1,9 +1,10 @@
 {
   "shipName": "JOHANNES_MAERSK",
   "date": "2026-10-06",
-  "lastUpdate": "2026-10-23T09:24:28.131Z",
+  "lastUpdate": "2026-10-23T09:24:42.141Z",
   "lines": [
-    "MSK"
+    "MSK",
+    "ONE"
   ],
   "documents": []
 }
