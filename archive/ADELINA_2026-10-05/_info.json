@@ -1,9 +1,10 @@
 {
   "shipName": "ADELINA",
   "date": "2026-10-05",
-  "lastUpdate": "2026-10-23T11:57:06.735Z",
+  "lastUpdate": "2026-10-23T11:58:26.271Z",
   "lines": [
-    "ONE"
+    "ONE",
+    "YML"
   ],
   "documents": []
 }
