@@ -1,9 +1,10 @@
 {
   "shipName": "MARWIN",
   "date": "2026-10-08",
-  "lastUpdate": "2026-10-24T09:05:15.902Z",
+  "lastUpdate": "2026-10-24T09:05:23.834Z",
   "lines": [
-    "MGL"
+    "MGL",
+    "ONE"
   ],
   "documents": []
 }
