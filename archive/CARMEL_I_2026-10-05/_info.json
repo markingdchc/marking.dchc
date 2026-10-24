@@ -1,9 +1,10 @@
 {
   "shipName": "CARMEL_I",
   "date": "2026-10-05",
-  "lastUpdate": "2026-10-24T08:33:10.342Z",
+  "lastUpdate": "2026-10-24T08:33:30.708Z",
   "lines": [
-    "HLC"
+    "HLC",
+    "ZIM"
   ],
   "documents": []
 }
