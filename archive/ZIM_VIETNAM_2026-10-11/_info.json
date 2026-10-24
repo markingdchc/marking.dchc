@@ -1,9 +1,10 @@
 {
   "shipName": "ZIM_VIETNAM",
   "date": "2026-10-11",
-  "lastUpdate": "2026-10-24T10:47:09.898Z",
+  "lastUpdate": "2026-10-24T10:47:24.060Z",
   "lines": [
-    "MSC"
+    "MSC",
+    "ZIM"
   ],
   "documents": []
 }
