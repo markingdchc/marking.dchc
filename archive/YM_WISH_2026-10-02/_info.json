@@ -1,10 +1,11 @@
 {
   "shipName": "YM_WISH",
   "date": "2026-10-02",
-  "lastUpdate": "2026-10-24T07:45:58.418Z",
+  "lastUpdate": "2026-10-24T07:47:10.943Z",
   "lines": [
     "HMM",
-    "ONE"
+    "ONE",
+    "YML"
   ],
   "documents": []
 }
