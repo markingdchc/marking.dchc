@@ -1,9 +1,13 @@
 {
-  "lastUpdated": "2026-10-25T20:35:14.883Z",
+  "lastUpdated": "2026-10-25T20:41:37.608Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
       "path": "archive/ADELINA_2026-10-05",
+      "lines": [
+        "ONE",
+        "YML"
+      ],
       "files": [
         {
           "name": "ADELINA_ONE_2026-10-05.xls",
@@ -24,6 +28,10 @@
     {
       "name": "ADELINA_2026-10-18",
       "path": "archive/ADELINA_2026-10-18",
+      "lines": [
+        "ONE",
+        "YML"
+      ],
       "files": [
         {
           "name": "ADELINA.pdf",
@@ -72,6 +80,12 @@
     {
       "name": "AL_SEEF_2026-10-10",
       "path": "archive/AL_SEEF_2026-10-10",
+      "lines": [
+        "ACL",
+        "CSL",
+        "GFS",
+        "WSHI"
+      ],
       "files": [
         {
           "name": "AL_SEEF.pdf",
@@ -134,6 +148,9 @@
     {
       "name": "ANITA_A_2026-10-08",
       "path": "archive/ANITA_A_2026-10-08",
+      "lines": [
+        "WSHI"
+      ],
       "files": [
         {
           "name": "ANITA_A_8-10-2026.pdf",
@@ -182,6 +199,10 @@
     {
       "name": "AS_SARA_2026-10-05",
       "path": "archive/AS_SARA_2026-10-05",
+      "lines": [
+        "MSK",
+        "ONE"
+      ],
       "files": [
         {
           "name": "AS_SARA.pdf",
@@ -244,6 +265,10 @@
     {
       "name": "AS_SARA_2026-10-24",
       "path": "archive/AS_SARA_2026-10-24",
+      "lines": [
+        "MSK",
+        "ONE"
+      ],
       "files": [
         {
           "name": "AS_SARA.pdf",
@@ -299,6 +324,10 @@
     {
       "name": "AS_SELINA_2026-10-11",
       "path": "archive/AS_SELINA_2026-10-11",
+      "lines": [
+        "MSK",
+        "ONE"
+      ],
       "files": [
         {
           "name": "AS_SELINA.pdf",
@@ -340,6 +369,9 @@
     {
       "name": "ATHENA_2026-10-08",
       "path": "archive/ATHENA_2026-10-08",
+      "lines": [
+        "ONE"
+      ],
       "files": [
         {
           "name": "ATHENA_8-10-2026.pdf",
@@ -381,6 +413,10 @@
     {
       "name": "CARMEL_I_2026-10-05",
       "path": "archive/CARMEL_I_2026-10-05",
+      "lines": [
+        "HLC",
+        "ZIM"
+      ],
       "files": [
         {
           "name": "CARMEL_I.pdf",
@@ -422,6 +458,9 @@
     {
       "name": "DOJUN_BRAVE_2026-10-23",
       "path": "archive/DOJUN_BRAVE_2026-10-23",
+      "lines": [
+        "GCS"
+      ],
       "files": [
         {
           "name": "DOJUN_BRAVE.pdf",
@@ -456,6 +495,10 @@
     {
       "name": "EGY_FUTURE_2026-10-11",
       "path": "archive/EGY_FUTURE_2026-10-11",
+      "lines": [
+        "HLC",
+        "ONE"
+      ],
       "files": [
         {
           "name": "DISCH_69.xls",
@@ -511,6 +554,10 @@
     {
       "name": "EGY_FUTURE_2026-10-25",
       "path": "archive/EGY_FUTURE_2026-10-25",
+      "lines": [
+        "HLC",
+        "YML"
+      ],
       "files": [
         {
           "name": "DISCH_69.xls",
@@ -559,6 +606,9 @@
     {
       "name": "ELBELLA_2026-10-04",
       "path": "archive/ELBELLA_2026-10-04",
+      "lines": [
+        "CMA"
+      ],
       "files": [
         {
           "name": "DISCH_111.xls",
@@ -593,6 +643,10 @@
     {
       "name": "JOHANNES_MAERSK_2026-10-06",
       "path": "archive/JOHANNES_MAERSK_2026-10-06",
+      "lines": [
+        "ONE",
+        "MSK"
+      ],
       "files": [
         {
           "name": "DISCH_135.xls",
@@ -655,6 +709,10 @@
     {
       "name": "JONA_SOPHIE_2026-10-02",
       "path": "archive/JONA_SOPHIE_2026-10-02",
+      "lines": [
+        "HLC",
+        "ZIM"
+      ],
       "files": [
         {
           "name": "DISCH_98.xls",
@@ -696,6 +754,10 @@
     {
       "name": "JONA_SOPHIE_2026-10-09",
       "path": "archive/JONA_SOPHIE_2026-10-09",
+      "lines": [
+        "HLC",
+        "ZIM"
+      ],
       "files": [
         {
           "name": "DISCH_90.xls",
@@ -751,6 +813,10 @@
     {
       "name": "JONA_SOPHIE_2026-10-23",
       "path": "archive/JONA_SOPHIE_2026-10-23",
+      "lines": [
+        "HLC",
+        "ZIM"
+      ],
       "files": [
         {
           "name": "DISCH_302.xls",
@@ -792,6 +858,10 @@
     {
       "name": "MARWIN_2026-10-08",
       "path": "archive/MARWIN_2026-10-08",
+      "lines": [
+        "MGL",
+        "ONE"
+      ],
       "files": [
         {
           "name": "DISCH_34.xls",
@@ -840,6 +910,9 @@
     {
       "name": "MAUREN_2026-10-02",
       "path": "archive/MAUREN_2026-10-02",
+      "lines": [
+        "MSC"
+      ],
       "files": [
         {
           "name": "DISCH_551.xls",
@@ -874,6 +947,9 @@
     {
       "name": "MSC_CATHERINE_VI_2026-10-03",
       "path": "archive/MSC_CATHERINE_VI_2026-10-03",
+      "lines": [
+        "MSC"
+      ],
       "files": [
         {
           "name": "DISCH_26.xls",
@@ -908,6 +984,9 @@
     {
       "name": "MSC_DENMARK_VI_2026-10-05",
       "path": "archive/MSC_DENMARK_VI_2026-10-05",
+      "lines": [
+        "MSC"
+      ],
       "files": [
         {
           "name": "DISCH_158.xls",
@@ -942,6 +1021,9 @@
     {
       "name": "MSC_JOSSELINE_2026-10-08",
       "path": "archive/MSC_JOSSELINE_2026-10-08",
+      "lines": [
+        "MSC"
+      ],
       "files": [
         {
           "name": "LOAD_1669.xls",
@@ -969,6 +1051,9 @@
     {
       "name": "MSC_LAURA_2026-10-19",
       "path": "archive/MSC_LAURA_2026-10-19",
+      "lines": [
+        "ALL"
+      ],
       "files": [
         {
           "name": "DISCH_57.xls",
@@ -1003,6 +1088,9 @@
     {
       "name": "MSC_MATTINA_2026-10-04",
       "path": "archive/MSC_MATTINA_2026-10-04",
+      "lines": [
+        "MSC"
+      ],
       "files": [
         {
           "name": "DISCH_119.xls",
@@ -1037,6 +1125,9 @@
     {
       "name": "MSC_NINA_F_2026-10-11",
       "path": "archive/MSC_NINA_F_2026-10-11",
+      "lines": [
+        "MSC"
+      ],
       "files": [
         {
           "name": "DISCH_300.xls",
@@ -1071,6 +1162,9 @@
     {
       "name": "MSC_PIONEER_IV_2026-10-24",
       "path": "archive/MSC_PIONEER_IV_2026-10-24",
+      "lines": [
+        "MSC"
+      ],
       "files": [
         {
           "name": "DISCH_194.xls",
@@ -1112,6 +1206,9 @@
     {
       "name": "MSC_SIENA_2026-10-09",
       "path": "archive/MSC_SIENA_2026-10-09",
+      "lines": [
+        "MSC"
+      ],
       "files": [
         {
           "name": "COVER.pdf",
@@ -1160,6 +1257,9 @@
     {
       "name": "MSC_VIRGINIA_2026-10-06",
       "path": "archive/MSC_VIRGINIA_2026-10-06",
+      "lines": [
+        "MSC"
+      ],
       "files": [
         {
           "name": "DISCH_1079.xls",
@@ -1201,6 +1301,11 @@
     {
       "name": "NORDLUCHS_2026-10-26",
       "path": "archive/NORDLUCHS_2026-10-26",
+      "lines": [
+        "OOCL",
+        "COE",
+        "COS"
+      ],
       "files": [
         {
           "name": "DISCH_267.xls",
@@ -1270,6 +1375,11 @@
     {
       "name": "PAN_GG_2026-10-08",
       "path": "archive/PAN_GG_2026-10-08",
+      "lines": [
+        "MGL",
+        "YML",
+        "HLC"
+      ],
       "files": [
         {
           "name": "DISCH_95.xls",
@@ -1339,6 +1449,10 @@
     {
       "name": "SHI_SHANG_18_2026-10-06",
       "path": "archive/SHI_SHANG_18_2026-10-06",
+      "lines": [
+        "SFT",
+        "SLG"
+      ],
       "files": [
         {
           "name": "DISCH_471.xls",
@@ -1359,6 +1473,10 @@
     {
       "name": "SIARGAO_2026-10-10",
       "path": "archive/SIARGAO_2026-10-10",
+      "lines": [
+        "COE",
+        "COS"
+      ],
       "files": [
         {
           "name": "COVER.pdf",
@@ -1414,6 +1532,10 @@
     {
       "name": "SSF_LILY_2026-10-06",
       "path": "archive/SSF_LILY_2026-10-06",
+      "lines": [
+        "GFS",
+        "ONE"
+      ],
       "files": [
         {
           "name": "DISCH_268.xls",
@@ -1441,6 +1563,10 @@
     {
       "name": "VALENCE_2026-10-06",
       "path": "archive/VALENCE_2026-10-06",
+      "lines": [
+        "MSC",
+        "ZIM"
+      ],
       "files": [
         {
           "name": "DISCH_507.xls",
@@ -1482,6 +1608,9 @@
     {
       "name": "VENTO_DI_BORA_2026-10-11",
       "path": "archive/VENTO_DI_BORA_2026-10-11",
+      "lines": [
+        "CMA"
+      ],
       "files": [
         {
           "name": "DISCH_91.xls",
@@ -1516,6 +1645,9 @@
     {
       "name": "YM_WARMTH_2026-10-14",
       "path": "archive/YM_WARMTH_2026-10-14",
+      "lines": [
+        "YML"
+      ],
       "files": [
         {
           "name": "YM_WARMTH_YML_2026-10-14.xls",
@@ -1529,6 +1661,10 @@
     {
       "name": "YM_WELLNESS_2026-10-10",
       "path": "archive/YM_WELLNESS_2026-10-10",
+      "lines": [
+        "HMM",
+        "ONE"
+      ],
       "files": [
         {
           "name": "DISCH_2137.xls",
@@ -1584,6 +1720,9 @@
     {
       "name": "YM_WISDOM_2026-10-22",
       "path": "archive/YM_WISDOM_2026-10-22",
+      "lines": [
+        "YML"
+      ],
       "files": [
         {
           "name": "DISCH_2052.xls",
@@ -1618,6 +1757,11 @@
     {
       "name": "YM_WISH_2026-10-02",
       "path": "archive/YM_WISH_2026-10-02",
+      "lines": [
+        "HMM",
+        "ONE",
+        "YML"
+      ],
       "files": [
         {
           "name": "DISCH_1883.xls",
@@ -1666,6 +1810,11 @@
     {
       "name": "YM_WISH_2026-10-21",
       "path": "archive/YM_WISH_2026-10-21",
+      "lines": [
+        "MSC",
+        "HMM",
+        "YML"
+      ],
       "files": [
         {
           "name": "DISCH_550.xls",
@@ -1749,6 +1898,10 @@
     {
       "name": "YM_WORLD_2026-10-08",
       "path": "archive/YM_WORLD_2026-10-08",
+      "lines": [
+        "ALP",
+        "EMK"
+      ],
       "files": [
         {
           "name": "DISCH_502.xls",
@@ -1832,6 +1985,9 @@
     {
       "name": "YOSOR_1_2026-10-24",
       "path": "archive/YOSOR_1_2026-10-24",
+      "lines": [
+        "MOH"
+      ],
       "files": [
         {
           "name": "DISCH_321.xls",
@@ -1866,6 +2022,9 @@
     {
       "name": "ZIM_ATLANTIC_2026-10-19",
       "path": "archive/ZIM_ATLANTIC_2026-10-19",
+      "lines": [
+        "ZIM"
+      ],
       "files": [
         {
           "name": "ZIM_ATLANTIC_ZIM_2026-10-19.xls",
@@ -1879,6 +2038,10 @@
     {
       "name": "ZIM_VIETNAM_2026-10-11",
       "path": "archive/ZIM_VIETNAM_2026-10-11",
+      "lines": [
+        "MSC",
+        "ZIM"
+      ],
       "files": [
         {
           "name": "DISCH_984.xls",
@@ -1934,6 +2097,9 @@
     {
       "name": "test",
       "path": "archive/test",
+      "lines": [
+        "ALL"
+      ],
       "files": []
     }
   ]
