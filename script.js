@@ -526,6 +526,8 @@ setTimeout(() => {
                 let result = await saveFileToGitHub();
                 if (result && result.success) {
                     console.log("✅ الملف مرفوع على GitHub");
+					 // 🆕 إضافة هذا السطر لتشغيل إنشاء الـ PDF آلياً
+        await autoGenerateAndArchiveFullPDF(); 
                 }
             }, 2500);
             
@@ -10837,6 +10839,14 @@ async function saveFileToGitHub() {
             }
         }
         
+		        // 🆕 تحديث الفهرس ومسح الذاكرة المؤقتة
+        if (typeof generateAndSaveIndexFromTree === 'function') {
+            await generateAndSaveIndexFromTree();
+            localStorage.removeItem('archive_index_cache');
+            localStorage.removeItem('archive_index_time');
+        }
+
+		
         // ===== 12. عرض النتيجة =====
         if (footer) {
             footer.innerHTML = `✅ تم حفظ الملف في الأرشيف: <a href="${fileUrl}" target="_blank" style="color:#28a745;font-weight:bold;">${newFileName}</a>`;
@@ -10888,6 +10898,11 @@ async function saveFileToGitHub() {
 const GH_OWNER = "markingdchc";
 const GH_REPO = "marking.dchc";
 const GH_BRANCH = "main";
+// 🆕 تصدير المتغيرات لكي تستطيع نافذة الأرشيف الوصول إليها
+window.GH_OWNER  = GH_OWNER;
+window.GH_REPO   = GH_REPO;
+window.GH_BRANCH = GH_BRANCH;
+
 const GH_UPLOAD_FOLDER = "uploads"; // مجلد الملفات
 
 // ============================================================
@@ -11045,69 +11060,175 @@ function parseGitHubFileName(fileName) {
 // ============================================================
 // 📋 ملء القوائم المنسدلة
 // ============================================================
-async function initGitHubFilesPanel() {
-    const folders = await loadArchiveFolders();
-    ghFilesList = [];
+async function initGitHubFilesPanel(forceRefresh = false) {
+    const shipSelect = document.getElementById("ghShipSelect");
+    if (!shipSelect) return;
 
-    for (let folder of folders) {
-        // 1. استخراج البيانات من اسم المجلد (المصدر الموثوق)
+    const token = localStorage.getItem("github_token");
+    if (!token) return;
+
+    // ⚡ 1. محاولة القراءة من الذاكرة المؤقتة (سريع جداً)
+    const cacheTime = localStorage.getItem('archive_index_time');
+    const cachedData = localStorage.getItem('archive_index_cache');
+    
+    // إذا كانت البيانات محفوظة وعمرها أقل من 5 دقائق، استخدمها فوراً
+    if (!forceRefresh && cachedData && cacheTime && (Date.now() - parseInt(cacheTime) < 300000)) {
+        console.log("⚡ [الفهرس] تم التحميل من الذاكرة المؤقتة للمتصفح (سرعة فائقة)");
+        processArchiveIndexData(JSON.parse(cachedData), shipSelect);
+        return;
+    }
+
+    // ⏳ 2. جلب ملف الفهرس من GitHub
+    console.log("⏳ [الفهرس] جاري جلب archive_index.json من GitHub...");
+    try {
+        const indexUrl = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/archive/archive_index.json?ref=${GH_BRANCH}`;
+        const resp = await fetch(indexUrl, { headers: { "Authorization": `Bearer ${token}` } });
+
+        if (resp.ok) {
+            const data = await resp.json();
+            const content = decodeURIComponent(escape(atob(data.content.replace(/\n/g, ''))));
+            const indexData = JSON.parse(content);
+                        // 🆕 حفظ المجلدات في الذاكرة ليعمل الإشعار الأخضر فوراً
+            window.savedArchiveFolders = indexData.folders; 
+			
+            // حفظ في الذاكرة المؤقتة
+            localStorage.setItem('archive_index_cache', JSON.stringify(indexData));
+            localStorage.setItem('archive_index_time', Date.now().toString());
+            
+            console.log(`⚡ [الفهرس] تم جلب الفهرس بنجاح (آخر تحديث: ${new Date(indexData.lastUpdated).toLocaleString()})`);
+            processArchiveIndexData(indexData, shipSelect);
+        } 
+        else if (resp.status === 404) {
+            console.log("⚠️ [الفهرس] غير موجود! جاري إنشائه من Git Trees API لأول مرة...");
+            if (typeof generateAndSaveIndexFromTree === 'function') {
+                await generateAndSaveIndexFromTree(); // استدعاء دالة البناء (موجودة في archive.js)
+                initGitHubFilesPanel(true); // إعادة المحاولة بعد الإنشاء
+            } else {
+                console.error("❌ دالة generateAndSaveIndexFromTree غير معرفة!");
+            }
+        } 
+        else {
+            throw new Error(`HTTP ${resp.status}`);
+        }
+    } catch (e) {
+        console.error("❌ [الفهرس] فشل التحميل:", e.message);
+        // كحل أخير، استخدم البيانات القديمة إن وجدت
+        if (cachedData) {
+            processArchiveIndexData(JSON.parse(cachedData), shipSelect);
+        }
+    }
+}
+
+// 🆕 دالة مساعدة لمعالجة البيانات وعرضها
+function processArchiveIndexData(indexData, shipSelect) {
+    ghFilesList = [];
+    
+    const user = typeof getCurrentUser === 'function' ? getCurrentUser() : null;
+    const isAdmin = user && (user.role === 'admin' || user.lineIds.includes('*'));
+    const allowedLinesUpper = isAdmin ? [] : (user ? user.lineIds.map(l => String(l).trim().toUpperCase()) : []);
+
+    for (let folder of indexData.folders) {
         const isDatedFolder = /^(.*?)_(\d{4}-\d{2}-\d{2})$/.test(folder.name);
-        
-        let folderShipName = "";
+        let folderShipName = folder.name;
         let folderDate = "";
         
         if (isDatedFolder) {
             const match = folder.name.match(/^(.*?)_(\d{4}-\d{2}-\d{2})$/);
-            folderShipName = match[1].replace(/_/g, " "); // YM_WORLD تصبح YM WORLD
-            folderDate = match[2];                        // 2026-10-08
-        } else {
-            folderShipName = folder.name;                 // NNSALP أو FINALOUT
-            folderDate = "";                              // بدون تاريخ
+            folderShipName = match[1].replace(/_/g, " ").trim();
+            folderDate = match[2];
         }
 
+        let folderLines = folder.lines || ["ALL"];
+        if (folderLines.length === 0) folderLines = ["ALL"];
+
+        let hasExcelFiles = false;
         for (let file of folder.files) {
-            // تجاهل الملفات التي ليست إكسيل
             if (!/\.(xlsx|xls)$/i.test(file.name)) continue;
-
-            let parsed = parseGitHubFileName(file.name);
-            if (!parsed) continue;
-
-            // 🆕 الفلتر الحاسم: منع المستندات العشوائية التي لا تطابق نوع المجلد
-            // إذا كان المجلد يحتوي على تاريخ، نرفض الملفات التي لا تحتوي على تاريخ (مثل JOHANNES.xlsx)
+            
+            // 1. فلتر الحماية: منع الملفات التي لا تطابق نوع المجلد (مثل DISH_984)
+            let parsed = typeof parseGitHubFileName === 'function' ? parseGitHubFileName(file.name) : {};
+            if (!parsed) parsed = {};
+            
             if (isDatedFolder && parsed.isFinalout === true) continue;
-            // إذا كان المجلد بدون تاريخ (Order No)، نرفض الملفات التي تحتوي على تاريخ
             if (!isDatedFolder && parsed.isFinalout === false) continue;
 
-            // إضافة الملف للقائمة النهائية
-            ghFilesList.push({
-                shipName: folderShipName,                // نأخذ اسم السفينة من المجلد
-                line: parsed.line || "ALL",              // نأخذ الخط من الملف
-                date: folderDate,                        // نأخذ التاريخ من المجلد
-                isFinalout: !isDatedFolder,              // هل هو Order No؟
-                fullFileName: file.name,
-                path: file.path,
-                name: file.name,
-                download_url: file.download_url,
-                sha: file.sha,
-                folderName: folder.name
-            });
+            hasExcelFiles = true;
+
+            // 🆕 2. السر هنا: نأخذ الخط من اسم الملف أولاً (مثل ZIM في ZIM_VIETNAM_ZIM...)
+            let fileLine = parsed.line ? String(parsed.line).trim().toUpperCase() : null;
+
+            if (fileLine) {
+                // إذا كان اسم الملف يحتوي على الخط، نربطه بهذا الخط فقط ونتجاهل _info.json
+                if (!isAdmin && user) {
+                    let hasAccess = allowedLinesUpper.includes(fileLine) || fileLine === "ALL";
+                    if (!hasAccess) continue;
+                }
+                ghFilesList.push({
+                    shipName: folderShipName,
+                    line: fileLine,
+                    date: folderDate,
+                    isFinalout: !isDatedFolder,
+                    fullFileName: file.name,
+                    path: file.path,
+                    name: file.name,
+                    download_url: file.download_url,
+                    sha: file.sha,
+                    folderName: folder.name
+                });
+            } else {
+                // إذا لم يحتوي اسم الملف على خط، نستخدم الخطوط من _info.json (كاحتياط)
+                for (let line of folderLines) {
+                    let lineUpper = String(line).trim().toUpperCase();
+                    if (!isAdmin && user) {
+                        let nameToCheck = (file.name + " " + folder.name).toUpperCase();
+                        let hasAccess = allowedLinesUpper.includes(lineUpper) || lineUpper === "ALL" || allowedLinesUpper.some(allowed => nameToCheck.includes(allowed));
+                        if (!hasAccess) continue;
+                    }
+                    ghFilesList.push({
+                        shipName: folderShipName,
+                        line: lineUpper,
+                        date: folderDate,
+                        isFinalout: !isDatedFolder,
+                        fullFileName: file.name,
+                        path: file.path,
+                        name: file.name,
+                        download_url: file.download_url,
+                        sha: file.sha,
+                        folderName: folder.name
+                    });
+                }
+            }
+        }
+
+        // 3. إذا كان المجلد فارغاً من ملفات الإكسيل المطابقة، نضيفه كسفينة متاحة
+        if (!hasExcelFiles) {
+            for (let line of folderLines) {
+                let lineUpper = String(line).trim().toUpperCase();
+
+                if (!isAdmin && user) {
+                    let nameToCheck = folder.name.toUpperCase();
+                    let hasAccess = allowedLinesUpper.includes(lineUpper) || lineUpper === "ALL" || allowedLinesUpper.some(allowed => nameToCheck.includes(allowed));
+                    if (!hasAccess) continue; 
+                }
+
+                ghFilesList.push({
+                    shipName: folderShipName,
+                    line: lineUpper, 
+                    date: folderDate,
+                    isFinalout: !isDatedFolder,
+                    fullFileName: folder.name,
+                    path: folder.path,
+                    name: folder.name,
+                    download_url: "",
+                    sha: "",
+                    folderName: folder.name
+                });
+            }
         }
     }
     
-    // 🔐 فلترة الملفات حسب خطوط المستخدم
-    const user = typeof getCurrentUser === 'function' ? getCurrentUser() : null;
-    if (user && user.role !== 'admin' && !user.lineIds.includes('*')) {
-        const before = ghFilesList.length;
-        ghFilesList = ghFilesList.filter(f => user.lineIds.includes(f.line));
-        console.log(`🔐 فلترة الأرشيف: ${before} → ${ghFilesList.length} (الخطوط المسموحة: ${user.lineIds.join(', ')})`);
-    }
-    
-    const shipSelect = document.getElementById("ghShipSelect");
-    if (!shipSelect) return;
-    
+    // تعبئة القائمة المنسدلة
     shipSelect.innerHTML = '<option value="">-- اختر السفينة --</option>';
-    
-    // جمع القيم الفريدة من shipName (ستكون أسماء السفن النظيفة فقط)
     const ships = [...new Set(ghFilesList.map(f => f.shipName))].sort();
     ships.forEach(ship => {
         const opt = document.createElement("option");
@@ -11119,7 +11240,7 @@ async function initGitHubFilesPanel() {
     document.getElementById("ghLineSelect").innerHTML = '<option value="">-- اختر الخط --</option>';
     document.getElementById("ghDateSelect").innerHTML = '<option value="">-- اختر التاريخ --</option>';
     
-    console.log(`📋 تم تحميل ${ships.length} سفينة`, ships);
+    console.log(`📋 تم تحميل ${ships.length} سفينة من الفهرس بنجاح`, ships);
 }
 
 function updateLineDropdown() {
@@ -11184,6 +11305,7 @@ function updateDateDropdown() {
     
     const seen = new Set();
     let addedCount = 0;
+    let singleOption = null; // 🆕 لتخزين الخيار الوحيد
 
     matchingFiles.forEach(f => {
         let key = (f.date || "") + "|" + (f.orderNumber || "") + "|" + (f.lineOp || "");
@@ -11211,11 +11333,14 @@ function updateDateDropdown() {
         
         dateSelect.appendChild(opt);
         addedCount++;
+        singleOption = opt; // نحفظ الخيار
     });
 
-    // 🆕 اختيار تلقائي للملف إذا كان هناك ملف واحد فقط
-    if (addedCount === 1) {
-        dateSelect.selectedIndex = 1;
+    // 🆕 اختيار تلقائي للملف إذا كان هناك ملف واحد فقط + تحديث الأحداث
+    if (addedCount === 1 && singleOption) {
+        dateSelect.value = singleOption.value;
+        // إجبار المتصفح على تحديث واجهة القائمة
+        dateSelect.dispatchEvent(new Event('change'));
     }
 }
 
@@ -11335,12 +11460,47 @@ document.addEventListener("DOMContentLoaded", function() {
         const downloadBtn = document.getElementById("ghDownloadBtn");
         const refreshBtn = document.getElementById("ghRefreshBtn");
         
+        // ربط القوائم المنسدلة
         if (shipSelect) shipSelect.addEventListener("change", updateLineDropdown);
         if (lineSelect) lineSelect.addEventListener("change", updateDateDropdown);
         if (downloadBtn) downloadBtn.addEventListener("click", downloadSelectedGitHubFile);
-        if (refreshBtn) refreshBtn.addEventListener("click", async function() {
-            await initGitHubFilesPanel();
-        });
+        
+        // 🆕 ربط زر تحديث القائمة (النسخة الشاملة)
+        if (refreshBtn) {
+            refreshBtn.addEventListener("click", async function() {
+                console.log("🔄 جاري التحديث الشامل (بناء الفهرس + تحديث القائمة)...");
+                
+                // تغيير نص الزر مؤقتاً لإعلام المستخدم
+                const originalText = refreshBtn.innerHTML;
+                refreshBtn.innerHTML = "⏳ جاري التحديث...";
+                refreshBtn.disabled = true;
+
+                try {
+                    // 1. مسح الذاكرة المؤقتة للمتصفح
+                    localStorage.removeItem('archive_index_cache');
+                    localStorage.removeItem('archive_index_time');
+                    
+                    // 2. إعادة بناء ملف الفهرس (archive_index.json) من Git Trees API
+                    if (typeof generateAndSaveIndexFromTree === 'function') {
+                        await generateAndSaveIndexFromTree();
+                    } else {
+                        console.warn("⚠️ دالة generateAndSaveIndexFromTree غير موجودة في archive.js");
+                    }
+                    
+                    // 3. إعادة قراءة الفهرس الجديد وتعبئة القوائم المنسدلة
+                    await initGitHubFilesPanel(true); 
+                    
+                    console.log("✅ اكتمل التحديث بنجاح!");
+                } catch (error) {
+                    console.error("❌ حدث خطأ أثناء التحديث:", error);
+                    alert("حدث خطأ أثناء تحديث القائمة. يرجى المحاولة مرة أخرى.");
+                } finally {
+                    // إعادة الزر إلى حالته الطبيعية
+                    refreshBtn.innerHTML = originalText;
+                    refreshBtn.disabled = false;
+                }
+            });
+        }
     }, 100);
 });
 
@@ -11642,6 +11802,283 @@ function applyUserLineFilter() {
     try { renderTable5("bodyTab5", currentData5, "searchTab5", "typeTab5", "statsTab5"); } catch(e){}
     try { renderTable6("bodyTab6", currentData6, "searchTab6", "typeTab6", "statsTab6"); } catch(e){}
     try { renderTable7("bodyTab7", currentData7, "searchTab7", "typeTab7", "statsTab7"); } catch(e){}
+}
+
+// ============================================================
+// 📥 دالة أتمتة إنشاء ملف PDF شامل (حجم صغير + جودة عالية)
+// ============================================================
+async function autoGenerateAndArchiveFullPDF() {
+    if (typeof window.jspdf === 'undefined' || typeof window.html2canvas === 'undefined') {
+        console.warn("⏳ جاري تحميل مكتبات PDF...");
+        return;
+    }
+
+    if (typeof applySavedColumnPreferences === 'function') {
+        applySavedColumnPreferences();
+    }
+
+    let names = buildArchiveFolderName();
+    if (!names || names.shipName.includes("UnknownShip") || names.lineId.includes("UnknownLine")) {
+        console.warn("⚠️ لا يمكن إنشاء PDF: اسم السفينة أو الخط غير معروف.");
+        return;
+    }
+
+    const folderName = names.folderName;
+    const fileName = `Storage_Report_${names.shipName}_${names.lineId}_${names.date}.pdf`.replace(/\s+/g, '_');
+
+    let tabsToPrint = [
+        { id: 'tab1', title: 'TRSHP + EXPRT' },
+        { id: 'tab2', title: 'STRGE + EXPRT + IMPRT' },
+        { id: 'tab3', title: 'EXPRT فقط' },
+        { id: 'tab4', title: 'STRGE فارغ (MTY) + IMPRT' },
+        { id: 'tab5', title: 'TRSHP فقط' },
+        { id: 'tab6', title: 'STRGE + EXPRT فقط' },
+        { id: 'tab7', title: 'IMPRT + FORWARD' },
+        { id: 'tab8', title: 'Storage Finalout' }
+    ];
+
+    let currentDate = new Date().toLocaleString('ar-EG', {
+        year: 'numeric', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit'
+    });
+
+    let headerCarrierName = document.getElementById("headerCarrierName")?.innerText || "—";
+    let headerShippingDate = document.getElementById("headerShippingDate")?.innerText || "—";
+    let headerLineId = document.getElementById("headerLineId")?.innerText || "—";
+
+    let loading = document.createElement('div');
+    loading.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:#0a3d62;color:white;padding:15px 30px;border-radius:8px;z-index:10000;font-weight:bold;box-shadow:0 10px 25px rgba(0,0,0,0.3);';
+    loading.innerHTML = '⏳ جاري إنشاء بيان التخزين...';
+    document.body.appendChild(loading);
+
+    let hiddenContainer = document.createElement('div');
+    hiddenContainer.style.cssText = 'position: absolute; top: 0; left: 0; width: max-content; min-width: 1000px; background: white; z-index: -1; padding: 20px;';
+    document.body.appendChild(hiddenContainer);
+
+    try {
+        const { jsPDF } = window.jspdf;
+        const pdf = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4', compress: true });
+        
+        let currentPageCount = 0;
+        const canvasScale = 1.2; // 🆕 تقليل الحجم مع الحفاظ على جودة مقبولة
+
+        for (let tab of tabsToPrint) {
+            let tabNum = tab.id.replace('tab', '');
+            let dataArray = null;
+            if (tabNum === '1') dataArray = currentData1;
+            else if (tabNum === '2') dataArray = currentData2;
+            else if (tabNum === '3') dataArray = currentData3;
+            else if (tabNum === '4') dataArray = currentData4;
+            else if (tabNum === '5') dataArray = currentData5;
+            else if (tabNum === '6') dataArray = currentData6;
+            else if (tabNum === '7') dataArray = currentData7;
+            else if (tabNum === '8') dataArray = currentData8;
+
+            if (!dataArray || dataArray.length === 0) continue;
+
+            let activeTab = document.getElementById(tab.id);
+            if (!activeTab) continue;
+
+            let statsElement = activeTab.querySelector('.stats');
+            let statsClone = statsElement ? statsElement.cloneNode(true) : null;
+            let tableWrapper = activeTab.querySelector('.table-wrapper');
+            let tableElement = tableWrapper ? tableWrapper.querySelector('table') : null;
+            
+            if (!tableElement) continue;
+
+            let statsContent = statsClone ? statsClone.cloneNode(true) : null;
+            let tableContent = tableElement.cloneNode(true);
+
+            let headerRow = tableContent.querySelector('thead tr');
+            if (headerRow) {
+                let th = document.createElement('th');
+                th.textContent = 'م';
+                th.style.width = '30px';
+                headerRow.insertBefore(th, headerRow.firstChild);
+            }
+            
+            let rows = tableContent.querySelectorAll('tbody tr');
+            rows.forEach((row, idx) => {
+                let td = document.createElement('td');
+                td.textContent = idx + 1;
+                td.style.fontWeight = 'bold';
+                td.style.backgroundColor = '#f8f9fa';
+                td.style.textAlign = 'center';
+                td.style.width = '30px';
+                row.insertBefore(td, row.firstChild);
+            });
+
+            let extraInfo = "";
+            if (tab.id === 'tab8') {
+                let orderNumber = document.getElementById("headerOrderNumber")?.innerText || "—";
+                let lineOp = document.getElementById("headerLineOp")?.innerText || "—";
+                let count = document.getElementById("headerCount")?.innerText || "0";
+                extraInfo = `
+                    <div style="text-align: right; margin-bottom: 10px; font-size: 11px; direction: rtl; background: #f8f9fa; padding: 6px; border-radius: 4px;">
+                        <div>📋 <strong>رقم الأمر:</strong> ${orderNumber}</div>
+                        <div>🚢 <strong>الخط المشغل:</strong> ${lineOp}</div>
+                        <div>📦 <strong>عدد الحاويات:</strong> ${count}</div>
+                    </div>
+                `;
+            }
+
+            hiddenContainer.innerHTML = `
+                <div style="width: 100%; padding: 10px; direction: rtl; background: white;">
+                    <div style="text-align: center; border-bottom: 2px solid #0a3d62; padding-bottom: 10px; margin-bottom: 15px;">
+                        <h1 style="color: #0a3d62; font-size: 18px; margin: 0;">📦 تقرير أيام التخزين</h1>
+                        <div style="color: #1e6f5c; font-size: 12px; font-weight: bold; margin-top: 5px;">
+                            ${tab.title} | 🚢 ${headerCarrierName} | 📅 ${headerShippingDate} | 🏷️ ${headerLineId}
+                        </div>
+                    </div>
+                    <div style="text-align: left; font-size: 10px; color: #6c757d; margin-bottom: 10px;">📅 تاريخ الطباعة: ${currentDate}</div>
+                    ${extraInfo}
+                    <div style="width: 100%; margin-bottom: 15px;">${statsContent ? statsContent.outerHTML : ''}</div>
+                    <div style="width: 100%; white-space: nowrap;">${tableContent.outerHTML}</div>
+                    
+                    <div style="display: flex; justify-content: space-between; margin-top: 30px; padding-top: 15px; border-top: 1px solid #0a3d62;">
+                        <div style="text-align: center; width: 30%;">
+                            <div style="height: 35px; border-bottom: 1px solid #000; margin-bottom: 5px;"></div>
+                            <strong style="font-size: 10px;">Signature</strong>
+                            <div style="font-size: 9px;">Head of Operations</div>
+                        </div>
+                        <div style="text-align: center; width: 30%;">
+                            <div style="height: 35px; border-bottom: 1px solid #000; margin-bottom: 5px;"></div>
+                            <strong style="font-size: 10px;">Signature</strong>
+                            <div style="font-size: 9px;">Document Auditor</div>
+                        </div>
+                        <div style="text-align: center; width: 30%;">
+                            <div style="height: 35px; border-bottom: 1px solid #000; margin-bottom: 5px;"></div>
+                            <strong style="font-size: 10px;">Signature</strong>
+                            <div style="font-size: 9px;">Line Clerk</div>
+                        </div>
+                    </div>
+                    <div style="text-align: center; font-size: 9px; color: #6c757d; margin-top: 15px;">تم إنشاؤه بواسطة نظام التخزين</div>
+                </div>
+            `;
+
+            hiddenContainer.querySelectorAll('th').forEach(th => {
+                th.style.background = '#0a3d62'; th.style.color = 'white'; th.style.padding = '6px'; th.style.border = '1px solid #ddd';
+            });
+            hiddenContainer.querySelectorAll('td').forEach(td => {
+                td.style.padding = '5px'; td.style.border = '1px solid #ddd'; td.style.fontSize = '10px';
+            });
+
+            await new Promise(r => setTimeout(r, 100));
+
+            const canvas = await html2canvas(hiddenContainer, {
+                scale: canvasScale, 
+                backgroundColor: '#ffffff',
+                logging: false,
+                useCORS: true,
+                imageTimeout: 0
+            });
+
+            const margin = 8;
+            const pdfWidth = pdf.internal.pageSize.getWidth();
+            const pdfHeight = pdf.internal.pageSize.getHeight();
+            const contentWidth = pdfWidth - (margin * 2);
+            const availableHeightMM = pdfHeight - (margin * 2);
+
+            const imgWidth = canvas.width;
+            const imgHeight = canvas.height;
+            
+            const scaleX = contentWidth / imgWidth;
+            const pageHeightPx = availableHeightMM / scaleX;
+
+            const containerRect = hiddenContainer.getBoundingClientRect();
+            let rowBottoms = [];
+            
+            let theadEl = hiddenContainer.querySelector('thead');
+            if (theadEl) {
+                let thRect = theadEl.getBoundingClientRect();
+                rowBottoms.push((thRect.bottom - containerRect.top) * canvasScale);
+            }
+            
+            let bodyRows = hiddenContainer.querySelectorAll('tbody tr');
+            bodyRows.forEach(tr => {
+                let rect = tr.getBoundingClientRect();
+                let bottomY = (rect.bottom - containerRect.top) * canvasScale;
+                if (bottomY > 0 && bottomY <= imgHeight) {
+                    rowBottoms.push(bottomY);
+                }
+            });
+            
+            rowBottoms.push(imgHeight);
+            rowBottoms.sort((a, b) => a - b);
+
+            let currentY = 0;
+            
+            while (currentY < imgHeight) {
+                if (currentPageCount > 0) pdf.addPage();
+                
+                let maxAvailableY = currentY + pageHeightPx;
+                let actualEndY = maxAvailableY;
+                
+                if (maxAvailableY >= imgHeight) {
+                    actualEndY = imgHeight;
+                } else {
+                    let bestCut = currentY;
+                    for (let rBottom of rowBottoms) {
+                        if (rBottom > currentY + 10 && rBottom <= maxAvailableY) {
+                            bestCut = rBottom;
+                        } else if (rBottom > maxAvailableY) {
+                            break;
+                        }
+                    }
+                    
+                    if (bestCut === currentY) {
+                        bestCut = maxAvailableY;
+                    }
+                    actualEndY = bestCut;
+                }
+
+                const sliceCanvas = document.createElement('canvas');
+                sliceCanvas.width = imgWidth;
+                sliceCanvas.height = actualEndY - currentY;
+                const ctx = sliceCanvas.getContext('2d');
+                ctx.drawImage(canvas, 0, currentY, imgWidth, sliceCanvas.height, 0, 0, sliceCanvas.width, sliceCanvas.height);
+
+                // 🆕 ضغط الصورة بجودة 0.75 لتقليل الحجم
+                const imgData = sliceCanvas.toDataURL('image/jpeg', 0.75);
+                const sliceHeightMM = sliceCanvas.height * scaleX;
+                
+                pdf.addImage(imgData, 'JPEG', margin, margin, contentWidth, sliceHeightMM);
+                
+                currentY = actualEndY;
+                currentPageCount++;
+            }
+        }
+
+        document.body.removeChild(hiddenContainer);
+        document.body.removeChild(loading);
+
+        if (currentPageCount === 0) throw new Error("لا توجد بيانات لإنشاء الملف");
+
+        const pdfBase64 = pdf.output('datauristring');
+        const base64Data = pdfBase64.split(',')[1].replace(/\s/g, '');
+
+        const result = await uploadBase64ToArchive(folderName, fileName, base64Data);
+
+        if (result.success) {
+            let footer = document.getElementById("footerMsg");
+            if (footer) {
+                footer.innerHTML = `✅ تم حفظ تقرير PDF الشامل في الأرشيف: <strong>${fileName}</strong>`;
+                footer.style.color = "#28a745";
+            }
+            if (typeof showUploadNotification === 'function') {
+                showUploadNotification("success", "تم إنشاء PDF", `تم حفظ التقرير باسم: ${fileName}`);
+            }
+        } else {
+            throw new Error(result.error || "فشل الرفع");
+        }
+
+    } catch (error) {
+        console.error("❌ خطأ في PDF:", error);
+        if (hiddenContainer.parentNode) document.body.removeChild(hiddenContainer);
+        if (loading.parentNode) document.body.removeChild(loading);
+        
+        let footer = document.getElementById("footerMsg");
+        if (footer) footer.innerHTML = `❌ فشل إنشاء PDF: ${error.message}`;
+    }
 }
 
 // جعل الدالة متاحة عالمياً
