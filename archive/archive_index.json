@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T21:36:17.478Z",
+  "lastUpdated": "2026-10-25T21:37:59.885Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2140,15 +2140,6 @@
         }
       ],
       "filesCount": 7
-    },
-    {
-      "name": "test",
-      "path": "archive/test",
-      "lines": [
-        "ALL"
-      ],
-      "files": [],
-      "filesCount": 0
     }
   ]
 }
