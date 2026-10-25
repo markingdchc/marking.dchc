@@ -1,9 +1,10 @@
 {
   "shipName": "AS_SARA",
   "date": "2026-10-24",
-  "lastUpdate": "2026-10-25T06:55:55.070Z",
+  "lastUpdate": "2026-10-25T07:11:30.559Z",
   "lines": [
-    "MSK"
+    "MSK",
+    "ONE"
   ],
   "documents": []
 }
