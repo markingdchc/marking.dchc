@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T21:37:59.885Z",
+  "lastUpdated": "2026-10-25T21:39:10.499Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -63,6 +63,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-10-18/DISCH_87.xls"
         },
         {
+          "name": "InvoiceItem_20260930_2006.xls",
+          "path": "archive/ADELINA_2026-10-18/InvoiceItem_20260930_2006.xls",
+          "size": 37888,
+          "sha": "a9193af58ed2eabb81da256a2db20887235355c2",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-10-18/InvoiceItem_20260930_2006.xls"
+        },
+        {
           "name": "LOAD_199.xls",
           "path": "archive/ADELINA_2026-10-18/LOAD_199.xls",
           "size": 132608,
@@ -77,7 +84,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-10-18/اعاده_تصدير.xls"
         }
       ],
-      "filesCount": 6
+      "filesCount": 7
     },
     {
       "name": "AL_SEEF_2026-10-10",
