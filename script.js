@@ -10898,11 +10898,6 @@ async function saveFileToGitHub() {
 const GH_OWNER = "markingdchc";
 const GH_REPO = "marking.dchc";
 const GH_BRANCH = "main";
-// 🆕 تصدير المتغيرات لكي تستطيع نافذة الأرشيف الوصول إليها
-window.GH_OWNER  = GH_OWNER;
-window.GH_REPO   = GH_REPO;
-window.GH_BRANCH = GH_BRANCH;
-
 const GH_UPLOAD_FOLDER = "uploads"; // مجلد الملفات
 
 // ============================================================
