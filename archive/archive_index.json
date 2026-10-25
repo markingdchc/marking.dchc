@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T20:41:37.608Z",
+  "lastUpdated": "2026-10-25T20:43:21.728Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1052,7 +1052,10 @@
       "name": "MSC_LAURA_2026-10-19",
       "path": "archive/MSC_LAURA_2026-10-19",
       "lines": [
-        "ALL"
+        "57",
+        "899",
+        "LAURA.PDF",
+        "MSC"
       ],
       "files": [
         {
