@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T05:23:23.069Z",
+  "lastUpdated": "2026-10-26T05:25:38.021Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -978,9 +978,16 @@
           "size": 292864,
           "sha": "4bddabf6d0859bd2b48ee724bcab6b35e66f4ae6",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_BELLE_2026-07-06/MSC_BELLE_MSC_2026-07-06.xls"
+        },
+        {
+          "name": "Storage_Report_MSC_BELLE_MSC_2026-07-06.pdf",
+          "path": "archive/MSC_BELLE_2026-07-06/Storage_Report_MSC_BELLE_MSC_2026-07-06.pdf",
+          "size": 423068,
+          "sha": "68656adc08433894a6192ff398f44b6d7f65edcc",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_BELLE_2026-07-06/Storage_Report_MSC_BELLE_MSC_2026-07-06.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "MSC_CATHERINE_VI_2026-10-03",
