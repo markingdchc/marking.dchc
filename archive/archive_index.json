@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T23:17:41.205Z",
+  "lastUpdated": "2026-10-26T05:18:05.810Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -652,16 +652,8 @@
       "lines": [
         "HLC"
       ],
-      "files": [
-        {
-          "name": "FINALOUT202609_HLC.xls",
-          "path": "archive/FINALOUT/FINALOUT202609_HLC.xls",
-          "size": 975360,
-          "sha": "100140773af670e314b846b37eb5b196861bb3e7",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/FINALOUT202609_HLC.xls"
-        }
-      ],
-      "filesCount": 1
+      "files": [],
+      "filesCount": 0
     },
     {
       "name": "JOHANNES_MAERSK_2026-10-06",
