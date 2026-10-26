@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T08:27:48.353Z",
+  "lastUpdated": "2026-10-26T08:30:07.867Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -668,11 +668,25 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ELBELLA_2026-10-25/DISCH_83.xls"
         },
         {
+          "name": "ELBELLA.pdf",
+          "path": "archive/ELBELLA_2026-10-25/ELBELLA.pdf",
+          "size": 253941,
+          "sha": "0c064d90509da8c4aa6f95cf31484b86b86a4a99",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ELBELLA_2026-10-25/ELBELLA.pdf"
+        },
+        {
           "name": "ELBELLA_CMA_2026-10-25.xls",
           "path": "archive/ELBELLA_2026-10-25/ELBELLA_CMA_2026-10-25.xls",
           "size": 154624,
           "sha": "b13b683fcd5f257cb5fdd8a74db9670fe65661ca",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ELBELLA_2026-10-25/ELBELLA_CMA_2026-10-25.xls"
+        },
+        {
+          "name": "LOAD_59.xls",
+          "path": "archive/ELBELLA_2026-10-25/LOAD_59.xls",
+          "size": 76800,
+          "sha": "2761ec9dccbb9e38d4874d1186c509658e6a1d3e",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ELBELLA_2026-10-25/LOAD_59.xls"
         },
         {
           "name": "Storage_Report_ELBELLA_CMA_2026-10-25.pdf",
@@ -682,7 +696,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ELBELLA_2026-10-25/Storage_Report_ELBELLA_CMA_2026-10-25.pdf"
         }
       ],
-      "filesCount": 3
+      "filesCount": 5
     },
     {
       "name": "FINALOUT",
