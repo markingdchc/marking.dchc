@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T05:29:35.342Z",
+  "lastUpdated": "2026-10-26T05:33:44.610Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1002,9 +1002,16 @@
           "size": 1488384,
           "sha": "71b9ec587bfdc0f3ca97ff0770052a72be478dca",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_BRUNELLA_2026-10-16/MSC_BRUNELLA_MSC_2026-10-16.xls"
+        },
+        {
+          "name": "Storage_Report_MSC_BRUNELLA_MSC_2026-10-16.pdf",
+          "path": "archive/MSC_BRUNELLA_2026-10-16/Storage_Report_MSC_BRUNELLA_MSC_2026-10-16.pdf",
+          "size": 5340426,
+          "sha": "468717a7af08a5b57ed6aa34215ea3c7aae0ca6c",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_BRUNELLA_2026-10-16/Storage_Report_MSC_BRUNELLA_MSC_2026-10-16.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "MSC_CATHERINE_VI_2026-10-03",
