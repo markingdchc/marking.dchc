@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T05:19:39.202Z",
+  "lastUpdated": "2026-10-26T05:23:23.069Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -964,6 +964,23 @@
         }
       ],
       "filesCount": 4
+    },
+    {
+      "name": "MSC_BELLE_2026-07-06",
+      "path": "archive/MSC_BELLE_2026-07-06",
+      "lines": [
+        "MSC"
+      ],
+      "files": [
+        {
+          "name": "MSC_BELLE_MSC_2026-07-06.xls",
+          "path": "archive/MSC_BELLE_2026-07-06/MSC_BELLE_MSC_2026-07-06.xls",
+          "size": 292864,
+          "sha": "4bddabf6d0859bd2b48ee724bcab6b35e66f4ae6",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_BELLE_2026-07-06/MSC_BELLE_MSC_2026-07-06.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "MSC_CATHERINE_VI_2026-10-03",
