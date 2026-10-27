@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T07:58:18.121Z",
+  "lastUpdated": "2026-10-27T08:01:43.054Z",
   "folders": [
     {
       "name": "5815_ج_م_ر_2026-10-19",
@@ -963,9 +963,16 @@
           "size": 88576,
           "sha": "2848a346927bd2d04cca91aeb166e6a9e4c3c38d",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAERSK_IZMIR_2026-10-27/MAERSK_IZMIR_MSK_2026-10-27.xls"
+        },
+        {
+          "name": "Storage_Report_MAERSK_IZMIR_MSK_2026-10-27.pdf",
+          "path": "archive/MAERSK_IZMIR_2026-10-27/Storage_Report_MAERSK_IZMIR_MSK_2026-10-27.pdf",
+          "size": 272693,
+          "sha": "f180dc34b17db887821f397058c2a412ffaba41b",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAERSK_IZMIR_2026-10-27/Storage_Report_MAERSK_IZMIR_MSK_2026-10-27.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "MARWIN_2026-10-08",
@@ -1544,7 +1551,7 @@
           "name": "NORDLUCHS_OOCL_2026-10-26.xls",
           "path": "archive/NORDLUCHS_2026-10-26/NORDLUCHS_OOCL_2026-10-26.xls",
           "size": 104960,
-          "sha": "b1fb2806ed43174ad6f781982c01983d071010d3",
+          "sha": "13e442a4550b0deefc774f6692e6d46798af9a3a",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-10-26/NORDLUCHS_OOCL_2026-10-26.xls"
         },
         {
