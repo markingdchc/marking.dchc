@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T10:22:00.507Z",
+  "lastUpdated": "2026-10-27T10:24:32.695Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1002,14 +1002,14 @@
           "name": "MAERSK_IZMIR_ONE_2026-10-27.xls",
           "path": "archive/MAERSK_IZMIR_2026-10-27/MAERSK_IZMIR_ONE_2026-10-27.xls",
           "size": 310272,
-          "sha": "47c0ba56a5ecbbeb6f57969436d7770db03bb247",
+          "sha": "82b0c83d80416524e5604270440b241648833792",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAERSK_IZMIR_2026-10-27/MAERSK_IZMIR_ONE_2026-10-27.xls"
         },
         {
           "name": "Storage_Report_MAERSK_IZMIR_MSK_2026-10-27.pdf",
           "path": "archive/MAERSK_IZMIR_2026-10-27/Storage_Report_MAERSK_IZMIR_MSK_2026-10-27.pdf",
-          "size": 272693,
-          "sha": "f180dc34b17db887821f397058c2a412ffaba41b",
+          "size": 264144,
+          "sha": "fb51e76c1dcf949edee3844d9fff0297eae0c30a",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAERSK_IZMIR_2026-10-27/Storage_Report_MAERSK_IZMIR_MSK_2026-10-27.pdf"
         },
         {
