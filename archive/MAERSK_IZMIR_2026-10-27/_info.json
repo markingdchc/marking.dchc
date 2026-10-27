@@ -1,9 +1,10 @@
 {
   "shipName": "MAERSK_IZMIR",
   "date": "2026-10-27",
-  "lastUpdate": "2026-10-27T07:57:41.289Z",
+  "lastUpdate": "2026-10-27T08:23:58.888Z",
   "lines": [
-    "MSK"
+    "MSK",
+    "ONE"
   ],
   "documents": []
 }
