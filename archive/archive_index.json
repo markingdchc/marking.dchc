@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T10:05:32.994Z",
+  "lastUpdated": "2026-10-27T10:14:31.036Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1002,7 +1002,7 @@
           "name": "MAERSK_IZMIR_ONE_2026-10-27.xls",
           "path": "archive/MAERSK_IZMIR_2026-10-27/MAERSK_IZMIR_ONE_2026-10-27.xls",
           "size": 310272,
-          "sha": "2a25d5ff272d43bd742f1a33f0298576c5616289",
+          "sha": "47c0ba56a5ecbbeb6f57969436d7770db03bb247",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAERSK_IZMIR_2026-10-27/MAERSK_IZMIR_ONE_2026-10-27.xls"
         },
         {
@@ -2356,6 +2356,13 @@
       ],
       "files": [
         {
+          "name": "Storage_Report_ZIM_CHINA_ZIM_2026-10-26.pdf",
+          "path": "archive/ZIM_CHINA_2026-10-26/Storage_Report_ZIM_CHINA_ZIM_2026-10-26.pdf",
+          "size": 2599959,
+          "sha": "38d9e1aa5a38bb44fa53e65b33201be1f6fdf626",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_CHINA_2026-10-26/Storage_Report_ZIM_CHINA_ZIM_2026-10-26.pdf"
+        },
+        {
           "name": "ZIM_CHINA_ZIM_2026-10-26.xls",
           "path": "archive/ZIM_CHINA_2026-10-26/ZIM_CHINA_ZIM_2026-10-26.xls",
           "size": 707584,
@@ -2363,7 +2370,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_CHINA_2026-10-26/ZIM_CHINA_ZIM_2026-10-26.xls"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "ZIM_VIETNAM_2026-10-11",
