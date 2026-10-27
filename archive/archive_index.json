@@ -1,6 +1,23 @@
 {
-  "lastUpdated": "2026-10-27T07:14:20.131Z",
+  "lastUpdated": "2026-10-27T07:16:18.904Z",
   "folders": [
+    {
+      "name": "5815_ج_م_ر_2026-10-19",
+      "path": "archive/5815_ج_م_ر_2026-10-19",
+      "lines": [
+        "COS"
+      ],
+      "files": [
+        {
+          "name": "5815_ج_م_ر_COS_2026-10-19.xls",
+          "path": "archive/5815_ج_م_ر_2026-10-19/5815_ج_م_ر_COS_2026-10-19.xls",
+          "size": 100352,
+          "sha": "f97841177b15fc09cbbdc88b1b9ec0c2f24b39dc",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/5815_ج_م_ر_2026-10-19/5815_ج_م_ر_COS_2026-10-19.xls"
+        }
+      ],
+      "filesCount": 1
+    },
     {
       "name": "ADELINA_2026-10-05",
       "path": "archive/ADELINA_2026-10-05",
