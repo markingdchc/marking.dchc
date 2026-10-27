@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T08:12:19.557Z",
+  "lastUpdated": "2026-10-27T08:24:04.159Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -780,11 +780,25 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JOLLY_VERDE_2026-10-26/DISCH_667.xls"
         },
         {
+          "name": "JOLLY_VERDE.pdf",
+          "path": "archive/JOLLY_VERDE_2026-10-26/JOLLY_VERDE.pdf",
+          "size": 610177,
+          "sha": "eebe4542bf19ca343517263887a7af25c07fa691",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JOLLY_VERDE_2026-10-26/JOLLY_VERDE.pdf"
+        },
+        {
           "name": "JOLLY_VERDE_MSC_2026-10-26.xls",
           "path": "archive/JOLLY_VERDE_2026-10-26/JOLLY_VERDE_MSC_2026-10-26.xls",
           "size": 2258944,
           "sha": "07884f7d765d4e4a88df3d250e814c2a37dfcfcf",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JOLLY_VERDE_2026-10-26/JOLLY_VERDE_MSC_2026-10-26.xls"
+        },
+        {
+          "name": "LOAD_1357.xls",
+          "path": "archive/JOLLY_VERDE_2026-10-26/LOAD_1357.xls",
+          "size": 621568,
+          "sha": "50ae4934c54a378d51df9a6589d817aa99dc4af3",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JOLLY_VERDE_2026-10-26/LOAD_1357.xls"
         },
         {
           "name": "Storage_Report_JOLLY_VERDE_MSC_2026-10-26.pdf",
@@ -794,7 +808,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JOLLY_VERDE_2026-10-26/Storage_Report_JOLLY_VERDE_MSC_2026-10-26.pdf"
         }
       ],
-      "filesCount": 3
+      "filesCount": 5
     },
     {
       "name": "JONA_SOPHIE_2026-10-02",
@@ -952,7 +966,8 @@
       "name": "MAERSK_IZMIR_2026-10-27",
       "path": "archive/MAERSK_IZMIR_2026-10-27",
       "lines": [
-        "MSK"
+        "MSK",
+        "ONE"
       ],
       "files": [
         {
@@ -963,6 +978,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAERSK_IZMIR_2026-10-27/MAERSK_IZMIR_MSK_2026-10-27.xls"
         },
         {
+          "name": "MAERSK_IZMIR_ONE_2026-10-27.xls",
+          "path": "archive/MAERSK_IZMIR_2026-10-27/MAERSK_IZMIR_ONE_2026-10-27.xls",
+          "size": 309760,
+          "sha": "1ac32ea996a24b0f2a6f1256ab5a0fcf273ce415",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAERSK_IZMIR_2026-10-27/MAERSK_IZMIR_ONE_2026-10-27.xls"
+        },
+        {
           "name": "Storage_Report_MAERSK_IZMIR_MSK_2026-10-27.pdf",
           "path": "archive/MAERSK_IZMIR_2026-10-27/Storage_Report_MAERSK_IZMIR_MSK_2026-10-27.pdf",
           "size": 272693,
@@ -970,7 +992,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAERSK_IZMIR_2026-10-27/Storage_Report_MAERSK_IZMIR_MSK_2026-10-27.pdf"
         }
       ],
-      "filesCount": 2
+      "filesCount": 3
     },
     {
       "name": "MARWIN_2026-10-08",
