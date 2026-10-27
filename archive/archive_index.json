@@ -1,30 +1,6 @@
 {
-  "lastUpdated": "2026-10-27T08:01:53.769Z",
+  "lastUpdated": "2026-10-27T08:03:08.561Z",
   "folders": [
-    {
-      "name": "5815_ج_م_ر_2026-10-19",
-      "path": "archive/5815_ج_م_ر_2026-10-19",
-      "lines": [
-        "COS"
-      ],
-      "files": [
-        {
-          "name": "5815_ج_م_ر_COS_2026-10-19.xls",
-          "path": "archive/5815_ج_م_ر_2026-10-19/5815_ج_م_ر_COS_2026-10-19.xls",
-          "size": 100352,
-          "sha": "f97841177b15fc09cbbdc88b1b9ec0c2f24b39dc",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/5815_ج_م_ر_2026-10-19/5815_ج_م_ر_COS_2026-10-19.xls"
-        },
-        {
-          "name": "Storage_Report_5815_ج_م_ر_COS_2026-10-19.pdf",
-          "path": "archive/5815_ج_م_ر_2026-10-19/Storage_Report_5815_ج_م_ر_COS_2026-10-19.pdf",
-          "size": 79416,
-          "sha": "0bfba70f8d328aead984148c2856742417a7829c",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/5815_ج_م_ر_2026-10-19/Storage_Report_5815_ج_م_ر_COS_2026-10-19.pdf"
-        }
-      ],
-      "filesCount": 2
-    },
     {
       "name": "ADELINA_2026-10-05",
       "path": "archive/ADELINA_2026-10-05",
@@ -721,15 +697,6 @@
         }
       ],
       "filesCount": 5
-    },
-    {
-      "name": "FINALOUT",
-      "path": "archive/FINALOUT",
-      "lines": [
-        "HLC"
-      ],
-      "files": [],
-      "filesCount": 0
     },
     {
       "name": "JOHANNES_MAERSK_2026-10-06",
@@ -1571,8 +1538,8 @@
         {
           "name": "Storage_Report_NORDLUCHS_OOCL_2026-10-26.pdf",
           "path": "archive/NORDLUCHS_2026-10-26/Storage_Report_NORDLUCHS_OOCL_2026-10-26.pdf",
-          "size": 350981,
-          "sha": "a8e8abeb0d1ae84325af1c73fbab0bd893cc4ab7",
+          "size": 352671,
+          "sha": "730a00daab0bfed62e03dbde80f6065b4f31c248",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-10-26/Storage_Report_NORDLUCHS_OOCL_2026-10-26.pdf"
         }
       ],
