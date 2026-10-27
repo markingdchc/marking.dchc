@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T06:58:49.651Z",
+  "lastUpdated": "2026-10-27T07:02:12.396Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1444,9 +1444,16 @@
           "size": 190464,
           "sha": "bc31c8cecf34e208953f4d118ebc961d4141b5d1",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-09-08/NORDLUCHS_COS_2026-09-08.xls"
+        },
+        {
+          "name": "Storage_Report_NORDLUCHS_COS_2026-09-08.pdf",
+          "path": "archive/NORDLUCHS_2026-09-08/Storage_Report_NORDLUCHS_COS_2026-09-08.pdf",
+          "size": 894395,
+          "sha": "7c703bfcc8fad555526630d39238f642e9fc3bc4",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-09-08/Storage_Report_NORDLUCHS_COS_2026-09-08.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "NORDLUCHS_2026-10-26",
@@ -1488,8 +1495,8 @@
         {
           "name": "NORDLUCHS_COS_2026-10-26.xls",
           "path": "archive/NORDLUCHS_2026-10-26/NORDLUCHS_COS_2026-10-26.xls",
-          "size": 518144,
-          "sha": "222ea7767becbd604e3c5ed9942f337ba302b51b",
+          "size": 444928,
+          "sha": "46f72e05230be6aebee1fd35ea9ed2faa4a713ca",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-10-26/NORDLUCHS_COS_2026-10-26.xls"
         },
         {
