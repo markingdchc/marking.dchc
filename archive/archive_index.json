@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T08:03:08.561Z",
+  "lastUpdated": "2026-10-27T08:07:30.908Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -764,6 +764,23 @@
         }
       ],
       "filesCount": 8
+    },
+    {
+      "name": "JOLLY_VERDE_2026-10-26",
+      "path": "archive/JOLLY_VERDE_2026-10-26",
+      "lines": [
+        "MSC"
+      ],
+      "files": [
+        {
+          "name": "JOLLY_VERDE_MSC_2026-10-26.xls",
+          "path": "archive/JOLLY_VERDE_2026-10-26/JOLLY_VERDE_MSC_2026-10-26.xls",
+          "size": 2258944,
+          "sha": "07884f7d765d4e4a88df3d250e814c2a37dfcfcf",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JOLLY_VERDE_2026-10-26/JOLLY_VERDE_MSC_2026-10-26.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "JONA_SOPHIE_2026-10-02",
