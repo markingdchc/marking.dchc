@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T08:53:39.070Z",
+  "lastUpdated": "2026-10-27T09:04:13.788Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1372,14 +1372,28 @@
       ],
       "files": [
         {
+          "name": "DISCH_364.xls",
+          "path": "archive/MSC_NINA_F_2026-10-27/DISCH_364.xls",
+          "size": 171520,
+          "sha": "309bd22d325895d7b936e29a94c9e16f992031ab",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_NINA_F_2026-10-27/DISCH_364.xls"
+        },
+        {
           "name": "MSC_NINA_F_MSC_2026-10-27.xls",
           "path": "archive/MSC_NINA_F_2026-10-27/MSC_NINA_F_MSC_2026-10-27.xls",
           "size": 150528,
           "sha": "d41fa4586396b324b24d49a2a796e5be2fc6b5c4",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_NINA_F_2026-10-27/MSC_NINA_F_MSC_2026-10-27.xls"
+        },
+        {
+          "name": "Storage_Report_MSC_NINA_F_MSC_2026-10-27.pdf",
+          "path": "archive/MSC_NINA_F_2026-10-27/Storage_Report_MSC_NINA_F_MSC_2026-10-27.pdf",
+          "size": 405684,
+          "sha": "b5bc50b55221ccc3a99a5da658f249d217612cab",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_NINA_F_2026-10-27/Storage_Report_MSC_NINA_F_MSC_2026-10-27.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 3
     },
     {
       "name": "MSC_PIONEER_IV_2026-10-24",
