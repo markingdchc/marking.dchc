@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T09:25:42.551Z",
+  "lastUpdated": "2026-10-27T10:04:48.035Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -978,6 +978,20 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAERSK_IZMIR_2026-10-27/DISCH_183.xls"
         },
         {
+          "name": "LOAD_207.xls",
+          "path": "archive/MAERSK_IZMIR_2026-10-27/LOAD_207.xls",
+          "size": 139776,
+          "sha": "416d5187231561e1f8997e54999469a4e040ed18",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAERSK_IZMIR_2026-10-27/LOAD_207.xls"
+        },
+        {
+          "name": "MAERSK_IZMIR.pdf",
+          "path": "archive/MAERSK_IZMIR_2026-10-27/MAERSK_IZMIR.pdf",
+          "size": 272040,
+          "sha": "8ff367deba4385ae9234a8970249112d08e83b18",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAERSK_IZMIR_2026-10-27/MAERSK_IZMIR.pdf"
+        },
+        {
           "name": "MAERSK_IZMIR_MSK_2026-10-27.xls",
           "path": "archive/MAERSK_IZMIR_2026-10-27/MAERSK_IZMIR_MSK_2026-10-27.xls",
           "size": 88576,
@@ -1006,7 +1020,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAERSK_IZMIR_2026-10-27/Storage_Report_MAERSK_IZMIR_ONE_2026-10-27.pdf"
         }
       ],
-      "filesCount": 5
+      "filesCount": 7
     },
     {
       "name": "MARWIN_2026-10-08",
@@ -2330,6 +2344,23 @@
           "size": 713728,
           "sha": "34c17765b74820c1366a02854248e53e91802dbd",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_ATLANTIC_2026-10-19/ZIM_ATLANTIC_ZIM_2026-10-19.xls"
+        }
+      ],
+      "filesCount": 1
+    },
+    {
+      "name": "ZIM_CHINA_2026-10-26",
+      "path": "archive/ZIM_CHINA_2026-10-26",
+      "lines": [
+        "ZIM"
+      ],
+      "files": [
+        {
+          "name": "ZIM_CHINA_ZIM_2026-10-26.xls",
+          "path": "archive/ZIM_CHINA_2026-10-26/ZIM_CHINA_ZIM_2026-10-26.xls",
+          "size": 707584,
+          "sha": "4b0890067210c5571ab829601353b88a5d235c78",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_CHINA_2026-10-26/ZIM_CHINA_ZIM_2026-10-26.xls"
         }
       ],
       "filesCount": 1
