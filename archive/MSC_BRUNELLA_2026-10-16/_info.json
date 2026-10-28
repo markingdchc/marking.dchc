@@ -1,9 +1,10 @@
 {
   "shipName": "MSC_BRUNELLA",
   "date": "2026-10-16",
-  "lastUpdate": "2026-10-26T05:29:09.933Z",
+  "lastUpdate": "2026-10-28T10:00:28.170Z",
   "lines": [
-    "MSC"
+    "MSC",
+    "ZIM"
   ],
   "documents": []
 }
