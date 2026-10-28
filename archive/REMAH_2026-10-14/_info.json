@@ -1,9 +1,10 @@
 {
   "shipName": "REMAH",
   "date": "2026-10-14",
-  "lastUpdate": "2026-10-28T10:54:16.363Z",
+  "lastUpdate": "2026-10-28T10:57:18.821Z",
   "lines": [
-    "HMM"
+    "HMM",
+    "ONE"
   ],
   "documents": []
 }
