@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T09:38:29.605Z",
+  "lastUpdated": "2026-10-28T09:39:01.028Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -713,6 +713,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-10-12/DISCH_30.xls"
         },
         {
+          "name": "HALO.pdf",
+          "path": "archive/HALO_2026-10-12/HALO.pdf",
+          "size": 253115,
+          "sha": "e987fbd11414a52eeaa6f2fa636b4930138198f3",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-10-12/HALO.pdf"
+        },
+        {
           "name": "HALO_TCS_2026-10-12.xls",
           "path": "archive/HALO_2026-10-12/HALO_TCS_2026-10-12.xls",
           "size": 122368,
@@ -720,14 +727,28 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-10-12/HALO_TCS_2026-10-12.xls"
         },
         {
+          "name": "LINE_TCS.pdf",
+          "path": "archive/HALO_2026-10-12/LINE_TCS.pdf",
+          "size": 492877,
+          "sha": "a934e9dad29bec2a886312508bd8db94c04b6c72",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-10-12/LINE_TCS.pdf"
+        },
+        {
           "name": "Storage_Report_HALO_TCS_2026-10-12.pdf",
           "path": "archive/HALO_2026-10-12/Storage_Report_HALO_TCS_2026-10-12.pdf",
           "size": 332798,
           "sha": "9fda17f7f72a22be78ce9da5fb2edb9392044ac5",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-10-12/Storage_Report_HALO_TCS_2026-10-12.pdf"
+        },
+        {
+          "name": "TCS.pdf",
+          "path": "archive/HALO_2026-10-12/TCS.pdf",
+          "size": 17538,
+          "sha": "5a98fc55df18feafce4ad1b9eac57b0aa091b4b0",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-10-12/TCS.pdf"
         }
       ],
-      "filesCount": 3
+      "filesCount": 6
     },
     {
       "name": "JOHANNES_MAERSK_2026-10-06",
@@ -1826,7 +1847,8 @@
       "name": "PAN_GG_2026-10-15",
       "path": "archive/PAN_GG_2026-10-15",
       "lines": [
-        "HLC"
+        "HLC",
+        "YML"
       ],
       "files": [
         {
@@ -1865,6 +1887,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-15/PAN_GG_HLC_2026-10-15.xls"
         },
         {
+          "name": "PAN_GG_YML_2026-10-15.xls",
+          "path": "archive/PAN_GG_2026-10-15/PAN_GG_YML_2026-10-15.xls",
+          "size": 219136,
+          "sha": "a3d9d069d9ad4f23cb1a9aea821ce2dff9336ceb",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-15/PAN_GG_YML_2026-10-15.xls"
+        },
+        {
           "name": "Storage_Report_PAN_GG_HLC_2026-10-15.pdf",
           "path": "archive/PAN_GG_2026-10-15/Storage_Report_PAN_GG_HLC_2026-10-15.pdf",
           "size": 78401,
@@ -1872,7 +1901,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-15/Storage_Report_PAN_GG_HLC_2026-10-15.pdf"
         }
       ],
-      "filesCount": 6
+      "filesCount": 7
     },
     {
       "name": "PAN_GG_2026-10-23",
