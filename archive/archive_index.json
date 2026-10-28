@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T09:39:44.775Z",
+  "lastUpdated": "2026-10-28T09:41:15.923Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1047,7 +1047,7 @@
           "name": "MAERSK_IZMIR_MSK_2026-10-27.xls",
           "path": "archive/MAERSK_IZMIR_2026-10-27/MAERSK_IZMIR_MSK_2026-10-27.xls",
           "size": 88576,
-          "sha": "85b0775a1bca570069492161750ae3612dfb2cc6",
+          "sha": "2848a346927bd2d04cca91aeb166e6a9e4c3c38d",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAERSK_IZMIR_2026-10-27/MAERSK_IZMIR_MSK_2026-10-27.xls"
         },
         {
@@ -1888,6 +1888,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-15/PAN_GG_HLC_2026-10-15.xls"
         },
         {
+          "name": "PAN_GG_ONE_2026-10-15.xls",
+          "path": "archive/PAN_GG_2026-10-15/PAN_GG_ONE_2026-10-15.xls",
+          "size": 119296,
+          "sha": "2b4eedd0fe611ee2e30f8fe9e74189c4df8305f4",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-15/PAN_GG_ONE_2026-10-15.xls"
+        },
+        {
           "name": "PAN_GG_YML_2026-10-15.xls",
           "path": "archive/PAN_GG_2026-10-15/PAN_GG_YML_2026-10-15.xls",
           "size": 219136,
@@ -1900,9 +1907,16 @@
           "size": 78401,
           "sha": "6d75a5ef3adecc0e49d0142847651c40dea9ccc9",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-15/Storage_Report_PAN_GG_HLC_2026-10-15.pdf"
+        },
+        {
+          "name": "Storage_Report_PAN_GG_YML_2026-10-15.pdf",
+          "path": "archive/PAN_GG_2026-10-15/Storage_Report_PAN_GG_YML_2026-10-15.pdf",
+          "size": 106687,
+          "sha": "1eea33901d217693922a58b56a4b1f2e7235e82d",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-15/Storage_Report_PAN_GG_YML_2026-10-15.pdf"
         }
       ],
-      "filesCount": 7
+      "filesCount": 9
     },
     {
       "name": "PAN_GG_2026-10-23",
