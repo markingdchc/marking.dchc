@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T11:23:59.839Z",
+  "lastUpdated": "2026-10-28T11:25:27.540Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -811,6 +811,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_SKY_2026-10-18/EGY_SKY_YML_2026-10-18.xls"
         },
         {
+          "name": "LOAD_66.xls",
+          "path": "archive/EGY_SKY_2026-10-18/LOAD_66.xls",
+          "size": 78336,
+          "sha": "4c2bb1f3763eafb3093bd701ca3a2d7b6728a664",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_SKY_2026-10-18/LOAD_66.xls"
+        },
+        {
           "name": "Storage_Report_EGY_SKY_ONE_2026-10-18.pdf",
           "path": "archive/EGY_SKY_2026-10-18/Storage_Report_EGY_SKY_ONE_2026-10-18.pdf",
           "size": 71263,
@@ -818,7 +825,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_SKY_2026-10-18/Storage_Report_EGY_SKY_ONE_2026-10-18.pdf"
         }
       ],
-      "filesCount": 5
+      "filesCount": 6
     },
     {
       "name": "ELBELLA_2026-10-04",
@@ -1047,7 +1054,7 @@
           "name": "JOLLY_VERDE_MSC_2026-10-26.xls",
           "path": "archive/JOLLY_VERDE_2026-10-26/JOLLY_VERDE_MSC_2026-10-26.xls",
           "size": 2108416,
-          "sha": "e335232587894de52590848fe091577443110790",
+          "sha": "41169d499545c23d7331a6504684006c4da11eb7",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JOLLY_VERDE_2026-10-26/JOLLY_VERDE_MSC_2026-10-26.xls"
         },
         {
