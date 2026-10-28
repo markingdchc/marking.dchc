@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T05:08:59.387Z",
+  "lastUpdated": "2026-10-28T05:58:57.128Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2359,7 +2359,8 @@
       "name": "ZIM_CHINA_2026-10-26",
       "path": "archive/ZIM_CHINA_2026-10-26",
       "lines": [
-        "ZIM"
+        "ZIM",
+        "HLC"
       ],
       "files": [
         {
@@ -2391,6 +2392,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_CHINA_2026-10-26/ZIM_CHINA.pdf"
         },
         {
+          "name": "ZIM_CHINA_HLC_2026-10-26.xls",
+          "path": "archive/ZIM_CHINA_2026-10-26/ZIM_CHINA_HLC_2026-10-26.xls",
+          "size": 194560,
+          "sha": "1e537bb84d0f0cd4ea85f3a77257b7468e901a53",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_CHINA_2026-10-26/ZIM_CHINA_HLC_2026-10-26.xls"
+        },
+        {
           "name": "ZIM_CHINA_ZIM_2026-10-26.xls",
           "path": "archive/ZIM_CHINA_2026-10-26/ZIM_CHINA_ZIM_2026-10-26.xls",
           "size": 707584,
@@ -2398,7 +2406,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_CHINA_2026-10-26/ZIM_CHINA_ZIM_2026-10-26.xls"
         }
       ],
-      "filesCount": 5
+      "filesCount": 6
     },
     {
       "name": "ZIM_VIETNAM_2026-10-11",
