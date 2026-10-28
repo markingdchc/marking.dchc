@@ -1,11 +1,12 @@
 {
   "shipName": "EGY_FUTURE",
   "date": "2026-10-17",
-  "lastUpdate": "2026-10-28T10:13:34.640Z",
+  "lastUpdate": "2026-10-28T10:15:03.496Z",
   "lines": [
     "YML",
     "ONE",
-    "HMM"
+    "HMM",
+    "CMA"
   ],
   "documents": []
 }
