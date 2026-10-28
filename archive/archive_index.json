@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T09:45:49.006Z",
+  "lastUpdated": "2026-10-28T09:54:30.733Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1573,6 +1573,23 @@
       "filesCount": 5
     },
     {
+      "name": "MSC_RADIANT_III_2026-10-17",
+      "path": "archive/MSC_RADIANT_III_2026-10-17",
+      "lines": [
+        "MSC"
+      ],
+      "files": [
+        {
+          "name": "MSC_RADIANT_III_MSC_2026-10-17.xls",
+          "path": "archive/MSC_RADIANT_III_2026-10-17/MSC_RADIANT_III_MSC_2026-10-17.xls",
+          "size": 232448,
+          "sha": "895093d0496bc4a46fe230bf11d5ee3e01a8586f",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_RADIANT_III_2026-10-17/MSC_RADIANT_III_MSC_2026-10-17.xls"
+        }
+      ],
+      "filesCount": 1
+    },
+    {
       "name": "MSC_SIENA_2026-10-09",
       "path": "archive/MSC_SIENA_2026-10-09",
       "lines": [
@@ -2232,6 +2249,13 @@
       ],
       "files": [
         {
+          "name": "Storage_Report_VUOKSI_MAERSK_MSK_2026-10-13.pdf",
+          "path": "archive/VUOKSI_MAERSK_2026-10-13/Storage_Report_VUOKSI_MAERSK_MSK_2026-10-13.pdf",
+          "size": 240505,
+          "sha": "37f11979045bf79bb48833226aee4929848c2747",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VUOKSI_MAERSK_2026-10-13/Storage_Report_VUOKSI_MAERSK_MSK_2026-10-13.pdf"
+        },
+        {
           "name": "VUOKSI_MAERSK_MSK_2026-10-13.xls",
           "path": "archive/VUOKSI_MAERSK_2026-10-13/VUOKSI_MAERSK_MSK_2026-10-13.xls",
           "size": 73728,
@@ -2239,7 +2263,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VUOKSI_MAERSK_2026-10-13/VUOKSI_MAERSK_MSK_2026-10-13.xls"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "YM_WARMTH_2026-10-14",
