@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T09:45:17.124Z",
+  "lastUpdated": "2026-10-28T09:45:35.117Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1917,6 +1917,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-15/Storage_Report_PAN_GG_HLC_2026-10-15.pdf"
         },
         {
+          "name": "Storage_Report_PAN_GG_MSK_2026-10-15.pdf",
+          "path": "archive/PAN_GG_2026-10-15/Storage_Report_PAN_GG_MSK_2026-10-15.pdf",
+          "size": 420479,
+          "sha": "1c6050dae9f7ca4204ef9c7b58592eff1a0bb08a",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-15/Storage_Report_PAN_GG_MSK_2026-10-15.pdf"
+        },
+        {
           "name": "Storage_Report_PAN_GG_YML_2026-10-15.pdf",
           "path": "archive/PAN_GG_2026-10-15/Storage_Report_PAN_GG_YML_2026-10-15.pdf",
           "size": 106701,
@@ -1924,7 +1931,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-15/Storage_Report_PAN_GG_YML_2026-10-15.pdf"
         }
       ],
-      "filesCount": 10
+      "filesCount": 11
     },
     {
       "name": "PAN_GG_2026-10-23",
@@ -2216,6 +2223,23 @@
         }
       ],
       "filesCount": 4
+    },
+    {
+      "name": "VUOKSI_MAERSK_2026-10-13",
+      "path": "archive/VUOKSI_MAERSK_2026-10-13",
+      "lines": [
+        "MSK"
+      ],
+      "files": [
+        {
+          "name": "VUOKSI_MAERSK_MSK_2026-10-13.xls",
+          "path": "archive/VUOKSI_MAERSK_2026-10-13/VUOKSI_MAERSK_MSK_2026-10-13.xls",
+          "size": 73728,
+          "sha": "a302b162554a3635a0c76ac21fb95e8d6b3f7de1",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VUOKSI_MAERSK_2026-10-13/VUOKSI_MAERSK_MSK_2026-10-13.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "YM_WARMTH_2026-10-14",
