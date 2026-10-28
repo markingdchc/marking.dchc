@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T10:22:35.939Z",
+  "lastUpdated": "2026-10-28T10:23:54.563Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2644,6 +2644,13 @@
       ],
       "files": [
         {
+          "name": "Storage_Report_YM_WARMTH_MOH_2026-10-14.pdf",
+          "path": "archive/YM_WARMTH_2026-10-14/Storage_Report_YM_WARMTH_MOH_2026-10-14.pdf",
+          "size": 903025,
+          "sha": "4a302ad136154ab8d35b2fa6eafd756d571e3206",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARMTH_2026-10-14/Storage_Report_YM_WARMTH_MOH_2026-10-14.pdf"
+        },
+        {
           "name": "YM_WARMTH_MOH_2026-10-14.xls",
           "path": "archive/YM_WARMTH_2026-10-14/YM_WARMTH_MOH_2026-10-14.xls",
           "size": 216576,
@@ -2658,7 +2665,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARMTH_2026-10-14/YM_WARMTH_YML_2026-10-14.xls"
         }
       ],
-      "filesCount": 2
+      "filesCount": 3
     },
     {
       "name": "YM_WELLNESS_2026-10-10",
