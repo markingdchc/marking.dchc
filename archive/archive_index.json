@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T10:48:48.842Z",
+  "lastUpdated": "2026-10-28T10:50:15.118Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1393,6 +1393,13 @@
       ],
       "files": [
         {
+          "name": "DISCH_502.xls",
+          "path": "archive/MAUREN_2026-10-18/DISCH_502.xls",
+          "size": 218624,
+          "sha": "6ab8eaa6f51fe97e8b6b180569e67b623db71824",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAUREN_2026-10-18/DISCH_502.xls"
+        },
+        {
           "name": "MAUREN_MSC_2026-10-18.xls",
           "path": "archive/MAUREN_2026-10-18/MAUREN_MSC_2026-10-18.xls",
           "size": 161280,
@@ -1400,7 +1407,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAUREN_2026-10-18/MAUREN_MSC_2026-10-18.xls"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "MITO_2026-10-17",
