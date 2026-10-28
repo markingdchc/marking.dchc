@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T09:59:18.506Z",
+  "lastUpdated": "2026-10-28T09:59:49.982Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2098,6 +2098,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SC_HOUSTON_2026-10-17/SC_HOUSTON_ONE_2026-10-17.xls"
         },
         {
+          "name": "SS_HOUSTON_16-10.pdf",
+          "path": "archive/SC_HOUSTON_2026-10-17/SS_HOUSTON_16-10.pdf",
+          "size": 764027,
+          "sha": "ddc0222aba15e99f39af986579caef80075bca8d",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SC_HOUSTON_2026-10-17/SS_HOUSTON_16-10.pdf"
+        },
+        {
           "name": "Storage_Report_SC_HOUSTON_MSK_2026-10-17.pdf",
           "path": "archive/SC_HOUSTON_2026-10-17/Storage_Report_SC_HOUSTON_MSK_2026-10-17.pdf",
           "size": 75290,
@@ -2112,7 +2119,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SC_HOUSTON_2026-10-17/Storage_Report_SC_HOUSTON_ONE_2026-10-17.pdf"
         }
       ],
-      "filesCount": 6
+      "filesCount": 7
     },
     {
       "name": "SHI_SHANG_18_2026-10-06",
@@ -2331,6 +2338,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VUOKSI_MAERSK_2026-10-13/Storage_Report_VUOKSI_MAERSK_MSK_2026-10-13.pdf"
         },
         {
+          "name": "Storage_Report_VUOKSI_MAERSK_ONE_2026-10-13.pdf",
+          "path": "archive/VUOKSI_MAERSK_2026-10-13/Storage_Report_VUOKSI_MAERSK_ONE_2026-10-13.pdf",
+          "size": 1049173,
+          "sha": "4f9eb6804051843831c4f28f08bafa2f75ce9f53",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VUOKSI_MAERSK_2026-10-13/Storage_Report_VUOKSI_MAERSK_ONE_2026-10-13.pdf"
+        },
+        {
           "name": "VUOKSI_MAERSK_MSK_2026-10-13.xls",
           "path": "archive/VUOKSI_MAERSK_2026-10-13/VUOKSI_MAERSK_MSK_2026-10-13.xls",
           "size": 73728,
@@ -2345,7 +2359,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VUOKSI_MAERSK_2026-10-13/VUOKSI_MAERSK_ONE_2026-10-13.xls"
         }
       ],
-      "filesCount": 3
+      "filesCount": 4
     },
     {
       "name": "YM_WARMTH_2026-10-14",
