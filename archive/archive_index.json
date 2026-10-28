@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T10:12:14.615Z",
+  "lastUpdated": "2026-10-28T10:12:49.113Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -566,7 +566,8 @@
       "name": "EGY_FUTURE_2026-10-17",
       "path": "archive/EGY_FUTURE_2026-10-17",
       "lines": [
-        "YML"
+        "YML",
+        "ONE"
       ],
       "files": [
         {
