@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T09:55:03.994Z",
+  "lastUpdated": "2026-10-28T09:55:52.383Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2039,6 +2039,23 @@
         }
       ],
       "filesCount": 11
+    },
+    {
+      "name": "SC_HOUSTON_2026-10-17",
+      "path": "archive/SC_HOUSTON_2026-10-17",
+      "lines": [
+        "MSK"
+      ],
+      "files": [
+        {
+          "name": "SC_HOUSTON_MSK_2026-10-17.xls",
+          "path": "archive/SC_HOUSTON_2026-10-17/SC_HOUSTON_MSK_2026-10-17.xls",
+          "size": 54272,
+          "sha": "930b124b8a3ca5e19486967d5cb0dbbd59a87fa3",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SC_HOUSTON_2026-10-17/SC_HOUSTON_MSK_2026-10-17.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "SHI_SHANG_18_2026-10-06",
