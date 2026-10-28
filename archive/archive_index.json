@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T10:16:31.881Z",
+  "lastUpdated": "2026-10-28T10:17:38.962Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -573,6 +573,13 @@
       ],
       "files": [
         {
+          "name": "DISCH_42.xls",
+          "path": "archive/EGY_FUTURE_2026-10-17/DISCH_42.xls",
+          "size": 64000,
+          "sha": "c027f5c7a23f59f2df4d65d6d4dbb940d7538b8c",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-17/DISCH_42.xls"
+        },
+        {
           "name": "EGY_FUTURE_CMA_2026-10-17.xls",
           "path": "archive/EGY_FUTURE_2026-10-17/EGY_FUTURE_CMA_2026-10-17.xls",
           "size": 54272,
@@ -622,7 +629,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-17/Storage_Report_EGY_FUTURE_YML_2026-10-17.pdf"
         }
       ],
-      "filesCount": 7
+      "filesCount": 8
     },
     {
       "name": "EGY_FUTURE_2026-10-25",
