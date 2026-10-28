@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T10:01:07.568Z",
+  "lastUpdated": "2026-10-28T10:01:13.879Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1262,9 +1262,16 @@
           "size": 5340426,
           "sha": "468717a7af08a5b57ed6aa34215ea3c7aae0ca6c",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_BRUNELLA_2026-10-16/Storage_Report_MSC_BRUNELLA_MSC_2026-10-16.pdf"
+        },
+        {
+          "name": "Storage_Report_MSC_BRUNELLA_ZIM_2026-10-16.pdf",
+          "path": "archive/MSC_BRUNELLA_2026-10-16/Storage_Report_MSC_BRUNELLA_ZIM_2026-10-16.pdf",
+          "size": 1820057,
+          "sha": "88c43c6918a31062c21f6749d1417f39b721ae62",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_BRUNELLA_2026-10-16/Storage_Report_MSC_BRUNELLA_ZIM_2026-10-16.pdf"
         }
       ],
-      "filesCount": 3
+      "filesCount": 4
     },
     {
       "name": "MSC_CATHERINE_VI_2026-10-03",
@@ -2367,6 +2374,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VUOKSI_MAERSK_2026-10-13/Storage_Report_VUOKSI_MAERSK_ONE_2026-10-13.pdf"
         },
         {
+          "name": "VUOKSI_MAERSK.pdf",
+          "path": "archive/VUOKSI_MAERSK_2026-10-13/VUOKSI_MAERSK.pdf",
+          "size": 271334,
+          "sha": "1188913dbaec56603cc497c069e348fced0dc229",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VUOKSI_MAERSK_2026-10-13/VUOKSI_MAERSK.pdf"
+        },
+        {
           "name": "VUOKSI_MAERSK_MSK_2026-10-13.xls",
           "path": "archive/VUOKSI_MAERSK_2026-10-13/VUOKSI_MAERSK_MSK_2026-10-13.xls",
           "size": 73728,
@@ -2381,7 +2395,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VUOKSI_MAERSK_2026-10-13/VUOKSI_MAERSK_ONE_2026-10-13.xls"
         }
       ],
-      "filesCount": 6
+      "filesCount": 7
     },
     {
       "name": "YM_WARMTH_2026-10-14",
