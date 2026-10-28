@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T10:23:54.563Z",
+  "lastUpdated": "2026-10-28T10:26:58.443Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1113,6 +1113,13 @@
       ],
       "files": [
         {
+          "name": "DISCH_101.xls",
+          "path": "archive/JONA_SOPHIE_2026-10-16/DISCH_101.xls",
+          "size": 92672,
+          "sha": "0be17a073a1d5128e7cdeb8ad60bed6183b38d93",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-10-16/DISCH_101.xls"
+        },
+        {
           "name": "JONA_SOPHIE_ZIM_2026-10-16.xls",
           "path": "archive/JONA_SOPHIE_2026-10-16/JONA_SOPHIE_ZIM_2026-10-16.xls",
           "size": 61440,
@@ -1127,7 +1134,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-10-16/Storage_Report_JONA_SOPHIE_ZIM_2026-10-16.pdf"
         }
       ],
-      "filesCount": 2
+      "filesCount": 3
     },
     {
       "name": "JONA_SOPHIE_2026-10-23",
