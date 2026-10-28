@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T06:13:21.462Z",
+  "lastUpdated": "2026-10-28T07:02:58.040Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1752,6 +1752,23 @@
         }
       ],
       "filesCount": 9
+    },
+    {
+      "name": "PAN_GG_2026-10-23",
+      "path": "archive/PAN_GG_2026-10-23",
+      "lines": [
+        "HLC"
+      ],
+      "files": [
+        {
+          "name": "PAN_GG_HLC_2026-10-23.xls",
+          "path": "archive/PAN_GG_2026-10-23/PAN_GG_HLC_2026-10-23.xls",
+          "size": 54272,
+          "sha": "247e6041bc89ce35a6837a858563a1f634ad75e9",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-23/PAN_GG_HLC_2026-10-23.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "SHI_SHANG_18_2026-10-06",
