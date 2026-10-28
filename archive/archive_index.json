@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T10:05:35.133Z",
+  "lastUpdated": "2026-10-28T10:06:31.772Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -614,6 +614,23 @@
         }
       ],
       "filesCount": 6
+    },
+    {
+      "name": "EGY_SKY_2026-10-13",
+      "path": "archive/EGY_SKY_2026-10-13",
+      "lines": [
+        "HLC"
+      ],
+      "files": [
+        {
+          "name": "EGY_SKY_HLC_2026-10-13.xls",
+          "path": "archive/EGY_SKY_2026-10-13/EGY_SKY_HLC_2026-10-13.xls",
+          "size": 60928,
+          "sha": "fed7993929a8ab380ab047a02a0e5d35d7f87147",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_SKY_2026-10-13/EGY_SKY_HLC_2026-10-13.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "ELBELLA_2026-10-04",
@@ -1250,6 +1267,20 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_BRUNELLA_2026-10-16/DISCH_946.xls"
         },
         {
+          "name": "LOAD_1139.xls",
+          "path": "archive/MSC_BRUNELLA_2026-10-16/LOAD_1139.xls",
+          "size": 534528,
+          "sha": "6f3e15c818bb938844b9c18d3a2edf817d6774d3",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_BRUNELLA_2026-10-16/LOAD_1139.xls"
+        },
+        {
+          "name": "MSC_BRUNELLA.pdf",
+          "path": "archive/MSC_BRUNELLA_2026-10-16/MSC_BRUNELLA.pdf",
+          "size": 273664,
+          "sha": "2b42c7e304218c269e7b2127bac4553f052c7ac0",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_BRUNELLA_2026-10-16/MSC_BRUNELLA.pdf"
+        },
+        {
           "name": "MSC_BRUNELLA_MSC_2026-10-16.xls",
           "path": "archive/MSC_BRUNELLA_2026-10-16/MSC_BRUNELLA_MSC_2026-10-16.xls",
           "size": 1489408,
@@ -1278,7 +1309,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_BRUNELLA_2026-10-16/Storage_Report_MSC_BRUNELLA_ZIM_2026-10-16.pdf"
         }
       ],
-      "filesCount": 5
+      "filesCount": 7
     },
     {
       "name": "MSC_CATHERINE_VI_2026-10-03",
