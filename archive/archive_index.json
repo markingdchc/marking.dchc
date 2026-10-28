@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T11:52:50.845Z",
+  "lastUpdated": "2026-10-28T13:43:03.316Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1053,8 +1053,8 @@
         {
           "name": "JOLLY_VERDE_MSC_2026-10-26.xls",
           "path": "archive/JOLLY_VERDE_2026-10-26/JOLLY_VERDE_MSC_2026-10-26.xls",
-          "size": 2035712,
-          "sha": "080c440ce4f855940da15855d4142d729e799e85",
+          "size": 55808,
+          "sha": "bda6517016eeba33b93382f03a7c7669a4ea1bc0",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JOLLY_VERDE_2026-10-26/JOLLY_VERDE_MSC_2026-10-26.xls"
         },
         {
@@ -1067,8 +1067,8 @@
         {
           "name": "Storage_Report_JOLLY_VERDE_MSC_2026-10-26.pdf",
           "path": "archive/JOLLY_VERDE_2026-10-26/Storage_Report_JOLLY_VERDE_MSC_2026-10-26.pdf",
-          "size": 8141010,
-          "sha": "dab898527e55b1586468ab91bd3c6d808e1c8667",
+          "size": 8141628,
+          "sha": "f925465cf992a56592653e6543b1b0c3d8d42398",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JOLLY_VERDE_2026-10-26/Storage_Report_JOLLY_VERDE_MSC_2026-10-26.pdf"
         }
       ],
