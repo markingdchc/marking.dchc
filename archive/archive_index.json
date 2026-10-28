@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T09:59:49.982Z",
+  "lastUpdated": "2026-10-28T10:00:31.022Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1238,7 +1238,8 @@
       "name": "MSC_BRUNELLA_2026-10-16",
       "path": "archive/MSC_BRUNELLA_2026-10-16",
       "lines": [
-        "MSC"
+        "MSC",
+        "ZIM"
       ],
       "files": [
         {
@@ -1249,6 +1250,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_BRUNELLA_2026-10-16/MSC_BRUNELLA_MSC_2026-10-16.xls"
         },
         {
+          "name": "MSC_BRUNELLA_ZIM_2026-10-16.xls",
+          "path": "archive/MSC_BRUNELLA_2026-10-16/MSC_BRUNELLA_ZIM_2026-10-16.xls",
+          "size": 454144,
+          "sha": "86bb9a01a88b25732ba1690911e4bc4af85c6504",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_BRUNELLA_2026-10-16/MSC_BRUNELLA_ZIM_2026-10-16.xls"
+        },
+        {
           "name": "Storage_Report_MSC_BRUNELLA_MSC_2026-10-16.pdf",
           "path": "archive/MSC_BRUNELLA_2026-10-16/Storage_Report_MSC_BRUNELLA_MSC_2026-10-16.pdf",
           "size": 5340426,
@@ -1256,7 +1264,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_BRUNELLA_2026-10-16/Storage_Report_MSC_BRUNELLA_MSC_2026-10-16.pdf"
         }
       ],
-      "filesCount": 2
+      "filesCount": 3
     },
     {
       "name": "MSC_CATHERINE_VI_2026-10-03",
@@ -2331,6 +2339,20 @@
       ],
       "files": [
         {
+          "name": "DISCH_59.xls",
+          "path": "archive/VUOKSI_MAERSK_2026-10-13/DISCH_59.xls",
+          "size": 70656,
+          "sha": "ec66a4651d3eb30c000a0850c0820349eaa99ed8",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VUOKSI_MAERSK_2026-10-13/DISCH_59.xls"
+        },
+        {
+          "name": "LOAD_209.xls",
+          "path": "archive/VUOKSI_MAERSK_2026-10-13/LOAD_209.xls",
+          "size": 140288,
+          "sha": "3616e69a3b15a5ef5d3eccfba544186b3f999ad7",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VUOKSI_MAERSK_2026-10-13/LOAD_209.xls"
+        },
+        {
           "name": "Storage_Report_VUOKSI_MAERSK_MSK_2026-10-13.pdf",
           "path": "archive/VUOKSI_MAERSK_2026-10-13/Storage_Report_VUOKSI_MAERSK_MSK_2026-10-13.pdf",
           "size": 240505,
@@ -2359,7 +2381,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VUOKSI_MAERSK_2026-10-13/VUOKSI_MAERSK_ONE_2026-10-13.xls"
         }
       ],
-      "filesCount": 4
+      "filesCount": 6
     },
     {
       "name": "YM_WARMTH_2026-10-14",
