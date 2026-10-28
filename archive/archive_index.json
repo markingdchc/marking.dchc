@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T09:56:05.591Z",
+  "lastUpdated": "2026-10-28T09:56:25.413Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1580,6 +1580,13 @@
       ],
       "files": [
         {
+          "name": "LOAD_211.xls",
+          "path": "archive/MSC_RADIANT_III_2026-10-17/LOAD_211.xls",
+          "size": 137728,
+          "sha": "460d6ff91b2c58e8260722d2a0455fdb4aa982e7",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_RADIANT_III_2026-10-17/LOAD_211.xls"
+        },
+        {
           "name": "MSC_RADIANT_III_MSC_2026-10-17.xls",
           "path": "archive/MSC_RADIANT_III_2026-10-17/MSC_RADIANT_III_MSC_2026-10-17.xls",
           "size": 232448,
@@ -1587,7 +1594,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_RADIANT_III_2026-10-17/MSC_RADIANT_III_MSC_2026-10-17.xls"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "MSC_SIENA_2026-10-09",
@@ -2053,9 +2060,16 @@
           "size": 54272,
           "sha": "930b124b8a3ca5e19486967d5cb0dbbd59a87fa3",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SC_HOUSTON_2026-10-17/SC_HOUSTON_MSK_2026-10-17.xls"
+        },
+        {
+          "name": "Storage_Report_SC_HOUSTON_MSK_2026-10-17.pdf",
+          "path": "archive/SC_HOUSTON_2026-10-17/Storage_Report_SC_HOUSTON_MSK_2026-10-17.pdf",
+          "size": 75290,
+          "sha": "4dca48e82ede9b94c1cfd95f8c64df9ed4fb563b",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SC_HOUSTON_2026-10-17/Storage_Report_SC_HOUSTON_MSK_2026-10-17.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "SHI_SHANG_18_2026-10-06",
