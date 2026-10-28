@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T10:58:57.777Z",
+  "lastUpdated": "2026-10-28T11:00:03.439Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -45,7 +45,7 @@
           "name": "ADELINA_ONE_2026-10-18.xls",
           "path": "archive/ADELINA_2026-10-18/ADELINA_ONE_2026-10-18.xls",
           "size": 141824,
-          "sha": "b8e1480696c34cf06acbead937623879eb4184b9",
+          "sha": "45b586d9a8451d4f27b07ec38c9f7a2a29e02e32",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-10-18/ADELINA_ONE_2026-10-18.xls"
         },
         {
@@ -2400,6 +2400,13 @@
       ],
       "files": [
         {
+          "name": "DISCH_170.xls",
+          "path": "archive/REMAH_2026-10-14/DISCH_170.xls",
+          "size": 107008,
+          "sha": "0714747eec7711aec22145e78ee271513c7bf9d9",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/REMAH_2026-10-14/DISCH_170.xls"
+        },
+        {
           "name": "REMAH_HMM_2026-10-14.xls",
           "path": "archive/REMAH_2026-10-14/REMAH_HMM_2026-10-14.xls",
           "size": 61440,
@@ -2414,7 +2421,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/REMAH_2026-10-14/REMAH_ONE_2026-10-14.xls"
         }
       ],
-      "filesCount": 2
+      "filesCount": 3
     },
     {
       "name": "SC_HOUSTON_2026-10-17",
