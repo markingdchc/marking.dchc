@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T10:02:37.213Z",
+  "lastUpdated": "2026-10-28T10:02:52.948Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1624,6 +1624,23 @@
         }
       ],
       "filesCount": 4
+    },
+    {
+      "name": "MSC_SAVANNAH_2026-10-18",
+      "path": "archive/MSC_SAVANNAH_2026-10-18",
+      "lines": [
+        "MSC"
+      ],
+      "files": [
+        {
+          "name": "MSC_SAVANNAH_MSC_2026-10-18.xls",
+          "path": "archive/MSC_SAVANNAH_2026-10-18/MSC_SAVANNAH_MSC_2026-10-18.xls",
+          "size": 921088,
+          "sha": "ff50a40055312ce5c26f2b5f736bf3e83be48c2e",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_SAVANNAH_2026-10-18/MSC_SAVANNAH_MSC_2026-10-18.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "MSC_SIENA_2026-10-09",
