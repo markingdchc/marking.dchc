@@ -1,9 +1,10 @@
 {
   "shipName": "VUOKSI_MAERSK",
   "date": "2026-10-13",
-  "lastUpdate": "2026-10-28T09:45:31.784Z",
+  "lastUpdate": "2026-10-28T09:58:51.314Z",
   "lines": [
-    "MSK"
+    "MSK",
+    "ONE"
   ],
   "documents": []
 }
