@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T08:22:34.339Z",
+  "lastUpdated": "2026-10-28T08:24:19.567Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1037,14 +1037,28 @@
       ],
       "files": [
         {
+          "name": "LOAD_124.xls",
+          "path": "archive/MARLA_TIGER_2026-10-27/LOAD_124.xls",
+          "size": 103424,
+          "sha": "54760f8712cbc503e59a5c0c036869c7493df8c1",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MARLA_TIGER_2026-10-27/LOAD_124.xls"
+        },
+        {
           "name": "MARLA_TIGER_ZIM_2026-10-27.xls",
           "path": "archive/MARLA_TIGER_2026-10-27/MARLA_TIGER_ZIM_2026-10-27.xls",
           "size": 256000,
           "sha": "1f54c677b546c7150e4c44dd2045fa3517e78209",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MARLA_TIGER_2026-10-27/MARLA_TIGER_ZIM_2026-10-27.xls"
+        },
+        {
+          "name": "Storage_Report_MARLA_TIGER_ZIM_2026-10-27.pdf",
+          "path": "archive/MARLA_TIGER_2026-10-27/Storage_Report_MARLA_TIGER_ZIM_2026-10-27.pdf",
+          "size": 908476,
+          "sha": "3857a15aa8d4c5753c4edc836577a448d0edf472",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MARLA_TIGER_2026-10-27/Storage_Report_MARLA_TIGER_ZIM_2026-10-27.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 3
     },
     {
       "name": "MARWIN_2026-10-08",
