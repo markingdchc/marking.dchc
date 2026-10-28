@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T10:18:08.830Z",
+  "lastUpdated": "2026-10-28T10:21:27.127Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -580,6 +580,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-17/DISCH_42.xls"
         },
         {
+          "name": "EGY_FUTURE_16-10.pdf",
+          "path": "archive/EGY_FUTURE_2026-10-17/EGY_FUTURE_16-10.pdf",
+          "size": 1069360,
+          "sha": "a83f774d175a772f26328db5ca34f66b293b895c",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-17/EGY_FUTURE_16-10.pdf"
+        },
+        {
           "name": "EGY_FUTURE_CMA_2026-10-17.xls",
           "path": "archive/EGY_FUTURE_2026-10-17/EGY_FUTURE_CMA_2026-10-17.xls",
           "size": 54272,
@@ -608,6 +615,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-17/EGY_FUTURE_YML_2026-10-17.xls"
         },
         {
+          "name": "LOAD_492.xls",
+          "path": "archive/EGY_FUTURE_2026-10-17/LOAD_492.xls",
+          "size": 250880,
+          "sha": "eb25b1adf98575ae20c1dc6999249c0f8a6304e4",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-17/LOAD_492.xls"
+        },
+        {
           "name": "Storage_Report_EGY_FUTURE_CMA_2026-10-17.pdf",
           "path": "archive/EGY_FUTURE_2026-10-17/Storage_Report_EGY_FUTURE_CMA_2026-10-17.pdf",
           "size": 78385,
@@ -629,7 +643,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-17/Storage_Report_EGY_FUTURE_YML_2026-10-17.pdf"
         }
       ],
-      "filesCount": 8
+      "filesCount": 10
     },
     {
       "name": "EGY_FUTURE_2026-10-25",
@@ -1090,6 +1104,23 @@
         }
       ],
       "filesCount": 7
+    },
+    {
+      "name": "JONA_SOPHIE_2026-10-16",
+      "path": "archive/JONA_SOPHIE_2026-10-16",
+      "lines": [
+        "ZIM"
+      ],
+      "files": [
+        {
+          "name": "JONA_SOPHIE_ZIM_2026-10-16.xls",
+          "path": "archive/JONA_SOPHIE_2026-10-16/JONA_SOPHIE_ZIM_2026-10-16.xls",
+          "size": 61440,
+          "sha": "39f4feee0cccbd2fbf689d9f59df1809ef375e1f",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-10-16/JONA_SOPHIE_ZIM_2026-10-16.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "JONA_SOPHIE_2026-10-23",
