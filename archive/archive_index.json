@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T11:02:54.496Z",
+  "lastUpdated": "2026-10-28T11:11:21.900Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -70,6 +70,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-10-18/DISCH_87.xls"
         },
         {
+          "name": "LOAD_110.xls",
+          "path": "archive/ADELINA_2026-10-18/LOAD_110.xls",
+          "size": 95744,
+          "sha": "26985c4d81468371187be20f6a1da303bcfcdd83",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-10-18/LOAD_110.xls"
+        },
+        {
           "name": "LOAD_199.xls",
           "path": "archive/ADELINA_2026-10-18/LOAD_199.xls",
           "size": 132608,
@@ -91,7 +98,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-10-18/اعاده_تصدير.xls"
         }
       ],
-      "filesCount": 8
+      "filesCount": 9
     },
     {
       "name": "AL_SEEF_2026-10-10",
@@ -765,6 +772,23 @@
         }
       ],
       "filesCount": 6
+    },
+    {
+      "name": "EGY_SKY_2026-10-18",
+      "path": "archive/EGY_SKY_2026-10-18",
+      "lines": [
+        "YML"
+      ],
+      "files": [
+        {
+          "name": "EGY_SKY_YML_2026-10-18.xls",
+          "path": "archive/EGY_SKY_2026-10-18/EGY_SKY_YML_2026-10-18.xls",
+          "size": 86016,
+          "sha": "6f303ed3936a2bd43414da4095a2442a7fbb7377",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_SKY_2026-10-18/EGY_SKY_YML_2026-10-18.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "ELBELLA_2026-10-04",
