@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T10:50:37.954Z",
+  "lastUpdated": "2026-10-28T10:54:24.093Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1400,6 +1400,20 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAUREN_2026-10-18/DISCH_502.xls"
         },
         {
+          "name": "LOAD_64.xls",
+          "path": "archive/MAUREN_2026-10-18/LOAD_64.xls",
+          "size": 78336,
+          "sha": "37507d4c849a012cbe6aca0b0abb647101ad6609",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAUREN_2026-10-18/LOAD_64.xls"
+        },
+        {
+          "name": "MAUREN.pdf",
+          "path": "archive/MAUREN_2026-10-18/MAUREN.pdf",
+          "size": 254668,
+          "sha": "eb662ca2d73e003eb97689c6b6ef997f899580ce",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAUREN_2026-10-18/MAUREN.pdf"
+        },
+        {
           "name": "MAUREN_MSC_2026-10-18.xls",
           "path": "archive/MAUREN_2026-10-18/MAUREN_MSC_2026-10-18.xls",
           "size": 161280,
@@ -1407,7 +1421,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAUREN_2026-10-18/MAUREN_MSC_2026-10-18.xls"
         }
       ],
-      "filesCount": 2
+      "filesCount": 4
     },
     {
       "name": "MITO_2026-10-17",
@@ -2376,6 +2390,23 @@
         }
       ],
       "filesCount": 11
+    },
+    {
+      "name": "REMAH_2026-10-14",
+      "path": "archive/REMAH_2026-10-14",
+      "lines": [
+        "HMM"
+      ],
+      "files": [
+        {
+          "name": "REMAH_HMM_2026-10-14.xls",
+          "path": "archive/REMAH_2026-10-14/REMAH_HMM_2026-10-14.xls",
+          "size": 61440,
+          "sha": "705e0ae5722fe59c2142a28081dab90bf2713b49",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/REMAH_2026-10-14/REMAH_HMM_2026-10-14.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "SC_HOUSTON_2026-10-17",
