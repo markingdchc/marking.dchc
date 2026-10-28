@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T10:39:33.250Z",
+  "lastUpdated": "2026-10-28T10:40:12.401Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3159,18 +3159,33 @@
       "name": "ZIM_PACIFIC_2026-10-17",
       "path": "archive/ZIM_PACIFIC_2026-10-17",
       "lines": [
-        "HLC"
+        "HLC",
+        "ZIM"
       ],
       "files": [
+        {
+          "name": "Storage_Report_ZIM_PACIFIC_HLC_2026-10-17.pdf",
+          "path": "archive/ZIM_PACIFIC_2026-10-17/Storage_Report_ZIM_PACIFIC_HLC_2026-10-17.pdf",
+          "size": 1044906,
+          "sha": "35cc1859e37c6ab91e2fcd49a45ca44ef4001fcd",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_PACIFIC_2026-10-17/Storage_Report_ZIM_PACIFIC_HLC_2026-10-17.pdf"
+        },
         {
           "name": "ZIM_PACIFIC_HLC_2026-10-17.xls",
           "path": "archive/ZIM_PACIFIC_2026-10-17/ZIM_PACIFIC_HLC_2026-10-17.xls",
           "size": 236032,
           "sha": "9538392b68f88dbf81b19bff302d961be197109f",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_PACIFIC_2026-10-17/ZIM_PACIFIC_HLC_2026-10-17.xls"
+        },
+        {
+          "name": "ZIM_PACIFIC_ZIM_2026-10-17.xls",
+          "path": "archive/ZIM_PACIFIC_2026-10-17/ZIM_PACIFIC_ZIM_2026-10-17.xls",
+          "size": 462336,
+          "sha": "c62a67a4c51ac7e608c11b96e9b193794a4631b7",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_PACIFIC_2026-10-17/ZIM_PACIFIC_ZIM_2026-10-17.xls"
         }
       ],
-      "filesCount": 1
+      "filesCount": 3
     },
     {
       "name": "ZIM_VIETNAM_2026-10-11",
