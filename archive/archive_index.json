@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T10:40:58.816Z",
+  "lastUpdated": "2026-10-28T10:41:12.527Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2681,6 +2681,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARMTH_2026-10-14/Storage_Report_YM_WARMTH_ONE_2026-10-14.pdf"
         },
         {
+          "name": "Storage_Report_YM_WARMTH_YML_2026-10-14.pdf",
+          "path": "archive/YM_WARMTH_2026-10-14/Storage_Report_YM_WARMTH_YML_2026-10-14.pdf",
+          "size": 5098771,
+          "sha": "caa8edb59cbd5066ff9714490178a7b1b48ee910",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARMTH_2026-10-14/Storage_Report_YM_WARMTH_YML_2026-10-14.pdf"
+        },
+        {
           "name": "YM_WARMTH_MOH_2026-10-14.xls",
           "path": "archive/YM_WARMTH_2026-10-14/YM_WARMTH_MOH_2026-10-14.xls",
           "size": 216576,
@@ -2709,7 +2716,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARMTH_2026-10-14/YM_WARMTH_YML_2026-10-14.xls"
         }
       ],
-      "filesCount": 7
+      "filesCount": 8
     },
     {
       "name": "YM_WELLNESS_2026-10-10",
@@ -3171,6 +3178,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_PACIFIC_2026-10-17/Storage_Report_ZIM_PACIFIC_HLC_2026-10-17.pdf"
         },
         {
+          "name": "Storage_Report_ZIM_PACIFIC_ZIM_2026-10-17.pdf",
+          "path": "archive/ZIM_PACIFIC_2026-10-17/Storage_Report_ZIM_PACIFIC_ZIM_2026-10-17.pdf",
+          "size": 1760628,
+          "sha": "ca188f57f75c1867f224f31ac695601bdf3eb756",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_PACIFIC_2026-10-17/Storage_Report_ZIM_PACIFIC_ZIM_2026-10-17.pdf"
+        },
+        {
           "name": "ZIM_PACIFIC_HLC_2026-10-17.xls",
           "path": "archive/ZIM_PACIFIC_2026-10-17/ZIM_PACIFIC_HLC_2026-10-17.xls",
           "size": 236032,
@@ -3185,7 +3199,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_PACIFIC_2026-10-17/ZIM_PACIFIC_ZIM_2026-10-17.xls"
         }
       ],
-      "filesCount": 3
+      "filesCount": 4
     },
     {
       "name": "ZIM_VIETNAM_2026-10-11",
