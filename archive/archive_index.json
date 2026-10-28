@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T10:08:55.126Z",
+  "lastUpdated": "2026-10-28T10:11:55.379Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -563,6 +563,23 @@
       "filesCount": 7
     },
     {
+      "name": "EGY_FUTURE_2026-10-17",
+      "path": "archive/EGY_FUTURE_2026-10-17",
+      "lines": [
+        "YML"
+      ],
+      "files": [
+        {
+          "name": "EGY_FUTURE_YML_2026-10-17.xls",
+          "path": "archive/EGY_FUTURE_2026-10-17/EGY_FUTURE_YML_2026-10-17.xls",
+          "size": 356864,
+          "sha": "deb6ab0adf8de9edcbdaaba405268614bc53420d",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-17/EGY_FUTURE_YML_2026-10-17.xls"
+        }
+      ],
+      "filesCount": 1
+    },
+    {
       "name": "EGY_FUTURE_2026-10-25",
       "path": "archive/EGY_FUTURE_2026-10-25",
       "lines": [
@@ -620,7 +637,8 @@
       "path": "archive/EGY_SKY_2026-10-13",
       "lines": [
         "HLC",
-        "ONE"
+        "ONE",
+        "YML"
       ],
       "files": [
         {
@@ -638,6 +656,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_SKY_2026-10-13/EGY_SKY_ONE_2026-10-13.xls"
         },
         {
+          "name": "EGY_SKY_YML_2026-10-13.xls",
+          "path": "archive/EGY_SKY_2026-10-13/EGY_SKY_YML_2026-10-13.xls",
+          "size": 99840,
+          "sha": "bf5d0170de14e45af1c492de4c763b9aa0e9c4d9",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_SKY_2026-10-13/EGY_SKY_YML_2026-10-13.xls"
+        },
+        {
           "name": "Storage_Report_EGY_SKY_HLC_2026-10-13.pdf",
           "path": "archive/EGY_SKY_2026-10-13/Storage_Report_EGY_SKY_HLC_2026-10-13.pdf",
           "size": 67272,
@@ -645,7 +670,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_SKY_2026-10-13/Storage_Report_EGY_SKY_HLC_2026-10-13.pdf"
         }
       ],
-      "filesCount": 3
+      "filesCount": 4
     },
     {
       "name": "ELBELLA_2026-10-04",
