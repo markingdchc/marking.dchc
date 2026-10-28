@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T10:13:37.068Z",
+  "lastUpdated": "2026-10-28T10:15:07.563Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -568,9 +568,24 @@
       "lines": [
         "YML",
         "ONE",
-        "HMM"
+        "HMM",
+        "CMA"
       ],
       "files": [
+        {
+          "name": "EGY_FUTURE_CMA_2026-10-17.xls",
+          "path": "archive/EGY_FUTURE_2026-10-17/EGY_FUTURE_CMA_2026-10-17.xls",
+          "size": 54272,
+          "sha": "63d9d01d643e4136c3eef10777b2c73bd9693080",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-17/EGY_FUTURE_CMA_2026-10-17.xls"
+        },
+        {
+          "name": "EGY_FUTURE_HMM_2026-10-17.xls",
+          "path": "archive/EGY_FUTURE_2026-10-17/EGY_FUTURE_HMM_2026-10-17.xls",
+          "size": 54784,
+          "sha": "bc417c125ef6d0317ce39abd6c4b8a506ff603d8",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-17/EGY_FUTURE_HMM_2026-10-17.xls"
+        },
         {
           "name": "EGY_FUTURE_ONE_2026-10-17.xls",
           "path": "archive/EGY_FUTURE_2026-10-17/EGY_FUTURE_ONE_2026-10-17.xls",
@@ -600,7 +615,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-17/Storage_Report_EGY_FUTURE_YML_2026-10-17.pdf"
         }
       ],
-      "filesCount": 4
+      "filesCount": 6
     },
     {
       "name": "EGY_FUTURE_2026-10-25",
@@ -691,9 +706,23 @@
           "size": 67272,
           "sha": "9ec1efe399707b86c708ff141cc87aaa49370740",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_SKY_2026-10-13/Storage_Report_EGY_SKY_HLC_2026-10-13.pdf"
+        },
+        {
+          "name": "disch_37.xls",
+          "path": "archive/EGY_SKY_2026-10-13/disch_37.xls",
+          "size": 61952,
+          "sha": "7f2e75466284ef3ced361845cef5b50dfe706334",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_SKY_2026-10-13/disch_37.xls"
+        },
+        {
+          "name": "load_71.xls",
+          "path": "archive/EGY_SKY_2026-10-13/load_71.xls",
+          "size": 80384,
+          "sha": "ae08855253f4ee915c738fe8a527cb79fbb33c14",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_SKY_2026-10-13/load_71.xls"
         }
       ],
-      "filesCount": 4
+      "filesCount": 6
     },
     {
       "name": "ELBELLA_2026-10-04",
