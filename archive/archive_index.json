@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T11:00:31.195Z",
+  "lastUpdated": "2026-10-28T11:01:31.627Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -70,6 +70,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-10-18/LOAD_199.xls"
         },
         {
+          "name": "Storage_Report_ADELINA_ONE_2026-10-18.pdf",
+          "path": "archive/ADELINA_2026-10-18/Storage_Report_ADELINA_ONE_2026-10-18.pdf",
+          "size": 67542,
+          "sha": "d6c55a123a154d22e0b809af2911b3a37b7b9904",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-10-18/Storage_Report_ADELINA_ONE_2026-10-18.pdf"
+        },
+        {
           "name": "اعاده_تصدير.xls",
           "path": "archive/ADELINA_2026-10-18/اعاده_تصدير.xls",
           "size": 7880704,
@@ -77,7 +84,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-10-18/اعاده_تصدير.xls"
         }
       ],
-      "filesCount": 6
+      "filesCount": 7
     },
     {
       "name": "AL_SEEF_2026-10-10",
@@ -2407,6 +2414,20 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/REMAH_2026-10-14/DISCH_170.xls"
         },
         {
+          "name": "LOAD_125.xls",
+          "path": "archive/REMAH_2026-10-14/LOAD_125.xls",
+          "size": 101888,
+          "sha": "333d13d1fa04c9e56217c3ab1c12a4a30f952f47",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/REMAH_2026-10-14/LOAD_125.xls"
+        },
+        {
+          "name": "REMAH.pdf",
+          "path": "archive/REMAH_2026-10-14/REMAH.pdf",
+          "size": 266440,
+          "sha": "669622caa7d9fd08048cfe28de2ec43efa65521f",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/REMAH_2026-10-14/REMAH.pdf"
+        },
+        {
           "name": "REMAH_HMM_2026-10-14.xls",
           "path": "archive/REMAH_2026-10-14/REMAH_HMM_2026-10-14.xls",
           "size": 61440,
@@ -2421,7 +2442,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/REMAH_2026-10-14/REMAH_ONE_2026-10-14.xls"
         }
       ],
-      "filesCount": 3
+      "filesCount": 5
     },
     {
       "name": "SC_HOUSTON_2026-10-17",
