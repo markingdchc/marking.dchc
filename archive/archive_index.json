@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T11:15:11.232Z",
+  "lastUpdated": "2026-10-28T11:16:30.396Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -794,9 +794,16 @@
           "size": 86016,
           "sha": "6f303ed3936a2bd43414da4095a2442a7fbb7377",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_SKY_2026-10-18/EGY_SKY_YML_2026-10-18.xls"
+        },
+        {
+          "name": "Storage_Report_EGY_SKY_ONE_2026-10-18.pdf",
+          "path": "archive/EGY_SKY_2026-10-18/Storage_Report_EGY_SKY_ONE_2026-10-18.pdf",
+          "size": 71268,
+          "sha": "dddeb4e32cd1aeb8e59a8ce7df602147074dbf26",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_SKY_2026-10-18/Storage_Report_EGY_SKY_ONE_2026-10-18.pdf"
         }
       ],
-      "filesCount": 2
+      "filesCount": 3
     },
     {
       "name": "ELBELLA_2026-10-04",
@@ -3141,6 +3148,23 @@
         }
       ],
       "filesCount": 11
+    },
+    {
+      "name": "YM_WONDROUS_2026-10-16",
+      "path": "archive/YM_WONDROUS_2026-10-16",
+      "lines": [
+        "HMM"
+      ],
+      "files": [
+        {
+          "name": "YM_WONDROUS_HMM_2026-10-16.xls",
+          "path": "archive/YM_WONDROUS_2026-10-16/YM_WONDROUS_HMM_2026-10-16.xls",
+          "size": 94720,
+          "sha": "65a8fa5fb3042a2970789b04fec390ffe3e39ec5",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WONDROUS_2026-10-16/YM_WONDROUS_HMM_2026-10-16.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "YM_WORLD_2026-10-08",
