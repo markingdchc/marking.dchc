@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T09:22:26.407Z",
+  "lastUpdated": "2026-10-28T09:34:05.133Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -697,6 +697,23 @@
         }
       ],
       "filesCount": 5
+    },
+    {
+      "name": "HALO_2026-10-12",
+      "path": "archive/HALO_2026-10-12",
+      "lines": [
+        "TCS"
+      ],
+      "files": [
+        {
+          "name": "HALO_TCS_2026-10-12.xls",
+          "path": "archive/HALO_2026-10-12/HALO_TCS_2026-10-12.xls",
+          "size": 122368,
+          "sha": "2f9dd1011e95c2a8ba2e1487c43519d62d9856d8",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-10-12/HALO_TCS_2026-10-12.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "JOHANNES_MAERSK_2026-10-06",
