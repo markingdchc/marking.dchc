@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T07:13:31.014Z",
+  "lastUpdated": "2026-10-28T08:22:08.022Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1030,6 +1030,23 @@
       "filesCount": 8
     },
     {
+      "name": "MARLA_TIGER_2026-10-27",
+      "path": "archive/MARLA_TIGER_2026-10-27",
+      "lines": [
+        "ZIM"
+      ],
+      "files": [
+        {
+          "name": "MARLA_TIGER_ZIM_2026-10-27.xls",
+          "path": "archive/MARLA_TIGER_2026-10-27/MARLA_TIGER_ZIM_2026-10-27.xls",
+          "size": 256000,
+          "sha": "1f54c677b546c7150e4c44dd2045fa3517e78209",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MARLA_TIGER_2026-10-27/MARLA_TIGER_ZIM_2026-10-27.xls"
+        }
+      ],
+      "filesCount": 1
+    },
+    {
       "name": "MARWIN_2026-10-08",
       "path": "archive/MARWIN_2026-10-08",
       "lines": [
@@ -1771,6 +1788,20 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-23/DISCH_104.xls"
         },
         {
+          "name": "LOAD_338.xls",
+          "path": "archive/PAN_GG_2026-10-23/LOAD_338.xls",
+          "size": 188928,
+          "sha": "d3b4a53431e2f6483d30d8e5ca8f7cad4c785655",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-23/LOAD_338.xls"
+        },
+        {
+          "name": "PAN_GG.pdf",
+          "path": "archive/PAN_GG_2026-10-23/PAN_GG.pdf",
+          "size": 299569,
+          "sha": "b5433e05903711fe6bbdb8f77b798e127a0cb53d",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-23/PAN_GG.pdf"
+        },
+        {
           "name": "PAN_GG_HLC_2026-10-23.xls",
           "path": "archive/PAN_GG_2026-10-23/PAN_GG_HLC_2026-10-23.xls",
           "size": 54272,
@@ -1827,7 +1858,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-23/Storage_Report_PAN_GG_YML_2026-10-23.pdf"
         }
       ],
-      "filesCount": 9
+      "filesCount": 11
     },
     {
       "name": "SHI_SHANG_18_2026-10-06",
