@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T11:01:31.627Z",
+  "lastUpdated": "2026-10-28T11:02:43.178Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -56,6 +56,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-10-18/ADELINA_YML_2026-10-18.xls"
         },
         {
+          "name": "DISCH_140.xls",
+          "path": "archive/ADELINA_2026-10-18/DISCH_140.xls",
+          "size": 96768,
+          "sha": "65d256048d90adb6c396df6ddfec597b8cba0510",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-10-18/DISCH_140.xls"
+        },
+        {
           "name": "DISCH_87.xls",
           "path": "archive/ADELINA_2026-10-18/DISCH_87.xls",
           "size": 79872,
@@ -84,7 +91,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-10-18/اعاده_تصدير.xls"
         }
       ],
-      "filesCount": 7
+      "filesCount": 8
     },
     {
       "name": "AL_SEEF_2026-10-10",
