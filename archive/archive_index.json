@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T10:45:56.428Z",
+  "lastUpdated": "2026-10-28T10:48:34.142Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1386,14 +1386,46 @@
       "filesCount": 4
     },
     {
+      "name": "MAUREN_2026-10-18",
+      "path": "archive/MAUREN_2026-10-18",
+      "lines": [
+        "MSC"
+      ],
+      "files": [
+        {
+          "name": "MAUREN_MSC_2026-10-18.xls",
+          "path": "archive/MAUREN_2026-10-18/MAUREN_MSC_2026-10-18.xls",
+          "size": 161280,
+          "sha": "0e1b84bdff16788f7b1d1ceea6fb295105c3b417",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAUREN_2026-10-18/MAUREN_MSC_2026-10-18.xls"
+        }
+      ],
+      "filesCount": 1
+    },
+    {
       "name": "MITO_2026-10-17",
       "path": "archive/MITO_2026-10-17",
       "lines": [
         "MSK",
         "ONE"
       ],
-      "files": [],
-      "filesCount": 0
+      "files": [
+        {
+          "name": "DISCH_177.xls",
+          "path": "archive/MITO_2026-10-17/DISCH_177.xls",
+          "size": 110080,
+          "sha": "e80f99dbb7bf2230157984275a366e89c1b8b6c0",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MITO_2026-10-17/DISCH_177.xls"
+        },
+        {
+          "name": "MITO.pdf",
+          "path": "archive/MITO_2026-10-17/MITO.pdf",
+          "size": 266055,
+          "sha": "5a377339a90428c90460b1d3bc94016d0f06b0b0",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MITO_2026-10-17/MITO.pdf"
+        }
+      ],
+      "filesCount": 2
     },
     {
       "name": "MSC_BELLE_2026-07-06",
