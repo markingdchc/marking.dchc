@@ -1,9 +1,10 @@
 {
   "shipName": "EGY_SKY",
   "date": "2026-10-18",
-  "lastUpdate": "2026-10-28T11:11:18.743Z",
+  "lastUpdate": "2026-10-28T11:14:55.838Z",
   "lines": [
-    "YML"
+    "YML",
+    "ONE"
   ],
   "documents": []
 }
