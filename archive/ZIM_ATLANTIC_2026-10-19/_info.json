@@ -1,9 +1,10 @@
 {
   "shipName": "ZIM_ATLANTIC",
   "date": "2026-10-19",
-  "lastUpdate": "2026-10-29T08:15:44.799Z",
+  "lastUpdate": "2026-10-29T08:26:32.673Z",
   "lines": [
-    "ZIM"
+    "ZIM",
+    "HLC"
   ],
   "documents": []
 }
