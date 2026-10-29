@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T08:18:41.639Z",
+  "lastUpdated": "2026-10-29T08:26:36.249Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3427,7 +3427,8 @@
       "name": "ZIM_ATLANTIC_2026-10-19",
       "path": "archive/ZIM_ATLANTIC_2026-10-19",
       "lines": [
-        "ZIM"
+        "ZIM",
+        "HLC"
       ],
       "files": [
         {
@@ -3438,6 +3439,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_ATLANTIC_2026-10-19/Storage_Report_ZIM_ATLANTIC_ZIM_2026-10-19.pdf"
         },
         {
+          "name": "ZIM_ATLANTIC_HLC_2026-10-19.xls",
+          "path": "archive/ZIM_ATLANTIC_2026-10-19/ZIM_ATLANTIC_HLC_2026-10-19.xls",
+          "size": 229888,
+          "sha": "308322bca17f4f15c516bcdcbb679e93bfe892e7",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_ATLANTIC_2026-10-19/ZIM_ATLANTIC_HLC_2026-10-19.xls"
+        },
+        {
           "name": "ZIM_ATLANTIC_ZIM_2026-10-19.xls",
           "path": "archive/ZIM_ATLANTIC_2026-10-19/ZIM_ATLANTIC_ZIM_2026-10-19.xls",
           "size": 761856,
@@ -3445,7 +3453,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_ATLANTIC_2026-10-19/ZIM_ATLANTIC_ZIM_2026-10-19.xls"
         }
       ],
-      "filesCount": 2
+      "filesCount": 3
     },
     {
       "name": "ZIM_CHINA_2026-10-26",
