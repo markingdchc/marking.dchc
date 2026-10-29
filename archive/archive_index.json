@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T08:34:16.255Z",
+  "lastUpdated": "2026-10-29T08:35:39.502Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2764,6 +2764,13 @@
       ],
       "files": [
         {
+          "name": "DISCH_102.xls",
+          "path": "archive/VAGA_MAERSK_2026-10-20/DISCH_102.xls",
+          "size": 84992,
+          "sha": "0170570613c138459b45a9f2dd4f69e507363b1c",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VAGA_MAERSK_2026-10-20/DISCH_102.xls"
+        },
+        {
           "name": "Storage_Report_VAGA_MAERSK_MSK_2026-10-20.pdf",
           "path": "archive/VAGA_MAERSK_2026-10-20/Storage_Report_VAGA_MAERSK_MSK_2026-10-20.pdf",
           "size": 248860,
@@ -2792,7 +2799,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VAGA_MAERSK_2026-10-20/VAGA_MAERSK_ONE_2026-10-20.xls"
         }
       ],
-      "filesCount": 4
+      "filesCount": 5
     },
     {
       "name": "VALENCE_2026-10-06",
