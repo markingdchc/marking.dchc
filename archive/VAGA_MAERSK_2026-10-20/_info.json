@@ -1,9 +1,10 @@
 {
   "shipName": "VAGA_MAERSK",
   "date": "2026-10-20",
-  "lastUpdate": "2026-10-29T08:32:37.951Z",
+  "lastUpdate": "2026-10-29T08:33:33.307Z",
   "lines": [
-    "ONE"
+    "ONE",
+    "MSK"
   ],
   "documents": []
 }
