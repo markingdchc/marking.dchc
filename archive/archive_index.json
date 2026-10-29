@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T08:16:39.060Z",
+  "lastUpdated": "2026-10-29T08:18:41.639Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3431,6 +3431,13 @@
       ],
       "files": [
         {
+          "name": "Storage_Report_ZIM_ATLANTIC_ZIM_2026-10-19.pdf",
+          "path": "archive/ZIM_ATLANTIC_2026-10-19/Storage_Report_ZIM_ATLANTIC_ZIM_2026-10-19.pdf",
+          "size": 2712191,
+          "sha": "5118eaf46fbcef42728ba0b480331d9336092fea",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_ATLANTIC_2026-10-19/Storage_Report_ZIM_ATLANTIC_ZIM_2026-10-19.pdf"
+        },
+        {
           "name": "ZIM_ATLANTIC_ZIM_2026-10-19.xls",
           "path": "archive/ZIM_ATLANTIC_2026-10-19/ZIM_ATLANTIC_ZIM_2026-10-19.xls",
           "size": 761856,
@@ -3438,7 +3445,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_ATLANTIC_2026-10-19/ZIM_ATLANTIC_ZIM_2026-10-19.xls"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "ZIM_CHINA_2026-10-26",
