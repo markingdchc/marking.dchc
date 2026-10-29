@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T08:33:07.650Z",
+  "lastUpdated": "2026-10-29T08:33:35.295Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2759,7 +2759,8 @@
       "name": "VAGA_MAERSK_2026-10-20",
       "path": "archive/VAGA_MAERSK_2026-10-20",
       "lines": [
-        "ONE"
+        "ONE",
+        "MSK"
       ],
       "files": [
         {
