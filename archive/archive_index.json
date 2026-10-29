@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T09:02:20.142Z",
+  "lastUpdated": "2026-10-29T09:06:51.925Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2945,6 +2945,13 @@
       ],
       "files": [
         {
+          "name": "DISCH_74.xls",
+          "path": "archive/VIKING_ORCA_2026-10-21/DISCH_74.xls",
+          "size": 76800,
+          "sha": "4e4cad54aa3ce16bff3b4c0fcc219f96280e9d6f",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VIKING_ORCA_2026-10-21/DISCH_74.xls"
+        },
+        {
           "name": "Storage_Report_VIKING_ORCA_CMA_2026-10-21.pdf",
           "path": "archive/VIKING_ORCA_2026-10-21/Storage_Report_VIKING_ORCA_CMA_2026-10-21.pdf",
           "size": 501868,
@@ -2959,7 +2966,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VIKING_ORCA_2026-10-21/VIKING_ORCA_CMA_2026-10-21.xls"
         }
       ],
-      "filesCount": 2
+      "filesCount": 3
     },
     {
       "name": "VUOKSI_MAERSK_2026-10-13",
