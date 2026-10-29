@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T08:27:01.439Z",
+  "lastUpdated": "2026-10-29T08:28:19.062Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3432,6 +3432,20 @@
       ],
       "files": [
         {
+          "name": "DISCH_455.xls",
+          "path": "archive/ZIM_ATLANTIC_2026-10-19/DISCH_455.xls",
+          "size": 200704,
+          "sha": "01e0b07d181423b5ab46f78676c519e8456cefd7",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_ATLANTIC_2026-10-19/DISCH_455.xls"
+        },
+        {
+          "name": "Storage_Report_ZIM_ATLANTIC_HLC_2026-10-19.pdf",
+          "path": "archive/ZIM_ATLANTIC_2026-10-19/Storage_Report_ZIM_ATLANTIC_HLC_2026-10-19.pdf",
+          "size": 900656,
+          "sha": "f132c5e35ea1644d873c71025ffbb836f58e0607",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_ATLANTIC_2026-10-19/Storage_Report_ZIM_ATLANTIC_HLC_2026-10-19.pdf"
+        },
+        {
           "name": "Storage_Report_ZIM_ATLANTIC_ZIM_2026-10-19.pdf",
           "path": "archive/ZIM_ATLANTIC_2026-10-19/Storage_Report_ZIM_ATLANTIC_ZIM_2026-10-19.pdf",
           "size": 2712191,
@@ -3453,7 +3467,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_ATLANTIC_2026-10-19/ZIM_ATLANTIC_ZIM_2026-10-19.xls"
         }
       ],
-      "filesCount": 3
+      "filesCount": 5
     },
     {
       "name": "ZIM_CHINA_2026-10-26",
