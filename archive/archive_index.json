@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T09:09:01.635Z",
+  "lastUpdated": "2026-10-29T09:17:09.357Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2973,6 +2973,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VIKING_ORCA_2026-10-21/Storage_Report_VIKING_ORCA_CMA_2026-10-21.pdf"
         },
         {
+          "name": "VIKING_ORCA.pdf",
+          "path": "archive/VIKING_ORCA_2026-10-21/VIKING_ORCA.pdf",
+          "size": 252648,
+          "sha": "b7bb9d14aab792d645f51b58400c48c8c18178f6",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VIKING_ORCA_2026-10-21/VIKING_ORCA.pdf"
+        },
+        {
           "name": "VIKING_ORCA_CMA_2026-10-21.xls",
           "path": "archive/VIKING_ORCA_2026-10-21/VIKING_ORCA_CMA_2026-10-21.xls",
           "size": 186368,
@@ -2980,7 +2987,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VIKING_ORCA_2026-10-21/VIKING_ORCA_CMA_2026-10-21.xls"
         }
       ],
-      "filesCount": 5
+      "filesCount": 6
     },
     {
       "name": "VUOKSI_MAERSK_2026-10-13",
@@ -3203,7 +3210,8 @@
       "name": "YM_WISDOM_2026-10-22",
       "path": "archive/YM_WISDOM_2026-10-22",
       "lines": [
-        "YML"
+        "YML",
+        "ONE"
       ],
       "files": [
         {
@@ -3228,6 +3236,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WISDOM_2026-10-22/YM_WISDOM.pdf"
         },
         {
+          "name": "YM_WISDOM_ONE_2026-10-22.xls",
+          "path": "archive/YM_WISDOM_2026-10-22/YM_WISDOM_ONE_2026-10-22.xls",
+          "size": 638976,
+          "sha": "3c8d69c931323925c120f73b7f633810e177b653",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WISDOM_2026-10-22/YM_WISDOM_ONE_2026-10-22.xls"
+        },
+        {
           "name": "YM_WISDOM_YML_2026-10-22.xls",
           "path": "archive/YM_WISDOM_2026-10-22/YM_WISDOM_YML_2026-10-22.xls",
           "size": 381440,
@@ -3235,7 +3250,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WISDOM_2026-10-22/YM_WISDOM_YML_2026-10-22.xls"
         }
       ],
-      "filesCount": 4
+      "filesCount": 5
     },
     {
       "name": "YM_WISH_2026-10-02",
