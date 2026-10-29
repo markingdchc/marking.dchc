@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T07:45:01.522Z",
+  "lastUpdated": "2026-10-29T07:55:33.989Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -977,11 +977,32 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-10-18/DISCH_30.xls"
         },
         {
+          "name": "HALO.pdf",
+          "path": "archive/HALO_2026-10-18/HALO.pdf",
+          "size": 254953,
+          "sha": "178c8f1a786189ab21d523fb5fb6c136acf94b16",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-10-18/HALO.pdf"
+        },
+        {
+          "name": "HALO_TCS.pdf",
+          "path": "archive/HALO_2026-10-18/HALO_TCS.pdf",
+          "size": 169885,
+          "sha": "f472f4586c1e55335199c032dbdfcb0a0c5eae4c",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-10-18/HALO_TCS.pdf"
+        },
+        {
           "name": "HALO_TCS_2026-10-18.xls",
           "path": "archive/HALO_2026-10-18/HALO_TCS_2026-10-18.xls",
           "size": 102400,
           "sha": "02915d5ec7e47e5b9babcaea4d18df9a0fa3b024",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-10-18/HALO_TCS_2026-10-18.xls"
+        },
+        {
+          "name": "LOAD_30.xls",
+          "path": "archive/HALO_2026-10-18/LOAD_30.xls",
+          "size": 62976,
+          "sha": "55f5c0a0bf5d9ab884a2cb42d9462c10dce23b28",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-10-18/LOAD_30.xls"
         },
         {
           "name": "Storage_Report_HALO_TCS_2026-10-18.pdf",
@@ -991,7 +1012,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-10-18/Storage_Report_HALO_TCS_2026-10-18.pdf"
         }
       ],
-      "filesCount": 3
+      "filesCount": 6
     },
     {
       "name": "JOHANNES_MAERSK_2026-10-06",
@@ -1766,9 +1787,6 @@
       "name": "MSC_LAURA_2026-10-19",
       "path": "archive/MSC_LAURA_2026-10-19",
       "lines": [
-        "57",
-        "899",
-        "LAURA.PDF",
         "MSC"
       ],
       "files": [
@@ -1797,7 +1815,7 @@
           "name": "MSC_LAURA_MSC_2026-10-19.xls",
           "path": "archive/MSC_LAURA_2026-10-19/MSC_LAURA_MSC_2026-10-19.xls",
           "size": 1086976,
-          "sha": "c45f265cec04e5dad6f8ba8a5a036ab5f473fc57",
+          "sha": "5ba01ebfa7127a19f37553b8d62c8456878bea23",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_LAURA_2026-10-19/MSC_LAURA_MSC_2026-10-19.xls"
         }
       ],
