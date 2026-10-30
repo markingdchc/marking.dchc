@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T05:51:46.539Z",
+  "lastUpdated": "2026-10-30T05:52:46.285Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2067,11 +2067,7 @@
       "name": "MSC_SAVANNAH_2026-10-18",
       "path": "archive/MSC_SAVANNAH_2026-10-18",
       "lines": [
-        "19",
-        "1038",
-        "SAVANNAH",
-        "MSC",
-        "MARINE.PDF"
+        "MSC"
       ],
       "files": [
         {
