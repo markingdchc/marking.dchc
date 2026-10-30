@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T07:25:27.865Z",
+  "lastUpdated": "2026-10-30T17:52:54.472Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2104,9 +2104,16 @@
           "size": 176034,
           "sha": "efa1d1824909db1c14b67b3d9b9f75163dedf408",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_SAVANNAH_2026-10-18/NEW_MARINE.pdf"
+        },
+        {
+          "name": "Storage_Report_MSC_SAVANNAH_MSC_2026-10-18.pdf",
+          "path": "archive/MSC_SAVANNAH_2026-10-18/Storage_Report_MSC_SAVANNAH_MSC_2026-10-18.pdf",
+          "size": 292752,
+          "sha": "9711ac78fd415b49ae2e4a938fd55eb987f8a119",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_SAVANNAH_2026-10-18/Storage_Report_MSC_SAVANNAH_MSC_2026-10-18.pdf"
         }
       ],
-      "filesCount": 5
+      "filesCount": 6
     },
     {
       "name": "MSC_SIENA_2026-10-09",
