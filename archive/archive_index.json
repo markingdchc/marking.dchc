@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T08:13:38.961Z",
+  "lastUpdated": "2026-10-31T08:38:47.258Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1370,6 +1370,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-10-30/DISCH_411.xls"
         },
         {
+          "name": "JONA_SOPHIE_28-10.pdf",
+          "path": "archive/JONA_SOPHIE_2026-10-30/JONA_SOPHIE_28-10.pdf",
+          "size": 752955,
+          "sha": "11482d239aea9f2fddb5cfbccd12d21a5b9c911d",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-10-30/JONA_SOPHIE_28-10.pdf"
+        },
+        {
           "name": "JONA_SOPHIE_HLC_2026-10-30.xls",
           "path": "archive/JONA_SOPHIE_2026-10-30/JONA_SOPHIE_HLC_2026-10-30.xls",
           "size": 64000,
@@ -1384,6 +1391,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-10-30/JONA_SOPHIE_ZIM_2026-10-30.xls"
         },
         {
+          "name": "LOAD_274.xls",
+          "path": "archive/JONA_SOPHIE_2026-10-30/LOAD_274.xls",
+          "size": 162816,
+          "sha": "a941745d493e279d776b9473291fecf80dbd1b8f",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-10-30/LOAD_274.xls"
+        },
+        {
           "name": "Storage_Report_JONA_SOPHIE_ZIM_2026-10-30.pdf",
           "path": "archive/JONA_SOPHIE_2026-10-30/Storage_Report_JONA_SOPHIE_ZIM_2026-10-30.pdf",
           "size": 195174,
@@ -1391,7 +1405,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-10-30/Storage_Report_JONA_SOPHIE_ZIM_2026-10-30.pdf"
         }
       ],
-      "filesCount": 4
+      "filesCount": 6
     },
     {
       "name": "MAERSK_IZMIR_2026-10-27",
@@ -2604,6 +2618,23 @@
         }
       ],
       "filesCount": 11
+    },
+    {
+      "name": "PAN_GG_2026-10-30",
+      "path": "archive/PAN_GG_2026-10-30",
+      "lines": [
+        "MSK"
+      ],
+      "files": [
+        {
+          "name": "PAN_GG_MSK_2026-10-30.xls",
+          "path": "archive/PAN_GG_2026-10-30/PAN_GG_MSK_2026-10-30.xls",
+          "size": 90112,
+          "sha": "fce02ebcb4a1a74602c6978203c70e80e970d680",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-30/PAN_GG_MSK_2026-10-30.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "REMAH_2026-10-14",
