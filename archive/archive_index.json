@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T09:13:17.878Z",
+  "lastUpdated": "2026-10-31T09:16:09.446Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3497,6 +3497,13 @@
       ],
       "files": [
         {
+          "name": "Storage_Report_YM_WELLNESS_HMM_2026-10-31.pdf",
+          "path": "archive/YM_WELLNESS_2026-10-31/Storage_Report_YM_WELLNESS_HMM_2026-10-31.pdf",
+          "size": 395901,
+          "sha": "f8fc9a9d26b5dcd5c98fe597b7c0c342d9288090",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WELLNESS_2026-10-31/Storage_Report_YM_WELLNESS_HMM_2026-10-31.pdf"
+        },
+        {
           "name": "YM_WELLNESS_HMM_2026-10-31.xls",
           "path": "archive/YM_WELLNESS_2026-10-31/YM_WELLNESS_HMM_2026-10-31.xls",
           "size": 100352,
@@ -3504,7 +3511,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WELLNESS_2026-10-31/YM_WELLNESS_HMM_2026-10-31.xls"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "YM_WISDOM_2026-10-22",
