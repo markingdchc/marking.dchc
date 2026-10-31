@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T08:54:28.530Z",
+  "lastUpdated": "2026-10-31T08:55:04.599Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2625,7 +2625,8 @@
       "lines": [
         "MSK",
         "ONE",
-        "MGL"
+        "MGL",
+        "HLC"
       ],
       "files": [
         {
