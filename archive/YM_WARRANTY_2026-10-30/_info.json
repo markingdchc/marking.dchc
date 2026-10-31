@@ -1,11 +1,12 @@
 {
   "shipName": "YM_WARRANTY",
   "date": "2026-10-30",
-  "lastUpdate": "2026-10-31T07:40:06.722Z",
+  "lastUpdate": "2026-10-31T07:42:38.030Z",
   "lines": [
     "YML",
     "ALP",
-    "HMM"
+    "HMM",
+    "ONE"
   ],
   "documents": []
 }
