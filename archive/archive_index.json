@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T07:40:23.827Z",
+  "lastUpdated": "2026-10-31T07:42:40.747Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3148,7 +3148,8 @@
       "lines": [
         "YML",
         "ALP",
-        "HMM"
+        "HMM",
+        "ONE"
       ],
       "files": [
         {
@@ -3157,6 +3158,13 @@
           "size": 721939,
           "sha": "838dd4a37ee6fbae92e325c81dd5de3780e9e2bd",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-10-30/Storage_Report_YM_WARRANTY_ALP_2026-10-30.pdf"
+        },
+        {
+          "name": "Storage_Report_YM_WARRANTY_HMM_2026-10-30.pdf",
+          "path": "archive/YM_WARRANTY_2026-10-30/Storage_Report_YM_WARRANTY_HMM_2026-10-30.pdf",
+          "size": 511820,
+          "sha": "6826a7017ee3a2b5e89a35c58fc5440a45f1d8b5",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-10-30/Storage_Report_YM_WARRANTY_HMM_2026-10-30.pdf"
         },
         {
           "name": "Storage_Report_YM_WARRANTY_YML_2026-10-30.pdf",
@@ -3180,6 +3188,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-10-30/YM_WARRANTY_HMM_2026-10-30.xls"
         },
         {
+          "name": "YM_WARRANTY_ONE_2026-10-30.xls",
+          "path": "archive/YM_WARRANTY_2026-10-30/YM_WARRANTY_ONE_2026-10-30.xls",
+          "size": 435200,
+          "sha": "eb0eb357f1ba85d55b1b7be5f622be77493bf5f1",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-10-30/YM_WARRANTY_ONE_2026-10-30.xls"
+        },
+        {
           "name": "YM_WARRANTY_YML_2026-10-30.xls",
           "path": "archive/YM_WARRANTY_2026-10-30/YM_WARRANTY_YML_2026-10-30.xls",
           "size": 428544,
@@ -3187,7 +3202,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-10-30/YM_WARRANTY_YML_2026-10-30.xls"
         }
       ],
-      "filesCount": 5
+      "filesCount": 7
     },
     {
       "name": "YM_WELLNESS_2026-10-10",
