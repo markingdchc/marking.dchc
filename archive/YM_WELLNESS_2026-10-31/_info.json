@@ -1,10 +1,11 @@
 {
   "shipName": "YM_WELLNESS",
   "date": "2026-10-31",
-  "lastUpdate": "2026-10-31T09:31:29.740Z",
+  "lastUpdate": "2026-10-31T09:52:40.460Z",
   "lines": [
     "HMM",
-    "MSC"
+    "MSC",
+    "ONE"
   ],
   "documents": []
 }
