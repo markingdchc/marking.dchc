@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T08:11:06.130Z",
+  "lastUpdated": "2026-10-31T08:13:06.850Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1363,6 +1363,13 @@
       ],
       "files": [
         {
+          "name": "DISCH_411.xls",
+          "path": "archive/JONA_SOPHIE_2026-10-30/DISCH_411.xls",
+          "size": 188416,
+          "sha": "9a896f4aba74bc47bbfa9bc1273e901015dd7386",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-10-30/DISCH_411.xls"
+        },
+        {
           "name": "JONA_SOPHIE_HLC_2026-10-30.xls",
           "path": "archive/JONA_SOPHIE_2026-10-30/JONA_SOPHIE_HLC_2026-10-30.xls",
           "size": 64000,
@@ -1375,9 +1382,16 @@
           "size": 270848,
           "sha": "55c0dfbe93acdf68829e0eac21995d81026db310",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-10-30/JONA_SOPHIE_ZIM_2026-10-30.xls"
+        },
+        {
+          "name": "Storage_Report_JONA_SOPHIE_ZIM_2026-10-30.pdf",
+          "path": "archive/JONA_SOPHIE_2026-10-30/Storage_Report_JONA_SOPHIE_ZIM_2026-10-30.pdf",
+          "size": 195174,
+          "sha": "5497d5488b6df52ce74d734dbe70c796930e43e0",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-10-30/Storage_Report_JONA_SOPHIE_ZIM_2026-10-30.pdf"
         }
       ],
-      "filesCount": 2
+      "filesCount": 4
     },
     {
       "name": "MAERSK_IZMIR_2026-10-27",
