@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T08:39:02.736Z",
+  "lastUpdated": "2026-10-31T08:54:19.623Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2623,18 +2623,41 @@
       "name": "PAN_GG_2026-10-30",
       "path": "archive/PAN_GG_2026-10-30",
       "lines": [
-        "MSK"
+        "MSK",
+        "ONE",
+        "MGL"
       ],
       "files": [
+        {
+          "name": "PAN_GG_MGL_2026-10-30.xls",
+          "path": "archive/PAN_GG_2026-10-30/PAN_GG_MGL_2026-10-30.xls",
+          "size": 54272,
+          "sha": "f2a7c4b6a83f83fe37120d91b8dfb22d4eb66ad4",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-30/PAN_GG_MGL_2026-10-30.xls"
+        },
         {
           "name": "PAN_GG_MSK_2026-10-30.xls",
           "path": "archive/PAN_GG_2026-10-30/PAN_GG_MSK_2026-10-30.xls",
           "size": 90112,
           "sha": "fce02ebcb4a1a74602c6978203c70e80e970d680",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-30/PAN_GG_MSK_2026-10-30.xls"
+        },
+        {
+          "name": "PAN_GG_ONE_2026-10-30.xls",
+          "path": "archive/PAN_GG_2026-10-30/PAN_GG_ONE_2026-10-30.xls",
+          "size": 78336,
+          "sha": "3335b551a5c3e6482f96ad819254acd1664ab46d",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-30/PAN_GG_ONE_2026-10-30.xls"
+        },
+        {
+          "name": "Storage_Report_PAN_GG_MSK_2026-10-30.pdf",
+          "path": "archive/PAN_GG_2026-10-30/Storage_Report_PAN_GG_MSK_2026-10-30.pdf",
+          "size": 330529,
+          "sha": "74ef1b062cc1a21d9b328451f3b5f03bfbc47f74",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-30/Storage_Report_PAN_GG_MSK_2026-10-30.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 4
     },
     {
       "name": "REMAH_2026-10-14",
