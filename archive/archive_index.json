@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T07:50:43.081Z",
+  "lastUpdated": "2026-10-31T08:03:38.800Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1355,6 +1355,23 @@
       "filesCount": 5
     },
     {
+      "name": "JONA_SOPHIE_2026-10-30",
+      "path": "archive/JONA_SOPHIE_2026-10-30",
+      "lines": [
+        "HLC"
+      ],
+      "files": [
+        {
+          "name": "JONA_SOPHIE_HLC_2026-10-30.xls",
+          "path": "archive/JONA_SOPHIE_2026-10-30/JONA_SOPHIE_HLC_2026-10-30.xls",
+          "size": 64000,
+          "sha": "2744b9c66abc2aa97e3deac6bb94c88e361b61ac",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-10-30/JONA_SOPHIE_HLC_2026-10-30.xls"
+        }
+      ],
+      "filesCount": 1
+    },
+    {
       "name": "MAERSK_IZMIR_2026-10-27",
       "path": "archive/MAERSK_IZMIR_2026-10-27",
       "lines": [
@@ -2627,6 +2644,20 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/REMAH_2026-10-30/DISCH_110.xls"
         },
         {
+          "name": "LOAD_255.xls",
+          "path": "archive/REMAH_2026-10-30/LOAD_255.xls",
+          "size": 154624,
+          "sha": "926d30a9ba1f7c91ca103807127c90232279ff0b",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/REMAH_2026-10-30/LOAD_255.xls"
+        },
+        {
+          "name": "REMAH_29-10.pdf",
+          "path": "archive/REMAH_2026-10-30/REMAH_29-10.pdf",
+          "size": 574169,
+          "sha": "86417363c863faed80f29a6f3671819fa22913c0",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/REMAH_2026-10-30/REMAH_29-10.pdf"
+        },
+        {
           "name": "REMAH_ONE_2026-10-30.xls",
           "path": "archive/REMAH_2026-10-30/REMAH_ONE_2026-10-30.xls",
           "size": 269824,
@@ -2641,7 +2672,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/REMAH_2026-10-30/Storage_Report_REMAH_ONE_2026-10-30.pdf"
         }
       ],
-      "filesCount": 3
+      "filesCount": 5
     },
     {
       "name": "SC_HOUSTON_2026-10-17",
