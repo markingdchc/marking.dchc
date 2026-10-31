@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T07:36:06.737Z",
+  "lastUpdated": "2026-10-31T07:38:18.959Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3146,9 +3146,24 @@
       "name": "YM_WARRANTY_2026-10-30",
       "path": "archive/YM_WARRANTY_2026-10-30",
       "lines": [
-        "YML"
+        "YML",
+        "ALP"
       ],
       "files": [
+        {
+          "name": "Storage_Report_YM_WARRANTY_YML_2026-10-30.pdf",
+          "path": "archive/YM_WARRANTY_2026-10-30/Storage_Report_YM_WARRANTY_YML_2026-10-30.pdf",
+          "size": 1111645,
+          "sha": "ca9212e32245146887349cf1e7086a8285912d8b",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-10-30/Storage_Report_YM_WARRANTY_YML_2026-10-30.pdf"
+        },
+        {
+          "name": "YM_WARRANTY_ALP_2026-10-30.xls",
+          "path": "archive/YM_WARRANTY_2026-10-30/YM_WARRANTY_ALP_2026-10-30.xls",
+          "size": 187392,
+          "sha": "027365b81512092501a5e979d09e0c16b6452222",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-10-30/YM_WARRANTY_ALP_2026-10-30.xls"
+        },
         {
           "name": "YM_WARRANTY_YML_2026-10-30.xls",
           "path": "archive/YM_WARRANTY_2026-10-30/YM_WARRANTY_YML_2026-10-30.xls",
@@ -3157,7 +3172,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-10-30/YM_WARRANTY_YML_2026-10-30.xls"
         }
       ],
-      "filesCount": 1
+      "filesCount": 3
     },
     {
       "name": "YM_WELLNESS_2026-10-10",
