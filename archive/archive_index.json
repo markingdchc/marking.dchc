@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T07:01:54.928Z",
+  "lastUpdated": "2026-10-31T07:35:45.528Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3141,6 +3141,23 @@
         }
       ],
       "filesCount": 12
+    },
+    {
+      "name": "YM_WARRANTY_2026-10-30",
+      "path": "archive/YM_WARRANTY_2026-10-30",
+      "lines": [
+        "YML"
+      ],
+      "files": [
+        {
+          "name": "YM_WARRANTY_YML_2026-10-30.xls",
+          "path": "archive/YM_WARRANTY_2026-10-30/YM_WARRANTY_YML_2026-10-30.xls",
+          "size": 428544,
+          "sha": "594099171fcc709710d08244c12089dacd21aa2c",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-10-30/YM_WARRANTY_YML_2026-10-30.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "YM_WELLNESS_2026-10-10",
