@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T09:16:28.646Z",
+  "lastUpdated": "2026-10-31T09:18:58.684Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -767,6 +767,13 @@
       ],
       "files": [
         {
+          "name": "EGY_SKY.pdf",
+          "path": "archive/EGY_SKY_2026-10-13/EGY_SKY.pdf",
+          "size": 282319,
+          "sha": "1fc10f09e2d68aea044f4c812c3f4a77eec883c5",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_SKY_2026-10-13/EGY_SKY.pdf"
+        },
+        {
           "name": "EGY_SKY_HLC_2026-10-13.xls",
           "path": "archive/EGY_SKY_2026-10-13/EGY_SKY_HLC_2026-10-13.xls",
           "size": 60928,
@@ -809,7 +816,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_SKY_2026-10-13/load_71.xls"
         }
       ],
-      "filesCount": 6
+      "filesCount": 7
     },
     {
       "name": "EGY_SKY_2026-10-18",
@@ -984,6 +991,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-10-12/LINE_TCS.pdf"
         },
         {
+          "name": "LOAD_42.xls",
+          "path": "archive/HALO_2026-10-12/LOAD_42.xls",
+          "size": 68608,
+          "sha": "c8f342e1c936256423ef83ed4ba32ba88f29fcf8",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-10-12/LOAD_42.xls"
+        },
+        {
           "name": "Storage_Report_HALO_TCS_2026-10-12.pdf",
           "path": "archive/HALO_2026-10-12/Storage_Report_HALO_TCS_2026-10-12.pdf",
           "size": 332798,
@@ -998,7 +1012,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-10-12/TCS.pdf"
         }
       ],
-      "filesCount": 6
+      "filesCount": 7
     },
     {
       "name": "HALO_2026-10-18",
@@ -1285,6 +1299,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-10-16/DISCH_101.xls"
         },
         {
+          "name": "JONA_SOPHIE.pdf",
+          "path": "archive/JONA_SOPHIE_2026-10-16/JONA_SOPHIE.pdf",
+          "size": 268991,
+          "sha": "ddb5647a867a4268dda86c72d80ee8a83a2b8753",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-10-16/JONA_SOPHIE.pdf"
+        },
+        {
           "name": "JONA_SOPHIE_ZIM_2026-10-16.xls",
           "path": "archive/JONA_SOPHIE_2026-10-16/JONA_SOPHIE_ZIM_2026-10-16.xls",
           "size": 61440,
@@ -1306,7 +1327,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-10-16/Storage_Report_JONA_SOPHIE_ZIM_2026-10-16.pdf"
         }
       ],
-      "filesCount": 4
+      "filesCount": 5
     },
     {
       "name": "JONA_SOPHIE_2026-10-23",
@@ -1637,9 +1658,16 @@
           "size": 161280,
           "sha": "0e1b84bdff16788f7b1d1ceea6fb295105c3b417",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAUREN_2026-10-18/MAUREN_MSC_2026-10-18.xls"
+        },
+        {
+          "name": "Storage_Report_MAUREN_MSC_2026-10-18.pdf",
+          "path": "archive/MAUREN_2026-10-18/Storage_Report_MAUREN_MSC_2026-10-18.pdf",
+          "size": 596973,
+          "sha": "e8d90f242c3909df39cd94c00cc77bc8e116fd78",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAUREN_2026-10-18/Storage_Report_MAUREN_MSC_2026-10-18.pdf"
         }
       ],
-      "filesCount": 4
+      "filesCount": 5
     },
     {
       "name": "MITO_2026-10-17",
@@ -3499,8 +3527,8 @@
         {
           "name": "Storage_Report_YM_WELLNESS_HMM_2026-10-31.pdf",
           "path": "archive/YM_WELLNESS_2026-10-31/Storage_Report_YM_WELLNESS_HMM_2026-10-31.pdf",
-          "size": 395901,
-          "sha": "f8fc9a9d26b5dcd5c98fe597b7c0c342d9288090",
+          "size": 395934,
+          "sha": "8bb924fd21204ca011b43276e80a8a146cbf5d86",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WELLNESS_2026-10-31/Storage_Report_YM_WELLNESS_HMM_2026-10-31.pdf"
         },
         {
