@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T08:57:22.107Z",
+  "lastUpdated": "2026-10-31T08:58:00.588Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2667,6 +2667,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-30/PAN_GG_ONE_2026-10-30.xls"
         },
         {
+          "name": "PAN_GG_YML_2026-10-30.xls",
+          "path": "archive/PAN_GG_2026-10-30/PAN_GG_YML_2026-10-30.xls",
+          "size": 218112,
+          "sha": "49edaf361b3de303cc73a314fb95a9473aac1ebd",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-30/PAN_GG_YML_2026-10-30.xls"
+        },
+        {
           "name": "Storage_Report_PAN_GG_MGL_2026-10-30.pdf",
           "path": "archive/PAN_GG_2026-10-30/Storage_Report_PAN_GG_MGL_2026-10-30.pdf",
           "size": 72431,
@@ -2679,9 +2686,16 @@
           "size": 346777,
           "sha": "528e87d42a22d61d5943bd27139fa0b7833a71cd",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-30/Storage_Report_PAN_GG_MSK_2026-10-30.pdf"
+        },
+        {
+          "name": "Storage_Report_PAN_GG_YML_2026-10-30.pdf",
+          "path": "archive/PAN_GG_2026-10-30/Storage_Report_PAN_GG_YML_2026-10-30.pdf",
+          "size": 71249,
+          "sha": "5cb041178feb17ecd4796622d58524a6ef4cc88f",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-10-30/Storage_Report_PAN_GG_YML_2026-10-30.pdf"
         }
       ],
-      "filesCount": 7
+      "filesCount": 9
     },
     {
       "name": "REMAH_2026-10-14",
