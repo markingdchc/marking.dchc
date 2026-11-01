@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T08:56:51.566Z",
+  "lastUpdated": "2026-11-01T09:00:09.660Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1684,6 +1684,20 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAUREN_2026-10-31/DISCH_466.xls"
         },
         {
+          "name": "LOAD_49.xls",
+          "path": "archive/MAUREN_2026-10-31/LOAD_49.xls",
+          "size": 72192,
+          "sha": "4aabd3012e531ae70a476b87ab0f37116073c62f",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAUREN_2026-10-31/LOAD_49.xls"
+        },
+        {
+          "name": "MAUREN.pdf",
+          "path": "archive/MAUREN_2026-10-31/MAUREN.pdf",
+          "size": 255800,
+          "sha": "dfdda9a531873a37097fa81580e48d62d18310a5",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAUREN_2026-10-31/MAUREN.pdf"
+        },
+        {
           "name": "MAUREN_MSC_2026-10-31.xls",
           "path": "archive/MAUREN_2026-10-31/MAUREN_MSC_2026-10-31.xls",
           "size": 138240,
@@ -1698,7 +1712,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAUREN_2026-10-31/Storage_Report_MAUREN_MSC_2026-10-31.pdf"
         }
       ],
-      "filesCount": 3
+      "filesCount": 5
     },
     {
       "name": "MITO_2026-10-17",
