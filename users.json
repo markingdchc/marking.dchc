@@ -3,7 +3,7 @@
     {
       "id": 1,
       "username": "admin",
-      "password": "pbkdf2$150000$6ca55ca70b72d065131a8de039b47125$1c40fe1055e7ab86dbc4b383c304f48261a4ad834a35431447c5fc6782470e10",
+      "password": "admin123",
       "fullName": "المدير العام",
       "role": "admin",
       "lineIds": [
