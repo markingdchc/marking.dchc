@@ -1,12 +1,13 @@
 {
   "shipName": "SIARGAO",
   "date": "2026-10-31",
-  "lastUpdate": "2026-11-01T12:17:51.669Z",
+  "lastUpdate": "2026-11-01T12:31:32.553Z",
   "lines": [
     "OOCL",
     "COE",
     "COS",
-    "COE_COS"
+    "COE_COS",
+    "COS_COE"
   ],
   "documents": []
 }
