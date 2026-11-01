@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T10:37:42.996Z",
+  "lastUpdated": "2026-11-01T11:16:51.817Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1111,7 +1111,8 @@
       "path": "archive/FINALOUT",
       "lines": [
         "CMA",
-        "HLC"
+        "HLC",
+        "ONE"
       ],
       "files": [
         {
@@ -1134,9 +1135,23 @@
           "size": 112640,
           "sha": "b465fbb2f3b5f2d4fe097373df592cb964a6716a",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/FINALOUT202610_CMA.xls"
+        },
+        {
+          "name": "FINALOUT202610_CSL.xls",
+          "path": "archive/FINALOUT/FINALOUT202610_CSL.xls",
+          "size": 57856,
+          "sha": "580dc8ec2c16ed75831125ef9bfd237545eb2f1e",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/FINALOUT202610_CSL.xls"
+        },
+        {
+          "name": "FINALOUT202610_ONE.xls",
+          "path": "archive/FINALOUT/FINALOUT202610_ONE.xls",
+          "size": 64000,
+          "sha": "a3855d9cd85c96284cd23d7655954ee46560b548",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/FINALOUT202610_ONE.xls"
         }
       ],
-      "filesCount": 3
+      "filesCount": 5
     },
     {
       "name": "HALO_2026-10-12",
@@ -3229,8 +3244,8 @@
         {
           "name": "SIARGAO_COS_2026-10-31.xls",
           "path": "archive/SIARGAO_2026-10-31/SIARGAO_COS_2026-10-31.xls",
-          "size": 382464,
-          "sha": "938b1710583a5deba56a55f7a2d255883bfd1bcb",
+          "size": 383488,
+          "sha": "cf6e5226173cdced96fdb52fc52efc83940458af",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-31/SIARGAO_COS_2026-10-31.xls"
         },
         {
