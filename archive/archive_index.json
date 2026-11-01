@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T09:25:05.871Z",
+  "lastUpdated": "2026-11-01T09:38:24.822Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3169,15 +3169,15 @@
         {
           "name": "SIARGAO_COE_2026-10-31.xls",
           "path": "archive/SIARGAO_2026-10-31/SIARGAO_COE_2026-10-31.xls",
-          "size": 250880,
-          "sha": "7a86413ad6e9f2003f5db40cc0065d100fd6a5e0",
+          "size": 225792,
+          "sha": "7d123fcc321926491f64e94a4596ab52f298ee0a",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-31/SIARGAO_COE_2026-10-31.xls"
         },
         {
           "name": "SIARGAO_COS_2026-10-31.xls",
           "path": "archive/SIARGAO_2026-10-31/SIARGAO_COS_2026-10-31.xls",
-          "size": 395264,
-          "sha": "e214c9a82b57fb62ae7770bf00622676a4b72bee",
+          "size": 386048,
+          "sha": "ce6a85833aecd69e36741a87add630113ea19a3c",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-31/SIARGAO_COS_2026-10-31.xls"
         },
         {
