@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T08:42:12.306Z",
+  "lastUpdated": "2026-11-01T08:56:07.329Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1682,9 +1682,16 @@
           "size": 138240,
           "sha": "88099f71106ecbeca47af8c8a166e3695d037ca2",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAUREN_2026-10-31/MAUREN_MSC_2026-10-31.xls"
+        },
+        {
+          "name": "Storage_Report_MAUREN_MSC_2026-10-31.pdf",
+          "path": "archive/MAUREN_2026-10-31/Storage_Report_MAUREN_MSC_2026-10-31.pdf",
+          "size": 442141,
+          "sha": "2eaca3f126686143d23af0bb39cbae188a52fb40",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAUREN_2026-10-31/Storage_Report_MAUREN_MSC_2026-10-31.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "MITO_2026-10-17",
