@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T09:20:51.281Z",
+  "lastUpdated": "2026-11-01T09:22:15.945Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -827,6 +827,23 @@
         }
       ],
       "filesCount": 6
+    },
+    {
+      "name": "EGY_FUTURE_2026-10-31",
+      "path": "archive/EGY_FUTURE_2026-10-31",
+      "lines": [
+        "ONE"
+      ],
+      "files": [
+        {
+          "name": "EGY_FUTURE_ONE_2026-10-31.xls",
+          "path": "archive/EGY_FUTURE_2026-10-31/EGY_FUTURE_ONE_2026-10-31.xls",
+          "size": 139776,
+          "sha": "08fb886f6c2b5acf96f70a30fd658e1fe299dc1c",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-31/EGY_FUTURE_ONE_2026-10-31.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "EGY_SKY_2026-10-13",
