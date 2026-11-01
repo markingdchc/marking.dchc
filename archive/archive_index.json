@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T09:13:24.647Z",
+  "lastUpdated": "2026-11-01T09:19:26.443Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -434,14 +434,28 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/AS_SELINA_2026-10-31/AS_SELINA_MSK_2026-10-31.xls"
         },
         {
+          "name": "AS_SELINA_ONE_2026-10-31.xls",
+          "path": "archive/AS_SELINA_2026-10-31/AS_SELINA_ONE_2026-10-31.xls",
+          "size": 342016,
+          "sha": "248eaeb710ec931e3e0abc5c5b903dc734dc030e",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/AS_SELINA_2026-10-31/AS_SELINA_ONE_2026-10-31.xls"
+        },
+        {
           "name": "Storage_Report_AS_SELINA_MSK_2026-10-31.pdf",
           "path": "archive/AS_SELINA_2026-10-31/Storage_Report_AS_SELINA_MSK_2026-10-31.pdf",
           "size": 148161,
           "sha": "6cbec1a87d07553455a643ba69a5d2d4e169cb21",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/AS_SELINA_2026-10-31/Storage_Report_AS_SELINA_MSK_2026-10-31.pdf"
+        },
+        {
+          "name": "Storage_Report_AS_SELINA_ONE_2026-10-31.pdf",
+          "path": "archive/AS_SELINA_2026-10-31/Storage_Report_AS_SELINA_ONE_2026-10-31.pdf",
+          "size": 787120,
+          "sha": "04b570c40220756f1eba45368ef5c7838dc5ed11",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/AS_SELINA_2026-10-31/Storage_Report_AS_SELINA_ONE_2026-10-31.pdf"
         }
       ],
-      "filesCount": 2
+      "filesCount": 4
     },
     {
       "name": "ATHENA_2026-10-08",
