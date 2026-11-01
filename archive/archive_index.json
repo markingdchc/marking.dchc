@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T09:54:04.769Z",
+  "lastUpdated": "2026-11-01T09:56:41.055Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -878,11 +878,25 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-31/DISCH_30.xls"
         },
         {
+          "name": "EGY_FUTURE_30-10.pdf",
+          "path": "archive/EGY_FUTURE_2026-10-31/EGY_FUTURE_30-10.pdf",
+          "size": 924863,
+          "sha": "7591a861e08e005d9369e3fd98b1a0fd34fc13ad",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-31/EGY_FUTURE_30-10.pdf"
+        },
+        {
           "name": "EGY_FUTURE_ONE_2026-10-31.xls",
           "path": "archive/EGY_FUTURE_2026-10-31/EGY_FUTURE_ONE_2026-10-31.xls",
           "size": 139776,
           "sha": "08fb886f6c2b5acf96f70a30fd658e1fe299dc1c",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-31/EGY_FUTURE_ONE_2026-10-31.xls"
+        },
+        {
+          "name": "LOAD_493.xls",
+          "path": "archive/EGY_FUTURE_2026-10-31/LOAD_493.xls",
+          "size": 250368,
+          "sha": "b46c935ebe4286c55dfe2bae3ba9d5942b64be13",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-31/LOAD_493.xls"
         },
         {
           "name": "Storage_Report_EGY_FUTURE_ONE_2026-10-31.pdf",
@@ -892,7 +906,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-31/Storage_Report_EGY_FUTURE_ONE_2026-10-31.pdf"
         }
       ],
-      "filesCount": 3
+      "filesCount": 5
     },
     {
       "name": "EGY_SKY_2026-10-13",
@@ -3176,15 +3190,15 @@
         {
           "name": "SIARGAO_COE_2026-10-31.xls",
           "path": "archive/SIARGAO_2026-10-31/SIARGAO_COE_2026-10-31.xls",
-          "size": 225792,
-          "sha": "7d123fcc321926491f64e94a4596ab52f298ee0a",
+          "size": 238592,
+          "sha": "bae7c54925f884e86307379b78854d1fbe40b505",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-31/SIARGAO_COE_2026-10-31.xls"
         },
         {
           "name": "SIARGAO_COS_2026-10-31.xls",
           "path": "archive/SIARGAO_2026-10-31/SIARGAO_COS_2026-10-31.xls",
-          "size": 386048,
-          "sha": "ce6a85833aecd69e36741a87add630113ea19a3c",
+          "size": 382464,
+          "sha": "938b1710583a5deba56a55f7a2d255883bfd1bcb",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-31/SIARGAO_COS_2026-10-31.xls"
         },
         {
@@ -3204,8 +3218,8 @@
         {
           "name": "Storage_Report_SIARGAO_COS_2026-10-31.pdf",
           "path": "archive/SIARGAO_2026-10-31/Storage_Report_SIARGAO_COS_2026-10-31.pdf",
-          "size": 1521509,
-          "sha": "7358b608ec56d55f03519125f4c0ec20bf26ae8e",
+          "size": 1433138,
+          "sha": "dde0984847bc58079cf39249e2bf5715ed95cb5e",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-31/Storage_Report_SIARGAO_COS_2026-10-31.pdf"
         },
         {
