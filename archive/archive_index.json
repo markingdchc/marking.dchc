@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T10:09:47.878Z",
+  "lastUpdated": "2026-11-01T10:37:42.996Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1110,7 +1110,8 @@
       "name": "FINALOUT",
       "path": "archive/FINALOUT",
       "lines": [
-        "CMA"
+        "CMA",
+        "HLC"
       ],
       "files": [
         {
@@ -1119,9 +1120,23 @@
           "size": 52224,
           "sha": "2b6bf09806e047804b5d41afaabde51b5dbf9dcb",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/FINALOUT20260910_CMA.xls"
+        },
+        {
+          "name": "FINALOUT20260910_HLC.xls",
+          "path": "archive/FINALOUT/FINALOUT20260910_HLC.xls",
+          "size": 51712,
+          "sha": "a0f3548f73080ee162cde8da0dc090060bb270a3",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/FINALOUT20260910_HLC.xls"
+        },
+        {
+          "name": "FINALOUT202610_CMA.xls",
+          "path": "archive/FINALOUT/FINALOUT202610_CMA.xls",
+          "size": 112640,
+          "sha": "b465fbb2f3b5f2d4fe097373df592cb964a6716a",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/FINALOUT202610_CMA.xls"
         }
       ],
-      "filesCount": 1
+      "filesCount": 3
     },
     {
       "name": "HALO_2026-10-12",
