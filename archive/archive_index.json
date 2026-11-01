@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T09:22:15.945Z",
+  "lastUpdated": "2026-11-01T09:22:34.784Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -123,6 +123,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-11-01/ADELINA_YML_2026-11-01.xls"
         },
         {
+          "name": "DISCH_11.xls",
+          "path": "archive/ADELINA_2026-11-01/DISCH_11.xls",
+          "size": 53760,
+          "sha": "a7d0c2aabd8f676f19466523b8c26f29da3db732",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-11-01/DISCH_11.xls"
+        },
+        {
           "name": "Storage_Report_ADELINA_ONE_2026-11-01.pdf",
           "path": "archive/ADELINA_2026-11-01/Storage_Report_ADELINA_ONE_2026-11-01.pdf",
           "size": 67260,
@@ -130,7 +137,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-11-01/Storage_Report_ADELINA_ONE_2026-11-01.pdf"
         }
       ],
-      "filesCount": 3
+      "filesCount": 4
     },
     {
       "name": "AL_SEEF_2026-10-10",
@@ -841,9 +848,16 @@
           "size": 139776,
           "sha": "08fb886f6c2b5acf96f70a30fd658e1fe299dc1c",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-31/EGY_FUTURE_ONE_2026-10-31.xls"
+        },
+        {
+          "name": "Storage_Report_EGY_FUTURE_ONE_2026-10-31.pdf",
+          "path": "archive/EGY_FUTURE_2026-10-31/Storage_Report_EGY_FUTURE_ONE_2026-10-31.pdf",
+          "size": 82915,
+          "sha": "889ab6f9ceb19e6660f70568a6e05bd75d22ca0b",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-31/Storage_Report_EGY_FUTURE_ONE_2026-10-31.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "EGY_SKY_2026-10-13",
