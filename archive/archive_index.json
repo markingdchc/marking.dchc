@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T09:22:34.784Z",
+  "lastUpdated": "2026-11-01T09:22:09.011Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -130,6 +130,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-11-01/DISCH_11.xls"
         },
         {
+          "name": "LOAD_185.xls",
+          "path": "archive/ADELINA_2026-11-01/LOAD_185.xls",
+          "size": 125952,
+          "sha": "9822db9620b658ca22f6076a6c27375354d5b894",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-11-01/LOAD_185.xls"
+        },
+        {
           "name": "Storage_Report_ADELINA_ONE_2026-11-01.pdf",
           "path": "archive/ADELINA_2026-11-01/Storage_Report_ADELINA_ONE_2026-11-01.pdf",
           "size": 67260,
@@ -137,7 +144,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-11-01/Storage_Report_ADELINA_ONE_2026-11-01.pdf"
         }
       ],
-      "filesCount": 4
+      "filesCount": 5
     },
     {
       "name": "AL_SEEF_2026-10-10",
@@ -442,6 +449,13 @@
       ],
       "files": [
         {
+          "name": "AS_SELINA_30-10.pdf",
+          "path": "archive/AS_SELINA_2026-10-31/AS_SELINA_30-10.pdf",
+          "size": 789280,
+          "sha": "5002bd322cd4fb743711b3e3f8a0ad4b21c455f9",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/AS_SELINA_2026-10-31/AS_SELINA_30-10.pdf"
+        },
+        {
           "name": "AS_SELINA_MSK_2026-10-31.xls",
           "path": "archive/AS_SELINA_2026-10-31/AS_SELINA_MSK_2026-10-31.xls",
           "size": 54784,
@@ -470,7 +484,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/AS_SELINA_2026-10-31/Storage_Report_AS_SELINA_ONE_2026-10-31.pdf"
         }
       ],
-      "filesCount": 4
+      "filesCount": 5
     },
     {
       "name": "ATHENA_2026-10-08",
