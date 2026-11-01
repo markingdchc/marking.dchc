@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T09:57:02.963Z",
+  "lastUpdated": "2026-11-01T10:09:47.878Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1105,6 +1105,23 @@
         }
       ],
       "filesCount": 5
+    },
+    {
+      "name": "FINALOUT",
+      "path": "archive/FINALOUT",
+      "lines": [
+        "CMA"
+      ],
+      "files": [
+        {
+          "name": "FINALOUT20260910_CMA.xls",
+          "path": "archive/FINALOUT/FINALOUT20260910_CMA.xls",
+          "size": 52224,
+          "sha": "2b6bf09806e047804b5d41afaabde51b5dbf9dcb",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/FINALOUT20260910_CMA.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "HALO_2026-10-12",
@@ -3211,8 +3228,8 @@
         {
           "name": "Storage_Report_SIARGAO_COE_2026-10-31.pdf",
           "path": "archive/SIARGAO_2026-10-31/Storage_Report_SIARGAO_COE_2026-10-31.pdf",
-          "size": 621470,
-          "sha": "851da11e8908cbec24ae06a817cf14bddaa48963",
+          "size": 670788,
+          "sha": "75a9da3b72854b623b834b79edb3cebda520bb4a",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-31/Storage_Report_SIARGAO_COE_2026-10-31.pdf"
         },
         {
