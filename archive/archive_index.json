@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T07:04:36.408Z",
+  "lastUpdated": "2026-11-02T07:04:46.525Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1122,8 +1122,8 @@
         {
           "name": "FINALOUT20260910_CMA.xls",
           "path": "archive/FINALOUT/FINALOUT20260910_CMA.xls",
-          "size": 52224,
-          "sha": "2b6bf09806e047804b5d41afaabde51b5dbf9dcb",
+          "size": 64000,
+          "sha": "da4e12c0adebc58e51bfc7f9e1e78ccb4d46c55e",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/FINALOUT20260910_CMA.xls"
         },
         {
@@ -1169,6 +1169,20 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/FINALOUT202610_TAR.xls"
         },
         {
+          "name": "FINALOUT202610_ZIM.xls",
+          "path": "archive/FINALOUT/FINALOUT202610_ZIM.xls",
+          "size": 252416,
+          "sha": "5eb2ca03b67c5903c2f511becf884a2ee789149f",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/FINALOUT202610_ZIM.xls"
+        },
+        {
+          "name": "Storage_Report_FINALOUT20260910_CMA_.pdf",
+          "path": "archive/FINALOUT/Storage_Report_FINALOUT20260910_CMA_.pdf",
+          "size": 250394,
+          "sha": "443a84b6c8eef815dbd21d4ea5e27353b82708ac",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/Storage_Report_FINALOUT20260910_CMA_.pdf"
+        },
+        {
           "name": "Storage_Report_FINALOUT202610_CMA_.pdf",
           "path": "archive/FINALOUT/Storage_Report_FINALOUT202610_CMA_.pdf",
           "size": 513218,
@@ -1197,6 +1211,20 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/Storage_Report_FINALOUT202610_ONE_.pdf"
         },
         {
+          "name": "Storage_Report_FINALOUT202610_TAR_.pdf",
+          "path": "archive/FINALOUT/Storage_Report_FINALOUT202610_TAR_.pdf",
+          "size": 63088,
+          "sha": "594fb8237374c0b55aebaa54d79d538d3c033e70",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/Storage_Report_FINALOUT202610_TAR_.pdf"
+        },
+        {
+          "name": "Storage_Report_FINALOUT202610_ZIM_.pdf",
+          "path": "archive/FINALOUT/Storage_Report_FINALOUT202610_ZIM_.pdf",
+          "size": 2301167,
+          "sha": "3a6d5f47eaa6371f6f20ba8e2b109223cb231ffa",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/Storage_Report_FINALOUT202610_ZIM_.pdf"
+        },
+        {
           "name": "خروج_بدون_عودة_صريح_شهر_10-2026_1203.xls",
           "path": "archive/FINALOUT/خروج_بدون_عودة_صريح_شهر_10-2026_1203.xls",
           "size": 658432,
@@ -1211,7 +1239,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/خروج_بدون_عودة_غير_صريح_شهر_09-2026_1204.xls"
         }
       ],
-      "filesCount": 13
+      "filesCount": 17
     },
     {
       "name": "HALO_2026-10-12",
