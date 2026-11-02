@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T06:00:40.466Z",
+  "lastUpdated": "2026-11-02T06:10:43.295Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1149,9 +1149,16 @@
           "size": 64000,
           "sha": "a3855d9cd85c96284cd23d7655954ee46560b548",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/FINALOUT202610_ONE.xls"
+        },
+        {
+          "name": "خروج_بدون_عودة_صريح_شهر_10-2026_1203.xls",
+          "path": "archive/FINALOUT/خروج_بدون_عودة_صريح_شهر_10-2026_1203.xls",
+          "size": 658432,
+          "sha": "02109ba56f4a919e1b72f6f4652640c38c37ffa0",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/خروج_بدون_عودة_صريح_شهر_10-2026_1203.xls"
         }
       ],
-      "filesCount": 5
+      "filesCount": 6
     },
     {
       "name": "HALO_2026-10-12",
