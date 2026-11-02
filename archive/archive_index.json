@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T08:23:37.774Z",
+  "lastUpdated": "2026-11-02T08:48:40.939Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1022,6 +1022,23 @@
         }
       ],
       "filesCount": 6
+    },
+    {
+      "name": "EGY_SKY_2026-11-02",
+      "path": "archive/EGY_SKY_2026-11-02",
+      "lines": [
+        "HLC"
+      ],
+      "files": [
+        {
+          "name": "EGY_SKY_HLC_2026-11-02.xls",
+          "path": "archive/EGY_SKY_2026-11-02/EGY_SKY_HLC_2026-11-02.xls",
+          "size": 87552,
+          "sha": "433116dcbe26338aa37f35ef5d48ed5be8fe64d1",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_SKY_2026-11-02/EGY_SKY_HLC_2026-11-02.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "ELBELLA_2026-10-04",
@@ -4458,11 +4475,25 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_AMERICA_2026-11-01/DISCH_1048.xls"
         },
         {
+          "name": "LOAD_1558.xls",
+          "path": "archive/ZIM_AMERICA_2026-11-01/LOAD_1558.xls",
+          "size": 696320,
+          "sha": "f5d774f38165a32abca4929bd33d6d603796834d",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_AMERICA_2026-11-01/LOAD_1558.xls"
+        },
+        {
           "name": "Storage_Report_ZIM_AMERICA_MSC_2026-11-01.pdf",
           "path": "archive/ZIM_AMERICA_2026-11-01/Storage_Report_ZIM_AMERICA_MSC_2026-11-01.pdf",
           "size": 5888296,
           "sha": "9f6be1aa9447e10b822b8738dff56d3e33a284de",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_AMERICA_2026-11-01/Storage_Report_ZIM_AMERICA_MSC_2026-11-01.pdf"
+        },
+        {
+          "name": "ZIM_AMERICA.pdf",
+          "path": "archive/ZIM_AMERICA_2026-11-01/ZIM_AMERICA.pdf",
+          "size": 272578,
+          "sha": "c4995d5a7af29b45cc67c3cedf1bf52ecc4d5397",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_AMERICA_2026-11-01/ZIM_AMERICA.pdf"
         },
         {
           "name": "ZIM_AMERICA_MSC_2026-11-01.xls",
@@ -4479,7 +4510,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_AMERICA_2026-11-01/ZIM_AMERICA_ZIM_2026-11-01.xls"
         }
       ],
-      "filesCount": 4
+      "filesCount": 6
     },
     {
       "name": "ZIM_ATLANTIC_2026-10-19",
