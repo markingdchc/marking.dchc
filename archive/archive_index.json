@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T07:01:33.536Z",
+  "lastUpdated": "2026-11-02T07:01:47.123Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1112,7 +1112,8 @@
       "lines": [
         "CMA",
         "HLC",
-        "ONE"
+        "ONE",
+        "CSL"
       ],
       "files": [
         {
