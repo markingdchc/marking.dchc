@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T07:03:19.814Z",
+  "lastUpdated": "2026-11-02T07:03:39.679Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1114,7 +1114,8 @@
         "HLC",
         "ONE",
         "CSL",
-        "EMK"
+        "EMK",
+        "TAR"
       ],
       "files": [
         {
@@ -1155,9 +1156,16 @@
         {
           "name": "FINALOUT202610_ONE.xls",
           "path": "archive/FINALOUT/FINALOUT202610_ONE.xls",
-          "size": 64000,
-          "sha": "a3855d9cd85c96284cd23d7655954ee46560b548",
+          "size": 51200,
+          "sha": "e38620ab4df7d9c68ca6adc773af71290ce5c127",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/FINALOUT202610_ONE.xls"
+        },
+        {
+          "name": "FINALOUT202610_TAR.xls",
+          "path": "archive/FINALOUT/FINALOUT202610_TAR.xls",
+          "size": 51200,
+          "sha": "6d4b61f36c1f54553f8f72961d1ab12dd58be7d3",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/FINALOUT202610_TAR.xls"
         },
         {
           "name": "Storage_Report_FINALOUT202610_CMA_.pdf",
@@ -1181,6 +1189,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/Storage_Report_FINALOUT202610_EMK_.pdf"
         },
         {
+          "name": "Storage_Report_FINALOUT202610_ONE_.pdf",
+          "path": "archive/FINALOUT/Storage_Report_FINALOUT202610_ONE_.pdf",
+          "size": 62927,
+          "sha": "ab2db1ac42faaae0027061a28d9c544f65b8bcad",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/Storage_Report_FINALOUT202610_ONE_.pdf"
+        },
+        {
           "name": "خروج_بدون_عودة_صريح_شهر_10-2026_1203.xls",
           "path": "archive/FINALOUT/خروج_بدون_عودة_صريح_شهر_10-2026_1203.xls",
           "size": 658432,
@@ -1195,7 +1210,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/خروج_بدون_عودة_غير_صريح_شهر_09-2026_1204.xls"
         }
       ],
-      "filesCount": 11
+      "filesCount": 13
     },
     {
       "name": "HALO_2026-10-12",
