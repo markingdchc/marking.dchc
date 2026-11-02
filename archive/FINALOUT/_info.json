@@ -1,12 +1,13 @@
 {
   "shipName": "FINALOUT202610",
   "date": "",
-  "lastUpdate": "2026-11-02T07:01:45.222Z",
+  "lastUpdate": "2026-11-02T07:02:12.954Z",
   "lines": [
     "CMA",
     "HLC",
     "ONE",
-    "CSL"
+    "CSL",
+    "EMK"
   ],
   "documents": []
 }
