@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T07:06:54.204Z",
+  "lastUpdated": "2026-11-02T07:16:40.091Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4446,9 +4446,17 @@
       "name": "ZIM_AMERICA_2026-11-01",
       "path": "archive/ZIM_AMERICA_2026-11-01",
       "lines": [
-        "ZIM"
+        "ZIM",
+        "MSC"
       ],
       "files": [
+        {
+          "name": "ZIM_AMERICA_MSC_2026-11-01.xls",
+          "path": "archive/ZIM_AMERICA_2026-11-01/ZIM_AMERICA_MSC_2026-11-01.xls",
+          "size": 1673728,
+          "sha": "d2f2714dbdd839d5810a0254ba3b0ff298a6cf90",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_AMERICA_2026-11-01/ZIM_AMERICA_MSC_2026-11-01.xls"
+        },
         {
           "name": "ZIM_AMERICA_ZIM_2026-11-01.xls",
           "path": "archive/ZIM_AMERICA_2026-11-01/ZIM_AMERICA_ZIM_2026-11-01.xls",
@@ -4457,7 +4465,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_AMERICA_2026-11-01/ZIM_AMERICA_ZIM_2026-11-01.xls"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "ZIM_ATLANTIC_2026-10-19",
