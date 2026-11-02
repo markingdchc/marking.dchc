@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T07:06:05.420Z",
+  "lastUpdated": "2026-11-02T07:06:22.701Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1212,6 +1212,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/Storage_Report_FINALOUT20260910_HLC_.pdf"
         },
         {
+          "name": "Storage_Report_FINALOUT20260910_ONE_.pdf",
+          "path": "archive/FINALOUT/Storage_Report_FINALOUT20260910_ONE_.pdf",
+          "size": 125161,
+          "sha": "c00ff7a933e2329ae26f7fa05aed5bdda250860e",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/Storage_Report_FINALOUT20260910_ONE_.pdf"
+        },
+        {
           "name": "Storage_Report_FINALOUT202610_CMA_.pdf",
           "path": "archive/FINALOUT/Storage_Report_FINALOUT202610_CMA_.pdf",
           "size": 513218,
@@ -1268,7 +1275,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/خروج_بدون_عودة_غير_صريح_شهر_09-2026_1204.xls"
         }
       ],
-      "filesCount": 21
+      "filesCount": 22
     },
     {
       "name": "HALO_2026-10-12",
@@ -4434,6 +4441,23 @@
         }
       ],
       "filesCount": 4
+    },
+    {
+      "name": "ZIM_AMERICA_2026-11-01",
+      "path": "archive/ZIM_AMERICA_2026-11-01",
+      "lines": [
+        "ZIM"
+      ],
+      "files": [
+        {
+          "name": "ZIM_AMERICA_ZIM_2026-11-01.xls",
+          "path": "archive/ZIM_AMERICA_2026-11-01/ZIM_AMERICA_ZIM_2026-11-01.xls",
+          "size": 828928,
+          "sha": "79de8e6e98cc75e7513c271753fb605b9c32babd",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_AMERICA_2026-11-01/ZIM_AMERICA_ZIM_2026-11-01.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "ZIM_ATLANTIC_2026-10-19",
