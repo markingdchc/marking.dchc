@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T20:36:32.095Z",
+  "lastUpdated": "2026-11-02T20:38:04.011Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3505,6 +3505,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-31/SIARGAO_OOCL_2026-10-31.xls"
         },
         {
+          "name": "Storage_Report_SIARGAO_COE_COS_2026-10-31.pdf",
+          "path": "archive/SIARGAO_2026-10-31/Storage_Report_SIARGAO_COE_COS_2026-10-31.pdf",
+          "size": 326581,
+          "sha": "39beb5ad6b074557e169a7e8f3b7a601ba180273",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-31/Storage_Report_SIARGAO_COE_COS_2026-10-31.pdf"
+        },
+        {
           "name": "Storage_Report_SIARGAO_OOCL_2026-10-31.pdf",
           "path": "archive/SIARGAO_2026-10-31/Storage_Report_SIARGAO_OOCL_2026-10-31.pdf",
           "size": 215099,
@@ -3512,7 +3519,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-31/Storage_Report_SIARGAO_OOCL_2026-10-31.pdf"
         }
       ],
-      "filesCount": 6
+      "filesCount": 7
     },
     {
       "name": "SSF_LILY_2026-10-06",
