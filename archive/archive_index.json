@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T09:27:32.276Z",
+  "lastUpdated": "2026-11-02T09:28:32.888Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2421,6 +2421,13 @@
       ],
       "files": [
         {
+          "name": "DISCH_130.xls",
+          "path": "archive/MSC_MICHIGAN_VII_2026-11-01/DISCH_130.xls",
+          "size": 93696,
+          "sha": "87e773a1c33878debdaa6597f0d00d070ea4e6b9",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_MICHIGAN_VII_2026-11-01/DISCH_130.xls"
+        },
+        {
           "name": "MSC_MICHIGAN_VII_MSC_2026-11-01.xls",
           "path": "archive/MSC_MICHIGAN_VII_2026-11-01/MSC_MICHIGAN_VII_MSC_2026-11-01.xls",
           "size": 1179136,
@@ -2435,7 +2442,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_MICHIGAN_VII_2026-11-01/Storage_Report_MSC_MICHIGAN_VII_MSC_2026-11-01.pdf"
         }
       ],
-      "filesCount": 2
+      "filesCount": 3
     },
     {
       "name": "MSC_NINA_F_2026-10-11",
