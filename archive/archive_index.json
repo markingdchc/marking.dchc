@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T13:01:58.411Z",
+  "lastUpdated": "2026-11-03T21:38:04.446Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -150,13 +150,10 @@
       "name": "AL_SEEF_2026-10-10",
       "path": "archive/AL_SEEF_2026-10-10",
       "lines": [
-        "SEEF.PDF",
         "ACL",
         "CSL",
         "GFS",
-        "WSHI",
-        "636",
-        "309"
+        "WSHI"
       ],
       "files": [
         {
@@ -452,6 +449,13 @@
       ],
       "files": [
         {
+          "name": "AS_SELINA_2026-10-31_01.pdf",
+          "path": "archive/AS_SELINA_2026-10-31/AS_SELINA_2026-10-31_01.pdf",
+          "size": 9551,
+          "sha": "e37aada4b075340c9c715a6ef846091390e2d671",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/AS_SELINA_2026-10-31/AS_SELINA_2026-10-31_01.pdf"
+        },
+        {
           "name": "AS_SELINA_30-10.pdf",
           "path": "archive/AS_SELINA_2026-10-31/AS_SELINA_30-10.pdf",
           "size": 789280,
@@ -501,7 +505,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/AS_SELINA_2026-10-31/Storage_Report_AS_SELINA_ONE_2026-10-31.pdf"
         }
       ],
-      "filesCount": 7
+      "filesCount": 8
     },
     {
       "name": "ATHENA_2026-10-08",
@@ -653,9 +657,7 @@
       "name": "DOJUN_BRAVE_2026-10-23",
       "path": "archive/DOJUN_BRAVE_2026-10-23",
       "lines": [
-        "BRAVE.PDF",
-        "GCS",
-        "26"
+        "GCS"
       ],
       "files": [
         {
