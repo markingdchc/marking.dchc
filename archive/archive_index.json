@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T07:04:14.103Z",
+  "lastUpdated": "2026-11-03T07:08:47.726Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -909,6 +909,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-31/EGY_FUTURE_ONE_2026-10-31.xls"
         },
         {
+          "name": "EGY_FUTURE_YML_2026-10-31.xls",
+          "path": "archive/EGY_FUTURE_2026-10-31/EGY_FUTURE_YML_2026-10-31.xls",
+          "size": 381952,
+          "sha": "c61a486fe0bed11935eee64b5bbef98a8773faa1",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-31/EGY_FUTURE_YML_2026-10-31.xls"
+        },
+        {
           "name": "LOAD_493.xls",
           "path": "archive/EGY_FUTURE_2026-10-31/LOAD_493.xls",
           "size": 250368,
@@ -923,7 +930,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-10-31/Storage_Report_EGY_FUTURE_ONE_2026-10-31.pdf"
         }
       ],
-      "filesCount": 5
+      "filesCount": 6
     },
     {
       "name": "EGY_SKY_2026-10-13",
@@ -3456,6 +3463,20 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-10/SIARGAO_8-10-2026.pdf"
         },
         {
+          "name": "SIARGAO_COE_2026-10-10.xls",
+          "path": "archive/SIARGAO_2026-10-10/SIARGAO_COE_2026-10-10.xls",
+          "size": 286208,
+          "sha": "e3a6a9367f0bd402222ff23b405665513c9a8d96",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-10/SIARGAO_COE_2026-10-10.xls"
+        },
+        {
+          "name": "SIARGAO_COS_2026-10-10.xls",
+          "path": "archive/SIARGAO_2026-10-10/SIARGAO_COS_2026-10-10.xls",
+          "size": 335872,
+          "sha": "6e2856cd5bccee21dc070ad57f984713598abd5b",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-10/SIARGAO_COS_2026-10-10.xls"
+        },
+        {
           "name": "SIARGAO_OOCL_2026-10-10.xls",
           "path": "archive/SIARGAO_2026-10-10/SIARGAO_OOCL_2026-10-10.xls",
           "size": 64000,
@@ -3463,7 +3484,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-10/SIARGAO_OOCL_2026-10-10.xls"
         }
       ],
-      "filesCount": 5
+      "filesCount": 7
     },
     {
       "name": "SIARGAO_2026-10-31",
@@ -3498,11 +3519,32 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-31/SIARGAO.pdf"
         },
         {
+          "name": "SIARGAO_COE_2026-10-31.xls",
+          "path": "archive/SIARGAO_2026-10-31/SIARGAO_COE_2026-10-31.xls",
+          "size": 238592,
+          "sha": "bae7c54925f884e86307379b78854d1fbe40b505",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-31/SIARGAO_COE_2026-10-31.xls"
+        },
+        {
           "name": "SIARGAO_COE_COS_2026-10-31.xls",
           "path": "archive/SIARGAO_2026-10-31/SIARGAO_COE_COS_2026-10-31.xls",
           "size": 443392,
           "sha": "59bf983c04cb659d655f0daed9a99b625848eb6d",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-31/SIARGAO_COE_COS_2026-10-31.xls"
+        },
+        {
+          "name": "SIARGAO_COS_2026-10-31.xls",
+          "path": "archive/SIARGAO_2026-10-31/SIARGAO_COS_2026-10-31.xls",
+          "size": 383488,
+          "sha": "cf6e5226173cdced96fdb52fc52efc83940458af",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-31/SIARGAO_COS_2026-10-31.xls"
+        },
+        {
+          "name": "SIARGAO_COS_COE_2026-10-31.xls",
+          "path": "archive/SIARGAO_2026-10-31/SIARGAO_COS_COE_2026-10-31.xls",
+          "size": 464896,
+          "sha": "68c659445d95eaf8d9693a891d2b4a046a80f3f4",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-31/SIARGAO_COS_COE_2026-10-31.xls"
         },
         {
           "name": "SIARGAO_OOCL_2026-10-31.xls",
@@ -3519,6 +3561,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-31/Storage_Report_SIARGAO_COE_COS_2026-10-31.pdf"
         },
         {
+          "name": "Storage_Report_SIARGAO_COS_COE_2026-10-31.pdf",
+          "path": "archive/SIARGAO_2026-10-31/Storage_Report_SIARGAO_COS_COE_2026-10-31.pdf",
+          "size": 1805843,
+          "sha": "96ac397dec9f052952a16f5e22545fb6a69e5b87",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-31/Storage_Report_SIARGAO_COS_COE_2026-10-31.pdf"
+        },
+        {
           "name": "Storage_Report_SIARGAO_OOCL_2026-10-31.pdf",
           "path": "archive/SIARGAO_2026-10-31/Storage_Report_SIARGAO_OOCL_2026-10-31.pdf",
           "size": 214779,
@@ -3526,7 +3575,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SIARGAO_2026-10-31/Storage_Report_SIARGAO_OOCL_2026-10-31.pdf"
         }
       ],
-      "filesCount": 7
+      "filesCount": 11
     },
     {
       "name": "SSF_LILY_2026-10-06",
@@ -4581,6 +4630,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_AMERICA_2026-11-01/Storage_Report_ZIM_AMERICA_MSC_2026-11-01.pdf"
         },
         {
+          "name": "Storage_Report_ZIM_AMERICA_ZIM_2026-11-01.pdf",
+          "path": "archive/ZIM_AMERICA_2026-11-01/Storage_Report_ZIM_AMERICA_ZIM_2026-11-01.pdf",
+          "size": 2720779,
+          "sha": "9bd694bd66050a0209a07983ad56519f3abe37b5",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_AMERICA_2026-11-01/Storage_Report_ZIM_AMERICA_ZIM_2026-11-01.pdf"
+        },
+        {
           "name": "ZIM_AMERICA.pdf",
           "path": "archive/ZIM_AMERICA_2026-11-01/ZIM_AMERICA.pdf",
           "size": 272578,
@@ -4602,7 +4658,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_AMERICA_2026-11-01/ZIM_AMERICA_ZIM_2026-11-01.xls"
         }
       ],
-      "filesCount": 6
+      "filesCount": 7
     },
     {
       "name": "ZIM_ATLANTIC_2026-10-19",
