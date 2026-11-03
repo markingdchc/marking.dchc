@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T06:07:53.256Z",
+  "lastUpdated": "2026-11-03T06:09:32.293Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1276,13 +1276,6 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/FINALOUT202610_ZIM.xls"
         },
         {
-          "name": "Storage_Report_FINALOUT20260910_CMA_.pdf",
-          "path": "archive/FINALOUT/Storage_Report_FINALOUT20260910_CMA_.pdf",
-          "size": 250394,
-          "sha": "443a84b6c8eef815dbd21d4ea5e27353b82708ac",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/Storage_Report_FINALOUT20260910_CMA_.pdf"
-        },
-        {
           "name": "Storage_Report_FINALOUT20260910_COE_.pdf",
           "path": "archive/FINALOUT/Storage_Report_FINALOUT20260910_COE_.pdf",
           "size": 428172,
@@ -1360,7 +1353,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/خروج_بدون_عودة_غير_صريح_شهر_09-2026_1204.xls"
         }
       ],
-      "filesCount": 22
+      "filesCount": 21
     },
     {
       "name": "HALO_2026-10-12",
