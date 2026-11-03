@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T12:39:58.051Z",
+  "lastUpdated": "2026-11-03T13:01:58.411Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -150,10 +150,13 @@
       "name": "AL_SEEF_2026-10-10",
       "path": "archive/AL_SEEF_2026-10-10",
       "lines": [
+        "SEEF.PDF",
         "ACL",
         "CSL",
         "GFS",
-        "WSHI"
+        "WSHI",
+        "636",
+        "309"
       ],
       "files": [
         {
@@ -650,7 +653,9 @@
       "name": "DOJUN_BRAVE_2026-10-23",
       "path": "archive/DOJUN_BRAVE_2026-10-23",
       "lines": [
-        "GCS"
+        "BRAVE.PDF",
+        "GCS",
+        "26"
       ],
       "files": [
         {
@@ -3913,8 +3918,8 @@
         {
           "name": "Storage_Report_YM_WARMTH_ONE_2026-10-14.pdf",
           "path": "archive/YM_WARMTH_2026-10-14/Storage_Report_YM_WARMTH_ONE_2026-10-14.pdf",
-          "size": 1897962,
-          "sha": "acccbc914fce8a877c1692a6e9b4e1470eeb47c9",
+          "size": 111891,
+          "sha": "22c95e9a47009802333f17f77845ebef54b34d92",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARMTH_2026-10-14/Storage_Report_YM_WARMTH_ONE_2026-10-14.pdf"
         },
         {
