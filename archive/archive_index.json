@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T11:08:01.434Z",
+  "lastUpdated": "2026-11-04T11:45:38.009Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3010,8 +3010,8 @@
         {
           "name": "OCEAN_LEADER_GCS_2026-11-03.xls",
           "path": "archive/OCEAN_LEADER_2026-11-03/OCEAN_LEADER_GCS_2026-11-03.xls",
-          "size": 65024,
-          "sha": "da4bff011ace7ed2a9aa5dc7334cc106f37c2649",
+          "size": 67072,
+          "sha": "2dadfea78c80046abb6cc48dca56b5fe2f0794ea",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/OCEAN_LEADER_2026-11-03/OCEAN_LEADER_GCS_2026-11-03.xls"
         }
       ],
