@@ -12,5 +12,18 @@
     "ZIM",
     "COE"
   ],
-  "documents": []
+  "documents": [],
+  "scanLog": [
+    {
+      "t": "2026-11-04T12:41:58.479Z",
+      "user": "المدير العام",
+      "files": [
+        "FINALOUT_INVOICE_01.pdf"
+      ],
+      "pages": 4,
+      "type": "INVOICE",
+      "source": "سكانر: HP ScanJet Pro 2500 f1 #2 (WIA)",
+      "searchable": true
+    }
+  ]
 }
