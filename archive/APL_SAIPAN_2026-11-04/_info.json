@@ -5,5 +5,18 @@
   "lines": [
     "CMA"
   ],
-  "documents": []
+  "documents": [],
+  "scanLog": [
+    {
+      "t": "2026-11-04T13:04:37.189Z",
+      "user": "المدير العام",
+      "files": [
+        "APL_SAIPAN_2026-11-04_INVOICE_01.pdf"
+      ],
+      "pages": 3,
+      "type": "INVOICE",
+      "source": "سكانر: HP ScanJet Pro 2500 f1 #2 (WIA)",
+      "searchable": true
+    }
+  ]
 }
