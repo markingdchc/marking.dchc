@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T09:59:42.717Z",
+  "lastUpdated": "2026-11-04T10:22:24.209Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4623,6 +4623,13 @@
       ],
       "files": [
         {
+          "name": "Storage_Report_YM_WONDROUS_HMM_2026-11-03.pdf",
+          "path": "archive/YM_WONDROUS_2026-11-03/Storage_Report_YM_WONDROUS_HMM_2026-11-03.pdf",
+          "size": 30519,
+          "sha": "669a699e7cbe554e7c944a935c0323af68878bb4",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WONDROUS_2026-11-03/Storage_Report_YM_WONDROUS_HMM_2026-11-03.pdf"
+        },
+        {
           "name": "Storage_Report_YM_WONDROUS_MSC_2026-11-03.pdf",
           "path": "archive/YM_WONDROUS_2026-11-03/Storage_Report_YM_WONDROUS_MSC_2026-11-03.pdf",
           "size": 43686,
@@ -4672,7 +4679,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WONDROUS_2026-11-03/YM_WONDROUS_YML_2026-11-03.xls"
         }
       ],
-      "filesCount": 7
+      "filesCount": 8
     },
     {
       "name": "YM_WORLD_2026-10-08",
