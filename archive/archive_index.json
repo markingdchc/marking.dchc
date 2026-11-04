@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T08:17:53.543Z",
+  "lastUpdated": "2026-11-04T08:21:29.771Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -320,14 +320,28 @@
       ],
       "files": [
         {
+          "name": "APL_SAIPAN.pdf",
+          "path": "archive/APL_SAIPAN_2026-11-04/APL_SAIPAN.pdf",
+          "size": 253370,
+          "sha": "e537154fd0ddbe75b999e16bc4d6ed7c626f1400",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/APL_SAIPAN_2026-11-04/APL_SAIPAN.pdf"
+        },
+        {
           "name": "APL_SAIPAN_CMA_2026-11-04.xls",
           "path": "archive/APL_SAIPAN_2026-11-04/APL_SAIPAN_CMA_2026-11-04.xls",
           "size": 151040,
           "sha": "3aa61a68cb517e3a923e0ab59c4dbacbab26340c",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/APL_SAIPAN_2026-11-04/APL_SAIPAN_CMA_2026-11-04.xls"
+        },
+        {
+          "name": "Storage_Report_APL_SAIPAN_CMA_2026-11-04.pdf",
+          "path": "archive/APL_SAIPAN_2026-11-04/Storage_Report_APL_SAIPAN_CMA_2026-11-04.pdf",
+          "size": 47936,
+          "sha": "84c55fef3708efc213fc98e8fd88121503841f9a",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/APL_SAIPAN_2026-11-04/Storage_Report_APL_SAIPAN_CMA_2026-11-04.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 3
     },
     {
       "name": "AS_SARA_2026-10-05",
@@ -4694,11 +4708,25 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZHONG_CHENG_CHANG_LING_2026-11-02/DISCH_238.xls"
         },
         {
+          "name": "LOAD_226.xls",
+          "path": "archive/ZHONG_CHENG_CHANG_LING_2026-11-02/LOAD_226.xls",
+          "size": 143872,
+          "sha": "29c09061cfdcd39e5a0075c5b4c9a13b197acd19",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZHONG_CHENG_CHANG_LING_2026-11-02/LOAD_226.xls"
+        },
+        {
           "name": "Storage_Report_ZHONG_CHENG_CHANG_LING_MOH_2026-11-02.pdf",
           "path": "archive/ZHONG_CHENG_CHANG_LING_2026-11-02/Storage_Report_ZHONG_CHENG_CHANG_LING_MOH_2026-11-02.pdf",
           "size": 59187,
           "sha": "001a8f401fcc6996ab1a769605c221a0fe64bf1a",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZHONG_CHENG_CHANG_LING_2026-11-02/Storage_Report_ZHONG_CHENG_CHANG_LING_MOH_2026-11-02.pdf"
+        },
+        {
+          "name": "ZHONG_CHENG_CHANG_LING.pdf",
+          "path": "archive/ZHONG_CHENG_CHANG_LING_2026-11-02/ZHONG_CHENG_CHANG_LING.pdf",
+          "size": 258364,
+          "sha": "29c76cbfce356ade39d44b8b9f457cb438f7e091",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZHONG_CHENG_CHANG_LING_2026-11-02/ZHONG_CHENG_CHANG_LING.pdf"
         },
         {
           "name": "ZHONG_CHENG_CHANG_LING_MOH_2026-11-02.xls",
@@ -4708,7 +4736,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZHONG_CHENG_CHANG_LING_2026-11-02/ZHONG_CHENG_CHANG_LING_MOH_2026-11-02.xls"
         }
       ],
-      "filesCount": 3
+      "filesCount": 5
     },
     {
       "name": "ZIM_AMERICA_2026-11-01",
