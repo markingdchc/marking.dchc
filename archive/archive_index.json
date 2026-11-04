@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T12:42:48.123Z",
+  "lastUpdated": "2026-11-04T13:04:38.409Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -327,6 +327,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/APL_SAIPAN_2026-11-04/APL_SAIPAN.pdf"
         },
         {
+          "name": "APL_SAIPAN_2026-11-04_INVOICE_01.pdf",
+          "path": "archive/APL_SAIPAN_2026-11-04/APL_SAIPAN_2026-11-04_INVOICE_01.pdf",
+          "size": 466502,
+          "sha": "ef3d4adbba3fbeb931632bf252afbc0ddbc44bc9",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/APL_SAIPAN_2026-11-04/APL_SAIPAN_2026-11-04_INVOICE_01.pdf"
+        },
+        {
           "name": "APL_SAIPAN_CMA_2026-11-04.xls",
           "path": "archive/APL_SAIPAN_2026-11-04/APL_SAIPAN_CMA_2026-11-04.xls",
           "size": 151040,
@@ -355,7 +362,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/APL_SAIPAN_2026-11-04/Storage_Report_APL_SAIPAN_CMA_2026-11-04.pdf"
         }
       ],
-      "filesCount": 5
+      "filesCount": 6
     },
     {
       "name": "AS_SARA_2026-10-05",
@@ -1373,13 +1380,6 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/FINALOUT202610_ZIM.xls"
         },
         {
-          "name": "FINALOUT_INVOICE_01.pdf",
-          "path": "archive/FINALOUT/FINALOUT_INVOICE_01.pdf",
-          "size": 1207967,
-          "sha": "dc960023facb31963026f5f7b0c51d28089186b2",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/FINALOUT_INVOICE_01.pdf"
-        },
-        {
           "name": "Storage_Report_FINALOUT20260910_CMA_.pdf",
           "path": "archive/FINALOUT/Storage_Report_FINALOUT20260910_CMA_.pdf",
           "size": 35423,
@@ -1464,7 +1464,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/FINALOUT/خروج_بدون_عودة_غير_صريح_شهر_09-2026_1204.xls"
         }
       ],
-      "filesCount": 23
+      "filesCount": 22
     },
     {
       "name": "HALO_2026-10-12",
