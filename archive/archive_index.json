@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T09:01:42.086Z",
+  "lastUpdated": "2026-11-04T09:05:29.128Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2985,6 +2985,23 @@
         }
       ],
       "filesCount": 9
+    },
+    {
+      "name": "OCEAN_LEADER_2026-11-03",
+      "path": "archive/OCEAN_LEADER_2026-11-03",
+      "lines": [
+        "GCS"
+      ],
+      "files": [
+        {
+          "name": "OCEAN_LEADER_GCS_2026-11-03.xls",
+          "path": "archive/OCEAN_LEADER_2026-11-03/OCEAN_LEADER_GCS_2026-11-03.xls",
+          "size": 66048,
+          "sha": "d7d923a78cf1e1c88e8eda90d0b42ee6b47762de",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/OCEAN_LEADER_2026-11-03/OCEAN_LEADER_GCS_2026-11-03.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "PAN_GG_2026-10-08",
