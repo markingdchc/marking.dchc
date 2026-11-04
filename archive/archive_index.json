@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T07:13:47.083Z",
+  "lastUpdated": "2026-11-04T07:24:14.140Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -275,6 +275,13 @@
       ],
       "files": [
         {
+          "name": "ANITA_A.pdf",
+          "path": "archive/ANITA_A_2026-11-04/ANITA_A.pdf",
+          "size": 256438,
+          "sha": "00778cf99855ac39771eeac58458509549fa5f37",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ANITA_A_2026-11-04/ANITA_A.pdf"
+        },
+        {
           "name": "ANITA_A_WSHI_2026-11-04.xls",
           "path": "archive/ANITA_A_2026-11-04/ANITA_A_WSHI_2026-11-04.xls",
           "size": 76288,
@@ -289,7 +296,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ANITA_A_2026-11-04/Storage_Report_ANITA_A_WSHI_2026-11-04.pdf"
         }
       ],
-      "filesCount": 2
+      "filesCount": 3
     },
     {
       "name": "AS_SARA_2026-10-05",
@@ -4666,8 +4673,8 @@
         {
           "name": "Storage_Report_ZIM_AMERICA_MSC_2026-11-01.pdf",
           "path": "archive/ZIM_AMERICA_2026-11-01/Storage_Report_ZIM_AMERICA_MSC_2026-11-01.pdf",
-          "size": 5888296,
-          "sha": "9f6be1aa9447e10b822b8738dff56d3e33a284de",
+          "size": 267091,
+          "sha": "2ae248464934dc4d1a182ee6050df60e8304a1c5",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_AMERICA_2026-11-01/Storage_Report_ZIM_AMERICA_MSC_2026-11-01.pdf"
         },
         {
