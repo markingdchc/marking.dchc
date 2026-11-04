@@ -1,9 +1,10 @@
 {
   "shipName": "YM_WONDROUS",
   "date": "2026-11-03",
-  "lastUpdate": "2026-11-04T08:37:27.559Z",
+  "lastUpdate": "2026-11-04T08:53:43.030Z",
   "lines": [
-    "MSC"
+    "MSC",
+    "ONE"
   ],
   "documents": []
 }
