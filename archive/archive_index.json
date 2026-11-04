@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T12:24:59.905Z",
+  "lastUpdated": "2026-11-04T12:26:12.414Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4857,6 +4857,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZHONG_CHENG_CHANG_LING_2026-11-02/LOAD_226.xls"
         },
         {
+          "name": "Storage_Report_ZHONG_CHENG_CHANG_LING_MOH_2026-11-02.pdf",
+          "path": "archive/ZHONG_CHENG_CHANG_LING_2026-11-02/Storage_Report_ZHONG_CHENG_CHANG_LING_MOH_2026-11-02.pdf",
+          "size": 59186,
+          "sha": "d585de0b8fda7b649af8d9545c63a97a0deb1f0e",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZHONG_CHENG_CHANG_LING_2026-11-02/Storage_Report_ZHONG_CHENG_CHANG_LING_MOH_2026-11-02.pdf"
+        },
+        {
           "name": "ZHONG_CHENG_CHANG_LING.pdf",
           "path": "archive/ZHONG_CHENG_CHANG_LING_2026-11-02/ZHONG_CHENG_CHANG_LING.pdf",
           "size": 258364,
@@ -4871,7 +4878,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZHONG_CHENG_CHANG_LING_2026-11-02/ZHONG_CHENG_CHANG_LING_MOH_2026-11-02.xls"
         }
       ],
-      "filesCount": 4
+      "filesCount": 5
     },
     {
       "name": "ZIM_AMERICA_2026-11-01",
