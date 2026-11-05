@@ -8,5 +8,26 @@
     "GFS",
     "WSHI"
   ],
-  "documents": []
+  "documents": [],
+  "scanLog": [
+    {
+      "t": "2026-11-05T06:07:39.959Z",
+      "user": "المدير العام",
+      "files": [
+        "AL_SEEF_2026-10-10_INVOICE_CSNU5778474.pdf"
+      ],
+      "pages": 1,
+      "type": "INVOICE",
+      "source": "سكانر: HP ScanJet Pro 2500 f1 #2 (WIA)",
+      "searchable": true,
+      "cont": "CSNU5778474",
+      "hashes": [
+        {
+          "n": "AL_SEEF_2026-10-10_INVOICE_CSNU5778474.pdf",
+          "h": "86a8a65892c990c88abe67394111100920900015820360052a04220512850095",
+          "t": "2026-11-05T06:07:39.959Z"
+        }
+      ]
+    }
+  ]
 }
