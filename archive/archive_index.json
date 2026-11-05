@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T11:03:32.903Z",
+  "lastUpdated": "2026-11-05T17:01:32.303Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -135,16 +135,9 @@
           "size": 125952,
           "sha": "9822db9620b658ca22f6076a6c27375354d5b894",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-11-01/LOAD_185.xls"
-        },
-        {
-          "name": "Storage_Report_ADELINA_ONE_2026-11-01.pdf",
-          "path": "archive/ADELINA_2026-11-01/Storage_Report_ADELINA_ONE_2026-11-01.pdf",
-          "size": 67260,
-          "sha": "58f09aa6a674213182a4936a5f65dc3943084e38",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-11-01/Storage_Report_ADELINA_ONE_2026-11-01.pdf"
         }
       ],
-      "filesCount": 5
+      "filesCount": 4
     },
     {
       "name": "AL_SEEF_2026-10-10",
