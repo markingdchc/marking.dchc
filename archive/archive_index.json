@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T19:45:30.237Z",
+  "lastUpdated": "2026-11-05T06:07:46.363Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -164,6 +164,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/AL_SEEF_2026-10-10/AL_SEEF.pdf"
         },
         {
+          "name": "AL_SEEF_2026-10-10_INVOICE_CSNU5778474.pdf",
+          "path": "archive/AL_SEEF_2026-10-10/AL_SEEF_2026-10-10_INVOICE_CSNU5778474.pdf",
+          "size": 215356,
+          "sha": "440a889c7064e8067b6480cce1b4fc51e9591189",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/AL_SEEF_2026-10-10/AL_SEEF_2026-10-10_INVOICE_CSNU5778474.pdf"
+        },
+        {
           "name": "AL_SEEF_ACL_2026-10-10.xls",
           "path": "archive/AL_SEEF_2026-10-10/AL_SEEF_ACL_2026-10-10.xls",
           "size": 89600,
@@ -213,7 +220,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/AL_SEEF_2026-10-10/MARINE.pdf"
         }
       ],
-      "filesCount": 8
+      "filesCount": 9
     },
     {
       "name": "ANITA_A_2026-10-08",
@@ -5092,8 +5099,8 @@
         {
           "name": "Storage_Report_ZIM_PACIFIC_ZIM_2026-10-17.pdf",
           "path": "archive/ZIM_PACIFIC_2026-10-17/Storage_Report_ZIM_PACIFIC_ZIM_2026-10-17.pdf",
-          "size": 1760628,
-          "sha": "ca188f57f75c1867f224f31ac695601bdf3eb756",
+          "size": 96379,
+          "sha": "b928f7e6a2b41855ae6be245cf06940f7e309cd3",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_PACIFIC_2026-10-17/Storage_Report_ZIM_PACIFIC_ZIM_2026-10-17.pdf"
         },
         {
