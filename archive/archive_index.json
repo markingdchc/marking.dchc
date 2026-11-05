@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T06:10:02.132Z",
+  "lastUpdated": "2026-11-05T06:11:13.970Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -164,13 +164,6 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/AL_SEEF_2026-10-10/AL_SEEF.pdf"
         },
         {
-          "name": "AL_SEEF_2026-10-10_CSGU6385493.pdf",
-          "path": "archive/AL_SEEF_2026-10-10/AL_SEEF_2026-10-10_CSGU6385493.pdf",
-          "size": 229908,
-          "sha": "71c0328e518ef3cc07c6acb861ff27094f1f83e8",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/AL_SEEF_2026-10-10/AL_SEEF_2026-10-10_CSGU6385493.pdf"
-        },
-        {
           "name": "AL_SEEF_ACL_2026-10-10.xls",
           "path": "archive/AL_SEEF_2026-10-10/AL_SEEF_ACL_2026-10-10.xls",
           "size": 89600,
@@ -220,7 +213,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/AL_SEEF_2026-10-10/MARINE.pdf"
         }
       ],
-      "filesCount": 9
+      "filesCount": 8
     },
     {
       "name": "ANITA_A_2026-10-08",
