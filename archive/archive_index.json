@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T08:02:35.984Z",
+  "lastUpdated": "2026-11-05T08:07:09.576Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3876,11 +3876,25 @@
       ],
       "files": [
         {
+          "name": "DISCH_120.xls",
+          "path": "archive/VAYENGA_MAERSK_2026-11-05/DISCH_120.xls",
+          "size": 91136,
+          "sha": "9ee93c81cdbf33bb9e500805a8dcd235254b09a8",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VAYENGA_MAERSK_2026-11-05/DISCH_120.xls"
+        },
+        {
           "name": "Storage_Report_VAYENGA_MAERSK_MSK_2026-11-05.pdf",
           "path": "archive/VAYENGA_MAERSK_2026-11-05/Storage_Report_VAYENGA_MAERSK_MSK_2026-11-05.pdf",
           "size": 37916,
           "sha": "35b5414a40fee46a3d2d03c577a11deba6308150",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VAYENGA_MAERSK_2026-11-05/Storage_Report_VAYENGA_MAERSK_MSK_2026-11-05.pdf"
+        },
+        {
+          "name": "Storage_Report_VAYENGA_MAERSK_ONE_2026-11-05.pdf",
+          "path": "archive/VAYENGA_MAERSK_2026-11-05/Storage_Report_VAYENGA_MAERSK_ONE_2026-11-05.pdf",
+          "size": 67853,
+          "sha": "36fe11048cba74fcee358d009140811dba497236",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VAYENGA_MAERSK_2026-11-05/Storage_Report_VAYENGA_MAERSK_ONE_2026-11-05.pdf"
         },
         {
           "name": "VAYENGA_MAERSK_MSK_2026-11-05.xls",
@@ -3897,7 +3911,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VAYENGA_MAERSK_2026-11-05/VAYENGA_MAERSK_ONE_2026-11-05.xls"
         }
       ],
-      "filesCount": 3
+      "filesCount": 5
     },
     {
       "name": "VENTO_DI_BORA_2026-10-11",
