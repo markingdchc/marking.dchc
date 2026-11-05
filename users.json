@@ -17,7 +17,7 @@
       "username": "msc",
       "password": "msc#123",
       "fullName": "Ahmed Abdelrahman",
-      "role": "viewer",
+      "role": "admin",
       "lineIds": [
         "MSC",
         "WEC"
