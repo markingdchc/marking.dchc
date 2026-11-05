@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T07:16:22.885Z",
+  "lastUpdated": "2026-11-05T07:59:23.996Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3866,6 +3866,23 @@
         }
       ],
       "filesCount": 5
+    },
+    {
+      "name": "VAYENGA_MAERSK_2026-11-05",
+      "path": "archive/VAYENGA_MAERSK_2026-11-05",
+      "lines": [
+        "MSK"
+      ],
+      "files": [
+        {
+          "name": "VAYENGA_MAERSK_MSK_2026-11-05.xls",
+          "path": "archive/VAYENGA_MAERSK_2026-11-05/VAYENGA_MAERSK_MSK_2026-11-05.xls",
+          "size": 96256,
+          "sha": "3751d85b716c4b8195b6d9d5df7078132323fcf1",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VAYENGA_MAERSK_2026-11-05/VAYENGA_MAERSK_MSK_2026-11-05.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "VENTO_DI_BORA_2026-10-11",
