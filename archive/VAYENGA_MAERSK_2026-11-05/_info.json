@@ -1,9 +1,10 @@
 {
   "shipName": "VAYENGA_MAERSK",
   "date": "2026-11-05",
-  "lastUpdate": "2026-11-05T07:59:04.436Z",
+  "lastUpdate": "2026-11-05T08:02:13.076Z",
   "lines": [
-    "MSK"
+    "MSK",
+    "ONE"
   ],
   "documents": []
 }
