@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T09:04:04.143Z",
+  "lastUpdated": "2026-11-05T09:05:11.693Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4977,6 +4977,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_AMERICA_2026-11-01/LOAD_1558.xls"
         },
         {
+          "name": "Storage_Report_ZIM_AMERICA_MSC_2026-11-01.pdf",
+          "path": "archive/ZIM_AMERICA_2026-11-01/Storage_Report_ZIM_AMERICA_MSC_2026-11-01.pdf",
+          "size": 266999,
+          "sha": "a9dd1b8e84fe8498d9a09b5ec07fbf60fe8b1077",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_AMERICA_2026-11-01/Storage_Report_ZIM_AMERICA_MSC_2026-11-01.pdf"
+        },
+        {
           "name": "Storage_Report_ZIM_AMERICA_ZIM_2026-11-01.pdf",
           "path": "archive/ZIM_AMERICA_2026-11-01/Storage_Report_ZIM_AMERICA_ZIM_2026-11-01.pdf",
           "size": 2720779,
@@ -5005,7 +5012,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_AMERICA_2026-11-01/ZIM_AMERICA_ZIM_2026-11-01.xls"
         }
       ],
-      "filesCount": 6
+      "filesCount": 7
     },
     {
       "name": "ZIM_ATLANTIC_2026-10-19",
