@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T07:10:52.514Z",
+  "lastUpdated": "2026-11-05T07:13:40.085Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2722,6 +2722,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_RADIANT_III_2026-10-17/MSC_RADIANT_III.pdf"
         },
         {
+          "name": "MSC_RADIANT_III_2026-10-17_01.pdf",
+          "path": "archive/MSC_RADIANT_III_2026-10-17/MSC_RADIANT_III_2026-10-17_01.pdf",
+          "size": 782614,
+          "sha": "da443c9c3549de84fd17183b46572266161ac09e",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_RADIANT_III_2026-10-17/MSC_RADIANT_III_2026-10-17_01.pdf"
+        },
+        {
           "name": "MSC_RADIANT_III_MSC_2026-10-17.xls",
           "path": "archive/MSC_RADIANT_III_2026-10-17/MSC_RADIANT_III_MSC_2026-10-17.xls",
           "size": 232448,
@@ -2736,7 +2743,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_RADIANT_III_2026-10-17/RESTOW_210.xls"
         }
       ],
-      "filesCount": 4
+      "filesCount": 5
     },
     {
       "name": "MSC_SAVANNAH_2026-10-18",
