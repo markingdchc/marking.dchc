@@ -8,6 +8,7 @@
       "role": "admin",
       "lineIds": ["*"],
       "status": "active",
+      "perms":["scan","upload"]
       "createdAt": "2026-10-13"
     },
     {
