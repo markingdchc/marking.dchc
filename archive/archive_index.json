@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T09:18:55.196Z",
+  "lastUpdated": "2026-11-05T09:24:49.211Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1630,15 +1630,15 @@
         {
           "name": "Storage_Report_JOHANNES_MAERSK_MSK_2026-10-06.pdf",
           "path": "archive/JOHANNES_MAERSK_2026-10-06/Storage_Report_JOHANNES_MAERSK_MSK_2026-10-06.pdf",
-          "size": 294883,
-          "sha": "e6ec28195728dcf80102a6e090a19cdd39a7d558",
+          "size": 36542,
+          "sha": "20b4f52997f18e9af45122ff5607009f6de7c06b",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JOHANNES_MAERSK_2026-10-06/Storage_Report_JOHANNES_MAERSK_MSK_2026-10-06.pdf"
         },
         {
           "name": "Storage_Report_JOHANNES_MAERSK_ONE_2026-10-06.pdf",
           "path": "archive/JOHANNES_MAERSK_2026-10-06/Storage_Report_JOHANNES_MAERSK_ONE_2026-10-06.pdf",
-          "size": 980970,
-          "sha": "3bd4043b2cc69dc279123f65a17d817df86c663c",
+          "size": 65866,
+          "sha": "7b136c77c237e9020321bb10225358973459ed2e",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JOHANNES_MAERSK_2026-10-06/Storage_Report_JOHANNES_MAERSK_ONE_2026-10-06.pdf"
         }
       ],
