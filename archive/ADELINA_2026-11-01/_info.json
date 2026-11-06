@@ -9,6 +9,25 @@
   "documents": [],
   "scanLog": [
     {
+      "t": "2026-11-06T11:38:34.255Z",
+      "user": "المدير العام",
+      "files": [
+        "ADELINA_2026-11-01_01.pdf"
+      ],
+      "pages": 2,
+      "type": "",
+      "source": "كاميرا + كاميرا الهاتف",
+      "searchable": false,
+      "cont": "",
+      "hashes": [
+        {
+          "n": "ADELINA_2026-11-01_01.pdf",
+          "h": "486208aa5ca728acdf78ffb4fff0ff50b7268d569c54a192a8b491540a25d20d",
+          "t": "2026-11-06T11:38:34.255Z"
+        }
+      ]
+    },
+    {
       "t": "2026-11-06T08:53:12.154Z",
       "user": "المدير العام",
       "files": [
@@ -67,7 +86,7 @@
     }
   ],
   "textIndex": {
-    "ADELINA_2026-11-01_01.pdf": "|",
+    "ADELINA_2026-11-01_01.pdf": "ii Bi Vag J FF SE ~ Foam dag U5\" Ear Jeet L ae — i — . CUTIE oY a fo HL Se fo 1 “NN * on —_—",
     "ADELINA_2026-11-01_02.pdf": "rs pr Pd a 4 8 : The ee gr ! Es. a. gE: a EY % - Pe. Wi i + ¥ ™ or Vig ho a ar’ Fd z oh, Wi RS 4 we ig i AE po Spt he Xd > - ah i” os ~ id SL | Val & Tie STAN Bag + E = 4 Fi rE ; “ SD bv L NF ar aR A pa A&W te i | RES 3 EEN iL A443 Ff hh \\ Rs. oA a3 a Sh ON $ 5 AIRE BY IR” \" I GRE Re i - EEE : { wre Ad a) TO Pu 5 Ek ‘3 s J yy £ N = Set Bhs A 7 TEN i ai > J y ¢ 7 4 ‘2 Ae \\ #2 B77 { TeWIN L ¥ v4"
   }
 }
