@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T11:39:43.628Z",
+  "lastUpdated": "2026-11-07T07:31:48.804Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -109,13 +109,6 @@
       ],
       "files": [
         {
-          "name": "ADELINA_2026-11-01_01.pdf",
-          "path": "archive/ADELINA_2026-11-01/ADELINA_2026-11-01_01.pdf",
-          "size": 163328,
-          "sha": "b6bd8afc4954dcd18ddb03ed6730187e27f92cd6",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-11-01/ADELINA_2026-11-01_01.pdf"
-        },
-        {
           "name": "ADELINA_ONE_2026-11-01.xls",
           "path": "archive/ADELINA_2026-11-01/ADELINA_ONE_2026-11-01.xls",
           "size": 152576,
@@ -151,7 +144,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-11-01/Storage_Report_ADELINA_ONE_2026-11-01.pdf"
         }
       ],
-      "filesCount": 6
+      "filesCount": 5
     },
     {
       "name": "AL_SEEF_2026-10-10",
@@ -4742,8 +4735,8 @@
         {
           "name": "YM_WONDROUS_MSC_2026-11-03.xls",
           "path": "archive/YM_WONDROUS_2026-11-03/YM_WONDROUS_MSC_2026-11-03.xls",
-          "size": 360448,
-          "sha": "5afc6fd6660eddee11e46165def5d674740a8bf9",
+          "size": 340480,
+          "sha": "ad6f66c068028872ee8ef3a0d59a4eeb74429a90",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WONDROUS_2026-11-03/YM_WONDROUS_MSC_2026-11-03.xls"
         },
         {
