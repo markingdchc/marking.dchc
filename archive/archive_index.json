@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T11:28:33.639Z",
+  "lastUpdated": "2026-11-07T11:33:14.802Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3457,6 +3457,23 @@
         }
       ],
       "filesCount": 12
+    },
+    {
+      "name": "PAN_GG_2026-11-06",
+      "path": "archive/PAN_GG_2026-11-06",
+      "lines": [
+        "YML"
+      ],
+      "files": [
+        {
+          "name": "PAN_GG_YML_2026-11-06.xls",
+          "path": "archive/PAN_GG_2026-11-06/PAN_GG_YML_2026-11-06.xls",
+          "size": 182272,
+          "sha": "03d820250ae4b0676f129df2528914e6c364fbce",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-11-06/PAN_GG_YML_2026-11-06.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "REMAH_2026-10-14",
