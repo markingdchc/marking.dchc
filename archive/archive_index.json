@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T10:46:17.332Z",
+  "lastUpdated": "2026-11-07T10:47:12.296Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -327,13 +327,6 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/APL_SAIPAN_2026-11-04/APL_SAIPAN.pdf"
         },
         {
-          "name": "APL_SAIPAN_2026-11-04_INVOICE_01.pdf",
-          "path": "archive/APL_SAIPAN_2026-11-04/APL_SAIPAN_2026-11-04_INVOICE_01.pdf",
-          "size": 466502,
-          "sha": "ef3d4adbba3fbeb931632bf252afbc0ddbc44bc9",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/APL_SAIPAN_2026-11-04/APL_SAIPAN_2026-11-04_INVOICE_01.pdf"
-        },
-        {
           "name": "APL_SAIPAN_CMA_2026-11-04.xls",
           "path": "archive/APL_SAIPAN_2026-11-04/APL_SAIPAN_CMA_2026-11-04.xls",
           "size": 143360,
@@ -362,7 +355,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/APL_SAIPAN_2026-11-04/Storage_Report_APL_SAIPAN_CMA_2026-11-04.pdf"
         }
       ],
-      "filesCount": 6
+      "filesCount": 5
     },
     {
       "name": "AS_SARA_2026-10-05",
@@ -3629,9 +3622,16 @@
           "size": 58368,
           "sha": "1653923a66cb0916811ae871554ded62638fbcc1",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SC_HOUSTON_2026-11-07/SC_HOUSTON_MSK_2026-11-07.xls"
+        },
+        {
+          "name": "Storage_Report_SC_HOUSTON_MSK_2026-11-07.pdf",
+          "path": "archive/SC_HOUSTON_2026-11-07/Storage_Report_SC_HOUSTON_MSK_2026-11-07.pdf",
+          "size": 26760,
+          "sha": "80b8356d4baab2b47f6e5de03854072a1a7107ce",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SC_HOUSTON_2026-11-07/Storage_Report_SC_HOUSTON_MSK_2026-11-07.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "SHI_SHANG_18_2026-10-06",
