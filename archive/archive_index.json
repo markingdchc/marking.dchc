@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T10:20:57.804Z",
+  "lastUpdated": "2026-11-07T10:28:59.785Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4436,9 +4436,24 @@
       "name": "YM_WHOLESOME_2026-11-06",
       "path": "archive/YM_WHOLESOME_2026-11-06",
       "lines": [
-        "YML"
+        "YML",
+        "HMM"
       ],
       "files": [
+        {
+          "name": "Storage_Report_YM_WHOLESOME_YML_2026-11-06.pdf",
+          "path": "archive/YM_WHOLESOME_2026-11-06/Storage_Report_YM_WHOLESOME_YML_2026-11-06.pdf",
+          "size": 78162,
+          "sha": "9a8ddcb5d4bc22684093fe57d3c715eb119ab21b",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WHOLESOME_2026-11-06/Storage_Report_YM_WHOLESOME_YML_2026-11-06.pdf"
+        },
+        {
+          "name": "YM_WHOLESOME_HMM_2026-11-06.xls",
+          "path": "archive/YM_WHOLESOME_2026-11-06/YM_WHOLESOME_HMM_2026-11-06.xls",
+          "size": 137728,
+          "sha": "0408d7aafd3c2458298b0707fc22508ec2166c76",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WHOLESOME_2026-11-06/YM_WHOLESOME_HMM_2026-11-06.xls"
+        },
         {
           "name": "YM_WHOLESOME_YML_2026-11-06.xls",
           "path": "archive/YM_WHOLESOME_2026-11-06/YM_WHOLESOME_YML_2026-11-06.xls",
@@ -4447,7 +4462,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WHOLESOME_2026-11-06/YM_WHOLESOME_YML_2026-11-06.xls"
         }
       ],
-      "filesCount": 1
+      "filesCount": 3
     },
     {
       "name": "YM_WISDOM_2026-10-22",
