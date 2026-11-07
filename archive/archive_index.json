@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T10:05:14.791Z",
+  "lastUpdated": "2026-11-07T10:20:38.717Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4431,6 +4431,23 @@
         }
       ],
       "filesCount": 11
+    },
+    {
+      "name": "YM_WHOLESOME_2026-11-06",
+      "path": "archive/YM_WHOLESOME_2026-11-06",
+      "lines": [
+        "YML"
+      ],
+      "files": [
+        {
+          "name": "YM_WHOLESOME_YML_2026-11-06.xls",
+          "path": "archive/YM_WHOLESOME_2026-11-06/YM_WHOLESOME_YML_2026-11-06.xls",
+          "size": 438784,
+          "sha": "66d76f28655f82608c89c59e34acc518486605e1",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WHOLESOME_2026-11-06/YM_WHOLESOME_YML_2026-11-06.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "YM_WISDOM_2026-10-22",
