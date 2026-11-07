@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T10:33:32.106Z",
+  "lastUpdated": "2026-11-07T10:33:43.653Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -336,8 +336,8 @@
         {
           "name": "APL_SAIPAN_CMA_2026-11-04.xls",
           "path": "archive/APL_SAIPAN_2026-11-04/APL_SAIPAN_CMA_2026-11-04.xls",
-          "size": 151040,
-          "sha": "3aa61a68cb517e3a923e0ab59c4dbacbab26340c",
+          "size": 144384,
+          "sha": "2ad96aa2e884d6a393b4091ca8d66438c4e64252",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/APL_SAIPAN_2026-11-04/APL_SAIPAN_CMA_2026-11-04.xls"
         },
         {
@@ -4473,6 +4473,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WHOLESOME_2026-11-06/Storage_Report_YM_WHOLESOME_HMM_2026-11-06.pdf"
         },
         {
+          "name": "Storage_Report_YM_WHOLESOME_ONE_2026-11-06.pdf",
+          "path": "archive/YM_WHOLESOME_2026-11-06/Storage_Report_YM_WHOLESOME_ONE_2026-11-06.pdf",
+          "size": 82403,
+          "sha": "8a492ac3c4b5de20f2410912f0c8b82cf81ab284",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WHOLESOME_2026-11-06/Storage_Report_YM_WHOLESOME_ONE_2026-11-06.pdf"
+        },
+        {
           "name": "Storage_Report_YM_WHOLESOME_YML_2026-11-06.pdf",
           "path": "archive/YM_WHOLESOME_2026-11-06/Storage_Report_YM_WHOLESOME_YML_2026-11-06.pdf",
           "size": 78162,
@@ -4501,7 +4508,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WHOLESOME_2026-11-06/YM_WHOLESOME_YML_2026-11-06.xls"
         }
       ],
-      "filesCount": 5
+      "filesCount": 6
     },
     {
       "name": "YM_WISDOM_2026-10-22",
