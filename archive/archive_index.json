@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T12:29:50.494Z",
+  "lastUpdated": "2026-11-07T17:50:45.871Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -334,13 +334,6 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/APL_SAIPAN_2026-11-04/APL_SAIPAN_2026-11-04_01.pdf"
         },
         {
-          "name": "APL_SAIPAN_2026-11-04_MSDU2541154.pdf",
-          "path": "archive/APL_SAIPAN_2026-11-04/APL_SAIPAN_2026-11-04_MSDU2541154.pdf",
-          "size": 547033,
-          "sha": "115c3aefe383efe3ccaeddcd4d92136a2b9f2f7b",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/APL_SAIPAN_2026-11-04/APL_SAIPAN_2026-11-04_MSDU2541154.pdf"
-        },
-        {
           "name": "APL_SAIPAN_CMA_2026-11-04.xls",
           "path": "archive/APL_SAIPAN_2026-11-04/APL_SAIPAN_CMA_2026-11-04.xls",
           "size": 143360,
@@ -369,7 +362,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/APL_SAIPAN_2026-11-04/Storage_Report_APL_SAIPAN_CMA_2026-11-04.pdf"
         }
       ],
-      "filesCount": 7
+      "filesCount": 6
     },
     {
       "name": "AS_SARA_2026-10-05",
