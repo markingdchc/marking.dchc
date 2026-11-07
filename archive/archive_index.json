@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T08:22:37.799Z",
+  "lastUpdated": "2026-11-07T10:00:09.052Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1921,6 +1921,23 @@
         }
       ],
       "filesCount": 6
+    },
+    {
+      "name": "JONA_SOPHIE_2026-11-05",
+      "path": "archive/JONA_SOPHIE_2026-11-05",
+      "lines": [
+        "ZIM"
+      ],
+      "files": [
+        {
+          "name": "JONA_SOPHIE_ZIM_2026-11-05.xls",
+          "path": "archive/JONA_SOPHIE_2026-11-05/JONA_SOPHIE_ZIM_2026-11-05.xls",
+          "size": 59904,
+          "sha": "2707847b225cad6b97f318ca1719259100af9ca8",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-11-05/JONA_SOPHIE_ZIM_2026-11-05.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "MAERSK_IZMIR_2026-10-27",
