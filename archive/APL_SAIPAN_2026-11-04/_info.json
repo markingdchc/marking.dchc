@@ -8,6 +8,25 @@
   "documents": [],
   "scanLog": [
     {
+      "t": "2026-11-07T11:56:30.477Z",
+      "user": "المدير العام",
+      "files": [
+        "APL_SAIPAN_2026-11-04_01.pdf"
+      ],
+      "pages": 1,
+      "type": "",
+      "source": "كاميرا الهاتف",
+      "searchable": false,
+      "cont": "",
+      "hashes": [
+        {
+          "n": "APL_SAIPAN_2026-11-04_01.pdf",
+          "h": "e7b9b779f37df379f93afd7dcf0dd90dff05fd05ff31bb77f1a065d07fe07ef0",
+          "t": "2026-11-07T11:56:30.477Z"
+        }
+      ]
+    },
+    {
       "t": "2026-11-07T11:34:32.834Z",
       "user": "المدير العام",
       "files": [
@@ -39,6 +58,6 @@
     }
   ],
   "textIndex": {
-    "APL_SAIPAN_2026-11-04_01.pdf": "a 1 | an | (BET Sis. a = | Te Ea AL fy] Ad fq A » Om pnb pop ¢ a x Ee, C ( RELEASE ORDER Release Order Number 096479 Date:04/11/2026 | MV | - or Taw | TET A Quantity Type of container & Shipper Own (OR) Line container: Local Inland Transportation Contractor: MOHAMED MOSAAD MOSAAD ELZINY GOUDA AND PARTENERS-EL SAFA FOR TRANSPORTATION GREETINGS PLEASE NOTE THAT THE AGENT HAS NO OBJECTION TO RELEASE THE ABOVE MENTIONED BILL OF LADING. (OUTSIDE THE CUSTOMS CAMPUS) WHERE THE AGENCY DUES AND STO! a Vk BEEN PAID Storage Charges are f on er oe rage Charges are fullipelifil gp WA TE ——— — [C—O ai J] ==) ) \\ 0 Ye), CO see MEDITERRANEAN SHIPPING CO, (MISK MARITIME AGENCY) byt 5 SULTAN HUSSEIN STREET FO BOX 670 Alexandria Old Port, EGYPT/420 3 485 4000/mscogyplidimscegypt com = Page 1 of 2"
+    "APL_SAIPAN_2026-11-04_01.pdf": "er y CMA CGM -— CMA CGM FOR MARITIME SHIPPING AGENCIES, S.A.E 2026 / 11/02 bl= APL SAIPAN :3 aL CREE VIRY J TE aly glad) J gland Jalsa AS yi / Baked) say9 Ah a3 ) © oh eS Lili le 5553) A000 di gad p55) ang S50 play ye: RENT A | ee CS — | C—— ~~ EAA ily J gli Aiba dasa all ibs La sod) Jail) esl plo Shela } i : Aa Re on Cid aaa A | - A"
   }
 }
