@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T10:50:21.052Z",
+  "lastUpdated": "2026-11-07T10:51:23.265Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3618,6 +3618,13 @@
       ],
       "files": [
         {
+          "name": "DISCH_627.xls",
+          "path": "archive/SC_HOUSTON_2026-11-07/DISCH_627.xls",
+          "size": 259584,
+          "sha": "cb550887496100f44b60e3ba23c77f5fc22bbb72",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SC_HOUSTON_2026-11-07/DISCH_627.xls"
+        },
+        {
           "name": "SC_HOUSTON_MSK_2026-11-07.xls",
           "path": "archive/SC_HOUSTON_2026-11-07/SC_HOUSTON_MSK_2026-11-07.xls",
           "size": 58368,
@@ -3637,9 +3644,16 @@
           "size": 26760,
           "sha": "80b8356d4baab2b47f6e5de03854072a1a7107ce",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SC_HOUSTON_2026-11-07/Storage_Report_SC_HOUSTON_MSK_2026-11-07.pdf"
+        },
+        {
+          "name": "Storage_Report_SC_HOUSTON_ONE_2026-11-07.pdf",
+          "path": "archive/SC_HOUSTON_2026-11-07/Storage_Report_SC_HOUSTON_ONE_2026-11-07.pdf",
+          "size": 89324,
+          "sha": "9d8cd3298793eb4ff66c54a755c869a49af8665f",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SC_HOUSTON_2026-11-07/Storage_Report_SC_HOUSTON_ONE_2026-11-07.pdf"
         }
       ],
-      "filesCount": 3
+      "filesCount": 5
     },
     {
       "name": "SHI_SHANG_18_2026-10-06",
