@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T11:33:22.676Z",
+  "lastUpdated": "2026-11-07T11:34:43.866Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -327,6 +327,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/APL_SAIPAN_2026-11-04/APL_SAIPAN.pdf"
         },
         {
+          "name": "APL_SAIPAN_2026-11-04_01.pdf",
+          "path": "archive/APL_SAIPAN_2026-11-04/APL_SAIPAN_2026-11-04_01.pdf",
+          "size": 159502,
+          "sha": "f4c822a52ad60a2610d4c98a45c91d8a7cf6e329",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/APL_SAIPAN_2026-11-04/APL_SAIPAN_2026-11-04_01.pdf"
+        },
+        {
           "name": "APL_SAIPAN_CMA_2026-11-04.xls",
           "path": "archive/APL_SAIPAN_2026-11-04/APL_SAIPAN_CMA_2026-11-04.xls",
           "size": 143360,
@@ -355,7 +362,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/APL_SAIPAN_2026-11-04/Storage_Report_APL_SAIPAN_CMA_2026-11-04.pdf"
         }
       ],
-      "filesCount": 5
+      "filesCount": 6
     },
     {
       "name": "AS_SARA_2026-10-05",
@@ -3471,9 +3478,16 @@
           "size": 182272,
           "sha": "03d820250ae4b0676f129df2528914e6c364fbce",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-11-06/PAN_GG_YML_2026-11-06.xls"
+        },
+        {
+          "name": "Storage_Report_PAN_GG_YML_2026-11-06.pdf",
+          "path": "archive/PAN_GG_2026-11-06/Storage_Report_PAN_GG_YML_2026-11-06.pdf",
+          "size": 25683,
+          "sha": "7c383fe051137594f07cfdc1e993ab6560056a1a",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/PAN_GG_2026-11-06/Storage_Report_PAN_GG_YML_2026-11-06.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "REMAH_2026-10-14",
