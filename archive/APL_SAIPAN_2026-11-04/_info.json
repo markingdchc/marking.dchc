@@ -8,6 +8,25 @@
   "documents": [],
   "scanLog": [
     {
+      "t": "2026-11-07T11:34:32.834Z",
+      "user": "المدير العام",
+      "files": [
+        "APL_SAIPAN_2026-11-04_01.pdf"
+      ],
+      "pages": 1,
+      "type": "",
+      "source": "كاميرا",
+      "searchable": false,
+      "cont": "",
+      "hashes": [
+        {
+          "n": "APL_SAIPAN_2026-11-04_01.pdf",
+          "h": "dc6cf1d4f5d96c18bca1dea1a029f039e229ea01fca4f000f800fe00fe88f1c0",
+          "t": "2026-11-07T11:34:32.834Z"
+        }
+      ]
+    },
+    {
       "t": "2026-11-04T13:04:37.189Z",
       "user": "المدير العام",
       "files": [
@@ -18,5 +37,8 @@
       "source": "سكانر: HP ScanJet Pro 2500 f1 #2 (WIA)",
       "searchable": true
     }
-  ]
+  ],
+  "textIndex": {
+    "APL_SAIPAN_2026-11-04_01.pdf": "a 1 | an | (BET Sis. a = | Te Ea AL fy] Ad fq A » Om pnb pop ¢ a x Ee, C ( RELEASE ORDER Release Order Number 096479 Date:04/11/2026 | MV | - or Taw | TET A Quantity Type of container & Shipper Own (OR) Line container: Local Inland Transportation Contractor: MOHAMED MOSAAD MOSAAD ELZINY GOUDA AND PARTENERS-EL SAFA FOR TRANSPORTATION GREETINGS PLEASE NOTE THAT THE AGENT HAS NO OBJECTION TO RELEASE THE ABOVE MENTIONED BILL OF LADING. (OUTSIDE THE CUSTOMS CAMPUS) WHERE THE AGENCY DUES AND STO! a Vk BEEN PAID Storage Charges are f on er oe rage Charges are fullipelifil gp WA TE ——— — [C—O ai J] ==) ) \\ 0 Ye), CO see MEDITERRANEAN SHIPPING CO, (MISK MARITIME AGENCY) byt 5 SULTAN HUSSEIN STREET FO BOX 670 Alexandria Old Port, EGYPT/420 3 485 4000/mscogyplidimscegypt com = Page 1 of 2"
+  }
 }
