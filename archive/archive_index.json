@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T10:42:21.076Z",
+  "lastUpdated": "2026-11-07T10:46:00.438Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -357,8 +357,8 @@
         {
           "name": "Storage_Report_APL_SAIPAN_CMA_2026-11-04.pdf",
           "path": "archive/APL_SAIPAN_2026-11-04/Storage_Report_APL_SAIPAN_CMA_2026-11-04.pdf",
-          "size": 47940,
-          "sha": "58637eced848daac5839dbf3c0903f23ec9df00c",
+          "size": 41832,
+          "sha": "c817f5777f21ae162c35dc64e2ac2501efd52186",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/APL_SAIPAN_2026-11-04/Storage_Report_APL_SAIPAN_CMA_2026-11-04.pdf"
         }
       ],
@@ -3615,6 +3615,23 @@
         }
       ],
       "filesCount": 7
+    },
+    {
+      "name": "SC_HOUSTON_2026-11-07",
+      "path": "archive/SC_HOUSTON_2026-11-07",
+      "lines": [
+        "MSK"
+      ],
+      "files": [
+        {
+          "name": "SC_HOUSTON_MSK_2026-11-07.xls",
+          "path": "archive/SC_HOUSTON_2026-11-07/SC_HOUSTON_MSK_2026-11-07.xls",
+          "size": 58368,
+          "sha": "1653923a66cb0916811ae871554ded62638fbcc1",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SC_HOUSTON_2026-11-07/SC_HOUSTON_MSK_2026-11-07.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "SHI_SHANG_18_2026-10-06",
