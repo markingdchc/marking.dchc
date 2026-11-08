@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T07:00:18.259Z",
+  "lastUpdated": "2026-11-08T07:02:17.361Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1066,6 +1066,13 @@
       ],
       "files": [
         {
+          "name": "DISCH_37.xls",
+          "path": "archive/EGY_FUTURE_2026-11-08/DISCH_37.xls",
+          "size": 62464,
+          "sha": "2008dbec2c44b5d2766e490180a54f060cd27bd9",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-08/DISCH_37.xls"
+        },
+        {
           "name": "EGY_FUTURE_ONE_2026-11-08.xls",
           "path": "archive/EGY_FUTURE_2026-11-08/EGY_FUTURE_ONE_2026-11-08.xls",
           "size": 137216,
@@ -1087,7 +1094,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-08/Storage_Report_EGY_FUTURE_ONE_2026-11-08.pdf"
         }
       ],
-      "filesCount": 3
+      "filesCount": 4
     },
     {
       "name": "EGY_SKY_2026-10-13",
