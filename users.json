@@ -25,7 +25,6 @@
       "status": "active",
       "createdAt": "2026-10-13",
       "perms": []
-    }
     },
     {
       "id": 3,
@@ -38,9 +37,7 @@
       ],
       "status": "active",
       "createdAt": "2026-10-13",
-      "perms": [
-        "scan"
-      ]
+      "perms": []
     },
     {
       "id": 4,
@@ -55,6 +52,5 @@
       "createdAt": "2026-10-13",
       "perms": []
     }
-  ],
-  "loginAttempts": {}
+  ]
 }
