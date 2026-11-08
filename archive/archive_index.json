@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T06:55:54.456Z",
+  "lastUpdated": "2026-11-08T06:56:35.495Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1620,11 +1620,32 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-11-07/DISCH_228.xls"
         },
         {
+          "name": "HALO.pdf",
+          "path": "archive/HALO_2026-11-07/HALO.pdf",
+          "size": 285593,
+          "sha": "a4955fb2b1ba806fe2d23a1a5f4cc9b5c04ae3bc",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-11-07/HALO.pdf"
+        },
+        {
+          "name": "HALO_TCS.pdf",
+          "path": "archive/HALO_2026-11-07/HALO_TCS.pdf",
+          "size": 167070,
+          "sha": "cb952594f8a75e7c58afd29be6b0d0a160c326d0",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-11-07/HALO_TCS.pdf"
+        },
+        {
           "name": "HALO_TCS_2026-11-07.xls",
           "path": "archive/HALO_2026-11-07/HALO_TCS_2026-11-07.xls",
           "size": 102400,
           "sha": "8cdd3f7a0df1c39705c6917c488d777c7f6082c1",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-11-07/HALO_TCS_2026-11-07.xls"
+        },
+        {
+          "name": "LOAD_30.xls",
+          "path": "archive/HALO_2026-11-07/LOAD_30.xls",
+          "size": 62976,
+          "sha": "50a222a5cdb17813b8b9a84a3be37012cd872c44",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-11-07/LOAD_30.xls"
         },
         {
           "name": "Storage_Report_HALO_TCS_2026-11-07.pdf",
@@ -1634,7 +1655,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/HALO_2026-11-07/Storage_Report_HALO_TCS_2026-11-07.pdf"
         }
       ],
-      "filesCount": 3
+      "filesCount": 6
     },
     {
       "name": "JOHANNES_MAERSK_2026-10-06",
