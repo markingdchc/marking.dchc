@@ -1,9 +1,10 @@
 {
   "shipName": "MSC_NAIROBI_X",
   "date": "2026-11-07",
-  "lastUpdate": "2026-11-08T09:59:46.878Z",
+  "lastUpdate": "2026-11-08T10:24:12.743Z",
   "lines": [
-    "MSC"
+    "MSC",
+    "ZIM"
   ],
   "documents": []
 }
