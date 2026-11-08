@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T08:12:04.272Z",
+  "lastUpdated": "2026-11-08T09:08:21.306Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3178,7 +3178,8 @@
       "lines": [
         "OOCL",
         "COE",
-        "COS"
+        "COS",
+        "COS_COE"
       ],
       "files": [
         {
@@ -3217,6 +3218,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-10-26/NORDLUCHS_COS_2026-10-26.xls"
         },
         {
+          "name": "NORDLUCHS_COS_COE_2026-10-26.xls",
+          "path": "archive/NORDLUCHS_2026-10-26/NORDLUCHS_COS_COE_2026-10-26.xls",
+          "size": 794624,
+          "sha": "909f98e69a1662447d64d24d5aa47500dc840235",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-10-26/NORDLUCHS_COS_COE_2026-10-26.xls"
+        },
+        {
           "name": "NORDLUCHS_OOCL_2026-10-26.xls",
           "path": "archive/NORDLUCHS_2026-10-26/NORDLUCHS_OOCL_2026-10-26.xls",
           "size": 104960,
@@ -3245,7 +3253,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-10-26/Storage_Report_NORDLUCHS_OOCL_2026-10-26.pdf"
         }
       ],
-      "filesCount": 9
+      "filesCount": 10
     },
     {
       "name": "OCEAN_LEADER_2026-11-03",
