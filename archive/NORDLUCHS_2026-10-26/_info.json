@@ -1,11 +1,12 @@
 {
   "shipName": "NORDLUCHS",
   "date": "2026-10-26",
-  "lastUpdate": "2026-10-27T08:01:40.436Z",
+  "lastUpdate": "2026-11-08T09:08:17.854Z",
   "lines": [
     "OOCL",
     "COE",
-    "COS"
+    "COS",
+    "COS_COE"
   ],
   "documents": []
 }
