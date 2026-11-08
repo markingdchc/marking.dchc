@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T06:57:21.162Z",
+  "lastUpdated": "2026-11-08T07:00:18.259Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1056,6 +1056,38 @@
         }
       ],
       "filesCount": 6
+    },
+    {
+      "name": "EGY_FUTURE_2026-11-08",
+      "path": "archive/EGY_FUTURE_2026-11-08",
+      "lines": [
+        "ONE",
+        "YML"
+      ],
+      "files": [
+        {
+          "name": "EGY_FUTURE_ONE_2026-11-08.xls",
+          "path": "archive/EGY_FUTURE_2026-11-08/EGY_FUTURE_ONE_2026-11-08.xls",
+          "size": 137216,
+          "sha": "68bffe548aa7da5b4affc64bc07a4d4116fa8136",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-08/EGY_FUTURE_ONE_2026-11-08.xls"
+        },
+        {
+          "name": "EGY_FUTURE_YML_2026-11-08.xls",
+          "path": "archive/EGY_FUTURE_2026-11-08/EGY_FUTURE_YML_2026-11-08.xls",
+          "size": 431616,
+          "sha": "24d49a3c75ab1046da496080be21645c99b33bda",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-08/EGY_FUTURE_YML_2026-11-08.xls"
+        },
+        {
+          "name": "Storage_Report_EGY_FUTURE_ONE_2026-11-08.pdf",
+          "path": "archive/EGY_FUTURE_2026-11-08/Storage_Report_EGY_FUTURE_ONE_2026-11-08.pdf",
+          "size": 26735,
+          "sha": "9c92075d890f240e3f420da953474322e2be798a",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-08/Storage_Report_EGY_FUTURE_ONE_2026-11-08.pdf"
+        }
+      ],
+      "filesCount": 3
     },
     {
       "name": "EGY_SKY_2026-10-13",
