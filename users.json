@@ -3,7 +3,7 @@
     {
       "id": 1,
       "username": "admin",
-      "password": "admin123",
+      "password": "sha256:7676aaafb027c825bd9abab78b234070e702752f625b752e55e55b48e607e358",
       "fullName": "المدير العام",
       "role": "admin",
       "lineIds": [
@@ -15,7 +15,7 @@
     {
       "id": 2,
       "username": "msc",
-      "password": "msc#123",
+      "password": "sha256:8559e1bbd034b35adb42718b7a43ad4ee2ec8fba981718271ae5e239a129f3a2",
       "fullName": "Ahmed Abdelrahman",
       "role": "viewer",
       "lineIds": [
@@ -29,7 +29,7 @@
     {
       "id": 3,
       "username": "yml",
-      "password": "yml#123",
+      "password": "sha256:b72c0cc88f8860c62e6d446b49fc31a7de32f61d95c30b4b3dbee5fba01f421d",
       "fullName": "Yang Ming Shipping",
       "role": "viewer",
       "lineIds": [
@@ -42,7 +42,7 @@
     {
       "id": 4,
       "username": "zim",
-      "password": "zim#123",
+      "password": "sha256:41468aeb36a94d0a75be550708bccf3fd945312fc34ea78496b1c324e3ce6d20",
       "fullName": "Egy Mar",
       "role": "viewer",
       "lineIds": [
@@ -51,6 +51,54 @@
       "status": "active",
       "createdAt": "2026-10-13",
       "perms": []
+    },
+    {
+      "id": 5,
+      "username": "ADAWOUD",
+      "password": "sha256:7e0e291709480e61bb87e1395030d1d009a33c87e229924e45ff94e67f7e5855",
+      "fullName": "Ahmed Dawoud",
+      "role": "viewer",
+      "lineIds": [
+        "*"
+      ],
+      "status": "active",
+      "createdAt": "2026-11-08",
+      "perms": [
+        "scan",
+        "upload"
+      ]
+    },
+    {
+      "id": 6,
+      "username": "mbasiouny",
+      "password": "sha256:c9b10b9a7b1f4ff9824743cc741eaea29c4e5e8880502bab86f5e87b1b1d6e7c",
+      "fullName": "Mohamed Basiouny",
+      "role": "viewer",
+      "lineIds": [
+        "*"
+      ],
+      "status": "active",
+      "createdAt": "2026-11-08",
+      "perms": [
+        "scan",
+        "upload"
+      ]
+    },
+    {
+      "id": 7,
+      "username": "motea",
+      "password": "sha256:d3287ef012c182435c2737cdb08b3d44432345e37c52bb246a29a48aecab8696",
+      "fullName": "motea",
+      "role": "viewer",
+      "lineIds": [
+        "*"
+      ],
+      "status": "active",
+      "createdAt": "2026-11-08",
+      "perms": [
+        "scan",
+        "upload"
+      ]
     }
   ]
 }
