@@ -1,9 +1,10 @@
 {
   "shipName": "ZIM_VIRGINIA",
   "date": "2026-11-10",
-  "lastUpdate": "2026-11-10T08:00:10.519Z",
+  "lastUpdate": "2026-11-10T08:44:09.626Z",
   "lines": [
-    "ZIM"
+    "ZIM",
+    "HLC"
   ],
   "documents": [],
   "history": {
