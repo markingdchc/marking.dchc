@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T09:09:34.790Z",
+  "lastUpdated": "2026-11-10T09:10:03.565Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -5840,6 +5840,20 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIRGINIA_2026-11-10/DISCH_573.xls"
         },
         {
+          "name": "LOAD_471.xls",
+          "path": "archive/ZIM_VIRGINIA_2026-11-10/LOAD_471.xls",
+          "size": 250368,
+          "sha": "7715f62a2fd9fd5a7edddc06016fead989bfcb04",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIRGINIA_2026-11-10/LOAD_471.xls"
+        },
+        {
+          "name": "NOTES.doc",
+          "path": "archive/ZIM_VIRGINIA_2026-11-10/NOTES.doc",
+          "size": 408064,
+          "sha": "a829e058df9e88c12ffbd1bf6320bf0c19ea05cd",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIRGINIA_2026-11-10/NOTES.doc"
+        },
+        {
           "name": "Storage_Report_ZIM_VIRGINIA_HLC_2026-11-10.pdf",
           "path": "archive/ZIM_VIRGINIA_2026-11-10/Storage_Report_ZIM_VIRGINIA_HLC_2026-11-10.pdf",
           "size": 62805,
@@ -5852,6 +5866,13 @@
           "size": 111657,
           "sha": "5fb1bf6adfabef6cdf2c71a803b6a7760c51fdae",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIRGINIA_2026-11-10/Storage_Report_ZIM_VIRGINIA_ZIM_2026-11-10.pdf"
+        },
+        {
+          "name": "ZIM_VIRGINIA.pdf",
+          "path": "archive/ZIM_VIRGINIA_2026-11-10/ZIM_VIRGINIA.pdf",
+          "size": 278280,
+          "sha": "3c99ae64a69131eb62b5a8cfec67f21f7fad298b",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIRGINIA_2026-11-10/ZIM_VIRGINIA.pdf"
         },
         {
           "name": "ZIM_VIRGINIA_HLC_2026-11-10.xls",
@@ -5868,7 +5889,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIRGINIA_2026-11-10/ZIM_VIRGINIA_ZIM_2026-11-10.xls"
         }
       ],
-      "filesCount": 5
+      "filesCount": 8
     }
   ]
 }
