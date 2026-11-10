@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T10:43:36.411Z",
+  "lastUpdated": "2026-11-10T10:50:23.280Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4281,8 +4281,8 @@
         {
           "name": "Storage_Report_VAGA_MAERSK_ONE_2026-10-20.pdf",
           "path": "archive/VAGA_MAERSK_2026-10-20/Storage_Report_VAGA_MAERSK_ONE_2026-10-20.pdf",
-          "size": 74657,
-          "sha": "71197e9e58aab655eb6623b292b706fa7f8c70be",
+          "size": 78542,
+          "sha": "b127916f6c5e7e4b1474bfabe22bcbc3934bd9dd",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VAGA_MAERSK_2026-10-20/Storage_Report_VAGA_MAERSK_ONE_2026-10-20.pdf"
         },
         {
@@ -4291,6 +4291,13 @@
           "size": 270789,
           "sha": "88a0912052638be42a4f484338db19b3a0f404a5",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VAGA_MAERSK_2026-10-20/VAGA_MAERSK.pdf"
+        },
+        {
+          "name": "VAGA_MAERSK_2026-10-20_BXAU4627123.pdf",
+          "path": "archive/VAGA_MAERSK_2026-10-20/VAGA_MAERSK_2026-10-20_BXAU4627123.pdf",
+          "size": 675105,
+          "sha": "f7a32a6487b8101c7d88148e3bf36954c0256eb7",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VAGA_MAERSK_2026-10-20/VAGA_MAERSK_2026-10-20_BXAU4627123.pdf"
         },
         {
           "name": "VAGA_MAERSK_MSK_2026-10-20.xls",
@@ -4307,7 +4314,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VAGA_MAERSK_2026-10-20/VAGA_MAERSK_ONE_2026-10-20.xls"
         }
       ],
-      "filesCount": 7
+      "filesCount": 8
     },
     {
       "name": "VALENCE_2026-10-06",
