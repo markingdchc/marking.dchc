@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T08:44:25.673Z",
+  "lastUpdated": "2026-11-10T09:08:51.139Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -5833,6 +5833,20 @@
       ],
       "files": [
         {
+          "name": "DISCH_573.xls",
+          "path": "archive/ZIM_VIRGINIA_2026-11-10/DISCH_573.xls",
+          "size": 240128,
+          "sha": "f1048a211666b5b545b60a77639d28c8afce5863",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIRGINIA_2026-11-10/DISCH_573.xls"
+        },
+        {
+          "name": "Storage_Report_ZIM_VIRGINIA_HLC_2026-11-10.pdf",
+          "path": "archive/ZIM_VIRGINIA_2026-11-10/Storage_Report_ZIM_VIRGINIA_HLC_2026-11-10.pdf",
+          "size": 62805,
+          "sha": "7cdb2ed27f1500aee651659e00c180cf5d37c66f",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIRGINIA_2026-11-10/Storage_Report_ZIM_VIRGINIA_HLC_2026-11-10.pdf"
+        },
+        {
           "name": "Storage_Report_ZIM_VIRGINIA_ZIM_2026-11-10.pdf",
           "path": "archive/ZIM_VIRGINIA_2026-11-10/Storage_Report_ZIM_VIRGINIA_ZIM_2026-11-10.pdf",
           "size": 111657,
@@ -5854,7 +5868,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIRGINIA_2026-11-10/ZIM_VIRGINIA_ZIM_2026-11-10.xls"
         }
       ],
-      "filesCount": 3
+      "filesCount": 5
     }
   ]
 }
