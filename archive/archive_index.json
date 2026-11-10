@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T08:00:32.446Z",
+  "lastUpdated": "2026-11-10T08:44:13.448Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -5828,9 +5828,24 @@
       "name": "ZIM_VIRGINIA_2026-11-10",
       "path": "archive/ZIM_VIRGINIA_2026-11-10",
       "lines": [
-        "ZIM"
+        "ZIM",
+        "HLC"
       ],
       "files": [
+        {
+          "name": "Storage_Report_ZIM_VIRGINIA_ZIM_2026-11-10.pdf",
+          "path": "archive/ZIM_VIRGINIA_2026-11-10/Storage_Report_ZIM_VIRGINIA_ZIM_2026-11-10.pdf",
+          "size": 111657,
+          "sha": "5fb1bf6adfabef6cdf2c71a803b6a7760c51fdae",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIRGINIA_2026-11-10/Storage_Report_ZIM_VIRGINIA_ZIM_2026-11-10.pdf"
+        },
+        {
+          "name": "ZIM_VIRGINIA_HLC_2026-11-10.xls",
+          "path": "archive/ZIM_VIRGINIA_2026-11-10/ZIM_VIRGINIA_HLC_2026-11-10.xls",
+          "size": 207872,
+          "sha": "d31470a53a67316694fca44b25d816bf82c4275a",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIRGINIA_2026-11-10/ZIM_VIRGINIA_HLC_2026-11-10.xls"
+        },
         {
           "name": "ZIM_VIRGINIA_ZIM_2026-11-10.xls",
           "path": "archive/ZIM_VIRGINIA_2026-11-10/ZIM_VIRGINIA_ZIM_2026-11-10.xls",
@@ -5839,7 +5854,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIRGINIA_2026-11-10/ZIM_VIRGINIA_ZIM_2026-11-10.xls"
         }
       ],
-      "filesCount": 1
+      "filesCount": 3
     }
   ]
 }
