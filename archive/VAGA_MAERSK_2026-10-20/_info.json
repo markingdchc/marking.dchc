@@ -6,5 +6,14 @@
     "ONE",
     "MSK"
   ],
-  "documents": []
+  "documents": [],
+  "history": {
+    "Storage_Report_VAGA_MAERSK_ONE_2026-10-20.pdf": [
+      {
+        "t": "2026-11-10T10:43:34.689Z",
+        "a": "replace",
+        "u": "المدير العام"
+      }
+    ]
+  }
 }
