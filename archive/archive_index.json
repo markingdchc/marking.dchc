@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T08:56:09.987Z",
+  "lastUpdated": "2026-11-11T10:07:21.686Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4459,6 +4459,23 @@
         }
       ],
       "filesCount": 4
+    },
+    {
+      "name": "VENTO_DI_BORA_2026-11-11",
+      "path": "archive/VENTO_DI_BORA_2026-11-11",
+      "lines": [
+        "CMA"
+      ],
+      "files": [
+        {
+          "name": "VENTO_DI_BORA_CMA_2026-11-11.xls",
+          "path": "archive/VENTO_DI_BORA_2026-11-11/VENTO_DI_BORA_CMA_2026-11-11.xls",
+          "size": 159744,
+          "sha": "e9b1eec4f1d07956daa190cb702f13ddf8768935",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VENTO_DI_BORA_2026-11-11/VENTO_DI_BORA_CMA_2026-11-11.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "VIKING_ORCA_2026-10-21",
