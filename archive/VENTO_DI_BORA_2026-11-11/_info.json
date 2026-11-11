@@ -1,9 +1,10 @@
 {
   "shipName": "VENTO_DI_BORA",
   "date": "2026-11-11",
-  "lastUpdate": "2026-11-11T10:07:16.283Z",
+  "lastUpdate": "2026-11-11T10:21:48.325Z",
   "lines": [
-    "CMA"
+    "CMA",
+    "ALP"
   ],
   "documents": [],
   "history": {
