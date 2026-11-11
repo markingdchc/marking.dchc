@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T08:26:33.570Z",
+  "lastUpdated": "2026-11-11T08:34:51.087Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -5070,9 +5070,24 @@
       "name": "YM_WISDOM_2026-11-11",
       "path": "archive/YM_WISDOM_2026-11-11",
       "lines": [
-        "MSC"
+        "MSC",
+        "HMM"
       ],
       "files": [
+        {
+          "name": "Storage_Report_YM_WISDOM_MSC_2026-11-11.pdf",
+          "path": "archive/YM_WISDOM_2026-11-11/Storage_Report_YM_WISDOM_MSC_2026-11-11.pdf",
+          "size": 42588,
+          "sha": "68bf441084c238e3681579cba7b9088032fcff38",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WISDOM_2026-11-11/Storage_Report_YM_WISDOM_MSC_2026-11-11.pdf"
+        },
+        {
+          "name": "YM_WISDOM_HMM_2026-11-11.xls",
+          "path": "archive/YM_WISDOM_2026-11-11/YM_WISDOM_HMM_2026-11-11.xls",
+          "size": 87040,
+          "sha": "28e952331edf82785f9cd066f8560bcb6436b2e1",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WISDOM_2026-11-11/YM_WISDOM_HMM_2026-11-11.xls"
+        },
         {
           "name": "YM_WISDOM_MSC_2026-11-11.xls",
           "path": "archive/YM_WISDOM_2026-11-11/YM_WISDOM_MSC_2026-11-11.xls",
@@ -5081,7 +5096,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WISDOM_2026-11-11/YM_WISDOM_MSC_2026-11-11.xls"
         }
       ],
-      "filesCount": 1
+      "filesCount": 3
     },
     {
       "name": "YM_WISH_2026-10-02",
