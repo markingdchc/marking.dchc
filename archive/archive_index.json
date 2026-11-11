@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T10:07:32.077Z",
+  "lastUpdated": "2026-11-11T10:15:38.889Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4468,6 +4468,13 @@
       ],
       "files": [
         {
+          "name": "Storage_Report_VENTO_DI_BORA_CMA_2026-11-11.pdf",
+          "path": "archive/VENTO_DI_BORA_2026-11-11/Storage_Report_VENTO_DI_BORA_CMA_2026-11-11.pdf",
+          "size": 46570,
+          "sha": "e99f2ecd181ecd88d1a038fc8097aedd42be0e5d",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VENTO_DI_BORA_2026-11-11/Storage_Report_VENTO_DI_BORA_CMA_2026-11-11.pdf"
+        },
+        {
           "name": "VENTO_DI_BORA_CMA_2026-11-11.xls",
           "path": "archive/VENTO_DI_BORA_2026-11-11/VENTO_DI_BORA_CMA_2026-11-11.xls",
           "size": 159744,
@@ -4475,7 +4482,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VENTO_DI_BORA_2026-11-11/VENTO_DI_BORA_CMA_2026-11-11.xls"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "VIKING_ORCA_2026-10-21",
@@ -5089,7 +5096,8 @@
       "lines": [
         "MSC",
         "HMM",
-        "ONE"
+        "ONE",
+        "YML"
       ],
       "files": [
         {
@@ -5133,9 +5141,16 @@
           "size": 1385984,
           "sha": "e8edabbb62f5ea911fa6b523493046449e7d9dc5",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WISDOM_2026-11-11/YM_WISDOM_ONE_2026-11-11.xls"
+        },
+        {
+          "name": "YM_WISDOM_YML_2026-11-11.xls",
+          "path": "archive/YM_WISDOM_2026-11-11/YM_WISDOM_YML_2026-11-11.xls",
+          "size": 1115648,
+          "sha": "1d90e42d0d412c37ba0ec6e8813d5acb0cda4aee",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WISDOM_2026-11-11/YM_WISDOM_YML_2026-11-11.xls"
         }
       ],
-      "filesCount": 6
+      "filesCount": 7
     },
     {
       "name": "YM_WISH_2026-10-02",
