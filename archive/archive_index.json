@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T10:38:05.158Z",
+  "lastUpdated": "2026-11-11T10:42:48.176Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4476,6 +4476,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VENTO_DI_BORA_2026-11-11/DISCH_47.xls"
         },
         {
+          "name": "LOAD_131.xls",
+          "path": "archive/VENTO_DI_BORA_2026-11-11/LOAD_131.xls",
+          "size": 109056,
+          "sha": "7ee235555fa8b75f14e27f2d47c35bd245cef559",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VENTO_DI_BORA_2026-11-11/LOAD_131.xls"
+        },
+        {
           "name": "Storage_Report_VENTO_DI_BORA_ALP_2026-11-11.pdf",
           "path": "archive/VENTO_DI_BORA_2026-11-11/Storage_Report_VENTO_DI_BORA_ALP_2026-11-11.pdf",
           "size": 38595,
@@ -4490,6 +4497,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VENTO_DI_BORA_2026-11-11/Storage_Report_VENTO_DI_BORA_CMA_2026-11-11.pdf"
         },
         {
+          "name": "VENTO_DI_BORA.pdf",
+          "path": "archive/VENTO_DI_BORA_2026-11-11/VENTO_DI_BORA.pdf",
+          "size": 269635,
+          "sha": "c28cba3068f11a021364f2de04b05143abf74c2e",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VENTO_DI_BORA_2026-11-11/VENTO_DI_BORA.pdf"
+        },
+        {
           "name": "VENTO_DI_BORA_ALP_2026-11-11.xls",
           "path": "archive/VENTO_DI_BORA_2026-11-11/VENTO_DI_BORA_ALP_2026-11-11.xls",
           "size": 118272,
@@ -4502,9 +4516,16 @@
           "size": 159744,
           "sha": "e9b1eec4f1d07956daa190cb702f13ddf8768935",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VENTO_DI_BORA_2026-11-11/VENTO_DI_BORA_CMA_2026-11-11.xls"
+        },
+        {
+          "name": "new_marine.pdf",
+          "path": "archive/VENTO_DI_BORA_2026-11-11/new_marine.pdf",
+          "size": 161728,
+          "sha": "3c4a7feac063b4e895ccc5fce31dcae835e13696",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VENTO_DI_BORA_2026-11-11/new_marine.pdf"
         }
       ],
-      "filesCount": 5
+      "filesCount": 8
     },
     {
       "name": "VIKING_ORCA_2026-10-21",
