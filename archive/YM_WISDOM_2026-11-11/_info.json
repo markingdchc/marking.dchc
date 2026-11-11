@@ -1,11 +1,12 @@
 {
   "shipName": "YM_WISDOM",
   "date": "2026-11-11",
-  "lastUpdate": "2026-11-11T08:55:32.987Z",
+  "lastUpdate": "2026-11-11T10:15:35.204Z",
   "lines": [
     "MSC",
     "HMM",
-    "ONE"
+    "ONE",
+    "YML"
   ],
   "documents": [],
   "history": {
