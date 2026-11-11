@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T11:04:56.099Z",
+  "lastUpdated": "2026-11-11T11:05:54.329Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4485,8 +4485,8 @@
         {
           "name": "Storage_Report_VENTO_DI_BORA_ALP_2026-11-11.pdf",
           "path": "archive/VENTO_DI_BORA_2026-11-11/Storage_Report_VENTO_DI_BORA_ALP_2026-11-11.pdf",
-          "size": 38595,
-          "sha": "5522712b26637a53e4443f08be856da26bb6eff4",
+          "size": 38602,
+          "sha": "7274dd3aaf8677ddd2d49f6a48030d3b396da054",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VENTO_DI_BORA_2026-11-11/Storage_Report_VENTO_DI_BORA_ALP_2026-11-11.pdf"
         },
         {
@@ -5151,6 +5151,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WISDOM_2026-11-11/DISCH_338.xls"
         },
         {
+          "name": "LOAD_2581.xls",
+          "path": "archive/YM_WISDOM_2026-11-11/LOAD_2581.xls",
+          "size": 1108992,
+          "sha": "3120e5b6e203520dc574fedbe9f2917549482f5f",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WISDOM_2026-11-11/LOAD_2581.xls"
+        },
+        {
           "name": "Storage_Report_YM_WISDOM_HMM_2026-11-11.pdf",
           "path": "archive/YM_WISDOM_2026-11-11/Storage_Report_YM_WISDOM_HMM_2026-11-11.pdf",
           "size": 35230,
@@ -5177,6 +5184,13 @@
           "size": 220747,
           "sha": "bbb192f7902f4ba5fc608c7ef0ebd910c17e8841",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WISDOM_2026-11-11/Storage_Report_YM_WISDOM_YML_2026-11-11.pdf"
+        },
+        {
+          "name": "YM_WISDOM.pdf",
+          "path": "archive/YM_WISDOM_2026-11-11/YM_WISDOM.pdf",
+          "size": 305281,
+          "sha": "c6741e803f228adeeae0ba7a582eb7644014033f",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WISDOM_2026-11-11/YM_WISDOM.pdf"
         },
         {
           "name": "YM_WISDOM_HMM_2026-11-11.xls",
@@ -5207,7 +5221,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WISDOM_2026-11-11/YM_WISDOM_YML_2026-11-11.xls"
         }
       ],
-      "filesCount": 9
+      "filesCount": 11
     },
     {
       "name": "YM_WISH_2026-10-02",
