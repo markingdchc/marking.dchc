@@ -1,11 +1,12 @@
 {
-  "lastUpdated": "2026-11-12T17:15:16.614Z",
+  "lastUpdated": "2026-11-12T17:16:27.244Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
       "path": "archive/ADELINA_2026-10-05",
       "lines": [
-        "ONE"
+        "ONE",
+        "YML"
       ],
       "files": [
         {
@@ -14,9 +15,23 @@
           "size": 199680,
           "sha": "ceaecdfd807a65579ce48112d7d391c3ca5720dd",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-10-05/ADELINA_ONE_2026-10-05.xls"
+        },
+        {
+          "name": "ADELINA_YML_2026-10-05.xls",
+          "path": "archive/ADELINA_2026-10-05/ADELINA_YML_2026-10-05.xls",
+          "size": 76800,
+          "sha": "eb04bb12283cac43517f57101a8f6c4ddb6619db",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-10-05/ADELINA_YML_2026-10-05.xls"
+        },
+        {
+          "name": "Storage_Report_ADELINA_ONE_2026-10-05.pdf",
+          "path": "archive/ADELINA_2026-10-05/Storage_Report_ADELINA_ONE_2026-10-05.pdf",
+          "size": 27128,
+          "sha": "70a771ccb2ae26844e7f80c3bbefa26f5d159465",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-10-05/Storage_Report_ADELINA_ONE_2026-10-05.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 3
     },
     {
       "name": "ADELINA_2026-10-18",
