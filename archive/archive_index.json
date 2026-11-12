@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T11:28:56.799Z",
+  "lastUpdated": "2026-11-12T11:44:24.856Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4342,16 +4342,8 @@
       "lines": [
         "ALL"
       ],
-      "files": [
-        {
-          "name": "Scan_2026-11-03_68100.pdf",
-          "path": "archive/Scans_2026-11-03/Scan_2026-11-03_68100.pdf",
-          "size": 9518,
-          "sha": "75249a81d813ae84a578ebbfa2e9b5758a7f7804",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/Scans_2026-11-03/Scan_2026-11-03_68100.pdf"
-        }
-      ],
-      "filesCount": 1
+      "files": [],
+      "filesCount": 0
     },
     {
       "name": "VAGA_MAERSK_2026-10-20",
