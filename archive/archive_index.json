@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T07:47:31.720Z",
+  "lastUpdated": "2026-11-12T07:49:09.979Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -824,30 +824,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/DOJUN_BRAVE_2026-10-23/Storage_Report_DOJUN_BRAVE_GCS_2026-10-23.pdf"
         }
       ],
-      "filesCount": 4,
-      "versions": [
-        {
-          "n": 2,
-          "files": [
-            {
-              "name": "DOJUN_BRAVE_GCS_2026-10-23.xls",
-              "path": "archive/DOJUN_BRAVE_2026-10-23/_versions/v2/DOJUN_BRAVE_GCS_2026-10-23.xls",
-              "size": 84480,
-              "sha": "027f1f842ea14ce55cd9848e4663532c15bc5fd7",
-              "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/DOJUN_BRAVE_2026-10-23/_versions/v2/DOJUN_BRAVE_GCS_2026-10-23.xls"
-            },
-            {
-              "name": "Storage_Report_DOJUN_BRAVE_GCS_2026-10-23.pdf",
-              "path": "archive/DOJUN_BRAVE_2026-10-23/_versions/v2/Storage_Report_DOJUN_BRAVE_GCS_2026-10-23.pdf",
-              "size": 30568,
-              "sha": "1abd6278962ebe9af95d4ed7678bba3ff4e10c7c",
-              "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/DOJUN_BRAVE_2026-10-23/_versions/v2/Storage_Report_DOJUN_BRAVE_GCS_2026-10-23.pdf"
-            }
-          ],
-          "t": "2026-11-12T07:46:18.733Z",
-          "u": "المدير العام"
-        }
-      ]
+      "filesCount": 4
     },
     {
       "name": "EGY_FUTURE_2026-10-11",
@@ -2653,6 +2630,13 @@
       ],
       "files": [
         {
+          "name": "DISCH_1431.xls",
+          "path": "archive/MSC_CANDICE_2026-11-11/DISCH_1431.xls",
+          "size": 517632,
+          "sha": "45c4105b3b3e54b6a2a35b9da808eeb1c4d0e86c",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_CANDICE_2026-11-11/DISCH_1431.xls"
+        },
+        {
           "name": "MSC_CANDICE_MSC_2026-11-11.xls",
           "path": "archive/MSC_CANDICE_2026-11-11/MSC_CANDICE_MSC_2026-11-11.xls",
           "size": 1228288,
@@ -2667,7 +2651,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_CANDICE_2026-11-11/Storage_Report_MSC_CANDICE_MSC_2026-11-11.pdf"
         }
       ],
-      "filesCount": 2
+      "filesCount": 3
     },
     {
       "name": "MSC_CATHERINE_VI_2026-10-03",
