@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T08:13:05.708Z",
+  "lastUpdated": "2026-11-12T08:16:39.005Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -824,30 +824,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/DOJUN_BRAVE_2026-10-23/Storage_Report_DOJUN_BRAVE_GCS_2026-10-23.pdf"
         }
       ],
-      "filesCount": 4,
-      "versions": [
-        {
-          "n": 2,
-          "files": [
-            {
-              "name": "DOJUN_BRAVE_GCS_2026-10-23.xls",
-              "path": "archive/DOJUN_BRAVE_2026-10-23/_versions/v2/DOJUN_BRAVE_GCS_2026-10-23.xls",
-              "size": 84480,
-              "sha": "027f1f842ea14ce55cd9848e4663532c15bc5fd7",
-              "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/DOJUN_BRAVE_2026-10-23/_versions/v2/DOJUN_BRAVE_GCS_2026-10-23.xls"
-            },
-            {
-              "name": "Storage_Report_DOJUN_BRAVE_GCS_2026-10-23.pdf",
-              "path": "archive/DOJUN_BRAVE_2026-10-23/_versions/v2/Storage_Report_DOJUN_BRAVE_GCS_2026-10-23.pdf",
-              "size": 30568,
-              "sha": "1abd6278962ebe9af95d4ed7678bba3ff4e10c7c",
-              "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/DOJUN_BRAVE_2026-10-23/_versions/v2/Storage_Report_DOJUN_BRAVE_GCS_2026-10-23.pdf"
-            }
-          ],
-          "t": "2026-11-12T07:46:18.733Z",
-          "u": "المدير العام"
-        }
-      ]
+      "filesCount": 4
     },
     {
       "name": "EGY_FUTURE_2026-10-11",
@@ -4758,6 +4735,23 @@
         }
       ],
       "filesCount": 7
+    },
+    {
+      "name": "WSHIGFS",
+      "path": "archive/WSHIGFS",
+      "lines": [
+        "WSHI"
+      ],
+      "files": [
+        {
+          "name": "WSHIGFS20261103_WSHI.xls",
+          "path": "archive/WSHIGFS/WSHIGFS20261103_WSHI.xls",
+          "size": 64512,
+          "sha": "dcc0c09de0ca64f1032b2732ceca51db2990cbae",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/WSHIGFS/WSHIGFS20261103_WSHI.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "YM_WARMTH_2026-10-14",
