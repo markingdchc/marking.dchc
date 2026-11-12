@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T11:55:24.737Z",
+  "lastUpdated": "2026-11-12T11:57:05.325Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4743,6 +4743,13 @@
       ],
       "files": [
         {
+          "name": "WSHIGFS20261103_WSHI.pdf",
+          "path": "archive/WSHIGFS/WSHIGFS20261103_WSHI.pdf",
+          "size": 28725,
+          "sha": "fc72551947420802793fffdc5bccc37217811937",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/WSHIGFS/WSHIGFS20261103_WSHI.pdf"
+        },
+        {
           "name": "WSHIGFS20261103_WSHI.xls",
           "path": "archive/WSHIGFS/WSHIGFS20261103_WSHI.xls",
           "size": 64512,
@@ -4750,7 +4757,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/WSHIGFS/WSHIGFS20261103_WSHI.xls"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "YM_WARMTH_2026-10-14",
