@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T11:57:43.267Z",
+  "lastUpdated": "2026-11-12T12:01:57.293Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4337,15 +4337,6 @@
       "filesCount": 3
     },
     {
-      "name": "Scans_2026-11-03",
-      "path": "archive/Scans_2026-11-03",
-      "lines": [
-        "ALL"
-      ],
-      "files": [],
-      "filesCount": 0
-    },
-    {
       "name": "VAGA_MAERSK_2026-10-20",
       "path": "archive/VAGA_MAERSK_2026-10-20",
       "lines": [
@@ -4734,30 +4725,6 @@
         }
       ],
       "filesCount": 7
-    },
-    {
-      "name": "WSHIGFS",
-      "path": "archive/WSHIGFS",
-      "lines": [
-        "WSHI"
-      ],
-      "files": [
-        {
-          "name": "WSHIGFS20261103_WSHI.pdf",
-          "path": "archive/WSHIGFS/WSHIGFS20261103_WSHI.pdf",
-          "size": 28725,
-          "sha": "fc72551947420802793fffdc5bccc37217811937",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/WSHIGFS/WSHIGFS20261103_WSHI.pdf"
-        },
-        {
-          "name": "WSHIGFS20261103_WSHI.xls",
-          "path": "archive/WSHIGFS/WSHIGFS20261103_WSHI.xls",
-          "size": 64512,
-          "sha": "457898521de60d7cf67d6770299d97f1fbbaa683",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/WSHIGFS/WSHIGFS20261103_WSHI.xls"
-        }
-      ],
-      "filesCount": 2
     },
     {
       "name": "YM_WARMTH_2026-10-14",
