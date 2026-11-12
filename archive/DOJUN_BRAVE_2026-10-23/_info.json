@@ -1,7 +1,7 @@
 {
   "shipName": "DOJUN_BRAVE",
   "date": "2026-10-23",
-  "lastUpdate": "2026-11-12T07:46:18.161Z",
+  "lastUpdate": "2026-11-12T09:40:37.667Z",
   "lines": [
     "GCS"
   ],
@@ -24,6 +24,13 @@
     "_versions/v2/Storage_Report_DOJUN_BRAVE_GCS_2026-10-23.pdf": [
       {
         "t": "2026-11-12T07:46:49.171Z",
+        "a": "add",
+        "u": "المدير العام"
+      }
+    ],
+    "DOJUN_BRAVE_GCS_2026-10-23.xls": [
+      {
+        "t": "2026-11-12T09:40:38.122Z",
         "a": "add",
         "u": "المدير العام"
       }
