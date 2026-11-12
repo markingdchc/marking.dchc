@@ -1,6 +1,23 @@
 {
-  "lastUpdated": "2026-11-12T17:13:35.749Z",
+  "lastUpdated": "2026-11-12T17:14:43.450Z",
   "folders": [
+    {
+      "name": "ADELINA_2026-10-05",
+      "path": "archive/ADELINA_2026-10-05",
+      "lines": [
+        "ONE"
+      ],
+      "files": [
+        {
+          "name": "ADELINA_ONE_2026-10-05.xls",
+          "path": "archive/ADELINA_2026-10-05/ADELINA_ONE_2026-10-05.xls",
+          "size": 199680,
+          "sha": "ceaecdfd807a65579ce48112d7d391c3ca5720dd",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-10-05/ADELINA_ONE_2026-10-05.xls"
+        }
+      ],
+      "filesCount": 1
+    },
     {
       "name": "ADELINA_2026-10-18",
       "path": "archive/ADELINA_2026-10-18",
