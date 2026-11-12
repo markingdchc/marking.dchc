@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T11:51:58.935Z",
+  "lastUpdated": "2026-11-12T11:54:48.752Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4746,41 +4746,11 @@
           "name": "WSHIGFS20261103_WSHI.xls",
           "path": "archive/WSHIGFS/WSHIGFS20261103_WSHI.xls",
           "size": 64512,
-          "sha": "dcc0c09de0ca64f1032b2732ceca51db2990cbae",
+          "sha": "457898521de60d7cf67d6770299d97f1fbbaa683",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/WSHIGFS/WSHIGFS20261103_WSHI.xls"
         }
       ],
-      "filesCount": 1,
-      "versions": [
-        {
-          "n": 2,
-          "files": [
-            {
-              "name": "Storage_Report_WSHIGFS20261103_WSHI.pdf",
-              "path": "archive/WSHIGFS/_versions/v2/Storage_Report_WSHIGFS20261103_WSHI.pdf",
-              "size": 28719,
-              "sha": "d0ab5c77887035d7f6e37a880bcefb1896935b80",
-              "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/WSHIGFS/_versions/v2/Storage_Report_WSHIGFS20261103_WSHI.pdf"
-            },
-            {
-              "name": "WSHIGFS20261103_WSHI.pdf",
-              "path": "archive/WSHIGFS/_versions/v2/WSHIGFS20261103_WSHI.pdf",
-              "size": 28721,
-              "sha": "be89572440b818ae2d7acb51a1e191c8dbfa7d88",
-              "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/WSHIGFS/_versions/v2/WSHIGFS20261103_WSHI.pdf"
-            },
-            {
-              "name": "WSHIGFS20261103_WSHI.xls",
-              "path": "archive/WSHIGFS/_versions/v2/WSHIGFS20261103_WSHI.xls",
-              "size": 64512,
-              "sha": "457898521de60d7cf67d6770299d97f1fbbaa683",
-              "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/WSHIGFS/_versions/v2/WSHIGFS20261103_WSHI.xls"
-            }
-          ],
-          "t": "2026-11-12T11:23:37.840Z",
-          "u": "المدير العام"
-        }
-      ]
+      "filesCount": 1
     },
     {
       "name": "YM_WARMTH_2026-10-14",
