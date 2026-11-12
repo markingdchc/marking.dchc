@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T08:33:13.605Z",
+  "lastUpdated": "2026-11-12T09:40:47.884Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -815,16 +815,9 @@
           "size": 61440,
           "sha": "df0fb3e78d7bd2deb548208915ae49bbef0266d4",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/DOJUN_BRAVE_2026-10-23/LOAD_26.xls"
-        },
-        {
-          "name": "Storage_Report_DOJUN_BRAVE_GCS_2026-10-23.pdf",
-          "path": "archive/DOJUN_BRAVE_2026-10-23/Storage_Report_DOJUN_BRAVE_GCS_2026-10-23.pdf",
-          "size": 30748,
-          "sha": "ab890f552b9a2c728e0b33b37b426a4893de07cb",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/DOJUN_BRAVE_2026-10-23/Storage_Report_DOJUN_BRAVE_GCS_2026-10-23.pdf"
         }
       ],
-      "filesCount": 4
+      "filesCount": 3
     },
     {
       "name": "EGY_FUTURE_2026-10-11",
@@ -2966,7 +2959,7 @@
           "name": "LOAD_1871.xls",
           "path": "archive/MSC_NAIROBI_X_2026-11-07/LOAD_1871.xls",
           "size": 838144,
-          "sha": "61b266ec198b53ee9bed1b9be085d247aaffbfed",
+          "sha": "ce0ef0f66c45dffd8b28bdc2caa8c66bd2bdbdc5",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_NAIROBI_X_2026-11-07/LOAD_1871.xls"
         },
         {
