@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T07:55:13.220Z",
+  "lastUpdated": "2026-11-12T08:00:52.100Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2546,14 +2546,28 @@
       ],
       "files": [
         {
+          "name": "DISCH_64.xls",
+          "path": "archive/MSC_APOLLO_2026-11-12/DISCH_64.xls",
+          "size": 72192,
+          "sha": "b65fe9f908a57e57b5a1ec3ff60ac2a133ef1aff",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_APOLLO_2026-11-12/DISCH_64.xls"
+        },
+        {
           "name": "MSC_APOLLO_MSC_2026-11-12.xls",
           "path": "archive/MSC_APOLLO_2026-11-12/MSC_APOLLO_MSC_2026-11-12.xls",
           "size": 968704,
           "sha": "720eb0bff3991a2269086286d8170975b59a66dc",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_APOLLO_2026-11-12/MSC_APOLLO_MSC_2026-11-12.xls"
+        },
+        {
+          "name": "Storage_Report_MSC_APOLLO_MSC_2026-11-12.pdf",
+          "path": "archive/MSC_APOLLO_2026-11-12/Storage_Report_MSC_APOLLO_MSC_2026-11-12.pdf",
+          "size": 168069,
+          "sha": "d4380fd756800ab12259dbc76f886a2fcdd4fe9c",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_APOLLO_2026-11-12/Storage_Report_MSC_APOLLO_MSC_2026-11-12.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 3
     },
     {
       "name": "MSC_BELLE_2026-07-06",
