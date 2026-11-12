@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T12:39:42.642Z",
+  "lastUpdated": "2026-11-12T07:45:08.471Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2621,6 +2621,23 @@
         }
       ],
       "filesCount": 7
+    },
+    {
+      "name": "MSC_CANDICE_2026-11-11",
+      "path": "archive/MSC_CANDICE_2026-11-11",
+      "lines": [
+        "MSC"
+      ],
+      "files": [
+        {
+          "name": "MSC_CANDICE_MSC_2026-11-11.xls",
+          "path": "archive/MSC_CANDICE_2026-11-11/MSC_CANDICE_MSC_2026-11-11.xls",
+          "size": 1228288,
+          "sha": "be9b2da0637805c75e32824ac6b08429c9672fd4",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_CANDICE_2026-11-11/MSC_CANDICE_MSC_2026-11-11.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "MSC_CATHERINE_VI_2026-10-03",
