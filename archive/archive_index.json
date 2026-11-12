@@ -1,31 +1,6 @@
 {
-  "lastUpdated": "2026-11-12T16:57:39.658Z",
+  "lastUpdated": "2026-11-12T17:10:24.150Z",
   "folders": [
-    {
-      "name": "ADELINA_2026-10-05",
-      "path": "archive/ADELINA_2026-10-05",
-      "lines": [
-        "ONE",
-        "YML"
-      ],
-      "files": [
-        {
-          "name": "ADELINA_ONE_2026-10-05.xls",
-          "path": "archive/ADELINA_2026-10-05/ADELINA_ONE_2026-10-05.xls",
-          "size": 199680,
-          "sha": "ceaecdfd807a65579ce48112d7d391c3ca5720dd",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-10-05/ADELINA_ONE_2026-10-05.xls"
-        },
-        {
-          "name": "ADELINA_YML_2026-10-05.xls",
-          "path": "archive/ADELINA_2026-10-05/ADELINA_YML_2026-10-05.xls",
-          "size": 76800,
-          "sha": "eb04bb12283cac43517f57101a8f6c4ddb6619db",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-10-05/ADELINA_YML_2026-10-05.xls"
-        }
-      ],
-      "filesCount": 2
-    },
     {
       "name": "ADELINA_2026-10-18",
       "path": "archive/ADELINA_2026-10-18",
@@ -2240,6 +2215,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAERSK_IZMIR_2026-10-27/MAERSK_IZMIR.pdf"
         },
         {
+          "name": "MAERSK_IZMIR_MSK_2026-10-27.xls",
+          "path": "archive/MAERSK_IZMIR_2026-10-27/MAERSK_IZMIR_MSK_2026-10-27.xls",
+          "size": 88576,
+          "sha": "2848a346927bd2d04cca91aeb166e6a9e4c3c38d",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAERSK_IZMIR_2026-10-27/MAERSK_IZMIR_MSK_2026-10-27.xls"
+        },
+        {
           "name": "MAERSK_IZMIR_ONE_2026-10-27.xls",
           "path": "archive/MAERSK_IZMIR_2026-10-27/MAERSK_IZMIR_ONE_2026-10-27.xls",
           "size": 310272,
@@ -2254,6 +2236,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAERSK_IZMIR_2026-10-27/NEW_MARINE.pdf"
         },
         {
+          "name": "Storage_Report_MAERSK_IZMIR_MSK_2026-10-27.pdf",
+          "path": "archive/MAERSK_IZMIR_2026-10-27/Storage_Report_MAERSK_IZMIR_MSK_2026-10-27.pdf",
+          "size": 35936,
+          "sha": "4dbc602296cf02ae015a7a9c0dad6cb9f4c9f6fd",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAERSK_IZMIR_2026-10-27/Storage_Report_MAERSK_IZMIR_MSK_2026-10-27.pdf"
+        },
+        {
           "name": "Storage_Report_MAERSK_IZMIR_ONE_2026-10-27.pdf",
           "path": "archive/MAERSK_IZMIR_2026-10-27/Storage_Report_MAERSK_IZMIR_ONE_2026-10-27.pdf",
           "size": 79380,
@@ -2261,7 +2250,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MAERSK_IZMIR_2026-10-27/Storage_Report_MAERSK_IZMIR_ONE_2026-10-27.pdf"
         }
       ],
-      "filesCount": 6
+      "filesCount": 8
     },
     {
       "name": "MARLA_TIGER_2026-10-27",
@@ -4720,13 +4709,6 @@
       ],
       "files": [
         {
-          "name": "Storage_Report_WSHIGFS20261103_WSHI_.pdf",
-          "path": "archive/WSHIGFS/Storage_Report_WSHIGFS20261103_WSHI_.pdf",
-          "size": 28833,
-          "sha": "96ac5cf06e52f33280e9c6d22528550b5c668339",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/WSHIGFS/Storage_Report_WSHIGFS20261103_WSHI_.pdf"
-        },
-        {
           "name": "WSHIGFS20261103_WSHI.xls",
           "path": "archive/WSHIGFS/WSHIGFS20261103_WSHI.xls",
           "size": 64512,
@@ -4734,7 +4716,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/WSHIGFS/WSHIGFS20261103_WSHI.xls"
         }
       ],
-      "filesCount": 2
+      "filesCount": 1
     },
     {
       "name": "YM_WARMTH_2026-10-14",
