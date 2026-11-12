@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T07:49:57.343Z",
+  "lastUpdated": "2026-11-12T07:50:33.778Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2637,6 +2637,20 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_CANDICE_2026-11-11/DISCH_1431.xls"
         },
         {
+          "name": "LOAD_712.xls",
+          "path": "archive/MSC_CANDICE_2026-11-11/LOAD_712.xls",
+          "size": 342528,
+          "sha": "c5360d1052fef4bede0bd9c057d31847af4d2d9e",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_CANDICE_2026-11-11/LOAD_712.xls"
+        },
+        {
+          "name": "MSC_CANDICE.pdf",
+          "path": "archive/MSC_CANDICE_2026-11-11/MSC_CANDICE.pdf",
+          "size": 255864,
+          "sha": "91e31fc3e9dd6e5892eb8f327263a9785f8a619e",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_CANDICE_2026-11-11/MSC_CANDICE.pdf"
+        },
+        {
           "name": "MSC_CANDICE_MSC_2026-11-11.xls",
           "path": "archive/MSC_CANDICE_2026-11-11/MSC_CANDICE_MSC_2026-11-11.xls",
           "size": 1228288,
@@ -2651,7 +2665,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_CANDICE_2026-11-11/Storage_Report_MSC_CANDICE_MSC_2026-11-11.pdf"
         }
       ],
-      "filesCount": 3
+      "filesCount": 5
     },
     {
       "name": "MSC_CATHERINE_VI_2026-10-03",
