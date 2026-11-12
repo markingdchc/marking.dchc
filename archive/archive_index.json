@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T08:32:11.533Z",
+  "lastUpdated": "2026-11-12T08:32:41.333Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2970,6 +2970,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_NAIROBI_X_2026-11-07/LOAD_1871.xls"
         },
         {
+          "name": "MSC.pdf",
+          "path": "archive/MSC_NAIROBI_X_2026-11-07/MSC.pdf",
+          "size": 18156,
+          "sha": "fc86e89051ea24f07c4acd3eda43aa9f1adc2b9f",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_NAIROBI_X_2026-11-07/MSC.pdf"
+        },
+        {
           "name": "MSC_NAIROBI_X.pdf",
           "path": "archive/MSC_NAIROBI_X_2026-11-07/MSC_NAIROBI_X.pdf",
           "size": 276216,
@@ -3005,7 +3012,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_NAIROBI_X_2026-11-07/Storage_Report_MSC_NAIROBI_X_ZIM_2026-11-07.pdf"
         }
       ],
-      "filesCount": 7
+      "filesCount": 8
     },
     {
       "name": "MSC_NINA_F_2026-10-11",
