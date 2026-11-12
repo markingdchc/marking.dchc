@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T09:41:38.883Z",
+  "lastUpdated": "2026-11-12T09:41:48.474Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -815,9 +815,16 @@
           "size": 61440,
           "sha": "df0fb3e78d7bd2deb548208915ae49bbef0266d4",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/DOJUN_BRAVE_2026-10-23/LOAD_26.xls"
+        },
+        {
+          "name": "Storage_Report_DOJUN_BRAVE_GCS_2026-10-23.pdf",
+          "path": "archive/DOJUN_BRAVE_2026-10-23/Storage_Report_DOJUN_BRAVE_GCS_2026-10-23.pdf",
+          "size": 30743,
+          "sha": "bfb4f996b3d29f6de5659fc52412e135ce7c7e62",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/DOJUN_BRAVE_2026-10-23/Storage_Report_DOJUN_BRAVE_GCS_2026-10-23.pdf"
         }
       ],
-      "filesCount": 3
+      "filesCount": 4
     },
     {
       "name": "EGY_FUTURE_2026-10-11",
