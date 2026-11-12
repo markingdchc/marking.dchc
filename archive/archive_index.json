@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T11:23:40.858Z",
+  "lastUpdated": "2026-11-12T11:27:05.544Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4763,6 +4763,13 @@
         {
           "n": 2,
           "files": [
+            {
+              "name": "Storage_Report_WSHIGFS20261103_WSHI.pdf",
+              "path": "archive/WSHIGFS/_versions/v2/Storage_Report_WSHIGFS20261103_WSHI.pdf",
+              "size": 28719,
+              "sha": "d0ab5c77887035d7f6e37a880bcefb1896935b80",
+              "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/WSHIGFS/_versions/v2/Storage_Report_WSHIGFS20261103_WSHI.pdf"
+            },
             {
               "name": "WSHIGFS20261103_WSHI.xls",
               "path": "archive/WSHIGFS/_versions/v2/WSHIGFS20261103_WSHI.xls",
