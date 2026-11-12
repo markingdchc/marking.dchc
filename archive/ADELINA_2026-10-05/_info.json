@@ -1,9 +1,10 @@
 {
   "shipName": "ADELINA",
   "date": "2026-10-05",
-  "lastUpdate": "2026-11-12T17:14:39.904Z",
+  "lastUpdate": "2026-11-12T17:15:14.087Z",
   "lines": [
-    "ONE"
+    "ONE",
+    "YML"
   ],
   "documents": [],
   "history": {
@@ -17,6 +18,13 @@
     "Storage_Report_ADELINA_ONE_2026-10-05.pdf": [
       {
         "t": "2026-11-12T17:14:54.489Z",
+        "a": "add",
+        "u": "المدير العام"
+      }
+    ],
+    "ADELINA_YML_2026-10-05.xls": [
+      {
+        "t": "2026-11-12T17:15:14.641Z",
         "a": "add",
         "u": "المدير العام"
       }
