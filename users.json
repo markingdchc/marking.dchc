@@ -99,6 +99,34 @@
         "scan",
         "upload"
       ]
+    },
+    {
+      "id": 8,
+      "username": "heid",
+      "password": "sha256:64894272dc6343b8623681e6a9eccf8850b35d8e5ababcf894b32fdd1da53556",
+      "fullName": "Hazem Eid",
+      "role": "admin",
+      "lineIds": [
+        "*"
+      ],
+      "status": "active",
+      "createdAt": "2026-11-12"
+    },
+    {
+      "id": 9,
+      "username": "mmosbah",
+      "password": "sha256:94edf28c6d6da38fd35d7ad53e485307f89fbeaf120485c8d17a43f323deee71",
+      "fullName": "Mohamed Mosbah",
+      "role": "viewer",
+      "lineIds": [
+        "*"
+      ],
+      "status": "active",
+      "createdAt": "2026-11-12",
+      "perms": [
+        "scan",
+        "upload"
+      ]
     }
   ]
 }
