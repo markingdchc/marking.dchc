@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T09:33:47.188Z",
+  "lastUpdated": "2026-11-14T09:35:24.977Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4597,16 +4597,8 @@
       "lines": [
         "ALL"
       ],
-      "files": [
-        {
-          "name": "Scan_2026-11-03_68100.pdf",
-          "path": "archive/Scans_2026-11-03/Scan_2026-11-03_68100.pdf",
-          "size": 9518,
-          "sha": "75249a81d813ae84a578ebbfa2e9b5758a7f7804",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/Scans_2026-11-03/Scan_2026-11-03_68100.pdf"
-        }
-      ],
-      "filesCount": 1
+      "files": [],
+      "filesCount": 0
     },
     {
       "name": "VAGA_MAERSK_2026-10-20",
@@ -5008,8 +5000,8 @@
         {
           "name": "Storage_Report_WSHIGFS20261103_WSHI_.pdf",
           "path": "archive/WSHIGFS/Storage_Report_WSHIGFS20261103_WSHI_.pdf",
-          "size": 28718,
-          "sha": "e3751d79460c6e50838812c71aae8d43660f4be8",
+          "size": 28781,
+          "sha": "609b4f55cff65660fb181620a977a1614a1c8213",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/WSHIGFS/Storage_Report_WSHIGFS20261103_WSHI_.pdf"
         },
         {
