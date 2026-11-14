@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T08:17:29.956Z",
+  "lastUpdated": "2026-11-14T08:18:16.324Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4020,7 +4020,8 @@
       "path": "archive/SAFEEN_PROSPER_2026-11-13",
       "lines": [
         "ACL",
-        "CSL"
+        "CSL",
+        "GFS"
       ],
       "files": [
         {
@@ -4038,6 +4039,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SAFEEN_PROSPER_2026-11-13/SAFEEN_PROSPER_CSL_2026-11-13.xls"
         },
         {
+          "name": "SAFEEN_PROSPER_GFS_2026-11-13.xls",
+          "path": "archive/SAFEEN_PROSPER_2026-11-13/SAFEEN_PROSPER_GFS_2026-11-13.xls",
+          "size": 72704,
+          "sha": "ad7cba5c217051f3a8b3a345c97f48e1c163fd6c",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SAFEEN_PROSPER_2026-11-13/SAFEEN_PROSPER_GFS_2026-11-13.xls"
+        },
+        {
           "name": "Storage_Report_SAFEEN_PROSPER_ACL_2026-11-13.pdf",
           "path": "archive/SAFEEN_PROSPER_2026-11-13/Storage_Report_SAFEEN_PROSPER_ACL_2026-11-13.pdf",
           "size": 37834,
@@ -4052,7 +4060,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SAFEEN_PROSPER_2026-11-13/Storage_Report_SAFEEN_PROSPER_CSL_2026-11-13.pdf"
         }
       ],
-      "filesCount": 4
+      "filesCount": 5
     },
     {
       "name": "SC_HOUSTON_2026-10-17",
