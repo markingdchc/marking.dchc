@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T06:09:31.662Z",
+  "lastUpdated": "2026-11-14T07:10:03.254Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3997,6 +3997,23 @@
         }
       ],
       "filesCount": 5
+    },
+    {
+      "name": "SAFEEN_PROSPER_2026-11-13",
+      "path": "archive/SAFEEN_PROSPER_2026-11-13",
+      "lines": [
+        "ACL"
+      ],
+      "files": [
+        {
+          "name": "SAFEEN_PROSPER_ACL_2026-11-13.xls",
+          "path": "archive/SAFEEN_PROSPER_2026-11-13/SAFEEN_PROSPER_ACL_2026-11-13.xls",
+          "size": 71680,
+          "sha": "9b6b84eb84cc23d600c154af2b2a09e5eb60b599",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SAFEEN_PROSPER_2026-11-13/SAFEEN_PROSPER_ACL_2026-11-13.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "SC_HOUSTON_2026-10-17",
