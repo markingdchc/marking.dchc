@@ -3,7 +3,7 @@
     {
       "id": 1,
       "username": "admin",
-      "password": "sha256:117719bb3efa12183aa64df9272c5cf1ca564b7af849769d9b1b68323b019d97",
+      "password": "sha256:7676aaafb027c825bd9abab78b234070e702752f625b752e55e55b48e607e358",
       "fullName": "المدير العام",
       "role": "admin",
       "lineIds": [
@@ -16,14 +16,13 @@
       "id": 2,
       "username": "msc",
       "password": "sha256:8559e1bbd034b35adb42718b7a43ad4ee2ec8fba981718271ae5e239a129f3a2",
-      "fullName": "Ahmed Abdelrahman",
-      "role": "viewer",
+      "fullName": "المدير العام",
+      "role": "admin",
       "lineIds": [
         "*"
       ],
       "status": "active",
-      "createdAt": "2026-10-13",
-      "perms": []
+      "createdAt": "2026-10-13"
     },
     {
       "id": 3,
