@@ -3,7 +3,7 @@
     {
       "id": 1,
       "username": "admin",
-      "password": "sha256:7676aaafb027c825bd9abab78b234070e702752f625b752e55e55b48e607e358",
+      "password": "sha256:117719bb3efa12183aa64df9272c5cf1ca564b7af849769d9b1b68323b019d97",
       "fullName": "المدير العام",
       "role": "admin",
       "lineIds": [
@@ -16,13 +16,14 @@
       "id": 2,
       "username": "msc",
       "password": "sha256:8559e1bbd034b35adb42718b7a43ad4ee2ec8fba981718271ae5e239a129f3a2",
-       "fullName": "المدير العام",
-      "role": "admin",
+      "fullName": "Ahmed Abdelrahman",
+      "role": "viewer",
       "lineIds": [
         "*"
       ],
       "status": "active",
-      "createdAt": "2026-10-13"
+      "createdAt": "2026-10-13",
+      "perms": []
     },
     {
       "id": 3,
@@ -55,51 +56,36 @@
       "username": "ADAWOUD",
       "password": "sha256:6b3a4636f535ade6f0f5cbee2bcfb585bb86308e0fb0ee54cdbfb0bcfa94083c",
       "fullName": "Ahmed Dawoud",
-      "role": "viewer",
+      "role": "admin",
       "lineIds": [
         "*"
       ],
       "status": "active",
-      "createdAt": "2026-11-08",
-      "perms": [
-        "scan",
-        "upload",
-        "delete"
-      ]
+      "createdAt": "2026-11-08"
     },
     {
       "id": 6,
       "username": "mbasiouny",
       "password": "sha256:c9b10b9a7b1f4ff9824743cc741eaea29c4e5e8880502bab86f5e87b1b1d6e7c",
       "fullName": "Mohamed Basiouny",
-      "role": "viewer",
+      "role": "admin",
       "lineIds": [
         "*"
       ],
       "status": "active",
-      "createdAt": "2026-11-08",
-      "perms": [
-        "scan",
-        "upload",
-        "delete"
-      ]
+      "createdAt": "2026-11-08"
     },
     {
       "id": 7,
       "username": "motea",
       "password": "sha256:d3287ef012c182435c2737cdb08b3d44432345e37c52bb246a29a48aecab8696",
       "fullName": "motea",
-      "role": "viewer",
+      "role": "admin",
       "lineIds": [
         "*"
       ],
       "status": "active",
-      "createdAt": "2026-11-08",
-      "perms": [
-        "scan",
-        "upload",
-        "delete"
-      ]
+      "createdAt": "2026-11-08"
     },
     {
       "id": 8,
@@ -118,34 +104,24 @@
       "username": "mmosbah",
       "password": "sha256:94edf28c6d6da38fd35d7ad53e485307f89fbeaf120485c8d17a43f323deee71",
       "fullName": "Mohamed Mosbah",
-      "role": "viewer",
+      "role": "admin",
       "lineIds": [
         "*"
       ],
       "status": "active",
-      "createdAt": "2026-11-12",
-      "perms": [
-        "scan",
-        "upload",
-        "delete"
-      ]
+      "createdAt": "2026-11-12"
     },
     {
       "id": 10,
       "username": "ayaali",
       "password": "sha256:575e75164546ae08aba76fd3c164551deb82f049997976d0729c8749b2591a19",
       "fullName": "Aya Ali",
-      "role": "viewer",
+      "role": "admin",
       "lineIds": [
         "*"
       ],
       "status": "active",
-      "createdAt": "2026-11-14",
-      "perms": [
-        "scan",
-        "upload",
-        "delete"
-      ]
+      "createdAt": "2026-11-14"
     }
   ]
 }
