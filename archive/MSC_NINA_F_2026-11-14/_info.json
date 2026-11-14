@@ -1,0 +1,18 @@
+{
+  "shipName": "MSC_NINA_F",
+  "date": "2026-11-14",
+  "lastUpdate": "2026-11-14T08:57:52.573Z",
+  "lines": [
+    "MSC"
+  ],
+  "documents": [],
+  "history": {
+    "MSC_NINA_F_MSC_2026-11-14.xls": [
+      {
+        "t": "2026-11-14T08:57:53.480Z",
+        "a": "add",
+        "u": "Ahmed Dawoud"
+      }
+    ]
+  }
+}
