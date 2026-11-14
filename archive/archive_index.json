@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T10:09:52.642Z",
+  "lastUpdated": "2026-11-14T10:10:10.688Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4609,6 +4609,20 @@
       ],
       "files": [
         {
+          "name": "DISCH_432.xls",
+          "path": "archive/UAFL_RACER_2026-11-13/DISCH_432.xls",
+          "size": 193536,
+          "sha": "c03926f4bac497ced9a47036bb7919e255959b23",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/UAFL_RACER_2026-11-13/DISCH_432.xls"
+        },
+        {
+          "name": "LOAD_361.xls",
+          "path": "archive/UAFL_RACER_2026-11-13/LOAD_361.xls",
+          "size": 205312,
+          "sha": "b560f2fab5f27872285290af55275d9a092e53d1",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/UAFL_RACER_2026-11-13/LOAD_361.xls"
+        },
+        {
           "name": "Storage_Report_UAFL_RACER_OOCL_2026-11-13.pdf",
           "path": "archive/UAFL_RACER_2026-11-13/Storage_Report_UAFL_RACER_OOCL_2026-11-13.pdf",
           "size": 32192,
@@ -4623,7 +4637,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/UAFL_RACER_2026-11-13/UAFL_RACER_OOCL_2026-11-13.xls"
         }
       ],
-      "filesCount": 2
+      "filesCount": 4
     },
     {
       "name": "VAGA_MAERSK_2026-10-20",
