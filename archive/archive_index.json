@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T06:09:06.476Z",
+  "lastUpdated": "2026-11-14T06:09:31.662Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4738,23 +4738,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/WSHIGFS/WSHIGFS20261103_WSHI.xls"
         }
       ],
-      "filesCount": 2,
-      "versions": [
-        {
-          "n": 2,
-          "files": [
-            {
-              "name": "WSHIGFS20261103_WSHI.xls",
-              "path": "archive/WSHIGFS/_versions/v2/WSHIGFS20261103_WSHI.xls",
-              "size": 77312,
-              "sha": "81d0a92e7a9d3cc56b8051a21d369751aaf80d23",
-              "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/WSHIGFS/_versions/v2/WSHIGFS20261103_WSHI.xls"
-            }
-          ],
-          "t": "2026-11-14T06:03:53.796Z",
-          "u": "المدير العام"
-        }
-      ]
+      "filesCount": 2
     },
     {
       "name": "YM_WARMTH_2026-10-14",
