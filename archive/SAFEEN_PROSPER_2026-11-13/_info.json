@@ -1,11 +1,12 @@
 {
   "shipName": "SAFEEN_PROSPER",
   "date": "2026-11-13",
-  "lastUpdate": "2026-11-14T08:18:06.644Z",
+  "lastUpdate": "2026-11-14T08:29:24.571Z",
   "lines": [
     "ACL",
     "CSL",
-    "GFS"
+    "GFS",
+    "WSHI"
   ],
   "documents": [],
   "history": {
