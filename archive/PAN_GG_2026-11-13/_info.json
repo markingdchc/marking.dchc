@@ -1,10 +1,11 @@
 {
   "shipName": "PAN_GG",
   "date": "2026-11-13",
-  "lastUpdate": "2026-11-14T08:47:49.639Z",
+  "lastUpdate": "2026-11-14T08:49:01.203Z",
   "lines": [
     "HLC",
-    "MGL"
+    "MGL",
+    "MSK"
   ],
   "documents": [],
   "history": {
