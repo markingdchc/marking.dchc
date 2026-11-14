@@ -65,7 +65,8 @@
       "createdAt": "2026-11-08",
       "perms": [
         "scan",
-        "upload"
+        "upload",
+        "delete"
       ]
     },
     {
@@ -81,7 +82,8 @@
       "createdAt": "2026-11-08",
       "perms": [
         "scan",
-        "upload"
+        "upload",
+        "delete"
       ]
     },
     {
@@ -97,7 +99,8 @@
       "createdAt": "2026-11-08",
       "perms": [
         "scan",
-        "upload"
+        "upload",
+        "delete"
       ]
     },
     {
@@ -125,7 +128,25 @@
       "createdAt": "2026-11-12",
       "perms": [
         "scan",
-        "upload"
+        "upload",
+        "delete"
+      ]
+    },
+    {
+      "id": 10,
+      "username": "ayaali",
+      "password": "sha256:575e75164546ae08aba76fd3c164551deb82f049997976d0729c8749b2591a19",
+      "fullName": "Aya Ali",
+      "role": "viewer",
+      "lineIds": [
+        "*"
+      ],
+      "status": "active",
+      "createdAt": "2026-11-14",
+      "perms": [
+        "scan",
+        "upload",
+        "delete"
       ]
     }
   ]
