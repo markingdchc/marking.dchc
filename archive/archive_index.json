@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T07:34:00.999Z",
+  "lastUpdated": "2026-11-14T07:34:46.807Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -777,6 +777,23 @@
         }
       ],
       "filesCount": 5
+    },
+    {
+      "name": "CSL_2026-11-02",
+      "path": "archive/CSL_2026-11-02",
+      "lines": [
+        "CSL"
+      ],
+      "files": [
+        {
+          "name": "CSL_CSL_2026-11-02.xls",
+          "path": "archive/CSL_2026-11-02/CSL_CSL_2026-11-02.xls",
+          "size": 54272,
+          "sha": "4a849c5036f9b157cc1116b24c8780f0984b89ca",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/CSL_2026-11-02/CSL_CSL_2026-11-02.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "DOJUN_BRAVE_2026-10-23",
@@ -4364,6 +4381,23 @@
         }
       ],
       "filesCount": 3
+    },
+    {
+      "name": "Scans_2026-11-03",
+      "path": "archive/Scans_2026-11-03",
+      "lines": [
+        "ALL"
+      ],
+      "files": [
+        {
+          "name": "Scan_2026-11-03_68100.pdf",
+          "path": "archive/Scans_2026-11-03/Scan_2026-11-03_68100.pdf",
+          "size": 9518,
+          "sha": "75249a81d813ae84a578ebbfa2e9b5758a7f7804",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/Scans_2026-11-03/Scan_2026-11-03_68100.pdf"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "VAGA_MAERSK_2026-10-20",
