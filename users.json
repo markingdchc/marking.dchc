@@ -16,13 +16,13 @@
       "id": 2,
       "username": "msc",
       "password": "sha256:8559e1bbd034b35adb42718b7a43ad4ee2ec8fba981718271ae5e239a129f3a2",
-      "fullName": "Ahmed Abdelrahman",
+       "fullName": "المدير العام",
       "role": "admin",
-      "lineIds": [*
+      "lineIds": [
+        "*"
       ],
       "status": "active",
-      "createdAt": "2026-10-13",
-      "perms": []
+      "createdAt": "2026-10-13"
     },
     {
       "id": 3,
