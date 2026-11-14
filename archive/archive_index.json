@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T10:43:09.610Z",
+  "lastUpdated": "2026-11-14T11:01:46.574Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -5828,15 +5828,30 @@
       "path": "archive/YM_WITNESS_2026-11-13",
       "lines": [
         "YML",
-        "ONE"
+        "ONE",
+        "HMM"
       ],
       "files": [
+        {
+          "name": "Storage_Report_YM_WITNESS_ONE_2026-11-13.pdf",
+          "path": "archive/YM_WITNESS_2026-11-13/Storage_Report_YM_WITNESS_ONE_2026-11-13.pdf",
+          "size": 65815,
+          "sha": "587e92a7918d5489e8cc690df66a385e09da91a0",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WITNESS_2026-11-13/Storage_Report_YM_WITNESS_ONE_2026-11-13.pdf"
+        },
         {
           "name": "Storage_Report_YM_WITNESS_YML_2026-11-13.pdf",
           "path": "archive/YM_WITNESS_2026-11-13/Storage_Report_YM_WITNESS_YML_2026-11-13.pdf",
           "size": 65356,
           "sha": "35d223b690f258c443ffbf9ef8f1d29f67bec6f7",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WITNESS_2026-11-13/Storage_Report_YM_WITNESS_YML_2026-11-13.pdf"
+        },
+        {
+          "name": "YM_WITNESS_HMM_2026-11-13.xls",
+          "path": "archive/YM_WITNESS_2026-11-13/YM_WITNESS_HMM_2026-11-13.xls",
+          "size": 116736,
+          "sha": "3e19731e5b7d6d6d08d2d0095b794d23792a2dd9",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WITNESS_2026-11-13/YM_WITNESS_HMM_2026-11-13.xls"
         },
         {
           "name": "YM_WITNESS_ONE_2026-11-13.xls",
@@ -5853,7 +5868,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WITNESS_2026-11-13/YM_WITNESS_YML_2026-11-13.xls"
         }
       ],
-      "filesCount": 3
+      "filesCount": 5
     },
     {
       "name": "YM_WONDROUS_2026-10-16",
