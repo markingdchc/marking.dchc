@@ -3,7 +3,7 @@
     {
       "id": 1,
       "username": "admin",
-      "password": "sha256:7676aaafb027c825bd9abab78b234070e702752f625b752e55e55b48e607e358",
+      "password": "sha256:117719bb3efa12183aa64df9272c5cf1ca564b7af849769d9b1b68323b019d97",
       "fullName": "المدير العام",
       "role": "admin",
       "lineIds": [
