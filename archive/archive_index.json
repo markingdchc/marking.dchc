@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T11:19:14.523Z",
+  "lastUpdated": "2026-11-14T12:15:43.002Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -777,6 +777,23 @@
         }
       ],
       "filesCount": 5
+    },
+    {
+      "name": "CSL_2026-11-02",
+      "path": "archive/CSL_2026-11-02",
+      "lines": [
+        "CSL"
+      ],
+      "files": [
+        {
+          "name": "CSL_CSL_2026-11-02.xls",
+          "path": "archive/CSL_2026-11-02/CSL_CSL_2026-11-02.xls",
+          "size": 54272,
+          "sha": "4a849c5036f9b157cc1116b24c8780f0984b89ca",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/CSL_2026-11-02/CSL_CSL_2026-11-02.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "DOJUN_BRAVE_2026-10-23",
@@ -5840,6 +5857,20 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WITNESS_2026-11-13/DISCH_1980.xls"
         },
         {
+          "name": "LOAD_471.xls",
+          "path": "archive/YM_WITNESS_2026-11-13/LOAD_471.xls",
+          "size": 249856,
+          "sha": "3452867cbaa136a3dc2149a68c2de41c6887f42b",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WITNESS_2026-11-13/LOAD_471.xls"
+        },
+        {
+          "name": "New_marine.pdf",
+          "path": "archive/YM_WITNESS_2026-11-13/New_marine.pdf",
+          "size": 163540,
+          "sha": "bf47692c300010b6e31f18367fb7cfa95786b374",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WITNESS_2026-11-13/New_marine.pdf"
+        },
+        {
           "name": "Storage_Report_YM_WITNESS_HMM_2026-11-13.pdf",
           "path": "archive/YM_WITNESS_2026-11-13/Storage_Report_YM_WITNESS_HMM_2026-11-13.pdf",
           "size": 35062,
@@ -5859,6 +5890,13 @@
           "size": 65356,
           "sha": "35d223b690f258c443ffbf9ef8f1d29f67bec6f7",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WITNESS_2026-11-13/Storage_Report_YM_WITNESS_YML_2026-11-13.pdf"
+        },
+        {
+          "name": "YM_WITNESS.pdf",
+          "path": "archive/YM_WITNESS_2026-11-13/YM_WITNESS.pdf",
+          "size": 304025,
+          "sha": "3a968db987814ce311091ae4ae7ce697444ebd29",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WITNESS_2026-11-13/YM_WITNESS.pdf"
         },
         {
           "name": "YM_WITNESS_HMM_2026-11-13.xls",
@@ -5882,7 +5920,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WITNESS_2026-11-13/YM_WITNESS_YML_2026-11-13.xls"
         }
       ],
-      "filesCount": 7
+      "filesCount": 10
     },
     {
       "name": "YM_WONDROUS_2026-10-16",
