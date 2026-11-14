@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T08:29:44.396Z",
+  "lastUpdated": "2026-11-14T08:31:01.996Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4073,9 +4073,16 @@
           "size": 75199,
           "sha": "d981e23f948eda52cd8d752599c007b82c263f89",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SAFEEN_PROSPER_2026-11-13/Storage_Report_SAFEEN_PROSPER_GFS_2026-11-13.pdf"
+        },
+        {
+          "name": "Storage_Report_SAFEEN_PROSPER_WSHI_2026-11-13.pdf",
+          "path": "archive/SAFEEN_PROSPER_2026-11-13/Storage_Report_SAFEEN_PROSPER_WSHI_2026-11-13.pdf",
+          "size": 75201,
+          "sha": "96608247d5e6ddca528caf88d97edb783d1445ca",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SAFEEN_PROSPER_2026-11-13/Storage_Report_SAFEEN_PROSPER_WSHI_2026-11-13.pdf"
         }
       ],
-      "filesCount": 7
+      "filesCount": 8
     },
     {
       "name": "SC_HOUSTON_2026-10-17",
