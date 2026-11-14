@@ -1,9 +1,10 @@
 {
   "shipName": "MSC_ATHENS",
   "date": "2026-11-13",
-  "lastUpdate": "2026-11-14T08:58:00.507Z",
+  "lastUpdate": "2026-11-14T08:59:29.115Z",
   "lines": [
-    "MSC"
+    "MSC",
+    "ZIM"
   ],
   "documents": [],
   "history": {
