@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T08:24:47.269Z",
+  "lastUpdated": "2026-11-15T08:25:51.097Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -318,6 +318,23 @@
         }
       ],
       "filesCount": 5
+    },
+    {
+      "name": "ANITA_A_2026-11-14",
+      "path": "archive/ANITA_A_2026-11-14",
+      "lines": [
+        "WSHI"
+      ],
+      "files": [
+        {
+          "name": "ANITA_A_WSHI_2026-11-14.xls",
+          "path": "archive/ANITA_A_2026-11-14/ANITA_A_WSHI_2026-11-14.xls",
+          "size": 231936,
+          "sha": "67966d4363a6c4353a70e71ba8ac9246ba0ffe7a",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ANITA_A_2026-11-14/ANITA_A_WSHI_2026-11-14.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "APL_SAIPAN_2026-11-04",
@@ -2261,6 +2278,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-11-15/DISCH_237.xls"
         },
         {
+          "name": "JONA_SOPHIE.pdf",
+          "path": "archive/JONA_SOPHIE_2026-11-15/JONA_SOPHIE.pdf",
+          "size": 269971,
+          "sha": "8a60890c4f435c925f20ce021c58710180137718",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-11-15/JONA_SOPHIE.pdf"
+        },
+        {
           "name": "JONA_SOPHIE_HLC_2026-11-15.xls",
           "path": "archive/JONA_SOPHIE_2026-11-15/JONA_SOPHIE_HLC_2026-11-15.xls",
           "size": 67584,
@@ -2275,6 +2299,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-11-15/JONA_SOPHIE_ZIM_2026-11-15.xls"
         },
         {
+          "name": "LOAD_158.xls",
+          "path": "archive/JONA_SOPHIE_2026-11-15/LOAD_158.xls",
+          "size": 115200,
+          "sha": "da3c30742702bd387ac61a6df1e2f5fd4f86acf4",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-11-15/LOAD_158.xls"
+        },
+        {
           "name": "Storage_Report_JONA_SOPHIE_ZIM_2026-11-15.pdf",
           "path": "archive/JONA_SOPHIE_2026-11-15/Storage_Report_JONA_SOPHIE_ZIM_2026-11-15.pdf",
           "size": 26071,
@@ -2282,7 +2313,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-11-15/Storage_Report_JONA_SOPHIE_ZIM_2026-11-15.pdf"
         }
       ],
-      "filesCount": 4
+      "filesCount": 6
     },
     {
       "name": "MAERSK_IZMIR_2026-10-27",
