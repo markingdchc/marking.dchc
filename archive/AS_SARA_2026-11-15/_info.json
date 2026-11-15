@@ -1,9 +1,10 @@
 {
   "shipName": "AS_SARA",
   "date": "2026-11-15",
-  "lastUpdate": "2026-11-15T10:02:03.287Z",
+  "lastUpdate": "2026-11-15T10:09:55.268Z",
   "lines": [
-    "MSK"
+    "MSK",
+    "ONE"
   ],
   "documents": [],
   "history": {
@@ -17,6 +18,13 @@
     "Storage_Report_AS_SARA_MSK_2026-11-15.pdf": [
       {
         "t": "2026-11-15T10:02:17.388Z",
+        "a": "add",
+        "u": "motea"
+      }
+    ],
+    "AS_SARA_ONE_2026-11-15.xls": [
+      {
+        "t": "2026-11-15T10:09:55.858Z",
         "a": "add",
         "u": "motea"
       }
