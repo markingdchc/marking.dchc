@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T08:18:18.974Z",
+  "lastUpdated": "2026-11-15T08:19:49.920Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1801,14 +1801,28 @@
       ],
       "files": [
         {
+          "name": "DISCH_361.xls",
+          "path": "archive/INCHON_TRADER_2026-11-15/DISCH_361.xls",
+          "size": 172032,
+          "sha": "4a12b0bac0e315530e182221cbec9135e2624332",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/INCHON_TRADER_2026-11-15/DISCH_361.xls"
+        },
+        {
           "name": "INCHON_TRADER_MOH_2026-11-15.xls",
           "path": "archive/INCHON_TRADER_2026-11-15/INCHON_TRADER_MOH_2026-11-15.xls",
           "size": 249344,
           "sha": "dd9a1c1ea67e90cb2a4e09e91b9f84377b54f035",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/INCHON_TRADER_2026-11-15/INCHON_TRADER_MOH_2026-11-15.xls"
+        },
+        {
+          "name": "Storage_Report_INCHON_TRADER_MOH_2026-11-15.pdf",
+          "path": "archive/INCHON_TRADER_2026-11-15/Storage_Report_INCHON_TRADER_MOH_2026-11-15.pdf",
+          "size": 29892,
+          "sha": "5b94f0a5f9c094728252db0b3888bc7c7681c4c8",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/INCHON_TRADER_2026-11-15/Storage_Report_INCHON_TRADER_MOH_2026-11-15.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 3
     },
     {
       "name": "JOHANNES_MAERSK_2026-10-06",
