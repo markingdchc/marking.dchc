@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T08:30:45.255Z",
+  "lastUpdated": "2026-11-15T08:35:10.904Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1933,18 +1933,33 @@
       "name": "JOHANNES_MAERSK_2026-11-13",
       "path": "archive/JOHANNES_MAERSK_2026-11-13",
       "lines": [
-        "ONE"
+        "ONE",
+        "MSK"
       ],
       "files": [
+        {
+          "name": "JOHANNES_MAERSK_MSK_2026-11-13.xls",
+          "path": "archive/JOHANNES_MAERSK_2026-11-13/JOHANNES_MAERSK_MSK_2026-11-13.xls",
+          "size": 98816,
+          "sha": "a97f28eac53e37de9c8299a717322c02cff709c2",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JOHANNES_MAERSK_2026-11-13/JOHANNES_MAERSK_MSK_2026-11-13.xls"
+        },
         {
           "name": "JOHANNES_MAERSK_ONE_2026-11-13.xls",
           "path": "archive/JOHANNES_MAERSK_2026-11-13/JOHANNES_MAERSK_ONE_2026-11-13.xls",
           "size": 337920,
           "sha": "b6d28ca74eaa1867ebf17fd7b066d83b3915e5ea",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JOHANNES_MAERSK_2026-11-13/JOHANNES_MAERSK_ONE_2026-11-13.xls"
+        },
+        {
+          "name": "Storage_Report_JOHANNES_MAERSK_ONE_2026-11-13.pdf",
+          "path": "archive/JOHANNES_MAERSK_2026-11-13/Storage_Report_JOHANNES_MAERSK_ONE_2026-11-13.pdf",
+          "size": 82429,
+          "sha": "c704e8d36ba1930c5e5fa71f896d9d6a28a101be",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JOHANNES_MAERSK_2026-11-13/Storage_Report_JOHANNES_MAERSK_ONE_2026-11-13.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 3
     },
     {
       "name": "JOLLY_VERDE_2026-10-26",
