@@ -1,0 +1,18 @@
+{
+  "shipName": "ANITA_A",
+  "date": "2026-11-14",
+  "lastUpdate": "2026-11-15T08:25:42.567Z",
+  "lines": [
+    "WSHI"
+  ],
+  "documents": [],
+  "history": {
+    "ANITA_A_WSHI_2026-11-14.xls": [
+      {
+        "t": "2026-11-15T08:25:43.013Z",
+        "a": "add",
+        "u": "Ahmed Dawoud"
+      }
+    ]
+  }
+}
