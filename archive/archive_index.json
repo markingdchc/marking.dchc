@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T10:02:19.378Z",
+  "lastUpdated": "2026-11-15T10:10:05.345Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -540,7 +540,8 @@
       "name": "AS_SARA_2026-11-15",
       "path": "archive/AS_SARA_2026-11-15",
       "lines": [
-        "MSK"
+        "MSK",
+        "ONE"
       ],
       "files": [
         {
@@ -549,9 +550,23 @@
           "size": 68608,
           "sha": "bace21dcab372af5465d6b7d7665e647bd3af3a1",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/AS_SARA_2026-11-15/AS_SARA_MSK_2026-11-15.xls"
+        },
+        {
+          "name": "AS_SARA_ONE_2026-11-15.xls",
+          "path": "archive/AS_SARA_2026-11-15/AS_SARA_ONE_2026-11-15.xls",
+          "size": 319488,
+          "sha": "607719b97244970c8504f5cab0224e9956a289c2",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/AS_SARA_2026-11-15/AS_SARA_ONE_2026-11-15.xls"
+        },
+        {
+          "name": "Storage_Report_AS_SARA_MSK_2026-11-15.pdf",
+          "path": "archive/AS_SARA_2026-11-15/Storage_Report_AS_SARA_MSK_2026-11-15.pdf",
+          "size": 32669,
+          "sha": "4b7a96ebb8aab3fcd2b2ce23a7c11f1cac962eae",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/AS_SARA_2026-11-15/Storage_Report_AS_SARA_MSK_2026-11-15.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 3
     },
     {
       "name": "AS_SELINA_2026-10-11",
