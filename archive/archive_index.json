@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T08:23:15.855Z",
+  "lastUpdated": "2026-11-15T08:23:51.486Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2249,18 +2249,40 @@
       "name": "JONA_SOPHIE_2026-11-15",
       "path": "archive/JONA_SOPHIE_2026-11-15",
       "lines": [
-        "HLC"
+        "HLC",
+        "ZIM"
       ],
       "files": [
+        {
+          "name": "DISCH_237.xls",
+          "path": "archive/JONA_SOPHIE_2026-11-15/DISCH_237.xls",
+          "size": 130048,
+          "sha": "c7bc2eb26aa7a63f0082cf64c13cb024a002a689",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-11-15/DISCH_237.xls"
+        },
         {
           "name": "JONA_SOPHIE_HLC_2026-11-15.xls",
           "path": "archive/JONA_SOPHIE_2026-11-15/JONA_SOPHIE_HLC_2026-11-15.xls",
           "size": 67584,
           "sha": "a838a15dfd216f29d46409537dda5bd594b033a9",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-11-15/JONA_SOPHIE_HLC_2026-11-15.xls"
+        },
+        {
+          "name": "JONA_SOPHIE_ZIM_2026-11-15.xls",
+          "path": "archive/JONA_SOPHIE_2026-11-15/JONA_SOPHIE_ZIM_2026-11-15.xls",
+          "size": 168960,
+          "sha": "8a8588a396458ab2026abeb279f5ad95cf56355e",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-11-15/JONA_SOPHIE_ZIM_2026-11-15.xls"
+        },
+        {
+          "name": "Storage_Report_JONA_SOPHIE_ZIM_2026-11-15.pdf",
+          "path": "archive/JONA_SOPHIE_2026-11-15/Storage_Report_JONA_SOPHIE_ZIM_2026-11-15.pdf",
+          "size": 26071,
+          "sha": "a2a8836ce77ea798d5cd51366ae65879cdd6f33d",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-11-15/Storage_Report_JONA_SOPHIE_ZIM_2026-11-15.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 4
     },
     {
       "name": "MAERSK_IZMIR_2026-10-27",
