@@ -1,0 +1,18 @@
+{
+  "shipName": "AS_SARA",
+  "date": "2026-11-15",
+  "lastUpdate": "2026-11-15T10:02:03.287Z",
+  "lines": [
+    "MSK"
+  ],
+  "documents": [],
+  "history": {
+    "AS_SARA_MSK_2026-11-15.xls": [
+      {
+        "t": "2026-11-15T10:02:03.910Z",
+        "a": "add",
+        "u": "motea"
+      }
+    ]
+  }
+}
