@@ -122,6 +122,18 @@
       ],
       "status": "active",
       "createdAt": "2026-11-14"
+    },
+    {
+      "id": 11,
+      "username": "mowafi",
+      "password": "sha256:8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "fullName": "Mohamed Mowafy",
+      "role": "admin",
+      "lineIds": [
+        "*"
+      ],
+      "status": "active",
+      "createdAt": "2026-11-15"
     }
   ]
 }
