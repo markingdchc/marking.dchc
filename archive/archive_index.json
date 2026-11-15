@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T08:35:31.797Z",
+  "lastUpdated": "2026-11-15T08:37:07.285Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -327,6 +327,13 @@
       ],
       "files": [
         {
+          "name": "ANITA_A.pdf",
+          "path": "archive/ANITA_A_2026-11-14/ANITA_A.pdf",
+          "size": 254362,
+          "sha": "74c1325f7381755422951cbdfd60dae0b513c63a",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ANITA_A_2026-11-14/ANITA_A.pdf"
+        },
+        {
           "name": "ANITA_A_WSHI_2026-11-14.xls",
           "path": "archive/ANITA_A_2026-11-14/ANITA_A_WSHI_2026-11-14.xls",
           "size": 231936,
@@ -341,7 +348,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ANITA_A_2026-11-14/Storage_Report_ANITA_A_WSHI_2026-11-14.pdf"
         }
       ],
-      "filesCount": 2
+      "filesCount": 3
     },
     {
       "name": "APL_SAIPAN_2026-11-04",
@@ -1952,6 +1959,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JOHANNES_MAERSK_2026-11-13/JOHANNES_MAERSK_ONE_2026-11-13.xls"
         },
         {
+          "name": "Storage_Report_JOHANNES_MAERSK_MSK_2026-11-13.pdf",
+          "path": "archive/JOHANNES_MAERSK_2026-11-13/Storage_Report_JOHANNES_MAERSK_MSK_2026-11-13.pdf",
+          "size": 38093,
+          "sha": "c1d0e00ee918f5fb9c5bdd24f6c8c527f054528e",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JOHANNES_MAERSK_2026-11-13/Storage_Report_JOHANNES_MAERSK_MSK_2026-11-13.pdf"
+        },
+        {
           "name": "Storage_Report_JOHANNES_MAERSK_ONE_2026-11-13.pdf",
           "path": "archive/JOHANNES_MAERSK_2026-11-13/Storage_Report_JOHANNES_MAERSK_ONE_2026-11-13.pdf",
           "size": 82429,
@@ -1959,7 +1973,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JOHANNES_MAERSK_2026-11-13/Storage_Report_JOHANNES_MAERSK_ONE_2026-11-13.pdf"
         }
       ],
-      "filesCount": 3
+      "filesCount": 4
     },
     {
       "name": "JOLLY_VERDE_2026-10-26",
