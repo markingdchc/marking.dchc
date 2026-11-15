@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T08:26:04.691Z",
+  "lastUpdated": "2026-11-15T08:30:33.516Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -332,9 +332,16 @@
           "size": 231936,
           "sha": "67966d4363a6c4353a70e71ba8ac9246ba0ffe7a",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ANITA_A_2026-11-14/ANITA_A_WSHI_2026-11-14.xls"
+        },
+        {
+          "name": "Storage_Report_ANITA_A_WSHI_2026-11-14.pdf",
+          "path": "archive/ANITA_A_2026-11-14/Storage_Report_ANITA_A_WSHI_2026-11-14.pdf",
+          "size": 33362,
+          "sha": "cba858789027a921976b468624323f58fc92abda",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ANITA_A_2026-11-14/Storage_Report_ANITA_A_WSHI_2026-11-14.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "APL_SAIPAN_2026-11-04",
@@ -1921,6 +1928,23 @@
         }
       ],
       "filesCount": 8
+    },
+    {
+      "name": "JOHANNES_MAERSK_2026-11-13",
+      "path": "archive/JOHANNES_MAERSK_2026-11-13",
+      "lines": [
+        "ONE"
+      ],
+      "files": [
+        {
+          "name": "JOHANNES_MAERSK_ONE_2026-11-13.xls",
+          "path": "archive/JOHANNES_MAERSK_2026-11-13/JOHANNES_MAERSK_ONE_2026-11-13.xls",
+          "size": 337920,
+          "sha": "b6d28ca74eaa1867ebf17fd7b066d83b3915e5ea",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JOHANNES_MAERSK_2026-11-13/JOHANNES_MAERSK_ONE_2026-11-13.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "JOLLY_VERDE_2026-10-26",
