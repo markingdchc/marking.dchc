@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16T07:50:35.772Z",
+  "lastUpdated": "2026-11-16T07:55:19.552Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -828,6 +828,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ATHENA_2026-11-06/MSK...pdf"
         },
         {
+          "name": "MSK.pdf",
+          "path": "archive/ATHENA_2026-11-06/MSK.pdf",
+          "size": 31554,
+          "sha": "05332d3bed874d067567b656e9427648dac696bd",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ATHENA_2026-11-06/MSK.pdf"
+        },
+        {
           "name": "Storage_Report_ATHENA_ONE_2026-11-06.pdf",
           "path": "archive/ATHENA_2026-11-06/Storage_Report_ATHENA_ONE_2026-11-06.pdf",
           "size": 27182,
@@ -835,7 +842,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ATHENA_2026-11-06/Storage_Report_ATHENA_ONE_2026-11-06.pdf"
         }
       ],
-      "filesCount": 6
+      "filesCount": 7
     },
     {
       "name": "CARMEL_I_2026-10-05",
