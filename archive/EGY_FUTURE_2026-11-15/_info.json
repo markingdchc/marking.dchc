@@ -1,10 +1,11 @@
 {
   "shipName": "EGY_FUTURE",
   "date": "2026-11-15",
-  "lastUpdate": "2026-11-16T07:31:49.729Z",
+  "lastUpdate": "2026-11-16T07:46:10.652Z",
   "lines": [
     "HLC",
-    "MOH"
+    "MOH",
+    "ONE"
   ],
   "documents": [],
   "history": {
@@ -25,6 +26,13 @@
     "EGY_FUTURE_MOH_2026-11-15.xls": [
       {
         "t": "2026-11-16T07:31:50.216Z",
+        "a": "add",
+        "u": "Ahmed Dawoud"
+      }
+    ],
+    "EGY_FUTURE_ONE_2026-11-15.xls": [
+      {
+        "t": "2026-11-16T07:46:11.137Z",
         "a": "add",
         "u": "Ahmed Dawoud"
       }
