@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16T09:12:09.726Z",
+  "lastUpdated": "2026-11-16T09:16:14.465Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1273,9 +1273,32 @@
           "size": 26075,
           "sha": "bd7dd4d4c984292b7207e2f493033d1732a8e6eb",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-15/Storage_Report_EGY_FUTURE_HLC_2026-11-15.pdf"
+        },
+        {
+          "name": "Storage_Report_EGY_FUTURE_YML_2026-11-15.pdf",
+          "path": "archive/EGY_FUTURE_2026-11-15/Storage_Report_EGY_FUTURE_YML_2026-11-15.pdf",
+          "size": 24957,
+          "sha": "3570a88b3c4d2dc682b75c13c12fa2d0dad273e5",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-15/Storage_Report_EGY_FUTURE_YML_2026-11-15.pdf"
         }
       ],
-      "filesCount": 5
+      "filesCount": 6,
+      "versions": [
+        {
+          "n": 2,
+          "files": [
+            {
+              "name": "EGY_FUTURE_ONE_2026-11-15.xls",
+              "path": "archive/EGY_FUTURE_2026-11-15/_versions/v2/EGY_FUTURE_ONE_2026-11-15.xls",
+              "size": 87552,
+              "sha": "0ab5178191a189e745a998a500b3348f3e2ada88",
+              "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-15/_versions/v2/EGY_FUTURE_ONE_2026-11-15.xls"
+            }
+          ],
+          "t": "2026-11-16T09:16:11.167Z",
+          "u": "Hazem Eid"
+        }
+      ]
     },
     {
       "name": "EGY_SKY_2026-10-13",
