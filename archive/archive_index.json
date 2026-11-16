@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16T07:21:59.804Z",
+  "lastUpdated": "2026-11-16T07:31:53.717Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1219,7 +1219,8 @@
       "name": "EGY_FUTURE_2026-11-15",
       "path": "archive/EGY_FUTURE_2026-11-15",
       "lines": [
-        "HLC"
+        "HLC",
+        "MOH"
       ],
       "files": [
         {
@@ -1228,9 +1229,23 @@
           "size": 65536,
           "sha": "0743ba50316f22cbd4b1acc45624713be86b3b62",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-15/EGY_FUTURE_HLC_2026-11-15.xls"
+        },
+        {
+          "name": "EGY_FUTURE_MOH_2026-11-15.xls",
+          "path": "archive/EGY_FUTURE_2026-11-15/EGY_FUTURE_MOH_2026-11-15.xls",
+          "size": 53248,
+          "sha": "e7b3117166a3d80c85f5087f6e83b19bdafa3104",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-15/EGY_FUTURE_MOH_2026-11-15.xls"
+        },
+        {
+          "name": "Storage_Report_EGY_FUTURE_HLC_2026-11-15.pdf",
+          "path": "archive/EGY_FUTURE_2026-11-15/Storage_Report_EGY_FUTURE_HLC_2026-11-15.pdf",
+          "size": 26075,
+          "sha": "bd7dd4d4c984292b7207e2f493033d1732a8e6eb",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-15/Storage_Report_EGY_FUTURE_HLC_2026-11-15.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 3
     },
     {
       "name": "EGY_SKY_2026-10-13",
