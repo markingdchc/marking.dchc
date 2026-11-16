@@ -1,0 +1,18 @@
+{
+  "shipName": "LI_DA_XING",
+  "date": "2026-11-15",
+  "lastUpdate": "2026-11-16T11:27:57.129Z",
+  "lines": [
+    "SLG"
+  ],
+  "documents": [],
+  "history": {
+    "LI_DA_XING_SLG_2026-11-15.xls": [
+      {
+        "t": "2026-11-16T11:27:57.580Z",
+        "a": "add",
+        "u": "motea"
+      }
+    ]
+  }
+}
