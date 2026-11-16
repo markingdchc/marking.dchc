@@ -1,9 +1,10 @@
 {
   "shipName": "EGY_FUTURE",
   "date": "2026-11-15",
-  "lastUpdate": "2026-11-16T07:21:45.014Z",
+  "lastUpdate": "2026-11-16T07:31:49.729Z",
   "lines": [
-    "HLC"
+    "HLC",
+    "MOH"
   ],
   "documents": [],
   "history": {
@@ -17,6 +18,13 @@
     "Storage_Report_EGY_FUTURE_HLC_2026-11-15.pdf": [
       {
         "t": "2026-11-16T07:21:57.838Z",
+        "a": "add",
+        "u": "Ahmed Dawoud"
+      }
+    ],
+    "EGY_FUTURE_MOH_2026-11-15.xls": [
+      {
+        "t": "2026-11-16T07:31:50.216Z",
         "a": "add",
         "u": "Ahmed Dawoud"
       }
