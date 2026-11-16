@@ -1,7 +1,7 @@
 {
   "shipName": "EGY_FUTURE",
   "date": "2026-11-15",
-  "lastUpdate": "2026-11-16T09:11:30.919Z",
+  "lastUpdate": "2026-11-16T09:16:10.612Z",
   "lines": [
     "HLC",
     "MOH",
@@ -51,6 +51,23 @@
         "a": "add",
         "u": "Hazem Eid"
       }
+    ],
+    "_versions/v2/EGY_FUTURE_ONE_2026-11-15.xls": [
+      {
+        "t": "2026-11-16T09:16:11.167Z",
+        "a": "add",
+        "u": "Hazem Eid"
+      }
     ]
-  }
+  },
+  "versions": [
+    {
+      "n": 2,
+      "t": "2026-11-16T09:16:11.167Z",
+      "u": "Hazem Eid",
+      "files": [
+        "EGY_FUTURE_ONE_2026-11-15.xls"
+      ]
+    }
+  ]
 }
