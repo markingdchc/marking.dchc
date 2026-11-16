@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16T10:43:24.739Z",
+  "lastUpdated": "2026-11-16T11:28:01.427Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2570,6 +2570,23 @@
       "filesCount": 6
     },
     {
+      "name": "LI_DA_XING_2026-11-15",
+      "path": "archive/LI_DA_XING_2026-11-15",
+      "lines": [
+        "SLG"
+      ],
+      "files": [
+        {
+          "name": "LI_DA_XING_SLG_2026-11-15.xls",
+          "path": "archive/LI_DA_XING_2026-11-15/LI_DA_XING_SLG_2026-11-15.xls",
+          "size": 182784,
+          "sha": "5e5da2e38ea838ac6d8bb9a2887065b4f2f5e632",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/LI_DA_XING_2026-11-15/LI_DA_XING_SLG_2026-11-15.xls"
+        }
+      ],
+      "filesCount": 1
+    },
+    {
       "name": "MAERSK_IZMIR_2026-10-27",
       "path": "archive/MAERSK_IZMIR_2026-10-27",
       "lines": [
@@ -4585,6 +4602,20 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/REMAH_2026-11-15/DISCH_177.xls"
         },
         {
+          "name": "LOAD_173.xls",
+          "path": "archive/REMAH_2026-11-15/LOAD_173.xls",
+          "size": 120832,
+          "sha": "0fca92e1524a7ac08f003cb75645eb488b64a7c0",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/REMAH_2026-11-15/LOAD_173.xls"
+        },
+        {
+          "name": "REMAH.pdf",
+          "path": "archive/REMAH_2026-11-15/REMAH.pdf",
+          "size": 250618,
+          "sha": "790ce110ed6f11cf568802635346212eef59e9cf",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/REMAH_2026-11-15/REMAH.pdf"
+        },
+        {
           "name": "REMAH_ONE_2026-11-15.xls",
           "path": "archive/REMAH_2026-11-15/REMAH_ONE_2026-11-15.xls",
           "size": 198144,
@@ -4592,7 +4623,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/REMAH_2026-11-15/REMAH_ONE_2026-11-15.xls"
         }
       ],
-      "filesCount": 2
+      "filesCount": 4
     },
     {
       "name": "SAFEEN_PROSPER_2026-11-13",
