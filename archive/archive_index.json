@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16T12:41:34.729Z",
+  "lastUpdated": "2026-11-16T12:46:38.183Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -613,11 +613,11 @@
           "n": 2,
           "files": [
             {
-              "name": "AS_SARA_MSK_2026-11-15.xls",
-              "path": "archive/AS_SARA_2026-11-15/_versions/v2/AS_SARA_MSK_2026-11-15.xls",
-              "size": 68608,
-              "sha": "bace21dcab372af5465d6b7d7665e647bd3af3a1",
-              "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/AS_SARA_2026-11-15/_versions/v2/AS_SARA_MSK_2026-11-15.xls"
+              "name": "Storage_Report_AS_SARA_MSK_2026-11-15.pdf",
+              "path": "archive/AS_SARA_2026-11-15/_versions/v2/Storage_Report_AS_SARA_MSK_2026-11-15.pdf",
+              "size": 32794,
+              "sha": "23009024258bad01a48825459b9fa56da990560d",
+              "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/AS_SARA_2026-11-15/_versions/v2/Storage_Report_AS_SARA_MSK_2026-11-15.pdf"
             }
           ],
           "t": "2026-11-16T12:40:43.747Z",
