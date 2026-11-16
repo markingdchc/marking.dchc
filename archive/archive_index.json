@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16T09:22:06.556Z",
+  "lastUpdated": "2026-11-16T10:41:03.007Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1247,6 +1247,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-15/DISCH_130.xls"
         },
         {
+          "name": "EGY_FUTURE.pdf",
+          "path": "archive/EGY_FUTURE_2026-11-15/EGY_FUTURE.pdf",
+          "size": 313300,
+          "sha": "e5822de19ab11a30eeeb053478d44dcecea63483",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-15/EGY_FUTURE.pdf"
+        },
+        {
           "name": "EGY_FUTURE_HLC_2026-11-15.xls",
           "path": "archive/EGY_FUTURE_2026-11-15/EGY_FUTURE_HLC_2026-11-15.xls",
           "size": 65536,
@@ -1275,6 +1282,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-15/EGY_FUTURE_YML_2026-11-15.xls"
         },
         {
+          "name": "LOAD_424.xls",
+          "path": "archive/EGY_FUTURE_2026-11-15/LOAD_424.xls",
+          "size": 222208,
+          "sha": "9fce8aac2dcbad24fb253091d64e894e080ff936",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-15/LOAD_424.xls"
+        },
+        {
           "name": "Storage_Report_EGY_FUTURE_HLC_2026-11-15.pdf",
           "path": "archive/EGY_FUTURE_2026-11-15/Storage_Report_EGY_FUTURE_HLC_2026-11-15.pdf",
           "size": 26075,
@@ -1289,7 +1303,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-15/Storage_Report_EGY_FUTURE_YML_2026-11-15.pdf"
         }
       ],
-      "filesCount": 7,
+      "filesCount": 9,
       "versions": [
         {
           "n": 2,
@@ -4555,6 +4569,23 @@
         }
       ],
       "filesCount": 5
+    },
+    {
+      "name": "REMAH_2026-11-15",
+      "path": "archive/REMAH_2026-11-15",
+      "lines": [
+        "ONE"
+      ],
+      "files": [
+        {
+          "name": "REMAH_ONE_2026-11-15.xls",
+          "path": "archive/REMAH_2026-11-15/REMAH_ONE_2026-11-15.xls",
+          "size": 198144,
+          "sha": "62cad0587e5720a4d41d59c3027afe93aedab2e3",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/REMAH_2026-11-15/REMAH_ONE_2026-11-15.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "SAFEEN_PROSPER_2026-11-13",
