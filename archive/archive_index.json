@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16T11:28:15.164Z",
+  "lastUpdated": "2026-11-16T11:31:17.366Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2577,14 +2577,28 @@
       ],
       "files": [
         {
+          "name": "DISCH_163.xls",
+          "path": "archive/LI_DA_XING_2026-11-15/DISCH_163.xls",
+          "size": 105984,
+          "sha": "f3bd2ec8f73dd5da20f7ae8681cff9cae227e9da",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/LI_DA_XING_2026-11-15/DISCH_163.xls"
+        },
+        {
           "name": "LI_DA_XING_SLG_2026-11-15.xls",
           "path": "archive/LI_DA_XING_2026-11-15/LI_DA_XING_SLG_2026-11-15.xls",
           "size": 182784,
           "sha": "5e5da2e38ea838ac6d8bb9a2887065b4f2f5e632",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/LI_DA_XING_2026-11-15/LI_DA_XING_SLG_2026-11-15.xls"
+        },
+        {
+          "name": "Storage_Report_LI_DA_XING_SLG_2026-11-15.pdf",
+          "path": "archive/LI_DA_XING_2026-11-15/Storage_Report_LI_DA_XING_SLG_2026-11-15.pdf",
+          "size": 55105,
+          "sha": "2b07848007f4da0b5565190e62c08ae88983e350",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/LI_DA_XING_2026-11-15/Storage_Report_LI_DA_XING_SLG_2026-11-15.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 3
     },
     {
       "name": "MAERSK_IZMIR_2026-10-27",
