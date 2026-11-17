@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T07:47:26.585Z",
+  "lastUpdated": "2026-11-17T07:58:18.750Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1303,7 +1303,30 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-15/Storage_Report_EGY_FUTURE_YML_2026-11-15.pdf"
         }
       ],
-      "filesCount": 9
+      "filesCount": 9,
+      "versions": [
+        {
+          "n": 2,
+          "files": [
+            {
+              "name": "EGY_FUTURE_ONE_2026-11-15.xls",
+              "path": "archive/EGY_FUTURE_2026-11-15/_versions/v2/EGY_FUTURE_ONE_2026-11-15.xls",
+              "size": 87552,
+              "sha": "0ab5178191a189e745a998a500b3348f3e2ada88",
+              "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-15/_versions/v2/EGY_FUTURE_ONE_2026-11-15.xls"
+            },
+            {
+              "name": "Storage_Report_EGY_FUTURE_ONE_2026-11-15.pdf",
+              "path": "archive/EGY_FUTURE_2026-11-15/_versions/v2/Storage_Report_EGY_FUTURE_ONE_2026-11-15.pdf",
+              "size": 24838,
+              "sha": "fcffa04aeab5e84099847a06a8214f21076faea5",
+              "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-15/_versions/v2/Storage_Report_EGY_FUTURE_ONE_2026-11-15.pdf"
+            }
+          ],
+          "t": "2026-11-16T09:16:11.167Z",
+          "u": "Hazem Eid"
+        }
+      ]
     },
     {
       "name": "EGY_SKY_2026-10-13",
@@ -5102,13 +5125,6 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/UAFL_RACER_2026-11-13/LOAD_361.xls"
         },
         {
-          "name": "Storage_Report_UAFL_RACER_COS_COE_2026-11-13.pdf",
-          "path": "archive/UAFL_RACER_2026-11-13/Storage_Report_UAFL_RACER_COS_COE_2026-11-13.pdf",
-          "size": 118745,
-          "sha": "29ce738e49a52bca08ac16c20ffe543e601d2727",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/UAFL_RACER_2026-11-13/Storage_Report_UAFL_RACER_COS_COE_2026-11-13.pdf"
-        },
-        {
           "name": "Storage_Report_UAFL_RACER_OOCL_2026-11-13.pdf",
           "path": "archive/UAFL_RACER_2026-11-13/Storage_Report_UAFL_RACER_OOCL_2026-11-13.pdf",
           "size": 32192,
@@ -5137,7 +5153,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/UAFL_RACER_2026-11-13/UAFL_RACER_OOCL_2026-11-13.xls"
         }
       ],
-      "filesCount": 7
+      "filesCount": 6
     },
     {
       "name": "UAFL_RACER_2026-11-14",
