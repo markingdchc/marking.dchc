@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T07:58:33.840Z",
+  "lastUpdated": "2026-11-17T07:59:23.088Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -5139,13 +5139,6 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/UAFL_RACER_2026-11-13/UAFL_RACER.pdf"
         },
         {
-          "name": "UAFL_RACER_COS_COE_2026-11-13.xls",
-          "path": "archive/UAFL_RACER_2026-11-13/UAFL_RACER_COS_COE_2026-11-13.xls",
-          "size": 574976,
-          "sha": "4b270e88e313f26aa47e1386910b5d606d75d15c",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/UAFL_RACER_2026-11-13/UAFL_RACER_COS_COE_2026-11-13.xls"
-        },
-        {
           "name": "UAFL_RACER_OOCL_2026-11-13.xls",
           "path": "archive/UAFL_RACER_2026-11-13/UAFL_RACER_OOCL_2026-11-13.xls",
           "size": 67072,
@@ -5153,7 +5146,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/UAFL_RACER_2026-11-13/UAFL_RACER_OOCL_2026-11-13.xls"
         }
       ],
-      "filesCount": 6
+      "filesCount": 5
     },
     {
       "name": "UAFL_RACER_2026-11-14",
