@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T08:39:28.495Z",
+  "lastUpdated": "2026-11-17T08:40:23.901Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1620,6 +1620,13 @@
       ],
       "files": [
         {
+          "name": "DISCH_210.xls",
+          "path": "archive/EGY_SKY_2026-11-17/DISCH_210.xls",
+          "size": 120320,
+          "sha": "f3db9f4a048b22f43b0b66a2287a98c8231955c9",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_SKY_2026-11-17/DISCH_210.xls"
+        },
+        {
           "name": "EGY_SKY_MGL_2026-11-17.xls",
           "path": "archive/EGY_SKY_2026-11-17/EGY_SKY_MGL_2026-11-17.xls",
           "size": 53760,
@@ -1655,7 +1662,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_SKY_2026-11-17/Storage_Report_EGY_SKY_MSK_2026-11-17.pdf"
         }
       ],
-      "filesCount": 5
+      "filesCount": 6
     },
     {
       "name": "ELBELLA_2026-10-04",
