@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T08:02:21.577Z",
+  "lastUpdated": "2026-11-17T08:02:26.827Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -5156,6 +5156,20 @@
       ],
       "files": [
         {
+          "name": "DISCH_432.xls",
+          "path": "archive/UAFL_RACER_2026-11-14/DISCH_432.xls",
+          "size": 193536,
+          "sha": "c03926f4bac497ced9a47036bb7919e255959b23",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/UAFL_RACER_2026-11-14/DISCH_432.xls"
+        },
+        {
+          "name": "LOAD_361.xls",
+          "path": "archive/UAFL_RACER_2026-11-14/LOAD_361.xls",
+          "size": 205312,
+          "sha": "b560f2fab5f27872285290af55275d9a092e53d1",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/UAFL_RACER_2026-11-14/LOAD_361.xls"
+        },
+        {
           "name": "Storage_Report_UAFL_RACER_COS_COE_2026-11-14.pdf",
           "path": "archive/UAFL_RACER_2026-11-14/Storage_Report_UAFL_RACER_COS_COE_2026-11-14.pdf",
           "size": 121848,
@@ -5177,7 +5191,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/UAFL_RACER_2026-11-14/UAFL_RACER_COS_COE_2026-11-14.xls"
         }
       ],
-      "filesCount": 3
+      "filesCount": 5
     },
     {
       "name": "VAGA_MAERSK_2026-10-20",
@@ -5356,6 +5370,9 @@
       "name": "VENTO_DI_BORA_2026-10-11",
       "path": "archive/VENTO_DI_BORA_2026-10-11",
       "lines": [
+        "91",
+        "51",
+        "DI",
         "CMA"
       ],
       "files": [
