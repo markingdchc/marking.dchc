@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T08:09:35.566Z",
+  "lastUpdated": "2026-11-17T08:37:40.059Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -162,6 +162,13 @@
       ],
       "files": [
         {
+          "name": "ADELINA_16-11.pdf",
+          "path": "archive/ADELINA_2026-11-16/ADELINA_16-11.pdf",
+          "size": 1049135,
+          "sha": "c2919aa152958a07209eb7881cae8b0c921aac67",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-11-16/ADELINA_16-11.pdf"
+        },
+        {
           "name": "ADELINA_ONE_2026-11-16.xls",
           "path": "archive/ADELINA_2026-11-16/ADELINA_ONE_2026-11-16.xls",
           "size": 161792,
@@ -183,7 +190,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ADELINA_2026-11-16/Storage_Report_ADELINA_ONE_2026-11-16.pdf"
         }
       ],
-      "filesCount": 3
+      "filesCount": 4
     },
     {
       "name": "AL_SEEF_2026-10-10",
@@ -1611,6 +1618,23 @@
         }
       ],
       "filesCount": 8
+    },
+    {
+      "name": "EGY_SKY_2026-11-17",
+      "path": "archive/EGY_SKY_2026-11-17",
+      "lines": [
+        "MGL"
+      ],
+      "files": [
+        {
+          "name": "EGY_SKY_MGL_2026-11-17.xls",
+          "path": "archive/EGY_SKY_2026-11-17/EGY_SKY_MGL_2026-11-17.xls",
+          "size": 53760,
+          "sha": "7166d7a08dfd040e27d53ed132d1e0e283182fae",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_SKY_2026-11-17/EGY_SKY_MGL_2026-11-17.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "ELBELLA_2026-10-04",
