@@ -1,15 +1,23 @@
 {
   "shipName": "ZIM_ASIA",
   "date": "2026-11-17",
-  "lastUpdate": "2026-11-17T10:03:45.189Z",
+  "lastUpdate": "2026-11-17T10:10:33.083Z",
   "lines": [
-    "ZIM"
+    "ZIM",
+    "HLC"
   ],
   "documents": [],
   "history": {
     "ZIM_ASIA_ZIM_2026-11-17.xls": [
       {
         "t": "2026-11-17T10:03:45.639Z",
+        "a": "add",
+        "u": "motea"
+      }
+    ],
+    "ZIM_ASIA_HLC_2026-11-17.xls": [
+      {
+        "t": "2026-11-17T10:10:33.561Z",
         "a": "add",
         "u": "motea"
       }
