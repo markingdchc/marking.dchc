@@ -1,0 +1,18 @@
+{
+  "shipName": "ADELINA",
+  "date": "2026-11-16",
+  "lastUpdate": "2026-11-17T08:07:05.081Z",
+  "lines": [
+    "ONE"
+  ],
+  "documents": [],
+  "history": {
+    "ADELINA_ONE_2026-11-16.xls": [
+      {
+        "t": "2026-11-17T08:07:05.720Z",
+        "a": "add",
+        "u": "Ahmed Dawoud"
+      }
+    ]
+  }
+}
