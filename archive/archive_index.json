@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T08:42:25.612Z",
+  "lastUpdated": "2026-11-17T08:59:01.843Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -5620,6 +5620,23 @@
         }
       ],
       "filesCount": 6
+    },
+    {
+      "name": "VIKING_ORCA_2026-11-17",
+      "path": "archive/VIKING_ORCA_2026-11-17",
+      "lines": [
+        "CMA"
+      ],
+      "files": [
+        {
+          "name": "VIKING_ORCA_CMA_2026-11-17.xls",
+          "path": "archive/VIKING_ORCA_2026-11-17/VIKING_ORCA_CMA_2026-11-17.xls",
+          "size": 225280,
+          "sha": "7806339fede6d7cae27b7436feb1baf26875bb8c",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VIKING_ORCA_2026-11-17/VIKING_ORCA_CMA_2026-11-17.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "VUOKSI_MAERSK_2026-10-13",
