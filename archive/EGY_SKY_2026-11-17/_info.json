@@ -5,5 +5,14 @@
   "lines": [
     "MGL"
   ],
-  "documents": []
+  "documents": [],
+  "history": {
+    "Storage_Report_EGY_SKY_MGL_2026-11-17.pdf": [
+      {
+        "t": "2026-11-17T08:37:50.850Z",
+        "a": "add",
+        "u": "Hazem Eid"
+      }
+    ]
+  }
 }
