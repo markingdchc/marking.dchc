@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T07:13:49.365Z",
+  "lastUpdated": "2026-11-17T07:16:13.793Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3116,14 +3116,28 @@
       ],
       "files": [
         {
+          "name": "DISCH_788.xls",
+          "path": "archive/MSC_CADIZ_VI_2026-11-16/DISCH_788.xls",
+          "size": 312320,
+          "sha": "89ea51bbe96926e264506a744ab52ab3436ee9f2",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_CADIZ_VI_2026-11-16/DISCH_788.xls"
+        },
+        {
           "name": "MSC_CADIZ_VI_MSC_2026-11-16.xls",
           "path": "archive/MSC_CADIZ_VI_2026-11-16/MSC_CADIZ_VI_MSC_2026-11-16.xls",
           "size": 715264,
           "sha": "74066c5b96a92c421346da78c9b601b769dcf0c0",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_CADIZ_VI_2026-11-16/MSC_CADIZ_VI_MSC_2026-11-16.xls"
+        },
+        {
+          "name": "Storage_Report_MSC_CADIZ_VI_MSC_2026-11-16.pdf",
+          "path": "archive/MSC_CADIZ_VI_2026-11-16/Storage_Report_MSC_CADIZ_VI_MSC_2026-11-16.pdf",
+          "size": 133882,
+          "sha": "1168da98aa2bd8ab6c73c74f9c1259b973807662",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_CADIZ_VI_2026-11-16/Storage_Report_MSC_CADIZ_VI_MSC_2026-11-16.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 3
     },
     {
       "name": "MSC_CANDICE_2026-11-11",
