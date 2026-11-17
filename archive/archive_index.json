@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T07:59:27.606Z",
+  "lastUpdated": "2026-11-17T08:01:27.224Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -5163,6 +5163,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/UAFL_RACER_2026-11-14/Storage_Report_UAFL_RACER_COS_COE_2026-11-14.pdf"
         },
         {
+          "name": "UAFL_RACER.pdf",
+          "path": "archive/UAFL_RACER_2026-11-14/UAFL_RACER.pdf",
+          "size": 288602,
+          "sha": "d62e4a5f81faad10dd5978c95ff6c952746836b0",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/UAFL_RACER_2026-11-14/UAFL_RACER.pdf"
+        },
+        {
           "name": "UAFL_RACER_COS_COE_2026-11-14.xls",
           "path": "archive/UAFL_RACER_2026-11-14/UAFL_RACER_COS_COE_2026-11-14.xls",
           "size": 613888,
@@ -5170,7 +5177,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/UAFL_RACER_2026-11-14/UAFL_RACER_COS_COE_2026-11-14.xls"
         }
       ],
-      "filesCount": 2
+      "filesCount": 3
     },
     {
       "name": "VAGA_MAERSK_2026-10-20",
