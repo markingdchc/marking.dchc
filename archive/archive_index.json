@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T06:19:54.757Z",
+  "lastUpdated": "2026-11-17T07:13:37.289Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1303,30 +1303,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-15/Storage_Report_EGY_FUTURE_YML_2026-11-15.pdf"
         }
       ],
-      "filesCount": 9,
-      "versions": [
-        {
-          "n": 2,
-          "files": [
-            {
-              "name": "EGY_FUTURE_ONE_2026-11-15.xls",
-              "path": "archive/EGY_FUTURE_2026-11-15/_versions/v2/EGY_FUTURE_ONE_2026-11-15.xls",
-              "size": 87552,
-              "sha": "0ab5178191a189e745a998a500b3348f3e2ada88",
-              "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-15/_versions/v2/EGY_FUTURE_ONE_2026-11-15.xls"
-            },
-            {
-              "name": "Storage_Report_EGY_FUTURE_ONE_2026-11-15.pdf",
-              "path": "archive/EGY_FUTURE_2026-11-15/_versions/v2/Storage_Report_EGY_FUTURE_ONE_2026-11-15.pdf",
-              "size": 24838,
-              "sha": "fcffa04aeab5e84099847a06a8214f21076faea5",
-              "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-15/_versions/v2/Storage_Report_EGY_FUTURE_ONE_2026-11-15.pdf"
-            }
-          ],
-          "t": "2026-11-16T09:16:11.167Z",
-          "u": "Hazem Eid"
-        }
-      ]
+      "filesCount": 9
     },
     {
       "name": "EGY_SKY_2026-10-13",
@@ -3130,6 +3107,23 @@
         }
       ],
       "filesCount": 7
+    },
+    {
+      "name": "MSC_CADIZ_VI_2026-11-16",
+      "path": "archive/MSC_CADIZ_VI_2026-11-16",
+      "lines": [
+        "MSC"
+      ],
+      "files": [
+        {
+          "name": "MSC_CADIZ_VI_MSC_2026-11-16.xls",
+          "path": "archive/MSC_CADIZ_VI_2026-11-16/MSC_CADIZ_VI_MSC_2026-11-16.xls",
+          "size": 715264,
+          "sha": "74066c5b96a92c421346da78c9b601b769dcf0c0",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_CADIZ_VI_2026-11-16/MSC_CADIZ_VI_MSC_2026-11-16.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "MSC_CANDICE_2026-11-11",
