@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T10:36:48.284Z",
+  "lastUpdated": "2026-11-18T10:41:20.536Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -5695,10 +5695,17 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VIKING_ORCA_2026-11-17/LOAD_97.xls"
         },
         {
+          "name": "NEW_MARINE.pdf",
+          "path": "archive/VIKING_ORCA_2026-11-17/NEW_MARINE.pdf",
+          "size": 164964,
+          "sha": "eec2f2f5d646d7c6df0ddcf2a950eecc2f21ee15",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VIKING_ORCA_2026-11-17/NEW_MARINE.pdf"
+        },
+        {
           "name": "Storage_Report_VIKING_ORCA_CMA_2026-11-17.pdf",
           "path": "archive/VIKING_ORCA_2026-11-17/Storage_Report_VIKING_ORCA_CMA_2026-11-17.pdf",
-          "size": 59739,
-          "sha": "b0143987bc091750b3a801e36bdf87dfe155d201",
+          "size": 59727,
+          "sha": "43af3075f351d5671ce7824074ba4046e319228b",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VIKING_ORCA_2026-11-17/Storage_Report_VIKING_ORCA_CMA_2026-11-17.pdf"
         },
         {
@@ -5716,7 +5723,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VIKING_ORCA_2026-11-17/VIKING_ORCA_CMA_2026-11-17.xls"
         }
       ],
-      "filesCount": 5
+      "filesCount": 6
     },
     {
       "name": "VUOKSI_MAERSK_2026-10-13",
