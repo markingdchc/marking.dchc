@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19T08:01:42.536Z",
+  "lastUpdated": "2026-11-19T08:03:19.181Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -5840,6 +5840,20 @@
       ],
       "files": [
         {
+          "name": "DISCH_66.xls",
+          "path": "archive/VUOKSI_MAERSK_2026-11-19/DISCH_66.xls",
+          "size": 73216,
+          "sha": "325ebd146226ee572ad2a603f549c7e1843479f3",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VUOKSI_MAERSK_2026-11-19/DISCH_66.xls"
+        },
+        {
+          "name": "Storage_Report_VUOKSI_MAERSK_MSK_2026-11-19.pdf",
+          "path": "archive/VUOKSI_MAERSK_2026-11-19/Storage_Report_VUOKSI_MAERSK_MSK_2026-11-19.pdf",
+          "size": 38507,
+          "sha": "0c0d2a6e7e71f2367b2ba9bff7d836944fc1df67",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VUOKSI_MAERSK_2026-11-19/Storage_Report_VUOKSI_MAERSK_MSK_2026-11-19.pdf"
+        },
+        {
           "name": "Storage_Report_VUOKSI_MAERSK_ONE_2026-11-19.pdf",
           "path": "archive/VUOKSI_MAERSK_2026-11-19/Storage_Report_VUOKSI_MAERSK_ONE_2026-11-19.pdf",
           "size": 74490,
@@ -5861,7 +5875,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VUOKSI_MAERSK_2026-11-19/VUOKSI_MAERSK_ONE_2026-11-19.xls"
         }
       ],
-      "filesCount": 3
+      "filesCount": 5
     },
     {
       "name": "WSHIGFS",
