@@ -1,9 +1,10 @@
 {
   "shipName": "VUOKSI_MAERSK",
   "date": "2026-11-19",
-  "lastUpdate": "2026-11-19T07:58:52.003Z",
+  "lastUpdate": "2026-11-19T08:01:16.406Z",
   "lines": [
-    "ONE"
+    "ONE",
+    "MSK"
   ],
   "documents": [],
   "history": {
@@ -17,6 +18,13 @@
     "Storage_Report_VUOKSI_MAERSK_ONE_2026-11-19.pdf": [
       {
         "t": "2026-11-19T07:59:20.212Z",
+        "a": "add",
+        "u": "Mohamed Mosbah"
+      }
+    ],
+    "VUOKSI_MAERSK_MSK_2026-11-19.xls": [
+      {
+        "t": "2026-11-19T08:01:17.161Z",
         "a": "add",
         "u": "Mohamed Mosbah"
       }
