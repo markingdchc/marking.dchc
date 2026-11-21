@@ -1,10 +1,11 @@
 {
   "shipName": "NORDLUCHS",
   "date": "2026-11-20",
-  "lastUpdate": "2026-11-21T10:18:35.277Z",
+  "lastUpdate": "2026-11-21T10:53:03.371Z",
   "lines": [
     "COS",
-    "COE"
+    "COE",
+    "OOCL"
   ],
   "documents": [],
   "history": {
@@ -32,6 +33,13 @@
     "Storage_Report_NORDLUCHS_COE_2026-11-20.pdf": [
       {
         "t": "2026-11-21T10:18:50.106Z",
+        "a": "add",
+        "u": "Aya Ali"
+      }
+    ],
+    "NORDLUCHS_OOCL_2026-11-20.xls": [
+      {
+        "t": "2026-11-21T10:53:03.869Z",
         "a": "add",
         "u": "Aya Ali"
       }
