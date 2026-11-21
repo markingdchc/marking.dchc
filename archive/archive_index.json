@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T10:53:28.409Z",
+  "lastUpdated": "2026-11-21T11:08:41.499Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1448,6 +1448,23 @@
           "u": "Hazem Eid"
         }
       ]
+    },
+    {
+      "name": "EGY_FUTURE_2026-11-20",
+      "path": "archive/EGY_FUTURE_2026-11-20",
+      "lines": [
+        "HLC"
+      ],
+      "files": [
+        {
+          "name": "EGY_FUTURE_HLC_2026-11-20.xls",
+          "path": "archive/EGY_FUTURE_2026-11-20/EGY_FUTURE_HLC_2026-11-20.xls",
+          "size": 71168,
+          "sha": "09ecaf1a9d7197a7941203123d2efa5091523771",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-20/EGY_FUTURE_HLC_2026-11-20.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "EGY_SKY_2026-10-13",
@@ -4282,9 +4299,16 @@
           "size": 55417,
           "sha": "94dd33fc0844f08188b4d9fe282c47d61f3cf2ca",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/Storage_Report_NORDLUCHS_COS_2026-11-20.pdf"
+        },
+        {
+          "name": "Storage_Report_NORDLUCHS_OOCL_2026-11-20.pdf",
+          "path": "archive/NORDLUCHS_2026-11-20/Storage_Report_NORDLUCHS_OOCL_2026-11-20.pdf",
+          "size": 32165,
+          "sha": "0af3544d12fd1ebd127918adb29f888897fc1903",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/Storage_Report_NORDLUCHS_OOCL_2026-11-20.pdf"
         }
       ],
-      "filesCount": 5
+      "filesCount": 6
     },
     {
       "name": "OCEAN_LEADER_2026-11-03",
