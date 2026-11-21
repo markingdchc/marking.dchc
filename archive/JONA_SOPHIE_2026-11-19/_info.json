@@ -1,15 +1,23 @@
 {
   "shipName": "JONA_SOPHIE",
   "date": "2026-11-19",
-  "lastUpdate": "2026-11-21T08:51:55.278Z",
+  "lastUpdate": "2026-11-21T09:16:37.948Z",
   "lines": [
-    "HLC"
+    "HLC",
+    "ZIM"
   ],
   "documents": [],
   "history": {
     "JONA_SOPHIE_HLC_2026-11-19.xls": [
       {
         "t": "2026-11-21T08:51:55.879Z",
+        "a": "add",
+        "u": "Ahmed Dawoud"
+      }
+    ],
+    "JONA_SOPHIE_ZIM_2026-11-19.xls": [
+      {
+        "t": "2026-11-21T09:16:38.949Z",
         "a": "add",
         "u": "Ahmed Dawoud"
       }
