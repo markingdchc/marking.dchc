@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T10:14:19.958Z",
+  "lastUpdated": "2026-11-21T10:18:40.283Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4243,9 +4243,17 @@
       "name": "NORDLUCHS_2026-11-20",
       "path": "archive/NORDLUCHS_2026-11-20",
       "lines": [
-        "COS"
+        "COS",
+        "COE"
       ],
       "files": [
+        {
+          "name": "NORDLUCHS_COE_2026-11-20.xls",
+          "path": "archive/NORDLUCHS_2026-11-20/NORDLUCHS_COE_2026-11-20.xls",
+          "size": 278016,
+          "sha": "f8a9429b12026350730828ec9fdfab6a1e70b7b8",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/NORDLUCHS_COE_2026-11-20.xls"
+        },
         {
           "name": "NORDLUCHS_COS_2026-11-20.xls",
           "path": "archive/NORDLUCHS_2026-11-20/NORDLUCHS_COS_2026-11-20.xls",
@@ -4261,7 +4269,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/Storage_Report_NORDLUCHS_COS_2026-11-20.pdf"
         }
       ],
-      "filesCount": 2
+      "filesCount": 3
     },
     {
       "name": "OCEAN_LEADER_2026-11-03",
@@ -7508,6 +7516,13 @@
       ],
       "files": [
         {
+          "name": "Storage_Report_ZIM_VIETNAM_MSC_2026-11-19.pdf",
+          "path": "archive/ZIM_VIETNAM_2026-11-19/Storage_Report_ZIM_VIETNAM_MSC_2026-11-19.pdf",
+          "size": 291352,
+          "sha": "874f606f078a6c9717b41d95315d72a5ba81673c",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIETNAM_2026-11-19/Storage_Report_ZIM_VIETNAM_MSC_2026-11-19.pdf"
+        },
+        {
           "name": "Storage_Report_ZIM_VIETNAM_ZIM_2026-11-19.pdf",
           "path": "archive/ZIM_VIETNAM_2026-11-19/Storage_Report_ZIM_VIETNAM_ZIM_2026-11-19.pdf",
           "size": 142313,
@@ -7529,7 +7544,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIETNAM_2026-11-19/ZIM_VIETNAM_ZIM_2026-11-19.xls"
         }
       ],
-      "filesCount": 3
+      "filesCount": 4
     },
     {
       "name": "ZIM_VIRGINIA_2026-11-10",
