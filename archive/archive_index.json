@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T10:18:51.872Z",
+  "lastUpdated": "2026-11-21T10:53:08.111Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4244,7 +4244,8 @@
       "path": "archive/NORDLUCHS_2026-11-20",
       "lines": [
         "COS",
-        "COE"
+        "COE",
+        "OOCL"
       ],
       "files": [
         {
@@ -4262,6 +4263,20 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/NORDLUCHS_COS_2026-11-20.xls"
         },
         {
+          "name": "NORDLUCHS_OOCL_2026-11-20.xls",
+          "path": "archive/NORDLUCHS_2026-11-20/NORDLUCHS_OOCL_2026-11-20.xls",
+          "size": 62976,
+          "sha": "7a1780237719ac13ce109e63089cf92c6422a1e0",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/NORDLUCHS_OOCL_2026-11-20.xls"
+        },
+        {
+          "name": "Storage_Report_NORDLUCHS_COE_2026-11-20.pdf",
+          "path": "archive/NORDLUCHS_2026-11-20/Storage_Report_NORDLUCHS_COE_2026-11-20.pdf",
+          "size": 72473,
+          "sha": "c6676ccd2d9b58b08c73d7b6676334c10ab3a997",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/Storage_Report_NORDLUCHS_COE_2026-11-20.pdf"
+        },
+        {
           "name": "Storage_Report_NORDLUCHS_COS_2026-11-20.pdf",
           "path": "archive/NORDLUCHS_2026-11-20/Storage_Report_NORDLUCHS_COS_2026-11-20.pdf",
           "size": 55417,
@@ -4269,7 +4284,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/Storage_Report_NORDLUCHS_COS_2026-11-20.pdf"
         }
       ],
-      "filesCount": 3
+      "filesCount": 5
     },
     {
       "name": "OCEAN_LEADER_2026-11-03",
