@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T10:06:10.950Z",
+  "lastUpdated": "2026-11-21T10:14:03.275Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4252,9 +4252,16 @@
           "size": 192512,
           "sha": "a69d935f68ae56f85ac2ae4da790ff6775930fb9",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/NORDLUCHS_COS_2026-11-20.xls"
+        },
+        {
+          "name": "Storage_Report_NORDLUCHS_COS_2026-11-20.pdf",
+          "path": "archive/NORDLUCHS_2026-11-20/Storage_Report_NORDLUCHS_COS_2026-11-20.pdf",
+          "size": 55417,
+          "sha": "94dd33fc0844f08188b4d9fe282c47d61f3cf2ca",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/Storage_Report_NORDLUCHS_COS_2026-11-20.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "OCEAN_LEADER_2026-11-03",
@@ -7496,7 +7503,8 @@
       "name": "ZIM_VIETNAM_2026-11-19",
       "path": "archive/ZIM_VIETNAM_2026-11-19",
       "lines": [
-        "ZIM"
+        "ZIM",
+        "MSC"
       ],
       "files": [
         {
@@ -7507,6 +7515,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIETNAM_2026-11-19/Storage_Report_ZIM_VIETNAM_ZIM_2026-11-19.pdf"
         },
         {
+          "name": "ZIM_VIETNAM_MSC_2026-11-19.xls",
+          "path": "archive/ZIM_VIETNAM_2026-11-19/ZIM_VIETNAM_MSC_2026-11-19.xls",
+          "size": 1819648,
+          "sha": "998f5dc44e6bb5459b9e59be5902383abf051f9e",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIETNAM_2026-11-19/ZIM_VIETNAM_MSC_2026-11-19.xls"
+        },
+        {
           "name": "ZIM_VIETNAM_ZIM_2026-11-19.xls",
           "path": "archive/ZIM_VIETNAM_2026-11-19/ZIM_VIETNAM_ZIM_2026-11-19.xls",
           "size": 869888,
@@ -7514,7 +7529,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIETNAM_2026-11-19/ZIM_VIETNAM_ZIM_2026-11-19.xls"
         }
       ],
-      "filesCount": 2
+      "filesCount": 3
     },
     {
       "name": "ZIM_VIRGINIA_2026-11-10",
