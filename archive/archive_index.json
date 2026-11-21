@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T11:16:46.365Z",
+  "lastUpdated": "2026-11-21T11:17:32.987Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1464,11 +1464,25 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-20/DISCH_88.xls"
         },
         {
+          "name": "EGY_FUTURE.pdf",
+          "path": "archive/EGY_FUTURE_2026-11-20/EGY_FUTURE.pdf",
+          "size": 311338,
+          "sha": "1148f9e38e9f1195bd28d9d8a9ebaa24222cfcbe",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-20/EGY_FUTURE.pdf"
+        },
+        {
           "name": "EGY_FUTURE_HLC_2026-11-20.xls",
           "path": "archive/EGY_FUTURE_2026-11-20/EGY_FUTURE_HLC_2026-11-20.xls",
           "size": 71168,
           "sha": "09ecaf1a9d7197a7941203123d2efa5091523771",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-20/EGY_FUTURE_HLC_2026-11-20.xls"
+        },
+        {
+          "name": "LOAD_22.xls",
+          "path": "archive/EGY_FUTURE_2026-11-20/LOAD_22.xls",
+          "size": 59392,
+          "sha": "40b47742cd3091c7f38b1066e4ae31dbddb6735d",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-20/LOAD_22.xls"
         },
         {
           "name": "Storage_Report_EGY_FUTURE_HLC_2026-11-20.pdf",
@@ -1478,7 +1492,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-20/Storage_Report_EGY_FUTURE_HLC_2026-11-20.pdf"
         }
       ],
-      "filesCount": 3
+      "filesCount": 5
     },
     {
       "name": "EGY_SKY_2026-10-13",
@@ -7569,6 +7583,13 @@
       ],
       "files": [
         {
+          "name": "DISCH_1435.xls",
+          "path": "archive/ZIM_VIETNAM_2026-11-19/DISCH_1435.xls",
+          "size": 514560,
+          "sha": "44b75780dce901724fc3c33da9eed3a58f8b5c89",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIETNAM_2026-11-19/DISCH_1435.xls"
+        },
+        {
           "name": "Storage_Report_ZIM_VIETNAM_MSC_2026-11-19.pdf",
           "path": "archive/ZIM_VIETNAM_2026-11-19/Storage_Report_ZIM_VIETNAM_MSC_2026-11-19.pdf",
           "size": 291352,
@@ -7597,7 +7618,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIETNAM_2026-11-19/ZIM_VIETNAM_ZIM_2026-11-19.xls"
         }
       ],
-      "filesCount": 4
+      "filesCount": 5
     },
     {
       "name": "ZIM_VIRGINIA_2026-11-10",
