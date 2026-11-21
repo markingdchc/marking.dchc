@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T11:09:16.357Z",
+  "lastUpdated": "2026-11-21T11:16:23.660Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -1457,14 +1457,28 @@
       ],
       "files": [
         {
+          "name": "DISCH_88.xls",
+          "path": "archive/EGY_FUTURE_2026-11-20/DISCH_88.xls",
+          "size": 80384,
+          "sha": "2bb2a2c8eb7028d3b644623c74dd1ac13a417030",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-20/DISCH_88.xls"
+        },
+        {
           "name": "EGY_FUTURE_HLC_2026-11-20.xls",
           "path": "archive/EGY_FUTURE_2026-11-20/EGY_FUTURE_HLC_2026-11-20.xls",
           "size": 71168,
           "sha": "09ecaf1a9d7197a7941203123d2efa5091523771",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-20/EGY_FUTURE_HLC_2026-11-20.xls"
+        },
+        {
+          "name": "Storage_Report_EGY_FUTURE_HLC_2026-11-20.pdf",
+          "path": "archive/EGY_FUTURE_2026-11-20/Storage_Report_EGY_FUTURE_HLC_2026-11-20.pdf",
+          "size": 26020,
+          "sha": "e482603c6e12e5813959c54a602365ef86733200",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/EGY_FUTURE_2026-11-20/Storage_Report_EGY_FUTURE_HLC_2026-11-20.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 3
     },
     {
       "name": "EGY_SKY_2026-10-13",
