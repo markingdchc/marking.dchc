@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T09:25:38.535Z",
+  "lastUpdated": "2026-11-21T09:27:45.386Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -7474,6 +7474,23 @@
         }
       ],
       "filesCount": 7
+    },
+    {
+      "name": "ZIM_VIETNAM_2026-11-19",
+      "path": "archive/ZIM_VIETNAM_2026-11-19",
+      "lines": [
+        "ZIM"
+      ],
+      "files": [
+        {
+          "name": "ZIM_VIETNAM_ZIM_2026-11-19.xls",
+          "path": "archive/ZIM_VIETNAM_2026-11-19/ZIM_VIETNAM_ZIM_2026-11-19.xls",
+          "size": 869888,
+          "sha": "c8ba115136c0976fb65e158f7732b431844bdd89",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIETNAM_2026-11-19/ZIM_VIETNAM_ZIM_2026-11-19.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "ZIM_VIRGINIA_2026-11-10",
