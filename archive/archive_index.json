@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T08:24:54.882Z",
+  "lastUpdated": "2026-11-21T08:51:59.457Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -2757,6 +2757,23 @@
         }
       ],
       "filesCount": 6
+    },
+    {
+      "name": "JONA_SOPHIE_2026-11-19",
+      "path": "archive/JONA_SOPHIE_2026-11-19",
+      "lines": [
+        "HLC"
+      ],
+      "files": [
+        {
+          "name": "JONA_SOPHIE_HLC_2026-11-19.xls",
+          "path": "archive/JONA_SOPHIE_2026-11-19/JONA_SOPHIE_HLC_2026-11-19.xls",
+          "size": 70144,
+          "sha": "e18dd5553a71a3dfc382b796afc1beeeec3f2a4f",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/JONA_SOPHIE_2026-11-19/JONA_SOPHIE_HLC_2026-11-19.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "LI_DA_XING_2026-11-15",
