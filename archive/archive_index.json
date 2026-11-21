@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T11:17:59.400Z",
+  "lastUpdated": "2026-11-21T11:18:23.802Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4294,6 +4294,13 @@
       ],
       "files": [
         {
+          "name": "DISCH_461.xls",
+          "path": "archive/NORDLUCHS_2026-11-20/DISCH_461.xls",
+          "size": 203776,
+          "sha": "2faeefd4856285abec58af65f6201a2b0241689d",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/DISCH_461.xls"
+        },
+        {
           "name": "NORDLUCHS_COE_2026-11-20.xls",
           "path": "archive/NORDLUCHS_2026-11-20/NORDLUCHS_COE_2026-11-20.xls",
           "size": 278016,
@@ -4336,7 +4343,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/Storage_Report_NORDLUCHS_OOCL_2026-11-20.pdf"
         }
       ],
-      "filesCount": 6
+      "filesCount": 7
     },
     {
       "name": "OCEAN_LEADER_2026-11-03",
@@ -7590,6 +7597,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIETNAM_2026-11-19/DISCH_1435.xls"
         },
         {
+          "name": "LOAD_1682.xls",
+          "path": "archive/ZIM_VIETNAM_2026-11-19/LOAD_1682.xls",
+          "size": 753152,
+          "sha": "cb0040e023bfc2494d1f0085fdf71900f514345d",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIETNAM_2026-11-19/LOAD_1682.xls"
+        },
+        {
           "name": "Storage_Report_ZIM_VIETNAM_MSC_2026-11-19.pdf",
           "path": "archive/ZIM_VIETNAM_2026-11-19/Storage_Report_ZIM_VIETNAM_MSC_2026-11-19.pdf",
           "size": 291352,
@@ -7602,6 +7616,13 @@
           "size": 142313,
           "sha": "cd334bb354093e31636a3844b7f11df2c586353d",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIETNAM_2026-11-19/Storage_Report_ZIM_VIETNAM_ZIM_2026-11-19.pdf"
+        },
+        {
+          "name": "ZIM_VIETNAM_17-11.pdf",
+          "path": "archive/ZIM_VIETNAM_2026-11-19/ZIM_VIETNAM_17-11.pdf",
+          "size": 773743,
+          "sha": "2f57da170817b5844215552b28cee0525283dd37",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIETNAM_2026-11-19/ZIM_VIETNAM_17-11.pdf"
         },
         {
           "name": "ZIM_VIETNAM_MSC_2026-11-19.xls",
@@ -7618,7 +7639,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_VIETNAM_2026-11-19/ZIM_VIETNAM_ZIM_2026-11-19.xls"
         }
       ],
-      "filesCount": 5
+      "filesCount": 7
     },
     {
       "name": "ZIM_VIRGINIA_2026-11-10",
