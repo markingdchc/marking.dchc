@@ -1,9 +1,10 @@
 {
   "shipName": "ZIM_VIETNAM",
   "date": "2026-11-19",
-  "lastUpdate": "2026-11-21T09:27:38.708Z",
+  "lastUpdate": "2026-11-21T10:13:59.329Z",
   "lines": [
-    "ZIM"
+    "ZIM",
+    "MSC"
   ],
   "documents": [],
   "history": {
@@ -17,6 +18,13 @@
     "Storage_Report_ZIM_VIETNAM_ZIM_2026-11-19.pdf": [
       {
         "t": "2026-11-21T09:27:58.058Z",
+        "a": "add",
+        "u": "motea"
+      }
+    ],
+    "ZIM_VIETNAM_MSC_2026-11-19.xls": [
+      {
+        "t": "2026-11-21T10:13:59.769Z",
         "a": "add",
         "u": "motea"
       }
