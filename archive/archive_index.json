@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T08:06:09.543Z",
+  "lastUpdated": "2026-11-22T08:09:08.403Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -5254,6 +5254,23 @@
         }
       ],
       "filesCount": 7
+    },
+    {
+      "name": "SFTALP",
+      "path": "archive/SFTALP",
+      "lines": [
+        "SFT"
+      ],
+      "files": [
+        {
+          "name": "SFTALP20261116_SFT.xls",
+          "path": "archive/SFTALP/SFTALP20261116_SFT.xls",
+          "size": 53760,
+          "sha": "b223c75687d37928933aec445e600f662eaa01c5",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SFTALP/SFTALP20261116_SFT.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "SFTMLN",
