@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T08:18:03.834Z",
+  "lastUpdated": "2026-11-22T10:26:58.886Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4354,9 +4354,16 @@
           "size": 32165,
           "sha": "0af3544d12fd1ebd127918adb29f888897fc1903",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/Storage_Report_NORDLUCHS_OOCL_2026-11-20.pdf"
+        },
+        {
+          "name": "new_marine.pdf",
+          "path": "archive/NORDLUCHS_2026-11-20/new_marine.pdf",
+          "size": 164866,
+          "sha": "97e8963f5efbd3b5d3d99c7abde78e278ab6a8d6",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/new_marine.pdf"
         }
       ],
-      "filesCount": 9
+      "filesCount": 10
     },
     {
       "name": "OCEAN_LEADER_2026-11-03",
