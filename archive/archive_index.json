@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T10:26:58.886Z",
+  "lastUpdated": "2026-11-22T11:18:50.569Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3499,6 +3499,23 @@
         }
       ],
       "filesCount": 4
+    },
+    {
+      "name": "MSC_CATHERINE_VI_2026-11-22",
+      "path": "archive/MSC_CATHERINE_VI_2026-11-22",
+      "lines": [
+        "MSC"
+      ],
+      "files": [
+        {
+          "name": "MSC_CATHERINE_VI_MSC_2026-11-22.xls",
+          "path": "archive/MSC_CATHERINE_VI_2026-11-22/MSC_CATHERINE_VI_MSC_2026-11-22.xls",
+          "size": 1052672,
+          "sha": "3a02287d50774e124fb423509dcc9b4a7af9a202",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_CATHERINE_VI_2026-11-22/MSC_CATHERINE_VI_MSC_2026-11-22.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "MSC_DENMARK_VI_2026-10-05",
