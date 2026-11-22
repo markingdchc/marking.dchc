@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T08:02:15.257Z",
+  "lastUpdated": "2026-11-22T08:05:41.044Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -5263,6 +5263,13 @@
       ],
       "files": [
         {
+          "name": "SFTMLN20261116_SFT.xls",
+          "path": "archive/SFTMLN/SFTMLN20261116_SFT.xls",
+          "size": 69120,
+          "sha": "0dbd88288dd3f315bf2abe54b29d84b77ea24ab6",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SFTMLN/SFTMLN20261116_SFT.xls"
+        },
+        {
           "name": "SFTMLN20261119_SFT.xls",
           "path": "archive/SFTMLN/SFTMLN20261119_SFT.xls",
           "size": 59392,
@@ -5270,7 +5277,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/SFTMLN/SFTMLN20261119_SFT.xls"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "SHI_SHANG_18_2026-10-06",
