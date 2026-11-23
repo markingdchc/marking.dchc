@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T06:37:42.246Z",
+  "lastUpdated": "2026-11-23T11:04:30.785Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3515,6 +3515,20 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_CATHERINE_VI_2026-11-22/DISCH_601.xls"
         },
         {
+          "name": "LOAD_623.xls",
+          "path": "archive/MSC_CATHERINE_VI_2026-11-22/LOAD_623.xls",
+          "size": 314880,
+          "sha": "4bf5dc1c20b50f24d312f0ec077c13229daa523d",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_CATHERINE_VI_2026-11-22/LOAD_623.xls"
+        },
+        {
+          "name": "MSC_CATHERINE_VI.pdf",
+          "path": "archive/MSC_CATHERINE_VI_2026-11-22/MSC_CATHERINE_VI.pdf",
+          "size": 257376,
+          "sha": "875012518b28702eb56c7dd866f8eaa12c872210",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_CATHERINE_VI_2026-11-22/MSC_CATHERINE_VI.pdf"
+        },
+        {
           "name": "MSC_CATHERINE_VI_MSC_2026-11-22.xls",
           "path": "archive/MSC_CATHERINE_VI_2026-11-22/MSC_CATHERINE_VI_MSC_2026-11-22.xls",
           "size": 1053696,
@@ -3529,7 +3543,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_CATHERINE_VI_2026-11-22/Storage_Report_MSC_CATHERINE_VI_MSC_2026-11-22.pdf"
         }
       ],
-      "filesCount": 3
+      "filesCount": 5
     },
     {
       "name": "MSC_DENMARK_VI_2026-10-05",
@@ -4347,8 +4361,8 @@
         {
           "name": "NORDLUCHS_COE_2026-11-20.xls",
           "path": "archive/NORDLUCHS_2026-11-20/NORDLUCHS_COE_2026-11-20.xls",
-          "size": 278016,
-          "sha": "f8a9429b12026350730828ec9fdfab6a1e70b7b8",
+          "size": 343552,
+          "sha": "1ba1e1b36d6dede0e6505fb342f54fa0e14c8733",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/NORDLUCHS_COE_2026-11-20.xls"
         },
         {
