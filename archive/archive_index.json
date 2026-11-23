@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T06:34:24.287Z",
+  "lastUpdated": "2026-11-23T06:37:17.177Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3508,6 +3508,13 @@
       ],
       "files": [
         {
+          "name": "DISCH_601.xls",
+          "path": "archive/MSC_CATHERINE_VI_2026-11-22/DISCH_601.xls",
+          "size": 249344,
+          "sha": "eb31940039d34e0e3b7bb03ff52f3def0a3420ff",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_CATHERINE_VI_2026-11-22/DISCH_601.xls"
+        },
+        {
           "name": "MSC_CATHERINE_VI_MSC_2026-11-22.xls",
           "path": "archive/MSC_CATHERINE_VI_2026-11-22/MSC_CATHERINE_VI_MSC_2026-11-22.xls",
           "size": 1053696,
@@ -3517,12 +3524,12 @@
         {
           "name": "Storage_Report_MSC_CATHERINE_VI_MSC_2026-11-22.pdf",
           "path": "archive/MSC_CATHERINE_VI_2026-11-22/Storage_Report_MSC_CATHERINE_VI_MSC_2026-11-22.pdf",
-          "size": 179073,
-          "sha": "6948bafd689253ed0272b8ad00fb4210382eb41b",
+          "size": 179574,
+          "sha": "bc87e1d2cbb1ad297521ed6c145c6d42131af664",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_CATHERINE_VI_2026-11-22/Storage_Report_MSC_CATHERINE_VI_MSC_2026-11-22.pdf"
         }
       ],
-      "filesCount": 2
+      "filesCount": 3
     },
     {
       "name": "MSC_DENMARK_VI_2026-10-05",
