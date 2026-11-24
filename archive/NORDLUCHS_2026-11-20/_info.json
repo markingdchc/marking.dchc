@@ -140,6 +140,13 @@
         "a": "add",
         "u": "المدير العام"
       }
+    ],
+    "_versions/v2/Storage_Report_NORDLUCHS_COE_COS_2026-11-20.pdf": [
+      {
+        "t": "2026-11-24T12:13:51.220Z",
+        "a": "add",
+        "u": "المدير العام"
+      }
     ]
   },
   "versions": [
@@ -148,7 +155,8 @@
       "t": "2026-11-24T12:13:38.994Z",
       "u": "المدير العام",
       "files": [
-        "NORDLUCHS_COE_COS_2026-11-20.xls"
+        "NORDLUCHS_COE_COS_2026-11-20.xls",
+        "Storage_Report_NORDLUCHS_COE_COS_2026-11-20.pdf"
       ]
     }
   ]
