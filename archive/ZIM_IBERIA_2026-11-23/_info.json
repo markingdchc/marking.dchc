@@ -1,9 +1,10 @@
 {
   "shipName": "ZIM_IBERIA",
   "date": "2026-11-23",
-  "lastUpdate": "2026-11-24T10:51:37.912Z",
+  "lastUpdate": "2026-11-24T11:18:05.387Z",
   "lines": [
-    "ZIM"
+    "ZIM",
+    "HLC"
   ],
   "documents": [],
   "history": {
@@ -17,6 +18,13 @@
     "Storage_Report_ZIM_IBERIA_ZIM_2026-11-23.pdf": [
       {
         "t": "2026-11-24T10:51:52.774Z",
+        "a": "add",
+        "u": "motea"
+      }
+    ],
+    "ZIM_IBERIA_HLC_2026-11-23.xls": [
+      {
+        "t": "2026-11-24T11:18:06.029Z",
         "a": "add",
         "u": "motea"
       }
