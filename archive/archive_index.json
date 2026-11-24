@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-24T10:51:54.954Z",
+  "lastUpdated": "2026-11-24T10:55:59.458Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4380,7 +4380,8 @@
       "lines": [
         "COS",
         "COE",
-        "OOCL"
+        "OOCL",
+        "COE_COS"
       ],
       "files": [
         {
@@ -4410,6 +4411,13 @@
           "size": 343552,
           "sha": "1ba1e1b36d6dede0e6505fb342f54fa0e14c8733",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/NORDLUCHS_COE_2026-11-20.xls"
+        },
+        {
+          "name": "NORDLUCHS_COE_COS_2026-11-20.xls",
+          "path": "archive/NORDLUCHS_2026-11-20/NORDLUCHS_COE_COS_2026-11-20.xls",
+          "size": 327680,
+          "sha": "d64f0aa6a292c077c49cea9b30af612efcbc1e73",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/NORDLUCHS_COE_COS_2026-11-20.xls"
         },
         {
           "name": "NORDLUCHS_COS_2026-11-20.xls",
@@ -4454,7 +4462,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/new_marine.pdf"
         }
       ],
-      "filesCount": 10
+      "filesCount": 11
     },
     {
       "name": "OCEAN_LEADER_2026-11-03",
@@ -7621,6 +7629,13 @@
       ],
       "files": [
         {
+          "name": "Storage_Report_ZIM_IBERIA_ZIM_2026-11-23.pdf",
+          "path": "archive/ZIM_IBERIA_2026-11-23/Storage_Report_ZIM_IBERIA_ZIM_2026-11-23.pdf",
+          "size": 97687,
+          "sha": "e555f4cca3adbe9698edde10b7ed607a2441753f",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_IBERIA_2026-11-23/Storage_Report_ZIM_IBERIA_ZIM_2026-11-23.pdf"
+        },
+        {
           "name": "ZIM_IBERIA_ZIM_2026-11-23.xls",
           "path": "archive/ZIM_IBERIA_2026-11-23/ZIM_IBERIA_ZIM_2026-11-23.xls",
           "size": 432128,
@@ -7628,7 +7643,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ZIM_IBERIA_2026-11-23/ZIM_IBERIA_ZIM_2026-11-23.xls"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "ZIM_PACIFIC_2026-10-17",
