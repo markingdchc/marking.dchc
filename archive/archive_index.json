@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T12:05:57.333Z",
+  "lastUpdated": "2026-11-25T12:07:46.678Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -6598,13 +6598,6 @@
       ],
       "files": [
         {
-          "name": "Storage_Report_YM_WARRANTY_YML_2026-11-24.pdf",
-          "path": "archive/YM_WARRANTY_2026-11-24/Storage_Report_YM_WARRANTY_YML_2026-11-24.pdf",
-          "size": 126438,
-          "sha": "6d73fcfac66f689b3bf84fa66f96fe5b9a4317a8",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/Storage_Report_YM_WARRANTY_YML_2026-11-24.pdf"
-        },
-        {
           "name": "YM_WARRANTY_MSC_2026-11-24.xls",
           "path": "archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_MSC_2026-11-24.xls",
           "size": 254976,
@@ -6626,7 +6619,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_YML_2026-11-24.xls"
         }
       ],
-      "filesCount": 4,
+      "filesCount": 3,
       "versions": [
         {
           "n": 2,
