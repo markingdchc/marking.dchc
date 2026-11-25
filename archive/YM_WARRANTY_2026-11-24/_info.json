@@ -1,7 +1,7 @@
 {
   "shipName": "YM_WARRANTY",
   "date": "2026-11-24",
-  "lastUpdate": "2026-11-25T10:42:39.440Z",
+  "lastUpdate": "2026-11-25T11:03:14.619Z",
   "lines": [
     "YML",
     "EMK",
@@ -73,6 +73,23 @@
         "a": "add",
         "u": "motea"
       }
+    ],
+    "_versions/v2/YM_WARRANTY_MSC_2026-11-24.xls": [
+      {
+        "t": "2026-11-25T11:03:15.285Z",
+        "a": "add",
+        "u": "motea"
+      }
     ]
-  }
+  },
+  "versions": [
+    {
+      "n": 2,
+      "t": "2026-11-25T11:03:15.285Z",
+      "u": "motea",
+      "files": [
+        "YM_WARRANTY_MSC_2026-11-24.xls"
+      ]
+    }
+  ]
 }
