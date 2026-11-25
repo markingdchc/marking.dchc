@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T09:54:46.776Z",
+  "lastUpdated": "2026-11-25T10:19:40.720Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -6562,9 +6562,32 @@
       "name": "YM_WARRANTY_2026-11-24",
       "path": "archive/YM_WARRANTY_2026-11-24",
       "lines": [
-        "YML"
+        "YML",
+        "EMK",
+        "ONE"
       ],
       "files": [
+        {
+          "name": "Storage_Report_YM_WARRANTY_YML_2026-11-24.pdf",
+          "path": "archive/YM_WARRANTY_2026-11-24/Storage_Report_YM_WARRANTY_YML_2026-11-24.pdf",
+          "size": 126438,
+          "sha": "6d73fcfac66f689b3bf84fa66f96fe5b9a4317a8",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/Storage_Report_YM_WARRANTY_YML_2026-11-24.pdf"
+        },
+        {
+          "name": "YM_WARRANTY_EMK_2026-11-24.xls",
+          "path": "archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_EMK_2026-11-24.xls",
+          "size": 136192,
+          "sha": "66714f6098b25e25428c3cb34378e54891ce6e9b",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_EMK_2026-11-24.xls"
+        },
+        {
+          "name": "YM_WARRANTY_ONE_2026-11-24.xls",
+          "path": "archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_ONE_2026-11-24.xls",
+          "size": 1458688,
+          "sha": "fb3409a7f960572173e733d6176e9ad07ff647c7",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_ONE_2026-11-24.xls"
+        },
         {
           "name": "YM_WARRANTY_YML_2026-11-24.xls",
           "path": "archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_YML_2026-11-24.xls",
@@ -6573,7 +6596,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_YML_2026-11-24.xls"
         }
       ],
-      "filesCount": 1
+      "filesCount": 4
     },
     {
       "name": "YM_WELLNESS_2026-10-10",
