@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T07:24:12.812Z",
+  "lastUpdated": "2026-11-25T07:26:43.840Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -754,6 +754,23 @@
         }
       ],
       "filesCount": 7
+    },
+    {
+      "name": "AS_SELINA_2026-11-24",
+      "path": "archive/AS_SELINA_2026-11-24",
+      "lines": [
+        "MSK"
+      ],
+      "files": [
+        {
+          "name": "AS_SELINA_MSK_2026-11-24.xls",
+          "path": "archive/AS_SELINA_2026-11-24/AS_SELINA_MSK_2026-11-24.xls",
+          "size": 59904,
+          "sha": "74410c10622e6cfedc04d2428712b486d4d5be6c",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/AS_SELINA_2026-11-24/AS_SELINA_MSK_2026-11-24.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "ATHENA_2026-10-08",
@@ -3802,6 +3819,20 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_MOMBASA_2026-11-24/DISCH_660.xls"
         },
         {
+          "name": "LOAD_705.xls",
+          "path": "archive/MSC_MOMBASA_2026-11-24/LOAD_705.xls",
+          "size": 352768,
+          "sha": "b7934144914e6374da6234e89c4ca7938c0ab3ca",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_MOMBASA_2026-11-24/LOAD_705.xls"
+        },
+        {
+          "name": "MSC_MOMBASA.pdf",
+          "path": "archive/MSC_MOMBASA_2026-11-24/MSC_MOMBASA.pdf",
+          "size": 259500,
+          "sha": "f463cc476705e0dc51c7c753d99295a2aed631c0",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_MOMBASA_2026-11-24/MSC_MOMBASA.pdf"
+        },
+        {
           "name": "MSC_MOMBASA_MSC_2026-11-24.xls",
           "path": "archive/MSC_MOMBASA_2026-11-24/MSC_MOMBASA_MSC_2026-11-24.xls",
           "size": 1201664,
@@ -3816,7 +3847,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_MOMBASA_2026-11-24/Storage_Report_MSC_MOMBASA_MSC_2026-11-24.pdf"
         }
       ],
-      "filesCount": 3
+      "filesCount": 5
     },
     {
       "name": "MSC_NAIROBI_X_2026-11-07",
