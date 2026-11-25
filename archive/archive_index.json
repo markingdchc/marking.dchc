@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T12:22:40.652Z",
+  "lastUpdated": "2026-11-25T12:24:27.300Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -6605,6 +6605,20 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/DISCH_231.xls"
         },
         {
+          "name": "LOAD_1568.xls",
+          "path": "archive/YM_WARRANTY_2026-11-24/LOAD_1568.xls",
+          "size": 700416,
+          "sha": "e110a5e80ae625cf30c51b9583a5ca6978594f4e",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/LOAD_1568.xls"
+        },
+        {
+          "name": "NEW_MARINE.pdf",
+          "path": "archive/YM_WARRANTY_2026-11-24/NEW_MARINE.pdf",
+          "size": 165406,
+          "sha": "4673964a3a4d6733098cb4ad5ceaaa521beca318",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/NEW_MARINE.pdf"
+        },
+        {
           "name": "Storage_Report_YM_WARRANTY_EMK_2026-11-24.pdf",
           "path": "archive/YM_WARRANTY_2026-11-24/Storage_Report_YM_WARRANTY_EMK_2026-11-24.pdf",
           "size": 45326,
@@ -6638,6 +6652,13 @@
           "size": 126127,
           "sha": "b06e76eecea35e569ce876739c77c88ec1331e3e",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/Storage_Report_YM_WARRANTY_YML_2026-11-24.pdf"
+        },
+        {
+          "name": "YM_WARRANTY.pdf",
+          "path": "archive/YM_WARRANTY_2026-11-24/YM_WARRANTY.pdf",
+          "size": 319988,
+          "sha": "228301a2f1978f95747220278e1fc5eaf07022b6",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/YM_WARRANTY.pdf"
         },
         {
           "name": "YM_WARRANTY_EMK_2026-11-24.xls",
@@ -6675,7 +6696,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_YML_2026-11-24.xls"
         }
       ],
-      "filesCount": 11
+      "filesCount": 14
     },
     {
       "name": "YM_WELLNESS_2026-10-10",
