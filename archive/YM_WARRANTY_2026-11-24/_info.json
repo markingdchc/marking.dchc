@@ -108,6 +108,13 @@
         "a": "add",
         "u": "motea"
       }
+    ],
+    "_versions/v4/Storage_Report_YM_WARRANTY_ONE_2026-11-24.pdf": [
+      {
+        "t": "2026-11-25T11:28:23.318Z",
+        "a": "add",
+        "u": "motea"
+      }
     ]
   },
   "versions": [
@@ -134,7 +141,8 @@
       "t": "2026-11-25T11:27:24.122Z",
       "u": "motea",
       "files": [
-        "YM_WARRANTY_ONE_2026-11-24.xls"
+        "YM_WARRANTY_ONE_2026-11-24.xls",
+        "Storage_Report_YM_WARRANTY_ONE_2026-11-24.pdf"
       ]
     }
   ]
