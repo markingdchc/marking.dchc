@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T07:20:48.987Z",
+  "lastUpdated": "2026-11-25T07:23:43.266Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3795,14 +3795,28 @@
       ],
       "files": [
         {
+          "name": "DISCH_660.xls",
+          "path": "archive/MSC_MOMBASA_2026-11-24/DISCH_660.xls",
+          "size": 269824,
+          "sha": "b6fd933099673abfbbd23a9208b90ac125fbf7eb",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_MOMBASA_2026-11-24/DISCH_660.xls"
+        },
+        {
           "name": "MSC_MOMBASA_MSC_2026-11-24.xls",
           "path": "archive/MSC_MOMBASA_2026-11-24/MSC_MOMBASA_MSC_2026-11-24.xls",
           "size": 1201664,
           "sha": "72168fbf4d6431375d108c6e908cc35e86a1a2e5",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_MOMBASA_2026-11-24/MSC_MOMBASA_MSC_2026-11-24.xls"
+        },
+        {
+          "name": "Storage_Report_MSC_MOMBASA_MSC_2026-11-24.pdf",
+          "path": "archive/MSC_MOMBASA_2026-11-24/Storage_Report_MSC_MOMBASA_MSC_2026-11-24.pdf",
+          "size": 196547,
+          "sha": "951d42413cba66af7e89f68fb066b677520b7f62",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_MOMBASA_2026-11-24/Storage_Report_MSC_MOMBASA_MSC_2026-11-24.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 3
     },
     {
       "name": "MSC_NAIROBI_X_2026-11-07",
