@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T10:43:42.917Z",
+  "lastUpdated": "2026-11-25T11:01:43.182Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -4518,6 +4518,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/NORDLUCHS.pdf"
         },
         {
+          "name": "NORDLUCHS_COE_2026-11-20.xls",
+          "path": "archive/NORDLUCHS_2026-11-20/NORDLUCHS_COE_2026-11-20.xls",
+          "size": 278016,
+          "sha": "f8a9429b12026350730828ec9fdfab6a1e70b7b8",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/NORDLUCHS_COE_2026-11-20.xls"
+        },
+        {
           "name": "NORDLUCHS_COE_COS_2026-11-20.xls",
           "path": "archive/NORDLUCHS_2026-11-20/NORDLUCHS_COE_COS_2026-11-20.xls",
           "size": 327680,
@@ -4532,11 +4539,32 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/NORDLUCHS_COS_2026-11-20.xls"
         },
         {
+          "name": "NORDLUCHS_OOCL_2026-11-20.xls",
+          "path": "archive/NORDLUCHS_2026-11-20/NORDLUCHS_OOCL_2026-11-20.xls",
+          "size": 62976,
+          "sha": "7a1780237719ac13ce109e63089cf92c6422a1e0",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/NORDLUCHS_OOCL_2026-11-20.xls"
+        },
+        {
+          "name": "Storage_Report_NORDLUCHS_COE_2026-11-20.pdf",
+          "path": "archive/NORDLUCHS_2026-11-20/Storage_Report_NORDLUCHS_COE_2026-11-20.pdf",
+          "size": 72473,
+          "sha": "c6676ccd2d9b58b08c73d7b6676334c10ab3a997",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/Storage_Report_NORDLUCHS_COE_2026-11-20.pdf"
+        },
+        {
           "name": "Storage_Report_NORDLUCHS_COE_COS_2026-11-20.pdf",
           "path": "archive/NORDLUCHS_2026-11-20/Storage_Report_NORDLUCHS_COE_COS_2026-11-20.pdf",
           "size": 85381,
           "sha": "fc6f633591815fa387f31b15a08644c0a14614c9",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/Storage_Report_NORDLUCHS_COE_COS_2026-11-20.pdf"
+        },
+        {
+          "name": "Storage_Report_NORDLUCHS_COS_2026-11-20.pdf",
+          "path": "archive/NORDLUCHS_2026-11-20/Storage_Report_NORDLUCHS_COS_2026-11-20.pdf",
+          "size": 55417,
+          "sha": "94dd33fc0844f08188b4d9fe282c47d61f3cf2ca",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/Storage_Report_NORDLUCHS_COS_2026-11-20.pdf"
         },
         {
           "name": "Storage_Report_NORDLUCHS_OOCL_2026-11-20.pdf",
@@ -4553,7 +4581,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/NORDLUCHS_2026-11-20/new_marine.pdf"
         }
       ],
-      "filesCount": 8
+      "filesCount": 12
     },
     {
       "name": "OCEAN_LEADER_2026-11-03",
@@ -6577,6 +6605,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/Storage_Report_YM_WARRANTY_HMM_2026-11-24.pdf"
         },
         {
+          "name": "Storage_Report_YM_WARRANTY_MSC_2026-11-24.pdf",
+          "path": "archive/YM_WARRANTY_2026-11-24/Storage_Report_YM_WARRANTY_MSC_2026-11-24.pdf",
+          "size": 34112,
+          "sha": "bc86a07c616bb7a8ffe63db86425d9dade08e246",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/Storage_Report_YM_WARRANTY_MSC_2026-11-24.pdf"
+        },
+        {
           "name": "Storage_Report_YM_WARRANTY_ONE_2026-11-24.pdf",
           "path": "archive/YM_WARRANTY_2026-11-24/Storage_Report_YM_WARRANTY_ONE_2026-11-24.pdf",
           "size": 226149,
@@ -6626,7 +6661,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_YML_2026-11-24.xls"
         }
       ],
-      "filesCount": 8
+      "filesCount": 9
     },
     {
       "name": "YM_WELLNESS_2026-10-10",
