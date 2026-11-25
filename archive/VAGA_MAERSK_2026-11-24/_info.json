@@ -1,0 +1,18 @@
+{
+  "shipName": "VAGA_MAERSK",
+  "date": "2026-11-24",
+  "lastUpdate": "2026-11-25T07:28:46.103Z",
+  "lines": [
+    "MSK"
+  ],
+  "documents": [],
+  "history": {
+    "VAGA_MAERSK_MSK_2026-11-24.xls": [
+      {
+        "t": "2026-11-25T07:28:46.601Z",
+        "a": "add",
+        "u": "Ahmed Dawoud"
+      }
+    ]
+  }
+}
