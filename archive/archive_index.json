@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T11:28:27.955Z",
+  "lastUpdated": "2026-11-25T11:56:34.103Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -6708,6 +6708,13 @@
         {
           "n": 4,
           "files": [
+            {
+              "name": "Storage_Report_YM_WARRANTY_ONE_2026-11-24.pdf",
+              "path": "archive/YM_WARRANTY_2026-11-24/_versions/v4/Storage_Report_YM_WARRANTY_ONE_2026-11-24.pdf",
+              "size": 225179,
+              "sha": "27b479bc89f6e9ca6aa1e6abf032971e16b6edb9",
+              "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/_versions/v4/Storage_Report_YM_WARRANTY_ONE_2026-11-24.pdf"
+            },
             {
               "name": "YM_WARRANTY_ONE_2026-11-24.xls",
               "path": "archive/YM_WARRANTY_2026-11-24/_versions/v4/YM_WARRANTY_ONE_2026-11-24.xls",
