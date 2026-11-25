@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T12:04:00.354Z",
+  "lastUpdated": "2026-11-25T12:05:57.333Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -6598,32 +6598,11 @@
       ],
       "files": [
         {
-          "name": "Storage_Report_YM_WARRANTY_ONE_2026-11-24.pdf",
-          "path": "archive/YM_WARRANTY_2026-11-24/Storage_Report_YM_WARRANTY_ONE_2026-11-24.pdf",
-          "size": 226149,
-          "sha": "c5c42f0c0610cc17636b8a872c03c29262be11d8",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/Storage_Report_YM_WARRANTY_ONE_2026-11-24.pdf"
-        },
-        {
           "name": "Storage_Report_YM_WARRANTY_YML_2026-11-24.pdf",
           "path": "archive/YM_WARRANTY_2026-11-24/Storage_Report_YM_WARRANTY_YML_2026-11-24.pdf",
           "size": 126438,
           "sha": "6d73fcfac66f689b3bf84fa66f96fe5b9a4317a8",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/Storage_Report_YM_WARRANTY_YML_2026-11-24.pdf"
-        },
-        {
-          "name": "YM_WARRANTY_EMK_2026-11-24.xls",
-          "path": "archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_EMK_2026-11-24.xls",
-          "size": 136192,
-          "sha": "66714f6098b25e25428c3cb34378e54891ce6e9b",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_EMK_2026-11-24.xls"
-        },
-        {
-          "name": "YM_WARRANTY_HMM_2026-11-24.xls",
-          "path": "archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_HMM_2026-11-24.xls",
-          "size": 98816,
-          "sha": "d469729c2bfeb0e0555782d8d63e0b9218c77197",
-          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_HMM_2026-11-24.xls"
         },
         {
           "name": "YM_WARRANTY_MSC_2026-11-24.xls",
@@ -6647,7 +6626,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_YML_2026-11-24.xls"
         }
       ],
-      "filesCount": 7,
+      "filesCount": 4,
       "versions": [
         {
           "n": 2,
@@ -6658,49 +6637,12 @@
               "size": 33847,
               "sha": "13826faa3f04acf26a5bb94b56f04dfeb59c774f",
               "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/_versions/v2/Storage_Report_YM_WARRANTY_MSC_2026-11-24.pdf"
-            },
-            {
-              "name": "YM_WARRANTY_MSC_2026-11-24.xls",
-              "path": "archive/YM_WARRANTY_2026-11-24/_versions/v2/YM_WARRANTY_MSC_2026-11-24.xls",
-              "size": 254976,
-              "sha": "408ace7c620fef9635caa4d379b4b7ed90025a46",
-              "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/_versions/v2/YM_WARRANTY_MSC_2026-11-24.xls"
             }
-          ],
-          "t": "2026-11-25T11:03:15.285Z",
-          "u": "motea"
-        },
-        {
-          "n": 3,
-          "files": [
-            {
-              "name": "Storage_Report_YM_WARRANTY_MSC_2026-11-24.pdf",
-              "path": "archive/YM_WARRANTY_2026-11-24/_versions/v3/Storage_Report_YM_WARRANTY_MSC_2026-11-24.pdf",
-              "size": 33857,
-              "sha": "820d2ee0b931110c51b20218b5499c41ddbf7769",
-              "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/_versions/v3/Storage_Report_YM_WARRANTY_MSC_2026-11-24.pdf"
-            },
-            {
-              "name": "YM_WARRANTY_MSC_2026-11-24.xls",
-              "path": "archive/YM_WARRANTY_2026-11-24/_versions/v3/YM_WARRANTY_MSC_2026-11-24.xls",
-              "size": 254976,
-              "sha": "e85ccee0f1069cc6b51246ac9284a4269e526906",
-              "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/_versions/v3/YM_WARRANTY_MSC_2026-11-24.xls"
-            }
-          ],
-          "t": "2026-11-25T11:10:15.257Z",
-          "u": "motea"
+          ]
         },
         {
           "n": 4,
           "files": [
-            {
-              "name": "Storage_Report_YM_WARRANTY_ONE_2026-11-24.pdf",
-              "path": "archive/YM_WARRANTY_2026-11-24/_versions/v4/Storage_Report_YM_WARRANTY_ONE_2026-11-24.pdf",
-              "size": 225179,
-              "sha": "27b479bc89f6e9ca6aa1e6abf032971e16b6edb9",
-              "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/_versions/v4/Storage_Report_YM_WARRANTY_ONE_2026-11-24.pdf"
-            },
             {
               "name": "YM_WARRANTY_ONE_2026-11-24.xls",
               "path": "archive/YM_WARRANTY_2026-11-24/_versions/v4/YM_WARRANTY_ONE_2026-11-24.xls",
