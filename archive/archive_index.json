@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T10:28:07.403Z",
+  "lastUpdated": "2026-11-25T10:42:46.193Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -6565,9 +6565,17 @@
         "YML",
         "EMK",
         "ONE",
-        "HMM"
+        "HMM",
+        "MSC"
       ],
       "files": [
+        {
+          "name": "Storage_Report_YM_WARRANTY_HMM_2026-11-24.pdf",
+          "path": "archive/YM_WARRANTY_2026-11-24/Storage_Report_YM_WARRANTY_HMM_2026-11-24.pdf",
+          "size": 37032,
+          "sha": "770276c6db1a46caadc16b7aa036ffa491779980",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/Storage_Report_YM_WARRANTY_HMM_2026-11-24.pdf"
+        },
         {
           "name": "Storage_Report_YM_WARRANTY_ONE_2026-11-24.pdf",
           "path": "archive/YM_WARRANTY_2026-11-24/Storage_Report_YM_WARRANTY_ONE_2026-11-24.pdf",
@@ -6597,6 +6605,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_HMM_2026-11-24.xls"
         },
         {
+          "name": "YM_WARRANTY_MSC_2026-11-24.xls",
+          "path": "archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_MSC_2026-11-24.xls",
+          "size": 254976,
+          "sha": "a2b3c9f2e3546d2ed0efaadf073e878f11e2a82c",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_MSC_2026-11-24.xls"
+        },
+        {
           "name": "YM_WARRANTY_ONE_2026-11-24.xls",
           "path": "archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_ONE_2026-11-24.xls",
           "size": 1458688,
@@ -6611,7 +6626,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_YML_2026-11-24.xls"
         }
       ],
-      "filesCount": 6
+      "filesCount": 8
     },
     {
       "name": "YM_WELLNESS_2026-10-10",
