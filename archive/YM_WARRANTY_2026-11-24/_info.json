@@ -94,6 +94,13 @@
         "a": "add",
         "u": "motea"
       }
+    ],
+    "_versions/v3/Storage_Report_YM_WARRANTY_MSC_2026-11-24.pdf": [
+      {
+        "t": "2026-11-25T11:10:32.176Z",
+        "a": "add",
+        "u": "motea"
+      }
     ]
   },
   "versions": [
@@ -111,7 +118,8 @@
       "t": "2026-11-25T11:10:15.257Z",
       "u": "motea",
       "files": [
-        "YM_WARRANTY_MSC_2026-11-24.xls"
+        "YM_WARRANTY_MSC_2026-11-24.xls",
+        "Storage_Report_YM_WARRANTY_MSC_2026-11-24.pdf"
       ]
     }
   ]
