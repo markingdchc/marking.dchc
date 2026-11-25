@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T09:00:46.190Z",
+  "lastUpdated": "2026-11-25T09:54:33.148Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -5875,11 +5875,25 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VAGA_MAERSK_2026-11-24/DISCH_80.xls"
         },
         {
+          "name": "LOAD_208.xls",
+          "path": "archive/VAGA_MAERSK_2026-11-24/LOAD_208.xls",
+          "size": 139776,
+          "sha": "8521071a224174322e64854f3d693d38c69d960b",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VAGA_MAERSK_2026-11-24/LOAD_208.xls"
+        },
+        {
           "name": "Storage_Report_VAGA_MAERSK_MSK_2026-11-24.pdf",
           "path": "archive/VAGA_MAERSK_2026-11-24/Storage_Report_VAGA_MAERSK_MSK_2026-11-24.pdf",
           "size": 39436,
           "sha": "0a5ce99820f2bd2b56b36ec46c19343801bb2abe",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VAGA_MAERSK_2026-11-24/Storage_Report_VAGA_MAERSK_MSK_2026-11-24.pdf"
+        },
+        {
+          "name": "VAGA_MAERSK.pdf",
+          "path": "archive/VAGA_MAERSK_2026-11-24/VAGA_MAERSK.pdf",
+          "size": 270552,
+          "sha": "7272888a397469418398268caacc644fa3dc1365",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VAGA_MAERSK_2026-11-24/VAGA_MAERSK.pdf"
         },
         {
           "name": "VAGA_MAERSK_MSK_2026-11-24.xls",
@@ -5896,7 +5910,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/VAGA_MAERSK_2026-11-24/VAGA_MAERSK_ONE_2026-11-24.xls"
         }
       ],
-      "filesCount": 4
+      "filesCount": 6
     },
     {
       "name": "VALENCE_2026-10-06",
@@ -6543,6 +6557,23 @@
         }
       ],
       "filesCount": 11
+    },
+    {
+      "name": "YM_WARRANTY_2026-11-24",
+      "path": "archive/YM_WARRANTY_2026-11-24",
+      "lines": [
+        "YML"
+      ],
+      "files": [
+        {
+          "name": "YM_WARRANTY_YML_2026-11-24.xls",
+          "path": "archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_YML_2026-11-24.xls",
+          "size": 600064,
+          "sha": "da89dc5f2af73623ec183e0c701fca829b1c7c2c",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WARRANTY_2026-11-24/YM_WARRANTY_YML_2026-11-24.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "YM_WELLNESS_2026-10-10",
