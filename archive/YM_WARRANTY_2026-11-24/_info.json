@@ -54,6 +54,11 @@
         "t": "2026-11-25T12:04:33.130Z",
         "a": "delete",
         "u": "motea"
+      },
+      {
+        "t": "2026-11-25T12:05:47.868Z",
+        "a": "delete",
+        "u": "motea"
       }
     ],
     "YM_WARRANTY_HMM_2026-11-24.xls": [
@@ -176,8 +181,7 @@
       "t": "2026-11-25T11:27:24.122Z",
       "u": "motea",
       "files": [
-        "YM_WARRANTY_ONE_2026-11-24.xls",
-        "Storage_Report_YM_WARRANTY_ONE_2026-11-24.pdf"
+        "YM_WARRANTY_ONE_2026-11-24.xls"
       ]
     }
   ]
