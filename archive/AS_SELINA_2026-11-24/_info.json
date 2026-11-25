@@ -1,9 +1,10 @@
 {
   "shipName": "AS_SELINA",
   "date": "2026-11-24",
-  "lastUpdate": "2026-11-25T07:26:40.363Z",
+  "lastUpdate": "2026-11-25T07:27:40.129Z",
   "lines": [
-    "MSK"
+    "MSK",
+    "ONE"
   ],
   "documents": [],
   "history": {
