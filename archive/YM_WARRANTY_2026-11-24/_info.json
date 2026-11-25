@@ -1,10 +1,11 @@
 {
   "shipName": "YM_WARRANTY",
   "date": "2026-11-24",
-  "lastUpdate": "2026-11-25T10:16:11.346Z",
+  "lastUpdate": "2026-11-25T10:19:31.530Z",
   "lines": [
     "YML",
-    "EMK"
+    "EMK",
+    "ONE"
   ],
   "documents": [],
   "history": {
@@ -25,6 +26,13 @@
     "YM_WARRANTY_EMK_2026-11-24.xls": [
       {
         "t": "2026-11-25T10:16:11.965Z",
+        "a": "add",
+        "u": "motea"
+      }
+    ],
+    "YM_WARRANTY_ONE_2026-11-24.xls": [
+      {
+        "t": "2026-11-25T10:19:31.984Z",
         "a": "add",
         "u": "motea"
       }
