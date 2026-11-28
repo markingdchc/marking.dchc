@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T09:30:39.535Z",
+  "lastUpdated": "2026-11-28T10:10:24.006Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -3544,7 +3544,8 @@
       "name": "MSC_BRUNELLA_2026-11-26",
       "path": "archive/MSC_BRUNELLA_2026-11-26",
       "lines": [
-        "MSC"
+        "MSC",
+        "ZIM"
       ],
       "files": [
         {
@@ -3553,9 +3554,23 @@
           "size": 1820672,
           "sha": "619c501838875c5525cad2059f11354218e45c11",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_BRUNELLA_2026-11-26/MSC_BRUNELLA_MSC_2026-11-26.xls"
+        },
+        {
+          "name": "MSC_BRUNELLA_ZIM_2026-11-26.xls",
+          "path": "archive/MSC_BRUNELLA_2026-11-26/MSC_BRUNELLA_ZIM_2026-11-26.xls",
+          "size": 611328,
+          "sha": "90c9ce3cac6305d77fac8b70a64b30c5870d188f",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_BRUNELLA_2026-11-26/MSC_BRUNELLA_ZIM_2026-11-26.xls"
+        },
+        {
+          "name": "Storage_Report_MSC_BRUNELLA_MSC_2026-11-26.pdf",
+          "path": "archive/MSC_BRUNELLA_2026-11-26/Storage_Report_MSC_BRUNELLA_MSC_2026-11-26.pdf",
+          "size": 281597,
+          "sha": "0296363d3a80a32101a26ab0cd6f0063c30709dc",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_BRUNELLA_2026-11-26/Storage_Report_MSC_BRUNELLA_MSC_2026-11-26.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 3
     },
     {
       "name": "MSC_CADIZ_VI_2026-11-16",
