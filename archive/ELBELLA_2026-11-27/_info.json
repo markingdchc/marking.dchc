@@ -1,0 +1,18 @@
+{
+  "shipName": "ELBELLA",
+  "date": "2026-11-27",
+  "lastUpdate": "2026-11-28T08:07:47.230Z",
+  "lines": [
+    "CMA"
+  ],
+  "documents": [],
+  "history": {
+    "ELBELLA_CMA_2026-11-27.xls": [
+      {
+        "t": "2026-11-28T08:07:47.680Z",
+        "a": "add",
+        "u": "Ahmed Dawoud"
+      }
+    ]
+  }
+}
