@@ -1,10 +1,11 @@
 {
   "shipName": "YM_WELCOME",
   "date": "2026-11-27",
-  "lastUpdate": "2026-11-28T10:22:17.056Z",
+  "lastUpdate": "2026-11-28T10:56:39.793Z",
   "lines": [
     "YML",
-    "HMM"
+    "HMM",
+    "MSC"
   ],
   "documents": [],
   "history": {
@@ -32,6 +33,13 @@
     "Storage_Report_YM_WELCOME_HMM_2026-11-27.pdf": [
       {
         "t": "2026-11-28T10:22:39.171Z",
+        "a": "add",
+        "u": "Aya Ali"
+      }
+    ],
+    "YM_WELCOME_MSC_2026-11-27.xls": [
+      {
+        "t": "2026-11-28T10:56:40.217Z",
         "a": "add",
         "u": "Aya Ali"
       }
