@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T08:26:55.903Z",
+  "lastUpdated": "2026-11-28T08:28:36.449Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -409,6 +409,23 @@
         }
       ],
       "filesCount": 4
+    },
+    {
+      "name": "ANITA_A_2026-11-27",
+      "path": "archive/ANITA_A_2026-11-27",
+      "lines": [
+        "WSHI"
+      ],
+      "files": [
+        {
+          "name": "ANITA_A_WSHI_2026-11-27.xls",
+          "path": "archive/ANITA_A_2026-11-27/ANITA_A_WSHI_2026-11-27.xls",
+          "size": 111616,
+          "sha": "8776b14ff0c63673d456f6f747d6d1f635ebb3d4",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ANITA_A_2026-11-27/ANITA_A_WSHI_2026-11-27.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "APL_SAIPAN_2026-11-04",
