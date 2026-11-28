@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T10:56:43.784Z",
+  "lastUpdated": "2026-11-28T11:05:04.028Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -6812,7 +6812,8 @@
       "lines": [
         "YML",
         "HMM",
-        "MSC"
+        "MSC",
+        "ONE"
       ],
       "files": [
         {
@@ -6844,6 +6845,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WELCOME_2026-11-27/YM_WELCOME_MSC_2026-11-27.xls"
         },
         {
+          "name": "YM_WELCOME_ONE_2026-11-27.xls",
+          "path": "archive/YM_WELCOME_2026-11-27/YM_WELCOME_ONE_2026-11-27.xls",
+          "size": 566784,
+          "sha": "177cfcf6c84d3f4427b354ee8229066cdb14c579",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WELCOME_2026-11-27/YM_WELCOME_ONE_2026-11-27.xls"
+        },
+        {
           "name": "YM_WELCOME_YML_2026-11-27.xls",
           "path": "archive/YM_WELCOME_2026-11-27/YM_WELCOME_YML_2026-11-27.xls",
           "size": 388608,
@@ -6851,7 +6859,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WELCOME_2026-11-27/YM_WELCOME_YML_2026-11-27.xls"
         }
       ],
-      "filesCount": 5
+      "filesCount": 6
     },
     {
       "name": "YM_WELLNESS_2026-10-10",
