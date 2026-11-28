@@ -1,9 +1,10 @@
 {
   "shipName": "MSC_BRUNELLA",
   "date": "2026-11-26",
-  "lastUpdate": "2026-11-28T09:30:06.334Z",
+  "lastUpdate": "2026-11-28T10:10:20.085Z",
   "lines": [
-    "MSC"
+    "MSC",
+    "ZIM"
   ],
   "documents": [],
   "history": {
@@ -17,6 +18,13 @@
     "Storage_Report_MSC_BRUNELLA_MSC_2026-11-26.pdf": [
       {
         "t": "2026-11-28T09:30:35.325Z",
+        "a": "add",
+        "u": "motea"
+      }
+    ],
+    "MSC_BRUNELLA_ZIM_2026-11-26.xls": [
+      {
+        "t": "2026-11-28T10:10:20.549Z",
         "a": "add",
         "u": "motea"
       }
