@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T10:22:45.028Z",
+  "lastUpdated": "2026-11-28T10:56:43.784Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -6811,9 +6811,17 @@
       "path": "archive/YM_WELCOME_2026-11-27",
       "lines": [
         "YML",
-        "HMM"
+        "HMM",
+        "MSC"
       ],
       "files": [
+        {
+          "name": "Storage_Report_YM_WELCOME_HMM_2026-11-27.pdf",
+          "path": "archive/YM_WELCOME_2026-11-27/Storage_Report_YM_WELCOME_HMM_2026-11-27.pdf",
+          "size": 49815,
+          "sha": "e0461b938575a5a2f8c56eff35de2cd9ed8d2ab0",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WELCOME_2026-11-27/Storage_Report_YM_WELCOME_HMM_2026-11-27.pdf"
+        },
         {
           "name": "Storage_Report_YM_WELCOME_YML_2026-11-27.pdf",
           "path": "archive/YM_WELCOME_2026-11-27/Storage_Report_YM_WELCOME_YML_2026-11-27.pdf",
@@ -6829,6 +6837,13 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WELCOME_2026-11-27/YM_WELCOME_HMM_2026-11-27.xls"
         },
         {
+          "name": "YM_WELCOME_MSC_2026-11-27.xls",
+          "path": "archive/YM_WELCOME_2026-11-27/YM_WELCOME_MSC_2026-11-27.xls",
+          "size": 69120,
+          "sha": "14605ae334460eab5c9b27d92df757ecff4da91a",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WELCOME_2026-11-27/YM_WELCOME_MSC_2026-11-27.xls"
+        },
+        {
           "name": "YM_WELCOME_YML_2026-11-27.xls",
           "path": "archive/YM_WELCOME_2026-11-27/YM_WELCOME_YML_2026-11-27.xls",
           "size": 388608,
@@ -6836,7 +6851,7 @@
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/YM_WELCOME_2026-11-27/YM_WELCOME_YML_2026-11-27.xls"
         }
       ],
-      "filesCount": 3
+      "filesCount": 5
     },
     {
       "name": "YM_WELLNESS_2026-10-10",
