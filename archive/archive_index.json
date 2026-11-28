@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T08:28:59.369Z",
+  "lastUpdated": "2026-11-28T09:30:13.734Z",
   "folders": [
     {
       "name": "ADELINA_2026-10-05",
@@ -423,9 +423,16 @@
           "size": 111616,
           "sha": "8776b14ff0c63673d456f6f747d6d1f635ebb3d4",
           "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ANITA_A_2026-11-27/ANITA_A_WSHI_2026-11-27.xls"
+        },
+        {
+          "name": "Storage_Report_ANITA_A_WSHI_2026-11-27.pdf",
+          "path": "archive/ANITA_A_2026-11-27/Storage_Report_ANITA_A_WSHI_2026-11-27.pdf",
+          "size": 39393,
+          "sha": "b10a66bd448ee9c40a08b2c52028238c8846d4b6",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/ANITA_A_2026-11-27/Storage_Report_ANITA_A_WSHI_2026-11-27.pdf"
         }
       ],
-      "filesCount": 1
+      "filesCount": 2
     },
     {
       "name": "APL_SAIPAN_2026-11-04",
@@ -3532,6 +3539,23 @@
         }
       ],
       "filesCount": 7
+    },
+    {
+      "name": "MSC_BRUNELLA_2026-11-26",
+      "path": "archive/MSC_BRUNELLA_2026-11-26",
+      "lines": [
+        "MSC"
+      ],
+      "files": [
+        {
+          "name": "MSC_BRUNELLA_MSC_2026-11-26.xls",
+          "path": "archive/MSC_BRUNELLA_2026-11-26/MSC_BRUNELLA_MSC_2026-11-26.xls",
+          "size": 1820672,
+          "sha": "619c501838875c5525cad2059f11354218e45c11",
+          "download_url": "https://raw.githubusercontent.com/markingdchc/marking.dchc/main/archive/MSC_BRUNELLA_2026-11-26/MSC_BRUNELLA_MSC_2026-11-26.xls"
+        }
+      ],
+      "filesCount": 1
     },
     {
       "name": "MSC_CADIZ_VI_2026-11-16",
